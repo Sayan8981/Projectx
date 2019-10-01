@@ -1,0 +1,2630 @@
+('here checking the rovi and Hulu movies program mapping...................... ', 'Thread -1')
+
+
+{'thread_name': 'Thread -1', 'total': 1}
+('here checking the rovi and Hulu movies program mapping...................... ', 'Thread -2')
+
+
+{'thread_name': 'Thread -2', 'total': 2}
+
+
+{'source_projectx_id': [82504], 'rovi_projectx_id': [82504]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 1, 'Not mapped :', 0, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:26:42.525008
+
+
+{'thread_name': 'Thread -1', 'total': 3}
+
+
+{'source_projectx_id': [40675], 'rovi_projectx_id': [40675]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 2, 'Not mapped :', 0, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:26:42.547951
+
+
+{'thread_name': 'Thread -2', 'total': 4}
+
+
+{'source_projectx_id': [25998], 'rovi_projectx_id': [25998]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 3, 'Not mapped :', 0, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:26:43.554606
+
+
+{'thread_name': 'Thread -2', 'total': 5}
+
+
+{'source_projectx_id': [73989], 'rovi_projectx_id': [73989]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 4, 'Not mapped :', 0, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:26:43.559371
+
+
+{'thread_name': 'Thread -1', 'total': 6}
+
+
+{'source_projectx_id': [660635], 'rovi_projectx_id': [660635]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 5, 'Not mapped :', 0, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:26:44.556517
+
+
+{'thread_name': 'Thread -1', 'total': 7}
+
+
+{'source_projectx_id': [59921], 'rovi_projectx_id': [59921]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 6, 'Not mapped :', 0, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:26:44.575181
+
+
+{'thread_name': 'Thread -2', 'total': 8}
+
+
+{'source_projectx_id': [748330], 'rovi_projectx_id': [748330]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 7, 'Not mapped :', 0, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:26:45.591420
+
+
+{'thread_name': 'Thread -1', 'total': 9}
+
+
+{'source_projectx_id': [1062611], 'rovi_projectx_id': [1062611]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 8, 'Not mapped :', 0, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:26:45.602472
+
+
+{'thread_name': 'Thread -2', 'total': 10}
+
+
+{'source_projectx_id': [26480], 'rovi_projectx_id': [26480]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 9, 'Not mapped :', 0, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:26:46.631941
+
+
+{'thread_name': 'Thread -2', 'total': 11}
+
+
+{'source_projectx_id': [135152], 'rovi_projectx_id': [135152]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 10, 'Not mapped :', 0, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:26:46.637996
+
+
+{'thread_name': 'Thread -1', 'total': 12}
+
+
+{'source_projectx_id': [398247], 'rovi_projectx_id': [362678]}
+
+
+{'source_projectx_id': [143141], 'rovi_projectx_id': [143141]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 11, 'Not mapped :', 1, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:26:47.673417
+
+
+{'thread_name': 'Thread -1', 'total': 13}
+
+
+{'source_projectx_id': [769938], 'rovi_projectx_id': [769938]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 12, 'Not mapped :', 1, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:26:48.682412
+
+
+{'thread_name': 'Thread -1', 'total': 14}
+
+
+{'source_projectx_id': [1082858], 'rovi_projectx_id': [49640]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 12, 'Not mapped :', 2, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:26:49.987147
+
+
+{'thread_name': 'Thread -2', 'total': 15}
+
+
+{'source_projectx_id': [398247], 'rovi_projectx_id': [362678]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 12, 'Not mapped :', 3, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:26:52.430703
+
+
+{'thread_name': 'Thread -1', 'total': 16}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 12, 'Not mapped :', 3, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:26:53.361348
+
+
+{'thread_name': 'Thread -2', 'total': 17}
+
+
+{'source_projectx_id': [623921], 'rovi_projectx_id': [623921]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 13, 'Not mapped :', 3, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:26:53.426533
+
+
+{'thread_name': 'Thread -1', 'total': 18}
+
+
+{'source_projectx_id': [51041], 'rovi_projectx_id': [51041]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 14, 'Not mapped :', 3, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:26:54.392542
+
+
+{'thread_name': 'Thread -2', 'total': 19}
+
+
+{'source_projectx_id': [741653], 'rovi_projectx_id': [741653]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 15, 'Not mapped :', 3, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:26:54.438615
+
+
+{'thread_name': 'Thread -1', 'total': 20}
+
+
+{'source_projectx_id': [79967], 'rovi_projectx_id': [79967]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 16, 'Not mapped :', 3, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:26:55.424649
+
+
+{'thread_name': 'Thread -2', 'total': 21}
+
+
+{'source_projectx_id': [84287], 'rovi_projectx_id': [84287]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 17, 'Not mapped :', 3, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:26:55.510487
+
+
+{'thread_name': 'Thread -1', 'total': 22}
+
+
+{'source_projectx_id': [12289349], 'rovi_projectx_id': [12289349]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 18, 'Not mapped :', 3, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:26:56.439573
+
+
+{'thread_name': 'Thread -2', 'total': 23}
+
+
+{'source_projectx_id': [14565900], 'rovi_projectx_id': [76498]}
+
+
+{'source_projectx_id': [1071497], 'rovi_projectx_id': [1071497]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 19, 'Not mapped :', 4, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:26:57.465848
+
+
+{'thread_name': 'Thread -2', 'total': 24}
+
+
+{'source_projectx_id': [1069756], 'rovi_projectx_id': [1069756]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 20, 'Not mapped :', 4, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:26:58.460260
+
+
+{'thread_name': 'Thread -2', 'total': 25}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 20, 'Not mapped :', 4, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:26:58.917598
+
+
+{'thread_name': 'Thread -1', 'total': 26}
+
+
+{'source_projectx_id': [12289803], 'rovi_projectx_id': [12289803]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 21, 'Not mapped :', 4, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:26:59.508801
+
+
+{'thread_name': 'Thread -2', 'total': 27}
+
+
+{'source_projectx_id': [14565908], 'rovi_projectx_id': [758952]}
+
+
+{'source_projectx_id': [965076], 'rovi_projectx_id': [965076]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 22, 'Not mapped :', 5, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:00.519433
+
+
+{'thread_name': 'Thread -2', 'total': 28}
+
+
+{'source_projectx_id': [140542], 'rovi_projectx_id': [140542]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 23, 'Not mapped :', 5, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:01.525025
+
+
+{'thread_name': 'Thread -2', 'total': 29}
+
+
+{'source_projectx_id': [975990], 'rovi_projectx_id': [975990]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 24, 'Not mapped :', 5, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:02.553832
+
+
+{'thread_name': 'Thread -2', 'total': 30}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 24, 'Not mapped :', 5, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:02.593180
+
+
+{'thread_name': 'Thread -1', 'total': 31}
+
+
+{'source_projectx_id': [982607], 'rovi_projectx_id': [982607]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 25, 'Not mapped :', 5, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:03.576807
+
+
+{'thread_name': 'Thread -2', 'total': 32}
+
+
+{'source_projectx_id': [154289], 'rovi_projectx_id': [154289]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 26, 'Not mapped :', 5, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:03.599387
+
+
+{'thread_name': 'Thread -1', 'total': 33}
+
+
+{'source_projectx_id': [951827], 'rovi_projectx_id': [951827]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 27, 'Not mapped :', 5, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:04.599229
+
+
+{'thread_name': 'Thread -2', 'total': 34}
+
+
+{'source_projectx_id': [745162], 'rovi_projectx_id': [745162]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 28, 'Not mapped :', 5, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:04.632430
+
+
+{'thread_name': 'Thread -1', 'total': 35}
+
+
+{'source_projectx_id': [977513], 'rovi_projectx_id': [977513]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 29, 'Not mapped :', 5, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:05.611933
+
+
+{'thread_name': 'Thread -2', 'total': 36}
+
+
+{'source_projectx_id': [744031], 'rovi_projectx_id': [744031]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 30, 'Not mapped :', 5, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:05.666814
+
+
+{'thread_name': 'Thread -1', 'total': 37}
+
+
+{'source_projectx_id': [931096], 'rovi_projectx_id': [931096]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 31, 'Not mapped :', 5, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:06.668446
+
+
+{'thread_name': 'Thread -2', 'total': 38}
+
+
+{'source_projectx_id': [770603], 'rovi_projectx_id': [770603]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 32, 'Not mapped :', 5, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:06.685633
+
+
+{'thread_name': 'Thread -1', 'total': 39}
+
+
+{'source_projectx_id': [
+
+982098{'source_projectx_id'], 'rovi_projectx_: id'[: [647685], 'rovi_pro982098]}jectx_id'
+: 
+
+('thread_name:', ['647685]Thread -2'}, 'multiple mapped: ', 
+
+0, 
+'mapped :'('thread_name:', , 'Th33r, 'Not meaad -1', 'mulptpipelde  :ma'pped: , ', 0, '5, 'rovim aipdp ednot  :ing'e, 34, 'Nostt mapped :', 5ed,  :'rovi id not ingested :', 0, 'source Id not i'n, 0g, 'source Id not iensgteed :s te'd,  : '0, 0, , ''bbootth hn otn oti ngeisted: ', 0ngest)ed: '
+, 
+
+2019-10-01 10:27:07.712727
+
+
+{0)
+
+'
+thread_name'2019-10-01 10:27:07.712758
+
+
+{'thread_name': : 'Thread -1', 'to'taTlh'read:  40-}2', 'total': 41
+}
+
+
+{'source_projectx_id': [951650], 'rovi_projectx_id': [951650]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 35, 'Not mapped :', 5, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:08.728333
+
+
+{'thread_name': 'Thread -2', 'total': 42}
+
+
+{'source_projectx_id': [1086396], 'rovi_projectx_id': [1086396]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 36, 'Not mapped :', 5, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:08.743736
+
+
+{'thread_name': 'Thread -1', 'total': 43}
+
+
+{'source_projectx_id': [12297221], 'rovi_projectx_id': [12297221]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 37, 'Not mapped :', 5, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:09.727083
+
+
+{'thread_name': 'Thread -1', 'total': 44}
+
+
+{'source_projectx_id': [971738], 'rovi_projectx_id': [971738]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 38, 'Not mapped :', 5, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:09.743226
+
+
+{'thread_name': 'Thread -2', 'total': 45}
+
+
+{'source_projectx_id': [14565927], 'rovi_projectx_id': [722957]}
+
+
+{'source_projectx_id': [896501], 'rovi_projectx_id': [896501]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 39, 'Not mapped :', 6, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:10.761994
+
+
+{'thread_name': 'Thread -2', 'total': 46}
+
+
+{'source_projectx_id': [905273], 'rovi_projectx_id': [905273]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 40, 'Not mapped :', 6, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:11.750600
+
+
+{'thread_name': 'Thread -2', 'total': 47}
+
+
+{'source_projectx_id': [896513], 'rovi_projectx_id': [896513]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 41, 'Not mapped :', 6, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:12.814688
+
+
+{'thread_name': 'Thread -2', 'total': 48}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 41, 'Not mapped :', 6, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:13.122809
+
+
+{'thread_name': 'Thread -1', 'total': 49}
+
+
+{'source_projectx_id': [13714676], 'rovi_projectx_id': [13714676]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 42, 'Not mapped :', 6, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:13.812307
+
+
+{'thread_name': 'Thread -2', 'total': 50}
+
+
+{'source_projectx_id': [725007], 'rovi_projectx_id': [725007]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 43, 'Not mapped :', 6, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:14.144932
+
+
+{'thread_name': 'Thread -1', 'total': 51}
+
+
+{'source_projectx_id': [957834], 'rovi_projectx_id': [957834]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 44, 'Not mapped :', 6, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:14.844874
+
+
+{'thread_name': 'Thread -2', 'total': 52}
+
+
+{'source_projectx_id': [162961], 'rovi_projectx_id': [162961]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 45, 'Not mapped :', 6, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:15.150472
+
+
+{'thread_name': 'Thread -1', 'total': 53}
+
+
+{'source_projectx_id': [14565708], 'rovi_projectx_id': [556111]}
+
+
+{'source_projectx_id': [741199], 'rovi_projectx_id': [741199]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 46, 'Not mapped :', 7, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:16.148954
+
+
+{'thread_name': 'Thread -1', 'total': 54}
+
+
+{'source_projectx_id': [886586], 'rovi_projectx_id': [886586]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 47, 'Not mapped :', 7, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:17.132693
+
+
+{'thread_name': 'Thread -1', 'total': 55}
+
+
+{'source_projectx_id': [668495], 'rovi_projectx_id': [668495]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 48, 'Not mapped :', 7, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:18.145378
+
+
+{'thread_name': 'Thread -1', 'total': 56}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 48, 'Not mapped :', 7, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:18.804294
+
+
+{'thread_name': 'Thread -2', 'total': 57}
+
+
+{'source_projectx_id': [563308], 'rovi_projectx_id': [563308]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 49, 'Not mapped :', 7, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:19.157285
+
+
+{'thread_name': 'Thread -1', 'total': 58}
+
+
+{'source_projectx_id': [346817], 'rovi_projectx_id': [346817]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 50, 'Not mapped :', 7, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:19.827301
+
+
+{'thread_name': 'Thread -2', 'total': 59}
+
+
+{'source_projectx_id': [950447], 'rovi_projectx_id': [950447]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 51, 'Not mapped :', 7, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:20.160875
+
+
+{'thread_name': 'Thread -1', 'total': 60}
+
+
+{'source_projectx_id': [345939], 'rovi_projectx_id': [345939]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 52, 'Not mapped :', 7, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:20.856450
+
+
+{'thread_name': 'Thread -2', 'total': 61}
+
+
+{'source_projectx_id': [967639], 'rovi_projectx_id': [967639]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 53, 'Not mapped :', 7, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:21.167800
+
+
+{'thread_name': 'Thread -1', 'total': 62}
+
+
+{'source_projectx_id': [328764], 'rovi_projectx_id': [328764]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 54, 'Not mapped :', 7, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:21.883527
+
+
+{'thread_name': 'Thread -2', 'total': 63}
+
+
+{'source_projectx_id': [96987], 'rovi_projectx_id': [96987]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 55, 'Not mapped :', 7, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:22.174661
+
+
+{'thread_name': 'Thread -1', 'total': 64}
+
+
+{'source_projectx_id': [1044766], 'rovi_projectx_id': [1044766]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 56, 'Not mapped :', 7, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:22.894965
+
+
+{'thread_name': 'Thread -2', 'total': 65}
+
+
+{'source_projectx_id': [1042644], 'rovi_projectx_id': [1042644]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 57, 'Not mapped :', 7, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:23.177403
+
+
+{'thread_name': 'Thread -1', 'total': 66}
+
+
+{'source_projectx_id': [12383678], 'rovi_projectx_id': [350900]}
+
+
+{'source_projectx_id': [651890], 'rovi_projectx_id': [651890]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 58, 'Not mapped :', 8, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:24.181177
+
+
+{'thread_name': 'Thread -1', 'total': 67}
+
+
+{'source_projectx_id': [150582], 'rovi_projectx_id': [150582]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 59, 'Not mapped :', 8, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:25.245114
+
+
+{'thread_name': 'Thread -1', 'total': 68}
+
+
+{'source_projectx_id': [1003195], 'rovi_projectx_id': [1003195]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 60, 'Not mapped :', 8, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:26.281518
+
+
+{'thread_name': 'Thread -1', 'total': 69}
+
+
+{'source_projectx_id': [75655], 'rovi_projectx_id': [75655]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 61, 'Not mapped :', 8, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:27.308642
+
+
+{'thread_name': 'Thread -1', 'total': 70}
+
+
+{'source_projectx_id': [81794], 'rovi_projectx_id': [56689]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 61, 'Not mapped :', 9, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:31.371186
+
+
+{'thread_name': 'Thread -1', 'total': 71}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 61, 'Not mapped :', 9, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:31.906227
+
+
+{'thread_name': 'Thread -2', 'total': 72}
+
+
+{'source_projectx_id': [95246], 'rovi_projectx_id': [95246]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 62, 'Not mapped :', 9, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:32.386643
+
+
+{'thread_name': 'Thread -1', 'total': 73}
+
+
+{'source_projectx_id': [350878], 'rovi_projectx_id': [350878]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 63, 'Not mapped :', 9, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:32.947545
+
+
+{'thread_name': 'Thread -2', 'total': 74}
+
+
+{'source_projectx_id': [14015879], 'rovi_projectx_id': [12788270]}
+
+
+{'source_projectx_id': [348533], 'rovi_projectx_id': [348533]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 64, 'Not mapped :', 10, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:33.930418
+
+
+{'thread_name': 'Thread -2', 'total': 75}
+
+
+{'source_projectx_id': [1049712], 'rovi_projectx_id': [1049712]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 65, 'Not mapped :', 10, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:34.959967
+
+
+{'thread_name': 'Thread -2', 'total': 76}
+
+
+{'source_projectx_id': [351060], 'rovi_projectx_id': [351060]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 66, 'Not mapped :', 10, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:35.991351
+
+
+{'thread_name': 'Thread -2', 'total': 77}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 66, 'Not mapped :', 10, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:36.195586
+
+
+{'thread_name': 'Thread -1', 'total': 78}
+
+
+{'source_projectx_id': [342371], 'rovi_projectx_id': [342371]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 67, 'Not mapped :', 10, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:37.004164
+
+
+{'thread_name': 'Thread -2', 'total': 79}
+
+
+{'source_projectx_id': [1063104], 'rovi_projectx_id': [1063104]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 68, 'Not mapped :', 10, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:37.210185
+
+
+{'thread_name': 'Thread -1', 'total': 80}
+
+
+{'source_projectx_id': [348610], 'rovi_projectx_id': [348610]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 69, 'Not mapped :', 10, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:38.037897
+
+
+{'thread_name': 'Thread -2', 'total': 81}
+
+
+{'source_projectx_id': [58328], 'rovi_projectx_id': [58328]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 70, 'Not mapped :', 10, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:38.241695
+
+
+{'thread_name': 'Thread -1', 'total': 82}
+
+
+{'source_projectx_id': [1053683], 'rovi_projectx_id': [1042951]}
+
+
+{'source_projectx_id': [73711], 'rovi_projectx_id': [73711]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 71, 'Not mapped :', 11, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:39.263716
+
+
+{'thread_name': 'Thread -1', 'total': 83}
+
+
+{'source_projectx_id': [62253], 'rovi_projectx_id': [62253]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 72, 'Not mapped :', 11, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:40.275717
+
+
+{'thread_name': 'Thread -1', 'total': 84}
+
+
+{'source_projectx_id': [13559723], 'rovi_projectx_id': [13497663]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 72, 'Not mapped :', 12, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:42.101483
+
+
+{'thread_name': 'Thread -2', 'total': 85}
+
+
+{'source_projectx_id': [1057928], 'rovi_projectx_id': [1057928]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 73, 'Not mapped :', 12, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:43.122824
+
+
+{'thread_name': 'Thread -2', 'total': 86}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 73, 'Not mapped :', 12, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:43.914984
+
+
+{'thread_name': 'Thread -1', 'total': 87}
+
+
+{'source_projectx_id': [1048291], 'rovi_projectx_id': [1048291]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 74, 'Not mapped :', 12, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:44.128589
+
+
+{'thread_name': 'Thread -2', 'total': 88}
+
+
+{'source_projectx_id': [81656], 'rovi_projectx_id': [81656]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 75, 'Not mapped :', 12, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:44.925283
+
+
+{'thread_name': 'Thread -1', 'total': 89}
+
+
+{'source_projectx_id': [1018941], 'rovi_projectx_id': [1018941]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 76, 'Not mapped :', 12, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:45.145999
+
+
+{'thread_name': 'Thread -2', 'total': 90}
+
+
+{'source_projectx_id': [6839], 'rovi_projectx_id': [6839]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 77, 'Not mapped :', 12, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:45.934991
+
+
+{'thread_name': 'Thread -1', 'total': 91}
+
+
+{'source_projectx_id': [351064], 'rovi_projectx_id': [351064]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 78, 'Not mapped :', 12, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:46.177481
+
+
+{'thread_name': 'Thread -2', 'total': 92}
+
+
+{'source_projectx_id': [496828], 'rovi_projectx_id': [496828]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 79, 'Not mapped :', 12, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:46.946030
+
+
+{'thread_name': 'Thread -1', 'total': 93}
+
+
+{'source_projectx_id': [348619], 'rovi_projectx_id': [348619]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 80, 'Not mapped :', 12, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:47.219116
+
+
+{'thread_name': 'Thread -2', 'total': 94}
+
+
+{'source_projectx_id': [496828], 'rovi_projectx_id': [496828]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 81, 'Not mapped :', 12, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:47.959986
+
+
+{'thread_name': 'Thread -1', 'total': 95}
+
+
+{'source_projectx_id': [158796], 'rovi_projectx_id': [158796]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 82, 'Not mapped :', 12, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:48.268573
+
+
+{'thread_name': 'Thread -2', 'total': 96}
+
+
+{'source_projectx_id': [1085713], 'rovi_projectx_id': [1085713]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 83, 'Not mapped :', 12, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:48.987501
+
+
+{'thread_name': 'Thread -1', 'total': 97}
+
+
+{'source_projectx_id': [1058471], 'rovi_projectx_id': [1058471]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 84, 'Not mapped :', 12, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:49.293477
+
+
+{'thread_name': 'Thread -2', 'total': 98}
+
+
+{'source_projectx_id': [1081912], 'rovi_projectx_id': [1081912]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 85, 'Not mapped :', 12, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:50.037397
+
+
+{'thread_name': 'Thread -1', 'total': 99}
+
+
+{'source_projectx_id': [82315], 'rovi_projectx_id': [82315]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 86, 'Not mapped :', 12, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:50.318941
+
+
+{'thread_name': 'Thread -2', 'total': 100}
+
+
+{'source_projectx_id': [73246], 'rovi_projectx_id': [73246]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 87, 'Not mapped :', 12, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:51.049904
+
+
+{'thread_name': 'Thread -1', 'total': 101}
+
+
+{'source_projectx_id': [12306098], 'rovi_projectx_id': [12306098]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 88, 'Not mapped :', 12, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:51.315914
+
+
+{'thread_name': 'Thread -2', 'total': 102}
+
+
+{'source_projectx_id': [1081783], 'rovi_projectx_id': [1081783]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 89, 'Not mapped :', 12, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:52.057400
+
+
+{'thread_name': 'Thread -1', 'total': 103}
+
+
+{'source_projectx_id': [9746], 'rovi_projectx_id': [9746]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 90, 'Not mapped :', 12, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:52.311718
+
+
+{'thread_name': 'Thread -2', 'total': 104}
+
+
+{'source_projectx_id': [76707], 'rovi_projectx_id': [76707]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 91, 'Not mapped :', 12, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:53.067268
+
+
+{'thread_name': 'Thread -1', 'total': 105}
+
+
+{'source_projectx_id': [1056246], 'rovi_projectx_id': [1056246]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 92, 'Not mapped :', 12, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:53.316651
+
+
+{'thread_name': 'Thread -2', 'total': 106}
+
+
+{'source_projectx_id': [82973], 'rovi_projectx_id': [82973]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 93, 'Not mapped :', 12, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:54.068058
+
+
+{'thread_name': 'Thread -1', 'total': 107}
+
+
+{'source_projectx_id': [1059828], 'rovi_projectx_id': [471920]}
+
+
+{'source_projectx_id': [149366], 'rovi_projectx_id': [149366]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 94, 'Not mapped :', 13, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:55.103682
+
+
+{'thread_name': 'Thread -1', 'total': 108}
+
+
+{'source_projectx_id': [2923], 'rovi_projectx_id': [2923]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 95, 'Not mapped :', 13, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:56.111022
+
+
+{'thread_name': 'Thread -1', 'total': 109}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 95, 'Not mapped :', 13, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:56.911133
+
+
+{'thread_name': 'Thread -2', 'total': 110}
+
+
+{'source_projectx_id': [3351], 'rovi_projectx_id': [3351]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 96, 'Not mapped :', 13, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:57.132350
+
+
+{'thread_name': 'Thread -1', 'total': 111}
+
+
+{'source_projectx_id': [1060850], 'rovi_projectx_id': [1060850]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 97, 'Not mapped :', 13, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:57.927804
+
+
+{'thread_name': 'Thread -2', 'total': 112}
+
+
+{'source_projectx_id': [72609], 'rovi_projectx_id': [72609]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 98, 'Not mapped :', 13, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:58.175251
+
+
+{'thread_name': 'Thread -1', 'total': 113}
+
+
+{'source_projectx_id': [1072144], 'rovi_projectx_id': [1072144]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 99, 'Not mapped :', 13, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:58.927981
+
+
+{'thread_name': 'Thread -2', 'total': 114}
+
+
+{'source_projectx_id': [989597], 'rovi_projectx_id': [989597]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 100, 'Not mapped :', 13, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:59.187637
+
+
+{'thread_name': 'Thread -1', 'total': 115}
+
+
+{'source_projectx_id': [170399], 'rovi_projectx_id': [170399]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 101, 'Not mapped :', 13, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:27:59.957711
+
+
+{'thread_name': 'Thread -2', 'total': 116}
+
+
+{'source_projectx_id': [60894], 'rovi_projectx_id': [60894]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 102, 'Not mapped :', 13, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:00.198036
+
+
+{'thread_name': 'Thread -1', 'total': 117}
+
+
+{'source_projectx_id': [164877], 'rovi_projectx_id': [164877]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 103, 'Not mapped :', 13, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:00.967377
+
+
+{'thread_name': 'Thread -2', 'total': 118}
+
+
+{'source_projectx_id': [56230], 'rovi_projectx_id': [56230]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 104, 'Not mapped :', 13, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:01.222716
+
+
+{'thread_name': 'Thread -1', 'total': 119}
+
+
+{'source_projectx_id': [1050222], 'rovi_projectx_id': [1050222]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 105, 'Not mapped :', 13, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:02.030712
+
+
+{'thread_name': 'Thread -2', 'total': 120}
+
+
+{'source_projectx_id': [1074734], 'rovi_projectx_id': [1074734]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 106, 'Not mapped :', 13, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:02.257780
+
+
+{'thread_name': 'Thread -1', 'total': 121}
+
+
+{'source_projectx_id': [172426], 'rovi_projectx_id': [172426]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 107, 'Not mapped :', 13, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:03.056300
+
+
+{'thread_name': 'Thread -2', 'total': 122}
+
+
+{'source_projectx_id': [13759884], 'rovi_projectx_id': [13824865]}
+
+
+{'source_projectx_id': [1048637], 'rovi_projectx_id': [1048637]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 108, 'Not mapped :', 14, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:04.079302
+
+
+{'thread_name': 'Thread -2', 'total': 123}
+
+
+{'source_projectx_id': [1043220], 'rovi_projectx_id': [1043220]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 109, 'Not mapped :', 14, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:05.074119
+
+
+{'thread_name': 'Thread -2', 'total': 124}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 109, 'Not mapped :', 14, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:05.669065
+
+
+{'thread_name': 'Thread -1', 'total': 125}
+
+
+{'source_projectx_id': [14531761], 'rovi_projectx_id': [161412]}
+
+
+{'source_projectx_id': [173367], 'rovi_projectx_id': [173367]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 110, 'Not mapped :', 15, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:06.723004
+
+
+{'thread_name': 'Thread -1', 'total': 126}
+
+
+{'source_projectx_id': [97442], 'rovi_projectx_id': [97442]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 111, 'Not mapped :', 15, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:07.729971
+
+
+{'thread_name': 'Thread -1', 'total': 127}
+
+
+{'source_projectx_id': [86450], 'rovi_projectx_id': [86450]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 112, 'Not mapped :', 15, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:08.812092
+
+
+{'thread_name': 'Thread -1', 'total': 128}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 112, 'Not mapped :', 15, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:08.886566
+
+
+{'thread_name': 'Thread -2', 'total': 129}
+
+
+{'source_projectx_id': [86450], 'rovi_projectx_id': [86450]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 113, 'Not mapped :', 15, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:09.864758
+
+
+{'thread_name': 'Thread -1', 'total': 130}
+
+
+{'source_projectx_id': [32180], 'rovi_projectx_id': [32180]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 114, 'Not mapped :', 15, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:09.880913
+
+
+{'thread_name': 'Thread -2', 'total': 131}
+
+
+{'source_projectx_id': [32200], 'rovi_projectx_id': [32200]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 115, 'Not mapped :', 15, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:10.876870
+
+
+{'thread_name': 'Thread -2', 'total': 132}
+
+
+{'source_projectx_id': [1081456], 'rovi_projectx_id': [1081456]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 116, 'Not mapped :', 15, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:10.882663
+
+
+{'thread_name': 'Thread -1', 'total': 133}
+
+
+{'source_projectx_id': [356752], 'rovi_projectx_id': [356752]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 117, 'Not mapped :', 15, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:11.870986
+
+
+{'thread_name': 'Thread -1', 'total': 134}
+
+
+{'source_projectx_id': [32200], 'rovi_projectx_id': [32200]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 118, 'Not mapped :', 15, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:11.888976
+
+
+{'thread_name': 'Thread -2', 'total': 135}
+
+
+{'source_projectx_id': [76026], 'rovi_projectx_id': [76026]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 119, 'Not mapped :', 15, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:12.861644
+
+
+{'thread_name': 'Thread -1', 'total': 136}
+
+
+{'source_projectx_id': [884737], 'rovi_projectx_id': [884737]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 120, 'Not mapped :', 15, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:12.876506
+
+
+{'thread_name': 'Thread -2', 'total': 137}
+
+
+{'source_projectx_id': [32362], 'rovi_projectx_id': [32362]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 121, 'Not mapped :', 15, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:14.098009
+
+
+{'thread_name': 'Thread -2', 'total': 138}
+
+
+{'source_projectx_id': [585410], 'rovi_projectx_id': [585410]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 122, 'Not mapped :', 15, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:14.107087
+
+
+{'thread_name': 'Thread -1', 'total': 139}
+
+
+{'source_projectx_id': [31841], 'rovi_projectx_id': [31841]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 123, 'Not mapped :', 15, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:15.105613
+
+
+{'thread_name': 'Thread -2', 'total': 140}
+
+
+{'source_projectx_id': [14618600], 'rovi_projectx_id': [92501]}
+
+
+{'source_projectx_id': [854901], 'rovi_projectx_id': [854901]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 124, 'Not mapped :', 16, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:16.134989
+
+
+{'thread_name': 'Thread -2', 'total': 141}
+
+
+{'source_projectx_id': [14531751], 'rovi_projectx_id': [186094]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 124, 'Not mapped :', 17, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:17.798491
+
+
+{'thread_name': 'Thread -1', 'total': 142}
+
+
+{'source_projectx_id': [1460421], 'rovi_projectx_id': [89071]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 124, 'Not mapped :', 18, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:21.612833
+
+
+{'thread_name': 'Thread -1', 'total': 143}
+
+
+{'source_projectx_id': [634155], 'rovi_projectx_id': [67352]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 124, 'Not mapped :', 19, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:24.807926
+
+
+{'thread_name': 'Thread -2', 'total': 144}
+
+
+{'source_projectx_id': [159974], 'rovi_projectx_id': [159974]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 125, 'Not mapped :', 19, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:25.849106
+
+
+{'thread_name': 'Thread -2', 'total': 145}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 125, 'Not mapped :', 19, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:25.885718
+
+
+{'thread_name': 'Thread -1', 'total': 146}
+
+
+{'source_projectx_id': [1054545], 'rovi_projectx_id': [1054545]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 126, 'Not mapped :', 19, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:26.853642
+
+
+{'thread_name': 'Thread -2', 'total': 147}
+
+
+{'source_projectx_id': [88587], 'rovi_projectx_id': [88587]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 127, 'Not mapped :', 19, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:26.903359
+
+
+{'thread_name': 'Thread -1', 'total': 148}
+
+
+{'source_projectx_id': [20604], 'rovi_projectx_id': [20604]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 128, 'Not mapped :', 19, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:27.880599
+
+
+{'thread_name': 'Thread -2', 'total': 149}
+
+
+{'source_projectx_id': [91138], 'rovi_projectx_id': [91138]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 129, 'Not mapped :', 19, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:27.911629
+
+
+{'thread_name': 'Thread -1', 'total': 150}
+
+
+{'source_projectx_id': [1080605], 'rovi_projectx_id': [1080605]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 130, 'Not mapped :', 19, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:28.891009
+
+
+{'thread_name': 'Thread -1', 'total': 151}
+
+
+{'source_projectx_id': [62153], 'rovi_projectx_id': [62153]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 131, 'Not mapped :', 19, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:28.897685
+
+
+{'thread_name': 'Thread -2', 'total': 152}
+
+
+{'source_projectx_id': [139949], 'rovi_projectx_id': [139949]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 132, 'Not mapped :', 19, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:29.891769
+
+
+{'thread_name': 'Thread -1', 'total': 153}
+
+
+{'source_projectx_id': [1006778], 'rovi_projectx_id': [1006778]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 133, 'Not mapped :', 19, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:29.894574
+
+
+{'thread_name': 'Thread -2', 'total': 154}
+
+
+{'source_projectx_id': [12787398], 'rovi_projectx_id': [12787398]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 134, 'Not mapped :', 19, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:30.895041
+
+
+{'thread_name': 'Thread -1', 'total': 155}
+
+
+{'source_projectx_id': [1006778], 'rovi_projectx_id': [1006778]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 135, 'Not mapped :', 19, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:30.916119
+
+
+{'thread_name': 'Thread -2', 'total': 156}
+
+
+{'source_projectx_id': [87967], 'rovi_projectx_id': [87967]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 136, 'Not mapped :', 19, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:31.897332
+
+
+{'thread_name': 'Thread -2', 'total': 157}
+
+
+{'source_projectx_id': [169043], 'rovi_projectx_id': [169043]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 137, 'Not mapped :', 19, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:31.935673
+
+
+{'thread_name': 'Thread -1', 'total': 158}
+
+
+{'source_projectx_id': [128399], 'rovi_projectx_id': [128399]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 138, 'Not mapped :', 19, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:32.926815
+
+
+{'thread_name': 'Thread -2', 'total': 159}
+
+
+{'source_projectx_id': [171062], 'rovi_projectx_id': [171062]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 139, 'Not mapped :', 19, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:32.968830
+
+
+{'thread_name': 'Thread -1', 'total': 160}
+
+
+{'source_projectx_id': [358170], 'rovi_projectx_id': [358170]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 140, 'Not mapped :', 19, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:33.938774
+
+
+{'thread_name': 'Thread -2', 'total': 161}
+
+
+{'source_projectx_id': [89177], 'rovi_projectx_id': [89177]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 141, 'Not mapped :', 19, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:33.964675
+
+
+{'thread_name': 'Thread -1', 'total': 162}
+
+
+{'source_projectx_id': [85840], 'rovi_projectx_id': [85840]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 142, 'Not mapped :', 19, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:34.953353
+
+
+{'thread_name': 'Thread -2', 'total': 163}
+
+
+{'source_projectx_id': [1074538], 'rovi_projectx_id': [1074538]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 143, 'Not mapped :', 19, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:34.961465
+
+
+{'thread_name': 'Thread -1', 'total': 164}
+
+
+{'source_projectx_id': [168827], 'rovi_projectx_id': [168827]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 144, 'Not mapped :', 19, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:35.941889
+
+
+{'thread_name': 'Thread -2', 'total': 165}
+
+
+{'source_projectx_id': [66716], 'rovi_projectx_id': [66716]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 145, 'Not mapped :', 19, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:35.983527
+
+
+{'thread_name': 'Thread -1', 'total': 166}
+
+
+{'source_projectx_id': [166957], 'rovi_projectx_id': [166957]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 146, 'Not mapped :', 19, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:36.914709
+
+
+{'thread_name': 'Thread -2', 'total': 167}
+
+
+{'source_projectx_id': [1079932], 'rovi_projectx_id': [1079932]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 147, 'Not mapped :', 19, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:37.013593
+
+
+{'thread_name': 'Thread -1', 'total': 168}
+
+
+{'source_projectx_id': [172063], 'rovi_projectx_id': [172063]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 148, 'Not mapped :', 19, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:37.920539
+
+
+{'thread_name': 'Thread -2', 'total': 169}
+
+
+{'source_projectx_id': [61733], 'rovi_projectx_id': [61733]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 149, 'Not mapped :', 19, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:38.013383
+
+
+{'thread_name': 'Thread -1', 'total': 170}
+
+
+{'source_projectx_id': [14901197], 'rovi_projectx_id': [172063]}
+
+
+{'source_projectx_id': [12258378], 'rovi_projectx_id': [12258378]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 150, 'Not mapped :', 20, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:39.021618
+
+
+{'thread_name': 'Thread -1', 'total': 171}
+
+
+{'source_projectx_id': [65968], 'rovi_projectx_id': [744932]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 150, 'Not mapped :', 21, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:41.671028
+
+
+{'thread_name': 'Thread -2', 'total': 172}
+
+
+{'source_projectx_id': [880152], 'rovi_projectx_id': [880152]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 151, 'Not mapped :', 21, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:42.691482
+
+
+{'thread_name': 'Thread -2', 'total': 173}
+
+
+{'source_projectx_id': [21795], 'rovi_projectx_id': [21795]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 152, 'Not mapped :', 21, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:43.707682
+
+
+{'thread_name': 'Thread -2', 'total': 174}
+
+
+{'source_projectx_id': [1055603], 'rovi_projectx_id': [1055603]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 153, 'Not mapped :', 21, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:44.746227
+
+
+{'thread_name': 'Thread -2', 'total': 175}
+
+
+{'source_projectx_id': [12976941], 'rovi_projectx_id': [168311]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 153, 'Not mapped :', 22, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:47.775192
+
+
+{'thread_name': 'Thread -1', 'total': 176}
+
+
+{'source_projectx_id': [867301], 'rovi_projectx_id': [173319]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 153, 'Not mapped :', 23, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:51.363881
+
+
+{'thread_name': 'Thread -1', 'total': 177}
+
+
+{'source_projectx_id': [55556], 'rovi_projectx_id': [55556]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 154, 'Not mapped :', 23, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:52.372013
+
+
+{'thread_name': 'Thread -1', 'total': 178}
+
+
+{'source_projectx_id': [12964876], 'rovi_projectx_id': [12964876]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 155, 'Not mapped :', 23, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:53.391557
+
+
+{'thread_name': 'Thread -1', 'total': 179}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 155, 'Not mapped :', 23, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:53.421317
+
+
+{'thread_name': 'Thread -2', 'total': 180}
+
+
+{'source_projectx_id': [2978], 'rovi_projectx_id': [2978]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 156, 'Not mapped :', 23, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:54.381069
+
+
+{'thread_name': 'Thread -1', 'total': 181}
+
+
+{'source_projectx_id': [159938], 'rovi_projectx_id': [159938]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 157, 'Not mapped :', 23, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:54.429962
+
+
+{'thread_name': 'Thread -2', 'total': 182}
+
+
+{'source_projectx_id': [34920], 'rovi_projectx_id': [34920]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 158, 'Not mapped :', 23, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:55.384165
+
+
+{'thread_name': 'Thread -1', 'total': 183}
+
+
+{'source_projectx_id': [1060601], 'rovi_projectx_id': [1060601]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 159, 'Not mapped :', 23, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:55.438300
+
+
+{'thread_name': 'Thread -2', 'total': 184}
+
+
+{'source_projectx_id': [59478], 'rovi_projectx_id': [59478]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 160, 'Not mapped :', 23, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:56.382037
+
+
+{'thread_name': 'Thread -1', 'total': 185}
+
+
+{'source_projectx_id': [1055275], 'rovi_projectx_id': [1055275]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 161, 'Not mapped :', 23, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:56.491231
+
+
+{'thread_name': 'Thread -2', 'total': 186}
+
+
+{'source_projectx_id': [56308], 'rovi_projectx_id': [56308]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 162, 'Not mapped :', 23, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:57.408411
+
+
+{'thread_name': 'Thread -1', 'total': 187}
+
+
+{'source_projectx_id': [1064074], 'rovi_projectx_id': [1064074]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 163, 'Not mapped :', 23, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:57.526296
+
+
+{'thread_name': 'Thread -2', 'total': 188}
+
+
+{'source_projectx_id': [82206], 'rovi_projectx_id': [82206]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 164, 'Not mapped :', 23, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:58.449644
+
+
+{'thread_name': 'Thread -1', 'total': 189}
+
+
+{'source_projectx_id': [326606], 'rovi_projectx_id': [326606]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 165, 'Not mapped :', 23, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:58.525565
+
+
+{'thread_name': 'Thread -2', 'total': 190}
+
+
+{'source_projectx_id': [72565], 'rovi_projectx_id': [72565]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 166, 'Not mapped :', 23, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:59.476484
+
+
+{'thread_name': 'Thread -1', 'total': 191}
+
+
+{'source_projectx_id': [126789], 'rovi_projectx_id': [126789]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 167, 'Not mapped :', 23, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:28:59.554975
+
+
+{'thread_name': 'Thread -2', 'total': 192}
+
+
+{'source_projectx_id': [49856], 'rovi_projectx_id': [49856]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 168, 'Not mapped :', 23, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:29:00.496983
+
+
+{'thread_name': 'Thread -1', 'total': 193}
+
+
+{'source_projectx_id': [20970], 'rovi_projectx_id': [20970]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 169, 'Not mapped :', 23, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:29:00.550232
+
+
+{'thread_name': 'Thread -2', 'total': 194}
+
+
+{'source_projectx_id': [12925], 'rovi_projectx_id': [12925]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 170, 'Not mapped :', 23, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:29:01.633348
+
+
+{'thread_name': 'Thread -2', 'total': 195}
+
+
+{'source_projectx_id': [67749], 'rovi_projectx_id': [67749]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 171, 'Not mapped :', 23, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:29:01.637298
+
+
+{'thread_name': 'Thread -1', 'total': 196}
+
+
+{'source_projectx_id': [339620], 'rovi_projectx_id': [339620]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 172, 'Not mapped :', 23, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:29:02.648999
+
+
+{'thread_name': 'Thread -2', 'total': 197}
+
+
+{'source_projectx_id': [13581752], 'rovi_projectx_id': [13581752]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 173, 'Not mapped :', 23, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:29:02.667642
+
+
+{'thread_name': 'Thread -1', 'total': 198}
+
+
+{'source_projectx_id': [1035356], 'rovi_projectx_id': [115504]}
+
+
+{'source_projectx_id': [1081012], 'rovi_projectx_id': [1067793]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 173, 'Not mapped :', 25, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:29:06.439936
+
+
+{'thread_name': 'Thread -1', 'total': 199}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 173, 'Not mapped :', 25, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:29:06.523490
+
+
+{'thread_name': 'Thread -2', 'total': 200}
+
+
+{'source_projectx_id': [1080692], 'rovi_projectx_id': [1080692]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 174, 'Not mapped :', 25, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:29:07.443480
+
+
+{'thread_name': 'Thread -1', 'total': 201}
+
+
+{'source_projectx_id': [56905], 'rovi_projectx_id': [56905]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 175, 'Not mapped :', 25, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:29:07.565529
+
+
+{'thread_name': 'Thread -2', 'total': 202}
+
+
+{'source_projectx_id': [87765], 'rovi_projectx_id': [87765]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 176, 'Not mapped :', 25, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:29:08.463966
+
+
+{'thread_name': 'Thread -1', 'total': 203}
+
+
+{'source_projectx_id': [161976], 'rovi_projectx_id': [161976]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 177, 'Not mapped :', 25, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:29:08.609037
+
+
+{'thread_name': 'Thread -2', 'total': 204}
+
+
+{'source_projectx_id': [85252], 'rovi_projectx_id': [85252]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 178, 'Not mapped :', 25, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:29:09.471309
+
+
+{'thread_name': 'Thread -1', 'total': 205}
+
+
+{'source_projectx_id': [151324], 'rovi_projectx_id': [151324]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 179, 'Not mapped :', 25, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:29:09.637804
+
+
+{'thread_name': 'Thread -2', 'total': 206}
+
+
+{'source_projectx_id': [1026535], 'rovi_projectx_id': [1026535]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 180, 'Not mapped :', 25, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:29:10.485152
+
+
+{'thread_name': 'Thread -1', 'total': 207}
+
+
+{'source_projectx_id': [1005408], 'rovi_projectx_id': [1005408]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 181, 'Not mapped :', 25, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:29:10.668414
+
+
+{'thread_name': 'Thread -2', 'total': 208}
+
+
+{'source_projectx_id': [1077575], 'rovi_projectx_id': [1077575]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 182, 'Not mapped :', 25, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:29:11.538304
+
+
+{'thread_name': 'Thread -1', 'total': 209}
+
+
+{'source_projectx_id': [1062197], 'rovi_projectx_id': [1062197]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 183, 'Not mapped :', 25, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:29:11.665690
+
+
+{'thread_name': 'Thread -2', 'total': 210}
+
+
+{'source_projectx_id': [14403050], 'rovi_projectx_id': [1077424]}
+
+
+{'source_projectx_id': [1042949], 'rovi_projectx_id': [1042949]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 184, 'Not mapped :', 26, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:29:12.673132
+
+
+{'thread_name': 'Thread -2', 'total': 211}
+
+
+{'source_projectx_id': [1042999], 'rovi_projectx_id': [1042999]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 185, 'Not mapped :', 26, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:29:13.703600
+
+
+{'thread_name': 'Thread -2', 'total': 212}
+
+
+{'source_projectx_id': [49834], 'rovi_projectx_id': [49834]}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 186, 'Not mapped :', 26, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:29:14.718905
+
+
+{'thread_name': 'Thread -2', 'total': 213}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 186, 'Not mapped :', 26, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:29:15.203985
+
+
+{'thread_name': 'Thread -1', 'total': 214}
+
+
+{'source_projectx_id': [14618494], 'rovi_projectx_id': [159146]}
+
+
+{'source_projectx_id': [166633], 'rovi_projectx_id': [166633]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 187, 'Not mapped :', 27, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:29:16.215710
+
+
+{'thread_name': 'Thread -1', 'total': 215}
+
+
+{'source_projectx_id': [119639], 'rovi_projectx_id': [119639]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 188, 'Not mapped :', 27, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:29:17.251839
+
+
+{'thread_name': 'Thread -1', 'total': 216}
+
+
+{'source_projectx_id': [139016], 'rovi_projectx_id': [139016]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 189, 'Not mapped :', 27, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:29:18.262059
+
+
+{'thread_name': 'Thread -1', 'total': 217}
+
+
+{'source_projectx_id': [101098], 'rovi_projectx_id': [101098]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 190, 'Not mapped :', 27, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:29:19.294696
+
+
+{'thread_name': 'Thread -1', 'total': 218}
+
+
+{'source_projectx_id': [2723519], 'rovi_projectx_id': [1086764]}
+
+
+('thread_name:', 'Thread -1', 'multiple mapped: ', 0, 'mapped :', 190, 'Not mapped :', 28, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:29:22.967837
+
+
+{'thread_name': 'Thread -1', 'total': 219}
+
+
+('thread_name:', 'Thread -2', 'multiple mapped: ', 0, 'mapped :', 190, 'Not mapped :', 28, 'rovi id not ingested :', 0, 'source Id not ingested : ', 0, 'both not ingested: ', 0)
+
+
+2019-10-01 10:29:23.443735
+
+
+{'thread_name': 'Thread -2', 'total': 220}
+
+
+{'source_projectx_id': [1072804], 'rovi_projectx_id': [1072804]}
+
+
+('thread_name:', 
