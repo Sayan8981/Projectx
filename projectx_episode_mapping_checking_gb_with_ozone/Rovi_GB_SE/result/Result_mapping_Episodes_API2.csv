@@ -1,0 +1,113 @@
+GuideBox_sm_id,GuideBox_id,Rovi_id,Rovi_SM_id,Scheme,episode_title,ozoneepisodetitle,OzoneOriginalEpisodeTitle,projectx_id_rovi,projectx_id_GuideBox,Dev_GuideBox_px_mapped,Dev_rovi_px_mapped,another_rovi_id_present,another_GuideBox_id_present,series_id_match,Px_series_id,Episode mapping,Comment
+36512,5481946,3194575052,3194573221, 'Exact sequence & title match',Young Guns, 'Young Guns',|['',10170116,10170116,,,,,,,Pass,Pass
+36512,5482762,3210518524,3194573221, 'Exact sequence & title match',To Arms, 'To Arms',|['',10170187,10170187,,,,,,,Pass,Pass
+36512,5484869,3223436397,3194573221, 'Exact sequence & title match',Under Siege, 'Under Siege',|['',10170299,10170299,,,,,,,Pass,Pass
+36512,5486443,3258046292,3194573221, 'Exact sequence & title match',Surrender, 'Surrender',|['',10170391,10170391,,,,,,,Pass,Pass
+36827,6055090,4190776345,4190776271, 'Exact sequence & title match',The Ballad of Chino Prison, 'The Ballad of Chino Prison',|['The Ballad of Chino Prison',3781888,3781888,,,,,,,Pass,Pass
+36827,6055092,4190776369,4190776271, 'Exact sequence & title match',Our Awards Our People, 'Our Awards Our People',|['Our Awards Our People',3781921,3781921,,,,,,,Pass,Pass
+36827,6055089,4190776337,4190776271, 'Exact sequence & title match',Cougars Mares and Video, 'Cougars Mares and Video',|['Cougars Mares and Video',3781863,3781863,,,,,,,Pass,Pass
+36827,6055088,4190776333,4190776271, 'Exact sequence & title match',The Talent Show, 'The Talent Show',|['The Talent Show',3781837,3781837,,,,,,,Pass,Pass
+36827,6055091,4190776351,4190776271, 'Exact sequence & title match',El Vato Is Back on Top, 'El Vato Is Back on Top',|['El Vato Is Back on Top',3781899,3781899,,,,,,,Pass,Pass
+36827,5482270,4190776309,4190776271, 'title match only',Happy birthday Mr. Lolo, 'Happy Birthday Mr. Lolo',|['Happy Birthday Mr. Lolo',3781791,3781791,,,,,,,Pass,Pass
+36827,7718297,5871259855,4190776271, 'Exact sequence & title match',Y volver volver, 'Y volver volver',|['Y volver volver',3782171,3782171,,,,,,,Pass,Pass
+36827,6055087,4190776327,4190776271, 'Exact sequence & title match',Narcocorridos, 'Narcocorridos',|['Narcocorridos',3781812,3781812,,,,,,,Pass,Pass
+36827,5659333,4190776355,4190776271, 'title match only',El Vato One on One, 'El Vato One on One',|['El Vato One on One',3781912,3781912,,,,,,,Pass,Pass
+36827,7575985,5191558427,4190776271, 'Exact sequence & title match',Power of the people, 'Power of the People',|['Power of the People',3782026,3782026,,,,,,,Pass,Pass
+36827,6055086,4190776297,4190776271, 'Exact sequence & title match',The Wolf of Hollywood Hills, 'The Wolf of Hollywood Hills',|['The Wolf of Hollywood Hills',3781780,3781780,,,,,,,Pass,Pass
+36827,7512386,5871259843,4190776271, 'Exact sequence & title match',Viral, 'Viral',|['Viral',3782056,3782056,,,,,,,Pass,Pass
+36827,7649809,5871259849,4190776271, 'Exact sequence & title match',La jaula de oro, 'La jaula de oro',|['La jaula de oro',3782112,3782112,,,,,,,Pass,Pass
+36827,7746459,5871259863,4190776271, 'sequence & title match',Vato vs Vato, 'Vato vs. Vato',|['Vato vs. Vato',3782270,3782270,,,,,,,Pass,Pass
+36959,5508307,4861205550,3458597424, 'Exact sequence & title match',Saturday, 'Saturday',|['',10345031,10345031,,,,,,,Pass,Pass
+36959,5508308,4861203500,3458597424, 'Exact sequence & title match',The Gig, 'The Gig',|['',10344865,10344865,,,,,,,Pass,Pass
+36959,5508306,4861205560,3458597424, 'Exact sequence & title match',A New Hope, 'A New Hope',|['',10345137,10345137,,,,,,,Pass,Pass
+36959,5508239,4861203504,3458597424, 'Exact sequence & title match',The Pilot, 'The Pilot',|['',10344946,10344946,,,,,,,Pass,Pass
+36982,5514595,4058484219,3925525484, 'Exact sequence & title match',Episode 25, 'Episode 25',|['',10468537,10468537,,,,,,,Pass,Pass
+36982,5514594,4058484217,3925525484, 'Exact sequence & title match',Episode 24, 'Episode 24',|['',10468496,10468496,,,,,,,Pass,Pass
+36982,5514577,4058328093,3925525484, 'Exact sequence & title match',Episode 10, 'Episode 10',|['',10467113,10467113,,,,,,,Pass,Pass
+36982,5514565,4058328083,3925525484, 'Exact sequence & title match',Episode 1, 'Episode 1',|['',10467047,10467047,,,,,,,Pass,Pass
+36982,5514576,4058484191,3925525484, 'Exact sequence & title match',Episode 9, 'Episode 9',|['',10467641,10467641,,,,,,,Pass,Pass
+36982,5514592,4058484213,3925525484, 'Exact sequence & title match',Episode 23, 'Episode 23',|['',10468423,10468423,,,,,,,Pass,Pass
+36982,5514573,4058484187,3925525484, 'Exact sequence & title match',Episode 7, 'Episode 7',|['',10467567,10467567,,,,,,,Pass,Pass
+36982,5514586,4058484205,3925525484, 'Exact sequence & title match',Episode 19, 'Episode 19',|['',10468194,10468194,,,,,,,Pass,Pass
+36982,5514572,4058484185,3925525484, 'Exact sequence & title match',Episode 6, 'Episode 6',|['',10467522,10467522,,,,,,,Pass,Pass
+36982,5514579,4058328095,3925525484, 'Exact sequence & title match',Episode 12, 'Episode 12',|['',10467181,10467181,,,,,,,Pass,Pass
+36982,5514570,4058484183,3925525484, 'Exact sequence & title match',Episode 5, 'Episode 5',|['',10467454,10467454,,,,,,,Pass,Pass
+36982,5514569,4058484181,3925525484, 'Exact sequence & title match',Episode 4, 'Episode 4',|['',10467404,10467404,,,,,,,Pass,Pass
+36982,5514596,4058484221,3925525484, 'Exact sequence & title match',Episode 26, 'Episode 26',|['',10468558,10468558,,,,,,,Pass,Pass
+36982,5514589,4058484211,3925525484, 'Exact sequence & title match',Episode 21, 'Episode 21',|['',10468356,10468356,,,,,,,Pass,Pass
+36982,5514578,4058328097,3925525484, 'Exact sequence & title match',Episode 11, 'Episode 11',|['',10467235,10467235,,,,,,,Pass,Pass
+36982,5514567,4058484177,3925525484, 'Exact sequence & title match',Episode 2, 'Episode 2',|['',10467297,10467297,,,,,,,Pass,Pass
+36982,5514568,4058484179,3925525484, 'Exact sequence & title match',Episode 3, 'Episode 3',|['',10467354,10467354,,,,,,,Pass,Pass
+36982,5514581,4058484195,3925525484, 'Exact sequence & title match',Episode 14, 'Episode 14',|['',10467797,10467797,,,,,,,Pass,Pass
+36982,5514583,4058484199,3925525484, 'Exact sequence & title match',Episode 16, 'Episode 16',|['',10468022,10468022,,,,,,,Pass,Pass
+36982,5514582,4058484197,3925525484, 'Exact sequence & title match',Episode 15, 'Episode 15',|['',10467932,10467932,,,,,,,Pass,Pass
+36982,5514580,4058484193,3925525484, 'Exact sequence & title match',Episode 13, 'Episode 13',|['',10467716,10467716,,,,,,,Pass,Pass
+36982,5514584,4058484201,3925525484, 'Exact sequence & title match',Episode 17, 'Episode 17',|['',10468067,10468067,,,,,,,Pass,Pass
+36982,5514585,4058484203,3925525484, 'Exact sequence & title match',Episode 18, 'Episode 18',|['',10468127,10468127,,,,,,,Pass,Pass
+36982,5514587,4058484209,3925525484, 'Exact sequence & title match',Episode 20, 'Episode 20',|['',10468261,10468261,,,,,,,Pass,Pass
+36982,5514575,4058484189,3925525484, 'Exact sequence & title match',Episode 8, 'Episode 8',|['',10467595,10467595,,,,,,,Pass,Pass
+36982,5514591,4058484215,3925525484, 'Exact sequence & title match',Episode 22, 'Episode 22',|['',10468441,10468441,,,,,,,Pass,Pass
+36983,5514641,4058485714,4058485428, 'Exact sequence & title match',Heavy Metal, 'Heavy Metal',|['',9900077,9900077,,,,,,,Pass,Pass
+36983,5516156,4058485859,4058485428, 'title match only',Home (Part 1), 'Home Part 2',|['Home',9900784,9900720,"[{'source_projectx_id_mapped': 'rovi_id:4058485855,Map_reason:not found in projectx'}, {'sourceId': '5516156'}]","[{'rovi_projectx_id_mapped': 'rovi_id:4058485859,Map_reason:not found in projectx'}, {'sourceId': '5516153,Map_reason:{MATCH_PARAM_EPISODE_TITLE=1.0, MATCH_PARAM_SEASON_EPISODE=1.0}'}]",True,True,True,[9899451],Fail,Fail
+36983,6564638,4787363018,4058485428, 'Exact sequence & title match',The Ruby Of The Orient, 'The Ruby of the Orient',|['',9901878,9901878,,,,,,,Pass,Pass
+36983,5514639,4787362988,4058485428, 'Exact sequence & title match',Stitches, 'Stitches',|['Stitches',9901522,9901522,,,,,,,Pass,Pass
+36983,5514637,4058485671,4058485428, 'Exact sequence & title match',Batty, 'Batty',|['',9899970,9899970,,,,,,,Pass,Pass
+36983,5514638,4058485673,4058485428, 'Exact sequence & title match',Castles in the Sand, 'Castles in the Sand',|['Castles in the Sand',9900031,9900031,,,,,,,Pass,Pass
+36983,5514645,4058485805,4058485428, 'Exact sequence & title match',Dance Craze, 'Dance Craze',|['Dance Craze',9900375,9900375,,,,,,,Pass,Pass
+36983,6564626,4787362996,4058485428, 'Exact sequence & title match',Musical Magical Tour, 'Musical Magical Tour',|['',9901638,9901638,,,,,,,Pass,Pass
+36983,6564631,4787362539,4058485428, 'Exact sequence & title match',Blurred Vision, 'Blurred Vision',|['',9900812,9900812,,,,,,,Pass,Pass
+36983,6564632,4787362557,4058485428, 'Exact sequence & title match',Cute as a Doll, 'Cute as a Doll',|['',9901107,9901107,,,,,,,Pass,Pass
+36983,5514636,4058485667,4058485428, 'Exact sequence & title match',No Thanks for the Memories, 'No Thanks for the Memories',|['No thanks for the memories !',9899925,9899925,,,,,,,Pass,Pass
+36983,5514624,4058485418,4058485428, 'Exact sequence & title match',To Find a Princess, 'To Find a Princess',|['',9899550,9899550,,,,,,,Pass,Pass
+36983,5514644,4058485766,4058485428, 'Exact sequence & title match',Raffle Baffle, 'Raffle Baffle',|['Raffle Baffle',9900314,9900314,,,,,,,Pass,Pass
+36983,5514625,4058485420,4058485428, 'Exact sequence & title match',Flower Power, 'Flower Power',|['',9899591,9899591,,,,,,,Pass,Pass
+36983,5514643,4058485716,4058485428, 'Exact sequence & title match',Shanila Surprise, 'Shanila Surprise',|['Shanila',9900165,9900165,,,,,,,Pass,Pass
+36983,5514646,4058485844,4058485428, 'Exact sequence & title match',The Haunting, 'The Haunting',|['The Haunting',9900508,9900508,,,,,,,Pass,Pass
+36983,5514647,4058485846,4058485428, 'Exact sequence & title match',Spellbound, 'Spellbound',|['Spellbound',9900613,9900613,,,,,,,Pass,Pass
+36983,6564635,4787363000,4058485428, 'Exact sequence & title match',Lost In The Shadows, 'Lost in the Shadows',|['',9901729,9901729,,,,,,,Pass,Pass
+36983,5514642,4058485755,4058485428, 'Exact sequence & title match',Legend of Lake Agnes, 'Legend of Lake Agnes',|['Legend of Lake Agnes',9900240,9900240,,,,,,,Pass,Pass
+36983,5514633,4058485624,4058485428, 'Exact sequence & title match',A Promise Is a Promise, 'A Promise Is a Promise',|['',9899792,9899792,,,,,,,Pass,Pass
+36983,5514640,4058485712,4058485428, 'Exact sequence & title match',Camp Princess, 'Camp Princess',|['',9900051,9900051,,,,,,,Pass,Pass
+36983,5514630,4058485467,4058485428, 'Exact sequence & title match',Xeris, 'Xeris',|['Xeris',9899712,9899712,,,,,,,Pass,Pass
+36983,5514628,4058485426,4058485428, 'Exact sequence & title match',Sing for Me, 'Sing for Me',|['',9899668,9899668,,,,,,,Pass,Pass
+36983,5514635,4058485628,4058485428, 'Exact sequence & title match',Step Right Up, 'Step Right Up',|['Step Right Up',9899885,9899885,,,,,,,Pass,Pass
+36983,5514631,4980670981,4058485428, 'Exact sequence & title match',Sirens, 'Sirens',|['Sirens',9902067,9902067,,,,,,,Pass,Pass
+36983,6564641,4787362551,4058485428, 'Exact sequence & title match',Dancing Shoes, 'Dancing Shoes',|['',9901007,9901007,,,,,,,Pass,Pass
+36983,5514632,4058485582,4058485428, 'Exact sequence & title match',Talia and Kyle Sitting in a Tree, 'Talia and Kyle Sitting in a Tree',|['Talia and Kyle Sitting in a Tree',9899733,9899733,,,,,,,Pass,Pass
+36983,5514648,4058485848,4058485428, 'Exact sequence & title match',Smart, 'Smart',|['Smart',9900673,9900673,,,,,,,Pass,Pass
+36983,5516153,4058485859,4058485428, 'sequence & title match',Home (Part 2), 'Home Part 2',|['Home',9900784,9900784,,,,,,,Pass,Pass
+36983,5514626,4058485422,4058485428, 'Exact sequence & title match',Be Mine, 'Be Mine',|['',9899634,9899634,,,,,,,Pass,Pass
+36983,6564636,4787362986,4058485428, 'Exact sequence & title match',I Want My LTV, 'I Want My LTV',|['',9901463,9901463,,,,,,,Pass,Pass
+36983,6564627,4787363022,4058485428, 'Exact sequence & title match',If You Can't Beat'em," ""If You Can't Beat'em""",|['',9902010,9902010,,,,,,,Pass,Pass
+36983,5514627,4058485424,4058485428, 'Exact sequence & title match',The Birthday, 'The Birthday',|['',9899649,9899649,,,,,,,Pass,Pass
+36983,6564628,4787362976,4058485428, 'Exact sequence & title match',Puppylove, 'Puppylove',|['',9901339,9901339,,,,,,,Pass,Pass
+36983,6564629,4787362992,4058485428, 'Exact sequence & title match',Super Cute Kitten, 'Super Cute Kitten',|['',9901573,9901573,,,,,,,Pass,Pass
+36983,6564630,4787363004,4058485428, 'Exact sequence & title match',Wicked Red, 'Wicked Red',|['',9901832,9901832,,,,,,,Pass,Pass
+36983,6564634,4787362984,4058485428, 'Exact sequence & title match',Rex, 'Rex',|['',9901412,9901412,,,,,,,Pass,Pass
+36983,6564637,4787362549,4058485428, 'Exact sequence & title match',Desert Heat, 'Desert Heat',|['',9900986,9900986,,,,,,,Pass,Pass
+36983,6564639,4787362972,4058485428, 'Exact sequence & title match',Loli-Lime Sublime, 'Loli-Lime Sublime',|['',9901235,9901235,,,,,,,Pass,Pass
+36983,6564633,4787362555,4058485428, 'Exact sequence & title match',Amaru-niverse, 'Amaru-niverse',|['',9901037,9901037,,,,,,,Pass,Pass
+36983,6564640,4787363006,4058485428, 'Exact sequence & title match',Truth Be Told, 'Truth Be Told',|['',9901856,9901856,,,,,,,Pass,Pass
+36983,5514634,4058485626,4058485428, 'Exact sequence & title match',Lucky Star, 'Lucky Star',|['',9899833,9899833,,,,,,,Pass,Pass
+36983,6564642,4787362561,4058485428, 'Exact sequence & title match',Amateur Hour, 'Amateur Hour',|['',9901133,9901133,,,,,,,Pass,Pass
+36983,6564643,4787363002,4058485428, 'Exact sequence & title match',Strawberry Fields for Never, 'Strawberry Fields for Never',|['',9901749,9901749,,,,,,,Pass,Pass
+36983,6564644,4787362982,4058485428, 'Exact sequence & title match',Statue Game, 'Statue Game',|['',9901375,9901375,,,,,,,Pass,Pass
+36983,6564645,4787362994,4058485428, 'Exact sequence & title match',Forget You!, 'Forget You!',|['',9901610,9901610,,,,,,,Pass,Pass
+37020,8094807,5859582742,1192624571, 'Exact sequence & title match',Conquest, 'Conquest',|['Conquest',9034937,9034937,,,,,,,Pass,Pass
+37020,8094805,5859582748,1192624571, 'Exact sequence & title match',Capitulation, 'Capitulation',|['Capitulation',9035121,9035121,,,,,,,Pass,Pass
+37020,8094804,5859582746,1192624571, 'Exact sequence & title match',Revelation, 'Revelation',|['Revelation',9035066,9035066,,,,,,,Pass,Pass
+37020,8094808,5859582768,1192624571, 'Exact sequence & title match',Dominance, 'Dominance',|['Dominance',9035278,9035278,,,,,,,Pass,Pass
+37020,8094803,5859582744,1192624571, 'Exact sequence & title match',Abandon, 'Abandon',|['Abandon',9035011,9035011,,,,,,,Pass,Pass
+37020,5530539,3537416044,1192624571, 'Exact sequence & title match',Crocodile, 'Crocodile',|['Crocodile',9034337,9034337,,,,,,,Pass,Pass
+37020,5530538,3518377373,1192624571, 'Exact sequence & title match',Straw Man, 'Straw Man',|['Straw Man',9034186,9034186,,,,,,,Pass,Pass
+37020,8094806,5859582764,1192624571, 'Exact sequence & title match',Resistance, 'Resistance',|['Resistance',9035243,9035243,,,,,,,Pass,Pass
+37020,5530541,3537425701,1192624571, 'Exact sequence & title match',Face-off, 'Face-off',|['Face-off',9034505,9034505,,,,,,,Pass,Pass
+37020,5530542,3537425703,1192624571, 'Exact sequence & title match',Liberty Equality without Pity, 'Liberty Equality Without Pity',|['Liberty Equality Without Pity',9034569,9034569,,,,,,,Pass,Pass
+37020,8094809,5712598876,1192624571, 'Exact sequence & title match',Perjury, 'Perjury',|['Perjury',9034794,9034794,,,,,,,Pass,Pass
+37020,5530543,3537425724,1192624571, 'Exact sequence & title match',Voted, 'Voted',|['Voted',9034633,9034633,,,,,,,Pass,Pass
+37020,5530544,3537428257,1192624571, 'Exact sequence & title match',The Final Battle, 'The Final Battle',|['The Final Battle',9034690,9034690,,,,,,,Pass,Pass
+37020,5530540,3537422552,1192624571, 'Exact sequence & title match',Intox (Brainwashing), 'Intox (Brainwashing)',|['Intox (Brainwashing)',9034475,9034475,,,,,,,Pass,Pass
+37020,5530537,1230212300,1192624571, 'Exact sequence & title match',20 Years, '20 Years',|['20 Years',9034078,9034078,,,,,,,Pass,Pass
+37020,8094802,5859582752,1192624571, 'Exact sequence & title match',Justice, 'Justice',|['Justice',9035185,9035185,,,,,,,Pass,Pass
+37207,7118504,4856711095,3492812926, 'Exact sequence & title match',Episode 4, 'Episode 4',|['',10359694,10359694,,,,,,,Pass,Pass
+37207,7083892,4857594352,3492812926, 'Exact sequence & title match',Episode 1, 'Episode 1',|['',10359780,10359780,,,,,,,Pass,Pa

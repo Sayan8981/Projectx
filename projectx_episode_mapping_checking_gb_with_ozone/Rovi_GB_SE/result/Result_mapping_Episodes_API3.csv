@@ -1,0 +1,125 @@
+GuideBox_sm_id,GuideBox_id,Rovi_id,Rovi_SM_id,Scheme,episode_title,ozoneepisodetitle,OzoneOriginalEpisodeTitle,projectx_id_rovi,projectx_id_GuideBox,Dev_GuideBox_px_mapped,Dev_rovi_px_mapped,another_rovi_id_present,another_GuideBox_id_present,series_id_match,Px_series_id,Episode mapping,Comment
+36674,8219657,6266997150,3447017149, 'Exact sequence & title match',Roaring Upheaval, 'Roaring Upheaval',|['',10340677,10340677,,,,,,,Pass,Pass
+36674,6982670,5652644854,3447017149, 'Exact sequence & title match',Fight on Iida, 'Fight On Iida',|['\xc4\xaada-kun Faito',10341813,10341813,,,,,,,Pass,Pass
+36674,8219660,6266997162,3447017149, 'Exact sequence & title match',All for One, 'All for One',|['',10340756,10340756,,,,,,,Pass,Pass
+36674,6982676,5657379017,3447017149, 'title match only',Climax, 'Climax',|['Ketchaku',10342236,13580307,[{'sourceId': '6982676'}],"[{'rovi_projectx_id_mapped': 'rovi_id:5657379017,Map_reason:not found in projectx'}, {'sourceId': '8416780,Map_reason:{MATCH_PARAM_EPISODE_TITLE=1.0, MATCH_PARAM_SEASON_EPISODE=1.0}'}]",,True,True,[10338675],Fail,Fail
+36674,6982671,5652644858,3447017149, 'sequence & title match',Todoroki vs. Bakugo, 'Todoroki vs Bakugo',|['Todoroki vs. Bakugo',10341923,10341923,,,,,,,Pass,Pass
+36674,8219656,6266997146,3447017149, 'Exact sequence & title match',Drive It Home Iron Fist!!!, 'Drive It Home Iron Fist!!!',|['',10340628,10340628,,,,,,,Pass,Pass
+36674,6982673,5657377176,3447017149, 'title match only',Bizarre! Gran Torino Appears, 'Bizarre! Gran Torino Appears',|['',10341352,13580318,[{'sourceId': '6982673'}],"[{'rovi_projectx_id_mapped': 'rovi_id:5657377176,Map_reason:not found in projectx'}, {'sourceId': '8416781,Map_reason:{MATCH_PARAM_EPISODE_TITLE=1.0, MATCH_PARAM_SEASON_EPISODE=1.0}'}]",,True,True,[10338675],Fail,Fail
+36674,6982675,5657377180,3447017149, 'title match only',Hero Killer: Stain vs U.A. Students, 'Hero Killer Stain vs U.A. Students',|['H\xc4\xabr\xc5\x8d Goroshi Sutein vs U.A. Seito',10342182,13580312,[{'sourceId': '6982675'}],"[{'rovi_projectx_id_mapped': 'rovi_id:5657377180,Map_reason:not found in projectx'}, {'sourceId': '8416776,Map_reason:{MATCH_PARAM_EPISODE_TITLE=1.0, MATCH_PARAM_AIRDATE=1.0, MATCH_PARAM_SEASON_EPISODE=1.0}'}]",,True,True,[10338675],Fail,Fail
+36674,6982679,6852854107,3447017149, 'title match only',Listen Up!! A Tale from the Past, 'Listen Up!! A Tale From The Past',|['',12325819,12325819,,,,,,,Pass,Pass
+36674,6982684,6266997128,3447017149, 'title match only',Encounter, 'Encounter',|['',10340341,13580240,[{'sourceId': '6982684'}],"[{'rovi_projectx_id_mapped': 'rovi_id:6266997128,Map_reason:not found in projectx'}, {'sourceId': '8416779,Map_reason:{MATCH_PARAM_EPISODE_TITLE=1.0, MATCH_PARAM_AIRDATE=1.0, MATCH_PARAM_SEASON_EPISODE=1.0}'}]",,True,True,[10338675],Fail,Fail
+36674,8416776,5657377180,3447017149, 'title match only',Hero Killer: Stain vs. U.A. Students, 'Hero Killer Stain vs U.A. Students',|['H\xc4\xabr\xc5\x8d Goroshi Sutein vs U.A. Seito',10342182,10342182,,,,,,,Pass,Pass
+36674,7262804,5652644866,3447017149, 'title match only',Time to Pick Some Names, 'Time To Pick Some Names',|['Namae o Tsuke te Miy\xc5\x8d no Kai',10342092,13580323,[{'sourceId': '7262804'}],"[{'rovi_projectx_id_mapped': 'rovi_id:5652644866,Map_reason:not found in projectx'}, {'sourceId': '8416782,Map_reason:{MATCH_PARAM_EPISODE_TITLE=1.0, MATCH_PARAM_AIRDATE=1.0, MATCH_PARAM_SEASON_EPISODE=1.0}'}]",,True,True,[10338675],Fail,Fail
+36674,8416777,6852854105,3447017149, 'title match only',Gear Up for Final Exams, 'Gear Up For Final Exams',|['',12419063,12951806,[{'sourceId': '8416777'}],"[{'rovi_projectx_id_mapped': 'rovi_id:6852854105,Map_reason:not found in projectx'}, {'sourceId': '6982680,Map_reason:{MATCH_PARAM_EPISODE_TITLE=1.0, MATCH_PARAM_OTT=1.0}'}]",,True,True,[10338675],Fail,Fail
+36674,8416775,6266997122,3447017149, 'title match only',Katsuki Bakugo: Origin, 'Katsuki Bakugo: Origin',|['',10340315,10340315,,,,,,,Pass,Pass
+36674,7625126,6266997130,3447017149, 'Exact sequence & title match',Game Start, 'Game Start',|['',10340362,10340362,,,,,,,Pass,Pass
+36674,6982682,5657379029,3447017149, 'title match only',Stripping the Varnish, 'Stripping The Varnish',|['Mukero Hitokawa',10340052,13580273,[{'sourceId': '6982682'}],"[{'rovi_projectx_id_mapped': 'rovi_id:5657379029,Map_reason:not found in projectx'}, {'sourceId': '8416773,Map_reason:{MATCH_PARAM_EPISODE_TITLE=1.0, MATCH_PARAM_AIRDATE=1.0, MATCH_PARAM_SEASON_EPISODE=1.0}'}]",,True,True,[10338675],Fail,Fail
+36674,8219654,6266997138,3447017149, 'Exact sequence & title match',Kota, 'Kota',|['',10340582,10340582,,,,,,,Pass,Pass
+36674,8219658,6266997154,3447017149, 'Exact sequence & title match',What a Twist!, 'What a Twist!',|['',10340707,10340707,,,,,,,Pass,Pass
+34235,6814572,3575813487,1517457357, 'Exact sequence & title match',The New Deal, 'The New Deal',|['The New Deal',3756676,3756676,,,,,,,Pass,Pass
+34235,6549863,4772063702,1517457357, 'Exact sequence & title match',The Mockingbird, 'The Mockingbird',|['The Mockingbird',3757580,3757580,,,,,,,Pass,Pass
+34235,6549862,4737533432,1517457357, 'Exact sequence & title match',The Cleaner, 'The Cleaner',|['The Cleaner',3757507,3757507,,,,,,,Pass,Pass
+34235,6549860,4681285627,1517457357, 'Exact sequence & title match',The Birthday Party, 'The Birthday Party',|['The Birthday Party',3757311,3757311,,,,,,,Pass,Pass
+34235,6549859,4637256408,1517457357, 'Exact sequence & title match',The Bad Girl, 'The Bad Girl',|['The Bad Girl',3757084,3757084,,,,,,,Pass,Pass
+34235,6549857,4616419209,1517457357, 'Exact sequence & title match',The Family Way, 'The Family Way',|['The Family Way',3756969,3756969,,,,,,,Pass,Pass
+34235,6397057,4665575197,1517457357, 'Exact sequence & title match',The Hard Drive, 'The Hard Drive',|['The Hard Drive',3757231,3757231,,,,,,,Pass,Pass
+34235,6397056,4580927707,1517457357, 'Exact sequence & title match',The Hammer, 'The Hammer',|['The Hammer',3756770,3756770,,,,,,,Pass,Pass
+34235,5366531,3435502557,1517457357, 'sequence & title match',The Princess and the I.P. , 'The Princess and the I.P.',|['The Princess and the I.P.',3753898,3753898,,,,,,,Pass,Pass
+34235,5478554,3478789651,1517457357, 'Exact sequence & title match',The Ringer, 'The Ringer',|['The Ringer',3754251,3754251,,,,,,,Pass,Pass
+34235,5366529,3388599827,1517457357, 'Exact sequence & title match',The Real Killer, 'The Real Killer',|['The Real Killer',3753681,3753681,,,,,,,Pass,Pass
+34235,5361895,1517457417,1517457357, 'Exact sequence & title match',The Pilot, 'The Pilot',|['Pilot',3753632,3753632,,,,,,,Pass,Pass
+34235,5366532,3458441714,1517457357, 'Exact sequence & title match',The Benefactor, 'The Benefactor',|['The Benefactor',3754102,3754102,,,,,,,Pass,Pass
+34235,5472022,3452717365,1517457357, 'Exact sequence & title match',The Lar谩gan Gambit, 'The Lar\xc3\xa1gan Gambit',|['The Lar\xc3\xa1gan Gambit',3754007,3754007,,,,,,,Pass,Pass
+34235,5576970,3537428259,1517457357, 'Exact sequence & title match',The Wedding, 'The Wedding',|['The Wedding',3756526,3756526,,,,,,,Pass,Pass
+34235,6549856,4590461576,1517457357, 'Exact sequence & title match',The Dining Hall, 'The Dining Hall',|['The Dining Hall',3756894,3756894,,,,,,,Pass,Pass
+34235,5487497,3478792596,1517457357, 'Exact sequence & title match',The Package, 'The Package',|['The Package',3754364,3754364,,,,,,,Pass,Pass
+34235,6549861,4712330767,1517457357, 'sequence & title match',The Knock-Off , 'The Knock-Off',|['The Knock-Off',3757433,3757433,,,,,,,Pass,Pass
+34235,5366530,3426338243,1517457357, 'Exact sequence & title match',The Trial, 'The Trial',|['The Trial',3753776,3753776,,,,,,,Pass,Pass
+34235,5487498,3537425699,1517457357, 'Exact sequence & title match',The Happy Couple, 'The Happy Couple',|['The Happy Couple',3756442,3754173,"[{'source_projectx_id_mapped': 'rovi_id:3461385777,Map_reason:not found in projectx'}, {'sourceId': '5487498'}]","[{'rovi_projectx_id_mapped': 'rovi_id:3537425699,Map_reason:not found in projectx'}]",True,,True,[3753332],Fail,Fail
+11013,5141537,3153885430,280168, 'Exact sequence & title match',Are We Going to Be Alright?, 'Are We Going to Be Alright?',|['Are We Going to Be Alright?',4126995,4126995,,,,,,,Pass,Pass
+11013,5141535,1990530897,280168, 'Exact sequence & title match',Gregory's Beard," ""Gregory's Beard""","|[""Gregory's Beard""",4125854,4125854,,,,,,,Pass,Pass
+11013,320884,359922401,280168, 'Exact sequence & title match',Chairman Mark, 'Chairman Mark',|['Chairman Mark',4125118,4125118,,,,,,,Pass,Pass
+11013,184220,21290610,280168, 'title match only',Jeremy Makes It, 'Jeremy Makes It',|['Jeremy Makes It',4124117,4124117,,,,,,,Pass,Pass
+11013,184222,12408024,280168, 'Exact sequence & title match',Mugging, 'Mugging',|['Mugging',4119553,4119553,,,,,,,Pass,Pass
+11013,184217,2011582,280168, 'Exact sequence & title match',Dance Class, 'Dance Class',|['Dance Class',4118020,4118020,,,,,,,Pass,Pass
+11013,184199,14226364,280168, 'sequence & title match',The Wedding, 'Wedding',|['Wedding',4121466,4121466,,,,,,,Pass,Pass
+11013,184214,13563234,280168, 'Exact sequence & title match',Quantocking, 'Quantocking',|['Quantocking',4120179,4120179,,,,,,,Pass,Pass
+11013,184231,1728850,280168, 'Exact sequence & title match',Dream Job, 'Dream Job',|['Dream Job',4117096,4117096,,,,,,,Pass,Pass
+11013,184213,12937578,280168, 'Exact sequence & title match',Shrooming, 'Shrooming',|['Shrooming',4119988,4119988,,,,,,,Pass,Pass
+11013,4836039,1998255605,280168, 'Exact sequence & title match',The William Morris Years, 'The William Morris Years',|['The William Morris Years',4126109,4126109,,,,,,,Pass,Pass
+11013,184212,13810903,280168, 'Exact sequence & title match',Gym, 'Gym',|['Gym',4120771,4120771,,,,,,,Pass,Pass
+11013,209324,17613314,280168, 'Exact sequence & title match',Jeremy in Love, 'Jeremy in Love',|['Jeremy in Love',4122160,4122160,,,,,,,Pass,Pass
+11013,317097,342439343,280168, 'Exact sequence & title match',Big Mad Andy, 'Big Mad Andy',|['Big Mad Andy',4124875,4124875,,,,,,,Pass,Pass
+11013,184211,14089108,280168, 'Exact sequence & title match',Handyman, 'Handyman',|['Handyman',4121207,4121207,,,,,,,Pass,Pass
+11013,209322,17272404,280168, 'Exact sequence & title match',Jeremy at JLB, 'Jeremy at JLB',|['Jeremy at JLB',4121691,4121691,,,,,,,Pass,Pass
+11013,294669,336721992,280168, 'Exact sequence & title match',Business Secrets of the Pharaohs, 'Business Secrets of the Pharaohs',|['Business Secrets of the Pharaohs',4124657,4124657,,,,,,,Pass,Pass
+11013,184202,22542910,280168, 'Exact sequence & title match',Mark's Women," ""Mark's Women""","|[""Mark's Women""",4124581,4124581,,,,,,,Pass,Pass
+11013,184200,22542908,280168, 'Exact sequence & title match',Jeremy's Mummy," ""Jeremy's Mummy""","|[""Jeremy's Mummy""",4124496,4124496,,,,,,,Pass,Pass
+11013,184219,2021749,280168, 'Exact sequence & title match',The Man Show, 'The Man Show',|['The Man Show',4118581,4118581,,,,,,,Pass,Pass
+11013,184221,12412721,280168, 'Exact sequence & title match',Sectioning, 'Sectioning',|['Sectioning',4119798,4119798,,,,,,,Pass,Pass
+11013,184201,22542894,280168, 'Exact sequence & title match',Burgling, 'Burgling',|['Burgling',4124187,4124187,,,,,,,Pass,Pass
+11013,322723,359922409,280168, 'Exact sequence & title match',Quantocking II, 'Quantocking II',|['Quantocking II',4125310,4125310,,,,,,,Pass,Pass
+11013,209877,17727634,280168, 'Exact sequence & title match',Das Boot, 'Das Boot',|['Das Boot',4122625,4122625,,,,,,,Pass,Pass
+11013,295408,342439352,280168, 'Exact sequence & title match',The Love Bunker, 'The Love Bunker',|['The Love Bunker',4125058,4125058,,,,,,,Pass,Pass
+11013,184208,2279797,280168, 'Exact sequence & title match',Sistering, 'Sistering',|['Sistering',4119098,4119098,,,,,,,Pass,Pass
+11013,184210,14023294,280168, 'Exact sequence & title match',Holiday, 'Holiday',|['Holiday',4120998,4120998,,,,,,,Pass,Pass
+11013,184228,17958416,280168, 'sequence & title match',St. Hospital's, 'St. Hospitals',|['St. Hospitals',4122816,4122816,,,,,,,Pass,Pass
+11013,184204,22542909,280168, 'Exact sequence & title match',Jeremy's Manager," ""Jeremy's Manager""","|[""Jeremy's Manager""",4124530,4124530,,,,,,,Pass,Pass
+11013,5141542,2011114858,280168, 'Exact sequence & title match',Threeism, 'Threeism',|['Threeism',4126323,4126323,,,,,,,Pass,Pass
+11013,294670,441566004,280168, 'Exact sequence & title match',Jeremy Therapised, 'Jeremy Therapised',|['Jeremy Therapised',4125361,4125361,,,,,,,Pass,Pass
+11013,184209,13709074,280168, 'Exact sequence & title match',Sophie's Parents," ""Sophie's Parents""","|[""Sophie's Parents""",4120359,4120359,,,,,,,Pass,Pass
+11013,5141540,2042922307,280168, 'Exact sequence & title match',Mole-Mapping, 'Mole-Mapping',|['Mole-Mapping',4126554,4126554,,,,,,,Pass,Pass
+11013,5141538,2128683907,280168, 'Exact sequence & title match',Kid Farm, 'Kid Farm',|['Kid Farm',4126773,4126773,,,,,,,Pass,Pass
+11013,184230,1720818,280168, 'Exact sequence & title match',The Interview, 'The Interview',|['The Interview',4116937,4116937,,,,,,,Pass,Pass
+11013,184205,22542896,280168, 'Exact sequence & title match',Spin War, 'Spin War',|['Spin War',4124402,4124402,,,,,,,Pass,Pass
+11013,209326,17628665,280168, 'Exact sequence & title match',The Party, 'The Party',|['The Party',4122537,4122537,,,,,,,Pass,Pass
+11013,184207,2280587,280168, 'Exact sequence & title match',Jurying, 'Jurying',|['Jurying',4119302,4119302,,,,,,,Pass,Pass
+11013,184223,19449694,280168, 'Exact sequence & title match',Seasonal Beatings, 'Seasonal Beatings',|['Seasonal Beatings',4123726,4123726,,,,,,,Pass,Pass
+11013,184206,13809964,280168, 'Exact sequence & title match',Conference, 'Conference',|['Conference',4120566,4120566,,,,,,,Pass,Pass
+11013,184233,1964754,280168, 'Exact sequence & title match',Mark Makes A Friend, 'Mark Makes a Friend',|['Mark Makes a Friend',4117756,4117756,,,,,,,Pass,Pass
+11013,184216,2067856,280168, 'Exact sequence & title match',Wedding, 'Wedding',|['Wedding',4118820,4118820,,,,,,,Pass,Pass
+11013,184224,18094453,280168, 'Exact sequence & title match',A Beautiful Mind, 'A Beautiful Mind',|['A Beautiful Mind',4123150,4123150,,,,,,,Pass,Pass
+11013,184225,18099355,280168, 'sequence & title match',New Years Eve," ""New Year's Eve""","|[""New Year's Eve""",4123580,4123580,,,,,,,Pass,Pass
+11013,184232,1964753,280168, 'Exact sequence & title match',On The Pull, 'On the Pull',|['On the Pull',4117449,4117449,,,,,,,Pass,Pass
+11013,184227,17958876,280168, 'Exact sequence & title match',Man Jam, 'Man Jam',|['Man Jam',4123007,4123007,,,,,,,Pass,Pass
+11013,184226,18099155,280168, 'Exact sequence & title match',Nether Zone, 'Nether Zone',|['Nether Zone',4123404,4123404,,,,,,,Pass,Pass
+11013,184218,2019260,280168, 'Exact sequence & title match',University Challenge, 'University Challenge',|['University Challenge',4118298,4118298,,,,,,,Pass,Pass
+11013,184229,1711030,280168, 'Exact sequence & title match',Warring Factions, 'Warring Factions',|['Warring Factions',4116814,4116814,,,,,,,Pass,Pass
+11013,184234,1964758,280168, 'Exact sequence & title match',Funeral, 'Funeral',|['Funeral',4117900,4117900,,,,,,,Pass,Pass
+11013,209325,17628554,280168, 'Exact sequence & title match',The Affair, 'The Affair',|['The Affair',4122336,4122336,,,,,,,Pass,Pass
+11013,209323,17599067,280168, 'Exact sequence & title match',The Test, 'The Test',|['The Test',4121901,4121901,,,,,,,Pass,Pass
+29006,8146910,6334691339,1520328422, 'Exact sequence & title match',Goodnight Sweet Prince, 'Goodnight Sweet Prince',|['Goodnight Sweet Prince',3762333,3762333,,,,,,,Pass,Pass
+29006,7956641,6262757174,1520328422, 'Exact sequence & title match',The Reckoning, 'The Reckoning',|['The Reckoning',3762102,3762102,,,,,,,Pass,Pass
+29006,8146911,6360872719,1520328422, 'Exact sequence & title match',By Virtue Fall, 'By Virtue Fall',|['By Virtue Fall',3762379,3762379,,,,,,,Pass,Pass
+29006,7956640,6242046176,1520328422, 'Exact sequence & title match',The Blue Wall, 'The Blue Wall',|['The Blue Wall',3762063,3762063,,,,,,,Pass,Pass
+29006,7956639,6220981556,1520328422, 'Exact sequence & title match',A Walking Shadow, 'A Walking Shadow',|['A Walking Shadow',3761932,3761932,,,,,,,Pass,Pass
+29006,7956638,6197221146,1520328422, 'Exact sequence & title match',That Way Madness Lies, 'That Way Madness Lies',|['That Way Madness Lies',3761849,3761849,,,,,,,Pass,Pass
+29006,7956637,6177300888,1520328422, 'Exact sequence & title match',The Hollow Crown, 'The Hollow Crown',|['The Hollow Crown',3761776,3761776,,,,,,,Pass,Pass
+29006,7089151,4783170255,1520328422, 'Exact sequence & title match',Broken Dolls, 'Broken Dolls',|['Broken Dolls',3761685,3761685,,,,,,,Pass,Pass
+29006,6933809,4734003387,1520328422, 'Exact sequence & title match',Whoever Fights Monsters, 'Whoever Fights Monsters',|['Whoever Fights Monsters',3761395,3761395,,,,,,,Pass,Pass
+29006,5087801,3289107616,1520328422, 'Exact sequence & title match',Good Cop Bad Cop, 'Good Cop Bad Cop',|['Good Cop Bad Cop',3759731,3759731,,,,,,,Pass,Pass
+29006,5167892,3388967273,1520328422, 'Exact sequence & title match',One Last Lie, 'One Last Lie',|['One Last Lie',3760289,3760289,,,,,,,Pass,Pass
+29006,6765092,4584562231,1520328422, 'Exact sequence & title match',Daddy's Girl," ""Daddy's Girl""","|[""Daddy's Girl""",3760618,3760618,,,,,,,Pass,Pass
+29006,5167891,3370972160,1520328422, 'Exact sequence & title match',For I Have Sinned, 'For I Have Sinned',|['For I Have Sinned',3760232,3760232,,,,,,,Pass,Pass
+29006,7956642,6297181586,1520328422, 'Exact sequence & title match',Straight Through the Heart, 'Straight Through the Heart',|['Straight Through the Heart',3762187,3762187,,,,,,,Pass,Pass
+29006,5167885,3313429493,1520328422, 'Exact sequence & title match',Live Wire Act, 'Live Wire Act',|['Live Wire Act',3759937,3759937,,,,,,,Pass,Pass
+29006,6574948,3312707451,1520328422, 'Exact sequence & title match',Unforgiven, 'Unforgiven',|['Unforgiven',3759850,3759850,,,,,,,Pass,Pass
+29006,5087800,3274039509,1520328422, 'Exact sequence & title match',Undiscovered Country, 'Undiscovered Country',|['Undiscovered Country',3759676,3759676,,,,,,,Pass,Pass
+29006,5167888,3325763847,1520328422, 'Exact sequence & title match',What Devil Do, 'What Devil Do',|['What Devil Do',3760009,3760009,,,,,,,Pass,Pass
+29006,7956643,6297742226,1520328422, 'Exact sequence & title match',Cry Havoc, 'Cry Havoc',|['Cry Havoc',3762258,3762258,,,,,,,Pass,Pass
+29006,5087798,3257020199,1520328422, 'Exact sequence & title match',Fall of Man, 'Fall of Man',|['Fall of Man',3759558,3759558,,,,,,,Pass,Pass
+29006,5087791,3187535570,1520328422, 'Exact sequence & title match',Original Sin, 'Original Sin',|['Original Sin',3759069,3759069,,,,,,,Pass,Pass
+29006,5087793,3203866190,1520328422, 'Exact sequence & title match',False Face False Heart, 'False Face False Heart',|['False Face False Heart',3759262,3759262,,,,,,,Pass,Pass
+29006,5087796,3236022170,1520328422, 'Exact sequence & title match',Equal & Opposite, 'Equal & Opposite',|['Equal & Opposite',3759465,3759465,,,,,,,Pass,Pass
+29006,7956636,4684371423,1520328422, 'Exact sequence & title match',Good Police, 'Good Police',|['Good Police',3761257,3761257,,,,,,,Pass,Pass
+29006,5086245,1520329044,1520328422, 'Exact sequence & title match',Pilot, 'Pilot',|['Pilot',3759200,3759200,,,,,,,Pass,Pass
+29006,6879640,4681158380,1520328422, 'Exact sequence & title match',Unpaid Debts, 'Unpaid Debts',|['Unpaid Debts',3761118,3761118,,,,,,,Pass,Pass
+29006,5167889,3352904351,1520328422, 'Exact sequence & title match',The Breach, 'The Breach',|['The Breach',3760111,3760111,,,,,,,Pass,Pass
+29006,6720357,4541227173,1520328422, 'Exact sequence & title match',Eye of the Hurricane, 'Eye of the Hurricane',|['Eye of the Hurricane',3760381,3760381,,,,,,,Pass,Pass
+29006,6751746,4562378129,1520328422, 'Exact sequence & title match',Ghost Hunt, 'Ghost Hunt',|['Ghost Hunt',3760527,3760527,,,,,,,Pass,Pass
+29006,6854466,4658445036,1520328422, 'Exact sequence & title match',A House Divided, 'A House Divided',|['A House Divided',3761038,3761038,,,,,,,Pass,Pass
+29006,6964109,4759008481,1520328422, 'Exact sequence & title match',The Quality of Mercy, 'The Quality of Mercy',|['The Quality Of Mercy',3761492,3761492,,,,,,,Pass,Pass
+29006,6765093,4608226551,1520328422, 'Exact sequence & title match',Sweet Caroline, 'Sweet Caroline',|['Sweet Caroline',3760743,3760743,,,,,,,Pass,Pass
+29006,6964110,4783165841,1520328422, 'Exact sequence & title match',Behind the Mask, 'Behind the Mask',|['Behind the Mask',3761599,3761599,,,,,,,Pass,Pass
+29006,6765094,4633883908,1520328422, 'Exact sequence & title match',F

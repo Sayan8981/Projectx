@@ -1,0 +1,135 @@
+GuideBox_sm_id,GuideBox_id,Rovi_id,Rovi_SM_id,Scheme,episode_title,ozoneepisodetitle,OzoneOriginalEpisodeTitle,projectx_id_rovi,projectx_id_GuideBox,Dev_GuideBox_px_mapped,Dev_rovi_px_mapped,another_rovi_id_present,another_GuideBox_id_present,series_id_match,Px_series_id,Episode mapping,Comment
+14749,8354693,6062276419,22023391, 'title match only',The Lost Pyramid, 'The Lost Pyramid',|['The Lost Pyramid',3349662,3349662,,,,,,,Pass,Pass
+14749,8347149,5738997817,22023391, 'title match only',A Royal Wedding, 'A Royal Wedding',|['A Royal Wedding',3349513,3349513,,,,,,,Pass,Pass
+14749,8120241,5771104024,22023391, 'title match only',The Mystic Isles: Undercover Fairies, 'The Mystic Isles: Undercover Fairies',|['Undercover Fairies',3349544,3349544,,,,,,,Pass,Pass
+14749,7735153,5430076957,22023391, 'Exact sequence & title match',The Mystic Isles: The Great Pretender, 'The Mystic Isles: The Great Pretender',|['The Mystic Isles: The Great Pretender',3349164,3349164,,,,,,,Pass,Pass
+14749,7687152,5300602564,22023391, 'Exact sequence & title match',Pirated Away, 'Pirated Away',|['Pirated Away',3349057,3349057,,,,,,,Pass,Pass
+14749,7710207,5300602568,22023391, 'Exact sequence & title match',The Mystic Isles: The Falcon's Eye," ""The Mystic Isles: The Falcon's Eye""","|[""The Mystic Isles: The Falcon's Eye""",3349096,3349096,,,,,,,Pass,Pass
+14749,7457423,5060046233,22023391, 'Exact sequence & title match',Through the Looking Back Glass, 'Through the Looking Back Glass',|['Through the Looking Back Glass',3348531,3348531,,,,,,,Pass,Pass
+14749,2933586,1308524502,22023391, 'sequence & title match',Leafsong Festival, 'The Leafsong Festival',|['The Leafsong Festival',3340908,3340908,,,,,,,Pass,Pass
+14749,3265290,1350002638,22023391, 'Exact sequence & title match',Substitute Cedric, 'Substitute Cedric',|['Substitute Cedric',3337375,3337375,,,,,,,Pass,Pass
+14749,5288094,3354319159,22023391, 'Exact sequence & title match',Gone With the Wand, 'Gone With the Wand',|['Gone With the Wand',3342893,3342893,,,,,,,Pass,Pass
+14749,1307804,1270539132,22023391, 'Exact sequence & title match',Baileywhoops, 'Baileywhoops',|['Baileywhoops',3336003,3336003,,,,,,,Pass,Pass
+14749,1258036,1230824139,22023391, 'Exact sequence & title match',The Emerald Key, 'The Emerald Key',|['The Emerald Key',3335714,3335714,,,,,,,Pass,Pass
+14749,1284149,1226396195,22023391, 'Exact sequence & title match',The Princess Stays in the Picture, 'The Princess Stays in the Picture',|['The Princess Stays in the Picture',3341934,3341934,,,,,,,Pass,Pass
+14749,8004179,5653720340,22023391, 'Exact sequence & title match',In Cedric We Trust, 'In Cedric We Trust',|['In Cedric We Trust',3349428,3349428,,,,,,,Pass,Pass
+14749,7612975,5187232349,22023391, 'Exact sequence & title match',Ivy's True Colors," ""Ivy's True Colors""","|[""Ivy's True Colors""",3348878,3348878,,,,,,,Pass,Pass
+14749,401915,552614801,22023391, 'Exact sequence & title match',Finding Clover, 'Finding Clover',|['Finding Clover',3339240,3339240,,,,,,,Pass,Pass
+14749,4263910,3274451091,22023391, 'title match only',The Floating Palace (Part 2), 'The Floating Palace',|['The Floating Palace',3342668,13402427,[{'sourceId': '4263910'}],"[{'rovi_projectx_id_mapped': 'rovi_id:3274451091,Map_reason:not found in projectx'}]",,,True,[3327119],Fail,Fail
+14749,808451,1144497413,22023391, 'sequence & title match',Princesses to the Rescue, 'Princesses to the Rescue!',|['Princesses to the Rescue!',3331390,3331390,,,,,,,Pass,Pass
+14749,7664187,5300602576,22023391, 'Exact sequence & title match',Too Cute to Spook, 'Too Cute to Spook',|['Too Cute to Spook',3348980,3348980,,,,,,,Pass,Pass
+14749,803411,1144497410,22023391, 'Exact sequence & title match',Sofia the Second, 'Sofia the Second',|['Sofia the Second',3331116,3331116,,,,,,,Pass,Pass
+14749,1691809,1284874865,22023391, 'sequence & title match',The Curse of Princess Ivy (Parts 1 & 2), 'The Curse of Princess Ivy',|['The Curse of Princess Ivy',3334558,13402304,[{'sourceId': '1691809'}],"[{'rovi_projectx_id_mapped': 'rovi_id:1284874865,Map_reason:not found in projectx'}]",,,True,[3327119],Fail,Fail
+14749,793737,1109479100,22023391, 'Exact sequence & title match',Gizmo Gwen, 'Gizmo Gwen',|['Gizmo Gwen',3337076,3337076,,,,,,,Pass,Pass
+14749,7502615,5151179182,22023391, 'Exact sequence & title match',Princess Jade, 'Princess Jade',|['Princess Jade',3348680,3348680,,,,,,,Pass,Pass
+14749,6017302,4063000145,22023391, 'Exact sequence & title match',Cauldronation Day, 'Cauldronation Day',|['Cauldronation Day',3344922,3344922,,,,,,,Pass,Pass
+14749,4774273,1956528990,22023391, 'Exact sequence & title match',Sofia in Elvenmoor, 'Sofia in Elvenmoor',|['Sofia in Elvenmoor',3336550,3336550,,,,,,,Pass,Pass
+14749,512396,964734194,22023391, 'sequence & title match',Two Princesses and a Baby, 'Two Princesses and Baby',|['Two Princesses and Baby',3339757,3339757,,,,,,,Pass,Pass
+14749,1236346,1202091540,22023391, 'Exact sequence & title match',Ghostly Gala, 'Ghostly Gala',|['Ghostly Gala',3331543,3331543,,,,,,,Pass,Pass
+14749,3555306,1424355751,22023391, 'Exact sequence & title match',Clover Time, 'Clover Time',|['Clover Time',3340784,3340784,,,,,,,Pass,Pass
+14749,8350822,5913954122,22023391, 'title match only',The Royal School Fair, 'The Royal School Fair',|['The Royal School Fair',3349647,3349647,,,,,,,Pass,Pass
+14749,478534,1068947770,22023391, 'Exact sequence & title match',King for a Day, 'King for a Day',|['King for a Day',3341642,3341642,,,,,,,Pass,Pass
+14749,478533,987766273,22023391, 'Exact sequence & title match',The Enchanted Feast, 'The Enchanted Feast',|['The Enchanted Feast',3340297,3340297,,,,,,,Pass,Pass
+14749,6057989,4127774668,22023391, 'Exact sequence & title match',Camp Wilderwood, 'Camp Wilderwood',|['Camp Wilderwood',3345152,3345152,,,,,,,Pass,Pass
+14749,464372,3274451091,22023391, 'title match only',The Floating Palace (Parts 1 & 2), 'The Floating Palace',|['The Floating Palace',3342668,13402388,[{'sourceId': '464372'}],"[{'rovi_projectx_id_mapped': 'rovi_id:3274451091,Map_reason:not found in projectx'}]",,,True,[3327119],Fail,Fail
+14749,372362,468396122,22023391, 'Exact sequence & title match',The Princess Test, 'The Princess Test',|['The Princess Test',3334867,3334867,,,,,,,Pass,Pass
+14749,5229922,3290396262,22023391, 'Exact sequence & title match',The Secret Library: Olaf and the Tale of Miss Nettle, 'The Secret Library: Olaf and the Tale of Miss Nettle',|['The Secret Library: Olaf and the Tale of Miss Nettle',3342794,3342794,,,,,,,Pass,Pass
+14749,808449,1144497409,22023391, 'Exact sequence & title match',Mystic Meadows, 'Mystic Meadows',|['Mystic Meadows',3335618,3335618,,,,,,,Pass,Pass
+14749,372363,468396113,22023391, 'Exact sequence & title match',Baileywick's Day Off," ""Baileywick's Day Off""","|[""Baileywick's Day Off""",3328748,3328748,,,,,,,Pass,Pass
+14749,367705,369891732,22023391, 'Exact sequence & title match',The Big Sleepover, 'The Big Sleepover',|['The Big Sleepover',3338834,3338834,,,,,,,Pass,Pass
+14749,367704,369891749,22023391, 'Exact sequence & title match',Let the Good Times Troll, 'Let the Good Times Troll',|['Let the Good Times Troll',3327904,3327904,,,,,,,Pass,Pass
+14749,396122,517320928,22023391, 'Exact sequence & title match',The Little Witch, 'The Little Witch',|['The Little Witch',3339133,3339133,,,,,,,Pass,Pass
+14749,464371,776498441,22023391, 'Exact sequence & title match',The Baker King, 'The Baker King',|['The Baker King',3330434,3330434,,,,,,,Pass,Pass
+14749,478530,939136851,22023391, 'Exact sequence & title match',Four's a Crowd," ""Four's a Crowd""","|[""Four's a Crowd""",3330735,3330735,,,,,,,Pass,Pass
+14749,425056,644123735,22023391, 'Exact sequence & title match',Make Way for Miss Nettle, 'Make Way for Miss Nettle',|['Make Way for Miss Nettle',3336613,3336613,,,,,,,Pass,Pass
+14749,478535,1031352913,22023391, 'sequence & title match',The Enchanted Science Fair, 'Enchanted Science Fair',|['Enchanted Science Fair',3335330,3335330,,,,,,,Pass,Pass
+14749,5314051,3354319157,22023391, 'Exact sequence & title match',Bad Little Dragon, 'Bad Little Dragon',|['Bad Little Dragon',3343199,3343199,,,,,,,Pass,Pass
+14749,367703,373852492,22023391, 'Exact sequence & title match',Cedric's Apprentice," ""Cedric's Apprentice""","|[""Cedric's Apprentice""",3333679,3333679,,,,,,,Pass,Pass
+14749,367706,369891684,22023391, 'Exact sequence & title match',Just One of the Princes, 'Just One of the Princes',|['Just One of the Princes',3341525,3341525,,,,,,,Pass,Pass
+14749,7293122,4860204670,22023391, 'Exact sequence & title match',The Mystic Isles: The Princess and the Protector, 'The Mystic Isles: The Princess and the Protector',|['The Mystic Isles: The Princess and the Protector',3348054,3348054,,,,,,,Pass,Pass
+14749,4774274,1995248450,22023391, 'Exact sequence & title match',Stormy Lani, 'Stormy Lani',|['Stormy Lani',3337938,3337938,,,,,,,Pass,Pass
+14749,367702,373852483,22023391, 'Exact sequence & title match',A Royal Mess, 'A Royal Mess',|['A Royal Mess',3328138,3328138,,,,,,,Pass,Pass
+14749,8358033,5913954118,22023391, 'title match only',Return to Merroway Cove, 'Return to Merroway Cove',|['Return to Merroway Cove',3349595,3349595,,,,,,,Pass,Pass
+14749,389557,517320937,22023391, 'Exact sequence & title match',Tri-Kingdom Picnic, 'Tri-Kingdom Picnic',|['Tri-Kingdom Picnic',3329013,3329013,,,,,,,Pass,Pass
+14749,7409521,5024373979,22023391, 'Exact sequence & title match',The Mystic Isles: The Mare of the Mist, 'The Mystic Isles: The Mare of the Mist',|['The Mystic Isles: The Mare of the Mist',3348336,3348336,,,,,,,Pass,Pass
+14749,478532,987766272,22023391, 'Exact sequence & title match',Mom's the Word," ""Mom's the Word""","|[""Mom's the Word""",3340107,3340107,,,,,,,Pass,Pass
+14749,367700,430655397,22023391, 'Exact sequence & title match',Blue Ribbon Bunny, 'Blue Ribbon Bunny',|['Blue Ribbon Bunny',3328478,3328478,,,,,,,Pass,Pass
+14749,367701,373852506,22023391, 'Exact sequence & title match',The Shy Princess, 'The Shy Princess',|['The Shy Princess',3328387,3328387,,,,,,,Pass,Pass
+14749,5233698,1897268717,22023391, 'Exact sequence & title match',The Secret Library, 'The Secret Library',|['The Secret Library',3342221,3342221,,,,,,,Pass,Pass
+14749,8361832,6062276421,22023391, 'Exact sequence & title match',The Elf Situation, 'The Elf Situation',|['The Elf Situation',3349691,3349691,,,,,,,Pass,Pass
+14749,446938,722635307,22023391, 'Exact sequence & title match',Great Aunt-Venture, 'Great Aunt-Venture',|['Great Aunt-Venture',3330120,3330120,,,,,,,Pass,Pass
+14749,3764896,1654724509,22023391, 'Exact sequence & title match',The Littlest Princess, 'The Littlest Princess',|['The Littlest Princess',3331792,3331792,,,,,,,Pass,Pass
+14749,2212848,1270539134,22023391, 'Exact sequence & title match',Winter's Gift," ""Winter's Gift""","|[""Winter's Gift""",3341372,3341372,,,,,,,Pass,Pass
+14749,478536,1026740807,22023391, 'Exact sequence & title match',The Silent Knight, 'The Silent Knight',|['The Silent Knight',3335075,3335075,,,,,,,Pass,Pass
+14749,4327618,1654724505,22023391, 'Exact sequence & title match',Carol of the Arrow, 'Carol of the Arrow',|['Carol of the Arrow',3340537,3340537,,,,,,,Pass,Pass
+14749,438827,678704614,22023391, 'Exact sequence & title match',The Amulet and the Anthem, 'The Amulet and the Anthem',|['The Amulet and the Anthem',3330006,3330006,,,,,,,Pass,Pass
+14749,438828,678704605,22023391, 'Exact sequence & title match',Tea for Too Many, 'Tea for Too Many',|['Tea for Too Many',3329719,3329719,,,,,,,Pass,Pass
+14749,446939,824125597,22023391, 'Exact sequence & title match',Holiday in Enchancia, 'Holiday in Enchancia',|['Holiday in Enchancia',3341218,3341218,,,,,,,Pass,Pass
+14749,478531,987766274,22023391, 'Exact sequence & title match',The Flying Crown, 'The Flying Crown',|['The Flying Crown',3330907,3330907,,,,,,,Pass,Pass
+14749,410725,604181463,22023391, 'Exact sequence & title match',The Amulet of Avalor, 'The Amulet of Avalor',|['The Amulet of Avalor',3339438,3339438,,,,,,,Pass,Pass
+14749,5525999,3494369587,22023391, 'Exact sequence & title match',Best in Air Show, 'Best in Air Show',|['Best in Air Show',3343850,3343850,,,,,,,Pass,Pass
+14749,3555305,1424355757,22023391, 'Exact sequence & title match',In a Tizzy, 'In a Tizzy',|['In a Tizzy',3340461,3340461,,,,,,,Pass,Pass
+14749,7826312,5536571511,22023391, 'Exact sequence & title match',The Mystic Isles: A Very Mystic Wassailia, 'The Mystic Isles: A Very Mystic Wassailia',|['The Mystic Isles: A Very Mystic Wassailia',3349255,3349255,,,,,,,Pass,Pass
+14749,4327619,1654724507,22023391, 'Exact sequence & title match',Sidekick Clio, 'Sidekick Clio',|['Sidekick Clio',3342165,3342165,,,,,,,Pass,Pass
+14749,4269269,1654724503,22023391, 'Exact sequence & title match',Buttercup Amber, 'Buttercup Amber',|['Buttercup Amber',3337717,3337717,,,,,,,Pass,Pass
+14749,4490487,1725408488,22023391, 'Exact sequence & title match',Cool Hand Fluke, 'Cool Hand Fluke',|['Cool Hand Fluke',3332139,3332139,,,,,,,Pass,Pass
+14749,738252,1079745012,22023391, 'Exact sequence & title match',When You Wish Upon a Well, 'When You Wish Upon a Well',|['When You Wish Upon a Well',3336820,3336820,,,,,,,Pass,Pass
+14749,4522280,1725408969,22023391, 'Exact sequence & title match',Minimus is Missing, 'Minimus Is Missing',|['Minimus Is Missing',3332460,3332460,,,,,,,Pass,Pass
+14749,8072794,5754515136,22023391, 'title match only',The Mystic Isles: A Hero for the Hoodwinks, 'The Mystic Isles: A Hero for the Hoodwinks',|['A Hero for the Hoodwinks',3349459,3349459,,,,,,,Pass,Pass
+14749,4715862,1891644787,22023391, 'Exact sequence & title match',New Genie on the Block, 'New Genie on the Block',|['New Genie on the Block',3333541,3333541,,,,,,,Pass,Pass
+14749,4638828,1835580523,22023391, 'Exact sequence & title match',Cedric Be Good, 'Cedric Be Good',|['Cedric Be Good',3340581,3340581,,,,,,,Pass,Pass
+14749,401914,552614792,22023391, 'Exact sequence & title match',Two to Tangu, 'Two to Tangu',|['Two to Tangu',3329085,3329085,,,,,,,Pass,Pass
+14749,4675872,1835580521,22023391, 'Exact sequence & title match',Princess Adventure Club, 'Princess Adventure Club',|['Princess Adventure Club',3333073,3333073,,,,,,,Pass,Pass
+14749,1250136,1226396194,22023391, 'Exact sequence & title match',Scrambled Pets, 'Scrambled Pets',|['Scrambled Pets',3333769,3333769,,,,,,,Pass,Pass
+14749,4774272,1956528988,22023391, 'Exact sequence & title match',All the Sprite Moves, 'All the Sprite Moves',|['All the Sprite Moves',3334047,3334047,,,,,,,Pass,Pass
+14749,4715863,1891644802,22023391, 'Exact sequence & title match',The Fliegel Has Landed, 'The Fliegel Has Landed',|['The Fliegel Has Landed',3333613,3333613,,,,,,,Pass,Pass
+14749,4854577,1956528994,22023391, 'Exact sequence & title match',The Princess Ballet, 'The Princess Ballet',|['The Princess Ballet',3334467,3334467,,,,,,,Pass,Pass
+14749,4955082,2013776374,22023391, 'Exact sequence & title match',Lord of the Rink, 'Lord of the Rink',|['Lord of the Rink',3338363,3338363,,,,,,,Pass,Pass
+14749,7934878,5653720336,22023391, 'Exact sequence & title match',The Birthday Wish, 'The Birthday Wish',|['The Birthday Wish',3349357,3349357,,,,,,,Pass,Pass
+14749,5242272,1284874865,22023391, 'sequence & title match',The Curse of Princess Ivy (Part 2), 'The Curse of Princess Ivy',|['The Curse of Princess Ivy',3334558,13402334,[{'sourceId': '5242272'}],"[{'rovi_projectx_id_mapped': 'rovi_id:1284874865,Map_reason:not found in projectx'}]",,,True,[3327119],Fail,Fail
+14749,4715860,1891644785,22023391, 'Exact sequence & title match',Minding the Manor, 'Minding the Manor',|['Minding the Manor',3333294,3333294,,,,,,,Pass,Pass
+14749,5242274,1284874865,22023391, 'sequence & title match',The Curse of Princess Ivy (Part 1), 'The Curse of Princess Ivy',|['The Curse of Princess Ivy',3334558,13402360,[{'sourceId': '5242274'}],"[{'rovi_projectx_id_mapped': 'rovi_id:1284874865,Map_reason:not found in projectx'}]",,,True,[3327119],Fail,Fail
+14749,5362920,3354586378,22023391, 'Exact sequence & title match',Bunny Swap, 'Bunny Swap',|['Bunny Swap',3343369,3343369,,,,,,,Pass,Pass
+14749,5424150,3423596269,22023391, 'Exact sequence & title match',Her Royal Spyness, 'Her Royal Spyness',|['Her Royal Spyness',3343582,3343582,,,,,,,Pass,Pass
+14749,6891533,4583899122,22023391, 'Exact sequence & title match',One for the Books, 'One for the Books',|['One for the Books',3346312,3346312,,,,,,,Pass,Pass
+14749,5673530,3591262920,22023391, 'Exact sequence & title match',Dads and Daughters Day, 'Dads and Daughters Day',|['Dads and Daughters Day',3344077,3344077,,,,,,,Pass,Pass
+14749,5715566,3655395024,22023391, 'Exact sequence & title match',The Secret Library: The Tale of the Noble Knight, 'The Secret Library: The Tale of the Noble Knight',|['The Secret Library: The Tale of the Noble Knight',3344611,3344611,,,,,,,Pass,Pass
+14749,5737857,3655394998,22023391, 'Exact sequence & title match',The Bamboo Kite, 'The Bamboo Kite',|['The Bamboo Kite',3344397,3344397,,,,,,,Pass,Pass
+14749,420507,644123744,22023391, 'Exact sequence & title match',The Buttercups, 'The Buttercups',|['The Buttercups',3329377,3329377,,,,,,,Pass,Pass
+14749,5886219,3926597489,22023391, 'Exact sequence & title match',Beauty is the Beast, 'Beauty Is the Beast',|['Beauty Is the Beast',3344690,3344690,,,,,,,Pass,Pass
+14749,7360889,4936167884,22023391, 'Exact sequence & title match',The Royal Dragon, 'The Royal Dragon',|['The Royal Dragon',3348234,3348234,,,,,,,Pass,Pass
+14749,6323537,4164455833,22023391, 'Exact sequence & title match',Royal Vacation, 'Royal Vacation',|['Royal Vacation',3345444,3345444,,,,,,,Pass,Pass
+14749,6560191,4375963295,22023391, 'Exact sequence & title match',Hexley Hall, 'Hexley Hall',|['Hexley Hall',3345674,3345674,,,,,,,Pass,Pass
+14749,4186674,3274451091,22023391, 'title match only',The Floating Palace (Part 1), 'The Floating Palace',|['The Floating Palace',3342668,13402472,[{'sourceId': '4186674'}],"[{'rovi_projectx_id_mapped': 'rovi_id:3274451091,Map_reason:not found in projectx'}]",,,True,[3327119],Fail,Fail
+14749,6706256,4505024212,22023391, 'title match only',The Princess Prodigy, 'The Princess Prodigy',|['The Princess Prodigy',3346129,3346129,,,,,,,Pass,Pass
+14749,7003953,4668844566,22023391, 'Exact sequence & title match',Day of the Sorcerers, 'Day of the Sorcerers',|['Day of the Sorcerers',3346767,3346767,,,,,,,Pass,Pass
+14749,446937,722635316,22023391, 'Exact sequence & title match',Princess Butterfly, 'Princess Butterfly',|['Princess Butterfly',3330347,3330347,,,,,,,Pass,Pass
+14749,7029285,4754373727,22023391, 'Exact sequence & title match',The Secret Library: Tale of the Eternal Torch, 'The Secret Library: Tale of the Eternal Torch',|['The Secret Library: Tale of the Eternal Torch',3347094,3347094,,,,,,,Pass,Pass
+14749,7054478,4758031236,22023391, 'Exact sequence & title match',The Crown of Blossoms, 'The Crown of Blossoms',|['The Crown of Blossoms',3347448,3347448,,,,,,,Pass,Pass
+14749,7079801,4771911381,22023391, 'Exact sequence & title match',Pin the Blame on the Genie, 'Pin the Blame on the Genie',|['Pin the Blame on the Genie',3347685,3347685,,,,,,,Pass,Pass
+14749,3554563,1424355755,22023391, 'Exact sequence & title match',A Tale of Two Teams, 'A Tale of Two Teams',|['A Tale of Two Teams',3336294,3336294,,,,,,,Pass,Pass
+14749,7262779,4860204678,22023391, 'Exact sequence & title match',The Mystic Isles, 'The Mystic Isles',|['The Mystic Isles',3347892,3347892,,,,,,,Pass,Pass
+20933,8485973,6246220620,1020105542, 'Exact sequence & title match',Rule #1: Keep the Toast Short, 'Rule #1: Keep The Toast Short',|['Rule #1: Keep The Toast Short',3967848,3967848,,,,,,,Pass,Pass
+20933,8485971,6201571427,1020105542, 'Exact sequence & title match',Rule #63: It's a Marathon Not a Sprint," ""Rule #63: It's a Marathon Not a Sprint""","|[""Rule #63: It's a Marathon Not a Sprint""",3967743,3967743,,,,,,,Pass,Pass
+20933,8450275,6240597484,1020105542, 'Exact sequence & title match',Rule #97: It Takes Two to Stab Yourself in the Butt, 'Rule #97: It Takes Two to Stab Yourself in the Butt',|['Rule #97: It Takes Two to Stab Yourself in the Butt',3967813,3967813,,,,,,,Pass,Pass
+20933,7511269,5204441340,1020105542, 'Exact sequence & title match',Rule #155: Go With the Magician, 'Rule #155: Go With the Magician',|['Rule #155: Go With the Magician',3967447,3967447,,,,,,,Pass,Pass
+20933,7476672,5157515939,1020105542, 'Exact sequence & title match',Rule #49: Let It Shine, 'Rule #49: Let It Shine',|['Rule #49: Let It Shine',3967205,3967205,,,,,,,Pass,Pass
+20933,7454416,5109037758,1020105542, 'Exact sequence & title match',Rule #10: Just Survive, 'Rule #10: Just Survive',|['Rule #10: Just Survive',3967059,3967059,,,,,,,Pass,Pass
+20933,2716202,1338912003,1020105542, 'Exact sequence & title match',Rule #21: Leave Childishness to Children, 'Rule #21: Leave Childishness to Children',|['Rule #21: Leave Childishness to Children',3962813,3962813,,,,,,,Pass,Pass
+20933,7511268,5179661437,1020105542, 'Exact sequence & title match',Rule #930: Plan for New Plans, 'Rule #930: Plan for New Plans',|['Rule #930: Plan for New Plans',3967353,3967353,,,,,,,Pass,Pass
+20933,5122272,3187062151,1020105542, 'Exact sequence & title match',Rule #79: Labels Are for Canned Goods, 'Rule #79: Labels Are for Canned Goods',|['Rule #79: Labels Are for Canned Goods',3965358,3965358,,,,,,,Pass,Pass
+20933,2811749,1338912012,1020105542, 'Exact sequence & title match',Rule #33: When in Doubt Run Away, 'Rule #33: When in Doubt Run Away',|['Rule #33: When in Doubt Run Away',3963016,3963016,,,,,,,Pass,Pass
+20933,7454417,5157515943,1020105542, 'Exact sequence & title match',Rule #706: Let Them Eat Cupcakes, 'Rule #706: Let Them Eat Cupcakes',|['Rule #706: Let Them Eat Cupcakes',3967307,3967307,,,,,,,Pass,Pass
+20933,4939652,1414534885,1020105542, 'Exact sequence & title match',Rule #58: Avoid The Douchemobile, 'Rule #58: Avoid the Douchemobile',|['Rule #58: Avoid the Douchemobile',3963647,3963647,,,,,,,Pass,Pass
+20933,3041573,1362629114,1020105542, 'sequence & title match',Rule #32:  F-You Rob Frumpkis, 'Rule #32: F-You Rob Frumpkis!',|['Rule #32: F-You Rob Frumpkis!',3963381,3963381,,,,,,,Pass,Pass
+20933,2973574,1354899185,1020105542, 'Exact sequence & title match',Rule #17: Ask the Answer Lady, 'Rule #17: Ask the Answer Lady',|['Rule #17: Ask the Answer Lady',3963318,3963318,,,,,,,Pass,Pass
+20933,3175965,1380057177,1020105542, 'sequence & title match',Rule #46:  Keep The Holidays Low Key, 'Rule #46: Keep the Holidays Low Key',|['Rule #46: Keep the Holidays Low Key',3964626,3964626,,,,,,,Pass,Pass
+20933,2327848,1306900592,1020105542, 'sequence & title match',Rule #47: Always Take Advantage of 'Me' Time," 'Rule 47: Always Take Advantage of ""Me Time""'","|['Rule 47: Always Take Advantage of ""Me Time""'",3962538,3962538,,,,,,,Pass,Pass
+20933,4982008,2084635223,1020105542, 'Exact sequence & title match',Rule #605: You Can Go Home Again, 'Rule #605: You Can Go Home Again',|['Rule #605: You Can Go Home Again',3964250,3964250,,,,,,,Pass,Pass
+20933,5143454,3233219911,1020105542, 'Exact sequence & title match',Rule #36: If You Can't Stand the Heat You're Cooked," ""Rule #36: If You Can't Stand the Heat You're Cooked""","|[""Rule #36: If You Can't Stand the Heat You're Cooked""",3965660,3965660,,,,,,,Pass,Pass
+20933,2499569,1316793361,1020105542, 'Exact sequence & title match',Rule #426: Fantasyland: A Great Place to Visit, 'Rule #426: Fantasyland: A Great Place to Visit',|['Rule #426: Fantasyland: A Great Place to Visit',3962668,3962668,,,,,,,Pass,Pass
+20933,3110353,1377141428,1020105542, 'sequence & title match',Rule #3:  Don't Stand In The Doorway," ""Rule #3: Don't Stand in the Doorway""","|[""Rule #3: Don't Stand in the Doorway""",3964503,3964503,,,,,,,Pass,Pass
+20933,6587716,4370447813,1020105542, 'Exact sequence & title match',Rule #137: Move Your Car, 'Rule #137: Move Your Car',|['Rule #137: Move Your Car',3966270,3966270,,,,,,,Pass,Pass
+20933,3232444,1389588804,1020105542, 'sequence & title match',Rule #92:  Don't Do The Crime If You Can't Do The Time," ""Rule #92: Don't Do the Crime If You Can't Do the Time""","|[""Rule #92: Don't Do the Crime If You Can't Do the Time""",3964691,3964691,,,,,,,Pass,Pass
+20933,6648658,4429805652,1020105542, 'Exact sequence & title match',Rule #225: What Happens in Bakersfield Stays in Bakersfield, 'Rule #225: What Happens in Bakersfield Stays in Bakersfield',|['Rule #225: What Happens in Bakersfield Stays in Bakersfield',3966535,3966535,,,,,,,Pass,Pass
+20933,1886024,1303302662,1020105542, 'sequence & title match',Rule #174: Never Trust Anyone Who Charges By The Hour, 'Rule 174: Never Trust Anyone Who Charges By the 

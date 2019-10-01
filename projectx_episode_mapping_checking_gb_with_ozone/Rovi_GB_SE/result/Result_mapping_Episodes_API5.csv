@@ -1,0 +1,89 @@
+GuideBox_sm_id,GuideBox_id,Rovi_id,Rovi_SM_id,Scheme,episode_title,ozoneepisodetitle,OzoneOriginalEpisodeTitle,projectx_id_rovi,projectx_id_GuideBox,Dev_GuideBox_px_mapped,Dev_rovi_px_mapped,another_rovi_id_present,another_GuideBox_id_present,series_id_match,Px_series_id,Episode mapping,Comment
+34804,9166718,6900349483,1846226619, 'Exact sequence & title match',Michael Jackson is ALIVE!, 'Michael Jackson Is ALIVE!',|['Michael Jackson Is ALIVE!',12421531,12421531,,,,,,,Pass,Pass
+34804,8742027,6483515934,1846226619, 'Exact sequence & title match',One Time At Adult Camp, 'One Time at Adult Camp',|['One Time at Adult Camp',9942686,9942686,,,,,,,Pass,Pass
+34804,8721788,6457541290,1846226619, 'Exact sequence & title match',Neek And You Shall Find, 'Neek and You Shall Find',|['Neek and You Shall Find',9942556,9942556,,,,,,,Pass,Pass
+34804,9267570,7064410246,1846226619, 'Exact sequence & title match',I Hope You Make it to America, 'I Hope You Make It to America',|['I Hope You Make It to America',12848271,12848271,,,,,,,Pass,Pass
+34804,8648766,6393318518,1846226619, 'Exact sequence & title match',All Phor One, 'All Phor One',|['All Phor One',9942294,9942294,,,,,,,Pass,Pass
+34804,8628446,6363092974,1846226619, 'Exact sequence & title match',Barbie Tingz, 'Barbie Tingz',|['Barbie Tingz',9942041,9942041,,,,,,,Pass,Pass
+34804,8607357,6339551066,1846226619, 'Exact sequence & title match',Do The Hussle, 'Do the Hussle',|['Do the Hussle',9941870,9941870,,,,,,,Pass,Pass
+34804,6407541,4233283564,1846226619, 'Exact sequence & title match',#Team Don, '#Team Don',|['#Team Don',9939175,9939175,,,,,,,Pass,Pass
+34804,6340840,4217257806,1846226619, 'Exact sequence & title match',Que Grande, 'Que Grande',|['Que Grande',9939255,9939255,,,,,,,Pass,Pass
+34804,8674841,6415620928,1846226619, 'Exact sequence & title match',The Last Supper, 'The Last Supper',|['The Last Supper',9942364,9942364,,,,,,,Pass,Pass
+34804,4881996,1962046665,1846226619, 'Exact sequence & title match',Ain't No Prop Clown," ""Ain't No Prop Clown""","|[""Ain't No Prop Clown""",9938395,9938395,,,,,,,Pass,Pass
+34804,4857215,1936563471,1846226619, 'Exact sequence & title match',What You Don't Understand Is I Do Understand," ""What You Don't Understand Is I Do Understand""","|[""What You Don't Understand Is I Do Understand""",9937536,9937536,,,,,,,Pass,Pass
+34804,6340839,4194707095,1846226619, 'Exact sequence & title match',Basic People Have Threesomes, 'Basic People Have Threesomes',|['Basic People Have Threesomes',9939006,9939006,,,,,,,Pass,Pass
+34804,4881993,1947079145,1846226619, 'Exact sequence & title match',Phor Play, 'Phor Play',|['Phor Play',9938151,9938151,,,,,,,Pass,Pass
+34804,7453942,5132569363,1846226619, 'Exact sequence & title match',Work Is Work But Can You Twerk?, 'Work Is Work But Can You Twerk?',|['Work Is Work But Can You Twerk?',9939844,9939844,,,,,,,Pass,Pass
+34804,8446034,6152690536,1846226619, 'Exact sequence & title match',Tom Dick and Cobra, 'Tom Dick and Cobra',|['Tom Dick and Cobra',9941546,9941546,,,,,,,Pass,Pass
+34804,8481890,6179624251,1846226619, 'Exact sequence & title match',A Whole New Squad, 'A Whole New Squad',|['A Whole New Squad',9941608,9941608,,,,,,,Pass,Pass
+34804,9247569,6994656993,1846226619, 'Exact sequence & title match',I Didn't Say I Hate Her (I Just Don't Like Her)," ""I Didn't Say I Hate Her (I Just Don't Like Her)""",|['',12848257,13235255,[{'sourceId': '9247569'}],"[{'rovi_projectx_id_mapped': 'rovi_id:6994656993,Map_reason:not found in projectx'}]",,,True,[9937198],Fail,Fail
+34804,4805939,1846226821,1846226619, 'Exact sequence & title match',We Run Chicago, 'We Run Chicago',|['We Run Chicago',9937491,9937491,,,,,,,Pass,Pass
+34804,4940840,1996572976,1846226619, 'Exact sequence & title match',You're Not God and You're Not My Daddy," ""You're Not God and You're Not My Daddy""","|[""You're Not God and You're Not My Daddy""",9937778,9937778,,,,,,,Pass,Pass
+34804,6082090,4217886825,1846226619, 'Exact sequence & title match',Congratulations You Played Yourself, 'Congratulations You Played Yourself',|['Congratulations You Played Yourself',9939076,9939076,,,,,,,Pass,Pass
+34804,8402242,6097782779,1846226619, 'Exact sequence & title match',The Takeover Begins, 'The Takeover Begins',|['The Takeover Begins',9941337,9941337,,,,,,,Pass,Pass
+34804,4991943,2015107962,1846226619, 'Exact sequence & title match',Kat Fight!, 'Kat Fight!',|['Kat Fight!',9937931,9937931,,,,,,,Pass,Pass
+34804,6296090,4194706065,1846226619, 'Exact sequence & title match',Cobra Gets Rattled, 'Cobra Gets Rattled',|['Cobra Gets Rattled',9938917,9938917,,,,,,,Pass,Pass
+34804,7683522,5357971593,1846226619, 'title match only',Freeze My Fupa!, 'Freeze My Fupa!',|['Freeze My Fupa!',9940491,9940491,,,,,,,Pass,Pass
+34804,6010263,4068708724,1846226619, 'Exact sequence & title match',The Nicki Minaj of 9 Mag, 'The Nicki Minaj of 9 Mag',|['The Nicki Minaj of 9 Mag',9938596,9938596,,,,,,,Pass,Pass
+34804,9187262,6968492858,1846226619, 'Exact sequence & title match',She's Here If You Evenita," ""She's Here If You Evenita""","|[""She's Here If You Evenita""",12848247,12848247,,,,,,,Pass,Pass
+34804,5058570,3153129350,1846226619, 'Exact sequence & title match',Goodbye Doesn't Mean Forever," ""Goodbye Doesn't Mean Forever""","|[""Goodbye Doesn't Mean Forever""",9938217,9938217,,,,,,,Pass,Pass
+34804,6051676,4175363759,1846226619, 'Exact sequence & title match',Broke On Bourbon Street, 'Broke on Bourbon Street',|['Broke on Bourbon Street',9938862,9938862,,,,,,,Pass,Pass
+34804,6011767,4068708722,1846226619, 'Exact sequence & title match',Prison on the Outside Party on the Inside, 'Prison on the Outside Party on the Inside',|['Prison on the Outside Party on the Inside',9938451,9938451,,,,,,,Pass,Pass
+34804,5013123,3140649718,1846226619, 'Exact sequence & title match',Yacht Rocked, 'Yacht Rocked',|['Yacht Rocked',9938053,9938053,,,,,,,Pass,Pass
+34804,5034529,3153129352,1846226619, 'Exact sequence & title match',The Don Sets in Paradise, 'The Don Sets in Paradise',|['The Don Sets in Paradise',9938364,9938364,,,,,,,Pass,Pass
+34804,7405817,5048939167,1846226619, 'Exact sequence & title match',The Return Of Cobra, 'The Return of Cobra',|['The Return of Cobra',9939538,9939538,,,,,,,Pass,Pass
+34804,7476268,5140540427,1846226619, 'Exact sequence & title match',This One Time At Van Camp, 'This One Time at Van Camp',|['This One Time at Van Camp',9939937,9939937,,,,,,,Pass,Pass
+34804,7381847,5030825593,1846226619, 'Exact sequence & title match',You Need Jesus, 'You Need Jesus',|['You Need Jesus',9939411,9939411,,,,,,,Pass,Pass
+34804,7512962,5201236549,1846226619, 'Exact sequence & title match',I Like My Tamales Real, 'I Like My Tamales Real',|['I Like My Tamales Real',9940231,9940231,,,,,,,Pass,Pass
+34804,8423870,6139919933,1846226619, 'Exact sequence & title match',9Mag Is Dead, '9Mag Is Dead',|['9Mag Is Dead',9941378,9941378,,,,,,,Pass,Pass
+34804,7429479,5074643716,1846226619, 'Exact sequence & title match',Kat's Back," ""Kat's Back""","|[""Kat's Back""",9939624,9939624,,,,,,,Pass,Pass
+34804,7653674,5331133724,1846226619, 'Exact sequence & title match',Lola From Nola, 'Lola From Nola',|['Lola From Nola',9940536,9940536,,,,,,,Pass,Pass
+34804,7357135,4754373428,1846226619, 'Exact sequence & title match',The New Barack and Michelle Obama, 'The New Barack and Michelle Obama',|['The New Barack and Michelle Obama',9939349,9939349,,,,,,,Pass,Pass
+34804,7706172,5389072246,1846226619, 'title match only',I Feel Like Beyonce, 'I Feel Like Beyonce',|['I Feel Like Beyonce',9940685,9940685,,,,,,,Pass,Pass
+34804,7778358,5480488782,1846226619, 'title match only',My Little Sir Brumfield, 'My Little Sir Brumfield',|['My Little Sir Brumfield',9940980,9940980,,,,,,,Pass,Pass
+34804,7802140,5510235469,1846226619, 'title match only',I Cleared My Truth, 'I Cleared My Truth',|['I Cleared My Truth',9941144,9941144,,,,,,,Pass,Pass
+34804,6040153,4076738628,1846226619, 'Exact sequence & title match',A New Kat-Itude, 'A New Kat-itude',|['A New Kat-itude',9938667,9938667,,,,,,,Pass,Pass
+34804,7821996,5530520362,1846226619, 'title match only',Everybody Loves Kat, 'Everybody Loves Kat',|['Everybody Loves Kat',9941216,9941216,,,,,,,Pass,Pass
+34804,8503575,6205641153,1846226619, 'Exact sequence & title match',New Lease New Reese, 'New Lease New Reese',|['New Lease New Reese',9941698,9941698,,,,,,,Pass,Pass
+34804,7509589,5185644364,1846226619, 'Exact sequence & title match',Surprise I'm Pregnant!," ""Surprise I'm Pregnant!""","|[""Surprise I'm Pregnant!""",9940115,9940115,,,,,,,Pass,Pass
+34804,7848286,5554265913,1846226619, 'title match only',Go Ahead Becky, 'Go Ahead Becky',|['Go Ahead Becky',9941274,9941274,,,,,,,Pass,Pass
+34804,8545783,6251395138,1846226619, 'Exact sequence & title match',The H.B.I.C., 'The H.B.I.C.',|['The H.B.I.C.',9941739,9941739,,,,,,,Pass,Pass
+34804,8700220,6380307652,1846226619, 'Exact sequence & title match',Reese Scheduled, 'Reese Scheduled',|['Reese Scheduled',9942178,9942178,,,,,,,Pass,Pass
+34804,4931664,1978125321,1846226619, 'Exact sequence & title match',New York New Problems, 'New York New Problems',|['New York New Problems',9937701,9937701,,,,,,,Pass,Pass
+34804,8584423,6270105336,1846226619, 'Exact sequence & title match',White Tacticals, 'White Tacticals',|['White Tacticals',9941770,9941770,,,,,,,Pass,Pass
+16819,9457695,7218864498,727626046, 'title match only',DDD Chefs and Their Moms, 'DDD Chefs And Their Moms',|['Ddd Chefs And Their Moms',13671226,13671226,,,,,,,Pass,Pass
+16819,9442065,7210356240,727626046, 'title match only',Restaurant Teams, 'Restaurant Teams',|['Restaurant Teams',13659128,13659128,,,,,,,Pass,Pass
+16819,9384947,7194858405,727626046, 'title match only',GGG Winning Teams, 'Ggg Winning Teams',|['Ggg Winning Teams',13628190,13663113,[{'sourceId': '9384947'}],"[{'rovi_projectx_id_mapped': 'rovi_id:7194858405,Map_reason:not found in projectx'}]",,,True,[3495329],Fail,Fail
+16819,9325918,6991187556,727626046, 'title match only',Wild and Crazy Budget Games, 'Wild And Crazy Budget Games',|['Wild And Crazy Budget Games',12831695,13524279,[{'sourceId': '9325918'}],"[{'rovi_projectx_id_mapped': 'rovi_id:6991187556,Map_reason:not found in projectx'}]",,,True,[3495329],Fail,Fail
+16819,9306648,6991192084,727626046, 'title match only',Five-Dollar Dishes, 'Five-Dollar Dishes',|['Five-Dollar Dishes',12831697,13500098,[{'sourceId': '9306648'}],"[{'rovi_projectx_id_mapped': 'rovi_id:6991192084,Map_reason:not found in projectx'}]",,,True,[3495329],Fail,Fail
+16819,9286829,6986173881,727626046, 'title match only',All Budget Wheel Games, 'All Budget Wheel Games',|['All Budget Wheel Games',12831693,13486836,[{'sourceId': '9286829'}],"[{'rovi_projectx_id_mapped': 'rovi_id:6986173881,Map_reason:not found in projectx'}]",,,True,[3495329],Fail,Fail
+16819,9206945,6854754855,727626046, 'title match only',GGG Iron Chef Challenge, 'Ggg Iron Chef Challenge',|['Ggg Iron Chef Challenge',12363265,12363265,,,,,,,Pass,Pass
+16819,9186790,6854754809,727626046, 'title match only',Big Game Day, 'Big Game Day',|['Big Game Day',13571985,3521801,"[{'source_projectx_id_mapped': 'rovi_id:6828450648,Map_reason:not found in projectx'}, {'sourceId': '9186790'}]","[{'rovi_projectx_id_mapped': 'rovi_id:6854754809,Map_reason:not found in projectx'}]",True,,True,[3495329],Fail,Fail
+16819,9166657,6828450648,727626046, 'title match only',DDD Family Tournament Finale, 'DDD Family Tournament Finale',|['Ddd Family Tournament Finale',3521801,13375821,[{'sourceId': '9166657'}],"[{'rovi_projectx_id_mapped': 'rovi_id:6828450648,Map_reason:not found in projectx'}, {'sourceId': '9186790,Map_reason:{MATCH_PARAM_EPISODE_TITLE=1.0, MATCH_PARAM_AIRDATE=1.0}'}]",,True,True,[3495329],Fail,Fail
+16819,9008467,6728722536,727626046, 'title match only',All-Seafood Battle, 'All-Seafood Battle',|['All-Seafood Battle',3521485,3521485,,,,,,,Pass,Pass
+16819,8968420,6680850706,727626046, 'title match only',Judges' Thanksgiving Throwdown," ""Judges' Thanksgiving Throwdown""","|[""Judges' Thanksgiving Throwdown""",3521409,3521409,,,,,,,Pass,Pass
+16819,8921780,6637273180,727626046, 'title match only',Pork-a-Palooza, 'Pork-A-Palooza',|['Pork-A-Palooza',3521313,3521313,,,,,,,Pass,Pass
+16819,8899485,6587826270,727626046, 'title match only',Super Spicy Superstars, 'Super Spicy Superstars',|['Super Spicy Superstars',3521246,3521246,,,,,,,Pass,Pass
+16819,8850282,6535273145,727626046, 'Exact sequence & title match',GGG Judges and Their Siblings, 'GGG Judges and Their Siblings',|['GGG Judges and Their Siblings',3521108,3521108,,,,,,,Pass,Pass
+16819,9405155,7198117108,727626046, 'title match only',Pro Athletes and Judges, 'Pro Athletes And Judges',|['Pro Athletes And Judges',13634888,13696053,[{'sourceId': '9405155'}],"[{'rovi_projectx_id_mapped': 'rovi_id:7198117108,Map_reason:not found in projectx'}]",,,True,[3495329],Fail,Fail
+16819,8827117,6535267311,727626046, 'title match only',Flavortown Fright Night, 'Flavortown Fright Night',|['Flavortown Fright Night',3521063,3521063,,,,,,,Pass,Pass
+16819,8810994,6492755942,727626046, 'title match only',First Round Redemption, 'First Round Redemption',|['First Round Redemption',3521017,3521017,,,,,,,Pass,Pass
+16819,8786641,6443165015,727626046, 'title match only',GGG Winners vs. Judges, 'Ggg Winners Vs. Judges',|['Ggg Winners Vs. Judges',3520833,3520833,,,,,,,Pass,Pass
+16819,8721835,6403098536,727626046, 'Exact sequence & title match',Meals From the Middle Madness, 'Meals From the Middle Madness',|['Meals From the Middle Madness',3520783,3520783,,,,,,,Pass,Pass
+16819,8674829,6356823947,727626046, 'title match only',Food Scientists, 'Food Scientists',|['Food Scientists',3520665,3520665,,,,,,,Pass,Pass
+16819,8628440,6308122882,727626046, 'title match only',Heavyweight Teams, 'Heavyweight Teams',|['Heavyweight Teams',3520443,3520443,,,,,,,Pass,Pass
+16819,8607070,4785925634,727626046, 'title match only',Family Food Feud (Part 2), 'Family Food Feud',|['Family Food Feud',3516082,3520391,"[{'source_projectx_id_mapped': 'rovi_id:6262450405,Map_reason:not found in projectx'}, {'sourceId': '8607070'}]","[{'rovi_projectx_id_mapped': 'rovi_id:4785925634,Map_reason:not found in projectx'}, {'sourceId': '7037695,Map_reason:{MATCH_PARAM_EPISODE_TITLE=1.0, MATCH_PARAM_AIRDATE=1.0}'}]",True,True,True,[3495329],Fail,Fail
+16819,8584256,6262448849,727626046, 'Exact sequence & title match',Guy's Italian Games," ""Guy's Italian Games""","|[""Guy's Italian Games""",3520329,3520329,,,,,,,Pass,Pass
+16819,8481680,6125170949,727626046, 'Exact sequence & title match',Express Lane Extreme, 'Express Lane Extreme',|['Express Lane Extreme',3520113,3520113,,,,,,,Pass,Pass
+16819,8358076,6030410641,727626046, 'title match only',GGG List Games, 'GGG List Games',|['GGG List Games',3519815,3519815,,,,,,,Pass,Pass
+16819,8323638,6030410667,727626046, 'Exact sequence & title match',Team Games, 'Team Games',|['Team Games',3519937,3519937,,,,,,,Pass,Pass
+16819,8234266,5935902322,727626046, 'title match only',DDD All-Star Tournament Finale, 'DDD All-Star Tournament Finale',|['DDD All-Star Tournament Finale',3519648,3519648,,,,,,,Pass,Pass
+16819,8169072,5936588687,727626046, 'title match only',GGG Kids, 'GGG Kids',|['GGG Kids',3519692,3519692,,,,,,,Pass,Pass
+16819,8169070,5935902312,727626046, 'title match only',Single Shop Showdown, 'Single Shop Showdown',|['Single Shop Showdown',3519611,3519611,,,,,,,Pass,Pass
+16819,8168703,5833741591,727626046, 'title match only',Flavortown Honors Firefighters, 'Flavortown Honors Firefighters',|['Flavortown Honors Firefighters',3519314,3519314,,,,,,,Pass,Pass
+16819,8109115,5833741601,727626046, 'Exact sequence & title match',April Fools' Games," ""April Fools' Games""","|[""April Fools' Games""",3519338,3519338,,,,,,,Pass,Pass
+16819,8503607,6125184719,727626046, 'Exact sequence & title match',GGG's Salute to Summer," ""GGG's Salute to Summer""","|[""GGG's Salute to Summer""",3520181,3520181,,,,,,,Pass,Pass
+16819,8109112,5833741585,727626046, 'title match only',Cheesiest, 'Cheesiest',|['Cheesiest',3519286,3519286,,,,,,,Pass,Pass
+16819,8109111,5833741659,727626046, 'title match only',Sandwich Showdown, 'Sandwich Showdown',|['Sandwich Showdown',3519471,3519471,,,,,,,Pass,Pass
+16819,8109109,5829537975,727626046, 'title match only',Judge vs. Judge, 'Judge vs. Judge',|['Judge vs. Judge',3519225,3519225,,,,,,,Pass,Pass
+16819,9267529,6986173883,727626046, 'title match only',Big Cheese, 'Big Cheese',

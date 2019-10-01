@@ -1,0 +1,95 @@
+GuideBox_sm_id,GuideBox_id,Rovi_id,Rovi_SM_id,Scheme,episode_title,ozoneepisodetitle,OzoneOriginalEpisodeTitle,projectx_id_rovi,projectx_id_GuideBox,Dev_GuideBox_px_mapped,Dev_rovi_px_mapped,another_rovi_id_present,another_GuideBox_id_present,series_id_match,Px_series_id,Episode mapping,Comment
+25011,3465286,1547473469,1547364118, 'Exact sequence & title match',Love Strays, 'Love Strays',|['Ai wa samay\xc5\x8d',9435329,9435329,,,,,,,Pass,Pass
+25011,3409274,1547473465,1547364118, 'Exact sequence & title match',Love Training Camp and Toothbrushes, 'Love Training Camp and Toothbrushes',|['Ai to gasshuku to haburashi',9435213,9435213,,,,,,,Pass,Pass
+25011,2974363,1547466920,1547364118, 'Exact sequence & title match',In the Name of Love, 'In the Name of Love',|['Ai to iu na no moto ni',9434819,9434819,,,,,,,Pass,Pass
+25011,3032402,1547471849,1547364118, 'Exact sequence & title match',Love Has No Regrets, 'Love Has No Regrets',|['Ai towa keshite koukai shinai koto',9434936,9434936,,,,,,,Pass,Pass
+25011,3525215,1547473471,1547364118, 'Exact sequence & title match',Love Is Stronger Than Pride, 'Love Is Stronger Than Pride',|['Ai wa puraido yori tsuyoi',9435405,9435405,,,,,,,Pass,Pass
+25011,3288460,1547471857,1547364118, 'Exact sequence & title match',Love Speaks Without Words, 'Love Speaks Without Words',|['Ai wa sena de kataru mono',9435130,9435130,,,,,,,Pass,Pass
+25011,3100771,1547471851,1547364118, 'Exact sequence & title match',Love Narcissist!, 'Love Narcissist!',|['Aiseyo narushisu!',9434990,9434990,,,,,,,Pass,Pass
+25011,3172523,1547471853,1547364118, 'Exact sequence & title match',Love and the Youthful Pretty Boy, 'Love and the Youthful Pretty Boy',|['Ai to seishun no bish\xc5\x8dnen',9435049,9435049,,,,,,,Pass,Pass
+25011,3629026,1547473475,1547364118, 'Exact sequence & title match',The Ordeal Called Love, 'The Ordeal Called Love',|['Ai to iu na no shiren',9435509,9435509,,,,,,,Pass,Pass
+25011,3679038,1547473477,1547364118, 'Exact sequence & title match',Love Forever, 'Love Forever',|['Ai yo eien ni',9435580,9435580,,,,,,,Pass,Pass
+25011,3225579,1547471855,1547364118, 'Exact sequence & title match',Love Is Freely Stolen, 'Love Is Freely Stolen',|['Ai wa oshiminaku ubau',9435085,9435085,,,,,,,Pass,Pass
+25021,3204931,1402475709,1367267074, 'Exact sequence & title match',Last Mann Standing, 'Last Mann Standing',|['Last Mann Standing',9275617,9275617,,,,,,,Pass,Pass
+25021,3146043,1391263853,1367267074, 'Exact sequence & title match',Mann of the Hour, 'Mann of the Hour',|['Mann of the Hour',9275563,9275563,,,,,,,Pass,Pass
+25021,5256409,3283519897,1367267074, 'Exact sequence & title match',Mann of the Kitchen, 'Mann of the Kitchen',|['Mann of the Kitchen',9276148,9276148,,,,,,,Pass,Pass
+25021,3053697,1381995508,1367267074, 'Exact sequence & title match',The Mann Games, 'The Mann Games',|['The Mann Games',9275439,9275439,,,,,,,Pass,Pass
+25021,2995024,1367267076,1367267074, 'Exact sequence & title match',It's A Mann's World," ""It's a Mann's World""","|[""It's a Mann's World""",9275313,9275313,,,,,,,Pass,Pass
+25021,3378041,1422459260,1367267074, 'Exact sequence & title match',Tamela's Big Test," ""Tamela's Big Test""","|[""Tamela's Big Test""",9275822,9275822,,,,,,,Pass,Pass
+25021,3479991,1438388847,1367267074, 'Exact sequence & title match',Mann of the House, 'Mann of the House',|['Mann of the House',9275954,9275954,,,,,,,Pass,Pass
+25021,3421003,1422459250,1367267074, 'Exact sequence & title match',Mann Family Talent Show, 'Mann Family Talent Show',|['Mann Family Talent Show',9275682,9275682,,,,,,,Pass,Pass
+25021,5259147,3283519899,1367267074, 'Exact sequence & title match',Best Mann, 'Best Mann',|['Best Mann',9276257,9276257,,,,,,,Pass,Pass
+25046,8304410,6001491174,1130658346, 'Exact sequence & title match',Love and Obsession, 'Love and Obsession',|['Love and Obsession',8969171,8969171,,,,,,,Pass,Pass
+25046,5246762,3271769162,1130658346, 'Exact sequence & title match',Love's Deadly Harness," ""Love's Deadly Harness""","|[""Love's Deadly Harness""",8965978,8965978,,,,,,,Pass,Pass
+25046,8259646,5960775538,1130658346, 'title match only',An Inconvenient Murder, 'An Inconvenient Murder',|['An Inconvenient Murder',8969043,8969043,,,,,,,Pass,Pass
+25046,3676028,1456183942,1130658346, 'Exact sequence & title match',Presumed Guilty, 'Presumed Guilty',|['Presumed Guilty',8964565,8964565,,,,,,,Pass,Pass
+25046,5142756,3199574811,1130658346, 'Exact sequence & title match',Code of Dishonor, 'Code of Dishonor',|['Code of Dishonor',8965603,8965603,,,,,,,Pass,Pass
+25046,5074343,3191855547,1130658346, 'Exact sequence & title match',Nightmare on Elwood Avenue, 'Nightmare on Elwood Avenue',|['Nightmare on Elwood Avenue',8965126,8965126,,,,,,,Pass,Pass
+25046,6746380,4468228375,1130658346, 'Exact sequence & title match',Grounds for Murder, 'Grounds for Murder',|['Grounds for Murder',8966950,8966950,,,,,,,Pass,Pass
+25046,3626524,1446669506,1130658346, 'Exact sequence & title match',The White House Boys, 'The White House Boys',|['The White House Boys',8965021,8965021,,,,,,,Pass,Pass
+25046,3170982,1378743274,1130658346, 'title match only',The Lady Vanishes, 'The Lady Vanishes',|['The Lady Vanishes',8965399,8965399,,,,,,,Pass,Pass
+25046,3287321,1398110753,1130658346, 'title match only',The Counterfeit Rockefeller, 'The Counterfeit Rockefeller',|['The Counterfeit Rockefeller',8964156,8964156,,,,,,,Pass,Pass
+25046,3099365,1369032033,1130658346, 'title match only',Prisoner of Denver, 'Prisoner of Denver',|['Prisoner of Denver',8964789,8964789,,,,,,,Pass,Pass
+25046,8039720,5738828634,1130658346, 'Exact sequence & title match',Shadows on the Lawn, 'Shadows on the Lawn',|['Shadows on the Lawn',8968247,8968247,,,,,,,Pass,Pass
+25046,5118502,3191883709,1130658346, 'Exact sequence & title match',The Killing Trail, 'The Killing Trail',|['The Killing Trail',8965279,8965279,,,,,,,Pass,Pass
+25046,8282570,5954296102,1130658346, 'title match only',Silicon Valley Murder Mystery , 'Silicon Valley Murder Mystery',|['Silicon Valley Murder Mystery',8968964,8968964,,,,,,,Pass,Pass
+25046,5274918,3286470064,1130658346, 'sequence & title match',Death of Warrior Poet, 'Death of a Warrior Poet',|['Death of a Warrior Poet',8966117,8966117,,,,,,,Pass,Pass
+25046,3016963,4664963193,1130658346, 'title match only',The Runaway Doctor, 'The Runaway Doctor',|['The Runaway Doctor',8967828,8967828,,,,,,,Pass,Pass
+25046,3408599,1407307939,1130658346, 'title match only',Don't Ask Don't Kill," ""Don't Ask Don't Kill""","|[""Don't Ask Don't Kill""",8964294,8964294,,,,,,,Pass,Pass
+25046,3224957,1388553254,1130658346, 'title match only',The Case of the Vanishing blonde, 'The Case of the Vanishing Blonde',|['The Case of the Vanishing Blonde',8965527,8965527,,,,,,,Pass,Pass
+25046,3464588,1417748137,1130658346, 'title match only',Alter Ego, 'Alter Ego',|['Alter Ego',8964365,8964365,,,,,,,Pass,Pass
+25046,3031786,1361284476,1130658346, 'title match only',The Fugitive Heir, 'The Fugitive Heir',|['The Fugitive Heir',8965353,8965353,,,,,,,Pass,Pass
+25046,5349778,3346043156,1130658346, 'Exact sequence & title match',Angel of Death, 'Angel of Death',|['Angel of Death',8966423,8966423,,,,,,,Pass,Pass
+25046,8082665,5747712367,1130658346, 'Exact sequence & title match',Was Bambi Framed?, 'Was Bambi Framed?',|['Was Bambi Framed?',8968378,8968378,,,,,,,Pass,Pass
+25046,6638668,4384842002,1130658346, 'Exact sequence & title match',The Fugitive Son, 'The Fugitive Son',|['The Fugitive Son',8966695,8966695,,,,,,,Pass,Pass
+25046,6665756,4403102728,1130658346, 'Exact sequence & title match',Murder on the Sunset Strip, 'Murder on the Sunset Strip',|['Murder on the Sunset Strip',8966517,8966517,,,,,,,Pass,Pass
+25046,6692761,4422602985,1130658346, 'Exact sequence & title match',Murder at the Drama Club, 'Murder at the Drama Club',|['Murder at the Drama Club',8966768,8966768,,,,,,,Pass,Pass
+25046,6932989,4627354420,1130658346, 'Exact sequence & title match',Natalee Holloway: Lost in Paradise, 'Natalee Holloway: Lost in Paradise',|['Natalee Holloway: Lost in Paradise',8967642,8967642,,,,,,,Pass,Pass
+25046,5325068,3328721900,1130658346, 'Exact sequence & title match',A Crime of Shadows, 'A Crime of Shadows',|['A Crime of Shadows',8966273,8966273,,,,,,,Pass,Pass
+25046,3573126,1437228699,1130658346, 'Exact sequence & title match',Legend with a Bullet, 'Legend with a Bullet',|['Legend with a Bullet',8964937,8964639,"[{'source_projectx_id_mapped': 'rovi_id:1469015624,Map_reason:not found in projectx'}, {'sourceId': '3573126'}]","[{'rovi_projectx_id_mapped': 'rovi_id:1437228699,Map_reason:not found in projectx'}]",True,,True,[8963930],Fail,Fail
+25046,8149481,5827125317,1130658346, 'Exact sequence & title match',Scientology's Vanished Queen," ""Scientology's Vanished Queen""","|[""Scientology's Vanished Queen""",8968581,8968581,,,,,,,Pass,Pass
+25046,6719514,4451924130,1130658346, 'Exact sequence & title match',Seeds of Doubt, 'Seeds of Doubt',|['Seeds of Doubt',8966835,8966835,,,,,,,Pass,Pass
+25046,5216911,3252277133,1130658346, 'Exact sequence & title match',Bill Cosby Drugged Me, 'Bill Cosby Drugged Me',|['Bill Cosby Drugged Me',8965895,8965895,,,,,,,Pass,Pass
+25046,6774025,4492044884,1130658346, 'Exact sequence & title match',Nightmares on Main Street, 'Nightmares on Main Street',|['Nightmares on Main Street',8966986,8966986,,,,,,,Pass,Pass
+25046,5165790,3212798232,1130658346, 'Exact sequence & title match',The Perfectly Sinister Mr. Rockefeller, 'The Perfectly Sinister Mr. Rockefeller',|['The Perfectly Sinister Mr. Rockefeller',8965696,8965696,,,,,,,Pass,Pass
+25046,6801290,4512914822,1130658346, 'Exact sequence & title match',Henry Lee Lucas: Dead Reckoning, 'Henry Lee Lucas: Dead Reckoning',|['Henry Lee Lucas: Dead Reckoning',8967027,8967027,,,,,,,Pass,Pass
+25046,6827566,4534960688,1130658346, 'sequence & title match',Bikram  Feels the Heat, 'Bikram Feels the Heat',|['Bikram Feels the Heat',8967112,8967112,,,,,,,Pass,Pass
+25046,6853719,4555339606,1130658346, 'Exact sequence & title match',Locked Up Next Door, 'Locked Up Next Door',|['Locked Up Next Door',8967207,8967207,,,,,,,Pass,Pass
+25046,5192062,3230741391,1130658346, 'Exact sequence & title match',Days of Rage, 'Days of Rage',|['Days of Rage',8965790,8965790,,,,,,,Pass,Pass
+25046,8215540,5917886295,1130658346, 'Exact sequence & title match',The Disco Inferno, 'The Disco Inferno',|['The Disco Inferno',8968811,8968811,,,,,,,Pass,Pass
+25046,6878893,4577802109,1130658346, 'Exact sequence & title match',St. George's Hidden Dragons," ""St. George's Hidden Dragons""","|[""St. George's Hidden Dragons""",8967345,8967345,,,,,,,Pass,Pass
+25046,6905552,4600828042,1130658346, 'Exact sequence & title match',Dylann Roof's Radical White Rage," ""Dylann Roof's Radical White Rage""","|[""Dylann Roof's Radical White Rage""",8967482,8967482,,,,,,,Pass,Pass
+25046,5299959,3306556156,1130658346, 'Exact sequence & title match',The Widow on the Hill, 'The Widow on the Hill',|['The Widow on the Hill',8966188,8966188,,,,,,,Pass,Pass
+25046,5096486,3191883707,1130658346, 'Exact sequence & title match',Buried Alive, 'Buried Alive',|['Buried Alive',8965218,8965218,,,,,,,Pass,Pass
+25046,8061645,5738828636,1130658346, 'Exact sequence & title match',The Boy Who Cried Author, 'The Boy Who Cried Author',|['The Boy Who Cried Author',8968320,8968320,,,,,,,Pass,Pass
+25046,8104987,5772729701,1130658346, 'Exact sequence & title match',The Secret of the Summer Wind, 'The Secret of the Summer Wind',|['The Secret of the Summer Wind',8968423,8968423,,,,,,,Pass,Pass
+25046,8127762,5795431044,1130658346, 'sequence & title match',Intimations of Murder , 'Intimations of Murder',|['Intimations of Murder',8968489,8968489,,,,,,,Pass,Pass
+25046,8193996,5864224623,1130658346, 'Exact sequence & title match',Sins of the Mother, 'Sins of the Mother',|['Sins of the Mother',8968680,8968680,,,,,,,Pass,Pass
+25046,3524459,1428256473,1130658346, 'title match only',Mad About the Boys, 'Mad About the Boys',|['Mad About the Boys',8964447,8964447,,,,,,,Pass,Pass
+25046,8171778,5841977829,1130658346, 'Exact sequence & title match',Murder Most Obsessive, 'Murder Most Obsessive',|['Murder Most Obsessive',8968638,8968638,,,,,,,Pass,Pass
+25047,5211329,3273888120,1356289397, 'Exact sequence & title match',High-Tech Skateboard, 'High-Tech Skateboard',|['High-Tech Skateboard',3683050,3683050,,,,,,,Pass,Pass
+25047,5202032,3256206411,1356289397, 'Exact sequence & title match',Dog Lover's Dream," ""Dog Lover's Dream""","|[""Dog Lover's Dream""",3682981,3682981,,,,,,,Pass,Pass
+25047,5174480,3217783872,1356289397, 'Exact sequence & title match',Superpowers for Sale, 'Superpowers for Sale',|['Superpowers for Sale',3682835,3682835,,,,,,,Pass,Pass
+25047,5126732,3189423900,1356289397, 'Exact sequence & title match',Hack My Smart Phone, 'Hack My Smart Phone',|['Hack My Smart Phone',3682649,3682649,,,,,,,Pass,Pass
+25047,5087178,3183704466,1356289397, 'Exact sequence & title match',Disappearing Acts, 'Disappearing Acts',|['Disappearing Acts',3682564,3682564,,,,,,,Pass,Pass
+25047,5200560,3235351291,1356289397, 'Exact sequence & title match',Drones that Deliver, 'Drones That Deliver',|['Drones That Deliver',3682913,3682913,,,,,,,Pass,Pass
+25047,4952318,1998609628,1356289397, 'Exact sequence & title match',Brain Games, 'Brain Games',|['Brain Games',3682490,3682490,,,,,,,Pass,Pass
+25047,3122856,1375506594,1356289397, 'Exact sequence & title match',Off the Leash, 'Off the Leash',|['Off the Leash',3682635,3682635,,,,,,,Pass,Pass
+25047,4930650,1963482835,1356289397, 'Exact sequence & title match',Catch Me If You Can, 'Catch Me If You Can',|['Catch Me If You Can',3682417,3682417,,,,,,,Pass,Pass
+25047,3130672,1381073620,1356289397, 'Exact sequence & title match',Zero Hour, 'Zero Hour',|['Zero Hour',3681971,3681971,,,,,,,Pass,Pass
+25047,5150422,3203489575,1356289397, 'Exact sequence & title match',World's Greatest Grill," ""World's Greatest Grill""","|[""World's Greatest Grill""",3682760,3682760,,,,,,,Pass,Pass
+25047,3064373,1375506592,1356289397, 'Exact sequence & title match',Fight Night, 'Fight Night',|['Fight Night',3681851,3681851,,,,,,,Pass,Pass
+25047,3211660,1400503014,1356289397, 'Exact sequence & title match',Up in Flames, 'Up in Flames',|['Up in Flames',3682709,3682709,,,,,,,Pass,Pass
+25047,3016965,1375506596,1356289397, 'Exact sequence & title match',Heat Is On, 'Heat Is On',|['Heat Is On',3681936,3681936,,,,,,,Pass,Pass
+25047,3190614,1390495309,1356289397, 'Exact sequence & title match',Blood Sweat and Tears, 'Blood Sweat and Tears',|['Blood Sweat and Tears',3682059,3682059,,,,,,,Pass,Pass
+25047,4827468,1921452265,1356289397, 'Exact sequence & title match',Playing with Fire, 'Playing With Fire',|['Playing With Fire',3682201,3682201,,,,,,,Pass,Pass
+25047,4856051,1933487016,1356289397, 'Exact sequence & title match',Rise of the Machines, 'Rise of the Machines',|['Rise of the Machines',3682273,3682273,,,,,,,Pass,Pass
+25047,4924691,1949170996,1356289397, 'Exact sequence & title match',Hell on Wheels, 'Hell on Wheels',|['Hell on Wheels',3682351,3682351,,,,,,,Pass,Pass
+25064,3381507,1401880234,1339317799, 'Exact sequence & title match',Outer Space Cakes, 'Outer Space Cakes',|['Outer Space Cakes',9242917,9242917,,,,,,,Pass,Pass
+25064,3435798,1408672081,1339317799, 'Exact sequence & title match',Fairies vs. Goblins, 'Fairies vs. Goblins',|['Fairies vs. Goblins',9242941,9242941,,,,,,,Pass,Pass
+25064,3257317,1384392868,1339317799, 'Exact sequence & title match',Super Cake Heroes, 'Super Cake Heroes',|['Super Cake Heroes',9242890,9242890,,,,,,,Pass,Pass
+25064,3032487,1376730829,1339317799, 'sequence & title match',Ready Set Luau, 'Ready Set Luau!',|['Ready Set Luau!',9242640,9242640,,,,,,,Pass,Pass
+25064,3062803,1376731117,1339317799, 'Exact sequence & title match',Monster Mayhem, 'Monster Mayhem',|['Monster Mayhem',9242733,9242733,,,,,,,Pass,Pass
+25064,3129549,1376731506,1339317799, 'sequence & title match',Cakes Ahoy, 'Cakes Ahoy!',|['Cakes Ahoy!',9242750,9242750,,,,,,,Pass,Pass
+25064,3195591,1384391924,1339317799, 'sequence & title match',Castle Clash, 'Castle Clash!',|['Castle Clash!',9242784,9242784,,,,,,,Pass,Pass
+25067,3042372,4712567307,4024584179, 'title match only',Bill Belichick (Part 2), 'Bill Belichick (part 1)',|['Bill Belichick (part 1)',10764544,13279118,[{'sourceId': '3042372'}],"[{'rovi_projectx_id_mapped': 'rovi_id:4712567307,Map_reason:not found in projectx'}]",,,False,"[13278931, 10763505]",Fa

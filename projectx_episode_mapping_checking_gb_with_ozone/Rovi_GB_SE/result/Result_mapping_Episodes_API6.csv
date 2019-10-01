@@ -1,0 +1,92 @@
+GuideBox_sm_id,GuideBox_id,Rovi_id,Rovi_SM_id,Scheme,episode_title,ozoneepisodetitle,OzoneOriginalEpisodeTitle,projectx_id_rovi,projectx_id_GuideBox,Dev_GuideBox_px_mapped,Dev_rovi_px_mapped,another_rovi_id_present,another_GuideBox_id_present,series_id_match,Px_series_id,Episode mapping,Comment
+757,161724,2457582,2448853, 'Exact sequence & title match',It All Comes Crashing Down, 'It All Comes Crashing Down',|['It All Comes Crashing Down',5460240,5460240,,,,,,,Pass,Pass
+757,161716,11949634,2448853, 'title match only',Wet and Wildin' Out," ""Wet & Wildin' Out""","|[""Wet & Wildin' Out""",5460452,5460377,"[{'source_projectx_id_mapped': 'rovi_id:2471544,Map_reason:not found in projectx'}, {'sourceId': '161716'}]","[{'rovi_projectx_id_mapped': 'rovi_id:11949634,Map_reason:not found in projectx'}]",True,,True,[5457170],Fail,Fail
+757,161722,2461094,2448853, 'Exact sequence & title match',Rumor Control, 'Rumor Control',|['Rumor Control',5460283,5460283,,,,,,,Pass,Pass
+765,160780,17697995,17028296, 'Exact sequence & title match',Falling to Pieces, 'Falling to Pieces',|['Falling to Pieces',3641525,3641525,,,,,,,Pass,Pass
+765,160778,17716093,17028296, 'Exact sequence & title match',For Better or Worse, 'For Better or Worse',|['For Better or Worse',3641580,3641580,,,,,,,Pass,Pass
+765,160770,17958401,17028296, 'Exact sequence & title match',Flower Power, 'Flower Power',|['Flower Power',3641877,3641877,,,,,,,Pass,Pass
+765,160763,18077641,17028296, 'Exact sequence & title match',The Perfect Bride, 'The Perfect Bride',|['The Perfect Bride',3642191,3642191,,,,,,,Pass,Pass
+765,160772,17958304,17028296, 'Exact sequence & title match',Sporting of a Sparrow, 'Sporting of a Sparrow',|['Sporting of a Sparrow',3641774,3641774,,,,,,,Pass,Pass
+765,160764,18049032,17028296, 'Exact sequence & title match',Keep Your Friends Close, 'Keep Your Friends Close',|['Keep Your Friends Close',3642087,3642087,,,,,,,Pass,Pass
+765,160776,17864540,17028296, 'Exact sequence & title match',Unveiled, 'Unveiled',|['Unveiled',3641654,3641654,,,,,,,Pass,Pass
+765,160766,18048619,17028296, 'Exact sequence & title match',A Lie is a Lie is a Lie, 'A Lie Is a Lie Is a Lie',|['A Lie Is a Lie Is a Lie',3642017,3642017,,,,,,,Pass,Pass
+765,160768,17998501,17028296, 'Exact sequence & title match',Mother-in-Lord-Help-Us, 'Mother-in-Lord-Help-Us',|['Mother-in-Lord-Help-Us',3641933,3641933,,,,,,,Pass,Pass
+766,160602,297263803,17178713, 'title match only',Adrienne and Danni, 'Adrienne & Danni',|['Adrienne & Danni',3282415,3281549,"[{'source_projectx_id_mapped': 'rovi_id:17178724,Map_reason:not found in projectx'}, {'sourceId': '160602'}]","[{'rovi_projectx_id_mapped': 'rovi_id:297263803,Map_reason:not found in projectx'}]",True,,True,[3281483],Fail,Fail
+766,160600,22050602,17178713, 'title match only',Marc and Kristy, 'Marc & Kristy',|['Marc & Kristy',3282336,3281563,"[{'source_projectx_id_mapped': 'rovi_id:17307582,Map_reason:not found in projectx'}, {'sourceId': '160600'}]","[{'rovi_projectx_id_mapped': 'rovi_id:22050602,Map_reason:not found in projectx'}]",True,,True,[3281483],Fail,Fail
+766,160598,17432701,17178713, 'sequence & title match',Gaby and Jennifer, 'Gaby & Jennifer',|['Gaby & Jennifer',3281641,3281641,,,,,,,Pass,Pass
+768,291359,21785622,19660463, 'Exact sequence & title match',The Cold and the Beautiful, 'The Cold and the Beautiful',|['The Cold and the Beautiful',3630398,3630398,,,,,,,Pass,Pass
+768,291357,21716848,19660463, 'Exact sequence & title match',One Life to Give, 'One Life to Give',|['One Life to Give',3630227,3630227,,,,,,,Pass,Pass
+768,291356,21661058,19660463, 'Exact sequence & title match',As the Ex Returns, 'As the Ex Returns',|['As the Ex Returns',3630130,3630130,,,,,,,Pass,Pass
+768,291352,19964754,19660463, 'Exact sequence & title match',Starting Over, 'Starting Over',|['Starting Over',3629775,3629775,,,,,,,Pass,Pass
+768,291353,21565323,19660463, 'Exact sequence & title match',All My Family, 'All My Family',|['All My Family',3629878,3629878,,,,,,,Pass,Pass
+768,291354,21594522,19660463, 'Exact sequence & title match',Guiding Fight, 'Guiding Fight',|['Guiding Fight',3629947,3629947,,,,,,,Pass,Pass
+768,291358,21717162,19660463, 'Exact sequence & title match',Days of Our Mama Drama, 'Days of Our Mama Drama',|['Days of Our Mama Drama',3630302,3630302,,,,,,,Pass,Pass
+768,291355,21627302,19660463, 'sequence & title match',The Young and the Illness, 'The Young & the Illness',|['The Young & the Illness',3630038,3630038,,,,,,,Pass,Pass
+771,161681,15046381,15026491, 'Exact sequence & title match',Give and Take, 'Give and Take',|['Give and Take',6874246,6874246,,,,,,,Pass,Pass
+771,161679,15208705,15026491, 'Exact sequence & title match',Beauty and the Billionaire, 'Beauty and the Billionaire',|['Beauty and the Billionaire',6874332,6874332,,,,,,,Pass,Pass
+771,161677,15220561,15026491, 'Exact sequence & title match',Should I Stay or Should I Go?, 'Should I Stay or Should I Go?',|['Should I Stay or Should I Go?',6874472,6874472,,,,,,,Pass,Pass
+771,161669,17070537,15026491, 'Exact sequence & title match',The Final Straw, 'The Final Straw',|['The Final Straw',6874882,6874882,,,,,,,Pass,Pass
+771,161675,16737973,15026491, 'Exact sequence & title match',PR and the City, 'PR and the City',|['PR and the City',6874572,6874572,,,,,,,Pass,Pass
+771,161683,15026494,15026491, 'Exact sequence & title match',Image Is Everything, 'Image Is Everything',|['Image Is Everything',6874190,6874190,,,,,,,Pass,Pass
+771,161671,16942432,15026491, 'Exact sequence & title match',Hungry for Love, 'Hungry for Love',|['Hungry for Love',6874775,6874775,,,,,,,Pass,Pass
+771,161673,16860804,15026491, 'Exact sequence & title match',Summer Lovin'," ""Summer Lovin'""",|['Summer Lovin?',6874654,6874654,,,,,,,Pass,Pass
+772,291363,22169836,21808790, 'Exact sequence & title match',Marissa and Hallie, 'Marissa and Hallie',|['Marissa and Hallie',3641780,3641780,,,,,,,Pass,Pass
+772,291361,3286547521,21808790, 'title match only',Cheyann and Gina, 'Episode 5',|['Cheyann and Gina',3642636,3641722,"[{'source_projectx_id_mapped': 'rovi_id:22006977,Map_reason:not found in projectx'}, {'sourceId': '291361'}]","[{'rovi_projectx_id_mapped': 'rovi_id:3286547521,Map_reason:not found in projectx'}]",True,,True,[3641350],Fail,Fail
+772,160586,3239702038,21808790, 'title match only',Nicole and Amber, 'Episode 3',|['Nicole and Amber',3641995,3641567,"[{'source_projectx_id_mapped': 'rovi_id:21945214,Map_reason:not found in projectx'}, {'sourceId': '160586'}]","[{'rovi_projectx_id_mapped': 'rovi_id:3239702038,Map_reason:not found in projectx'}]",True,,True,[3641350],Fail,Fail
+772,291364,22261565,21808790, 'Exact sequence & title match',Erin and Alwyn, 'Erin and Alwyn',|['Erin and Alwyn',3641873,3641873,,,,,,,Pass,Pass
+772,291362,3286547459,21808790, 'title match only',Lindsay and Amber R., 'Episode 6',|['Lindsay and Amber R.',3642617,3641751,"[{'source_projectx_id_mapped': 'rovi_id:22061479,Map_reason:not found in projectx'}, {'sourceId': '291362'}]","[{'rovi_projectx_id_mapped': 'rovi_id:3286547459,Map_reason:not found in projectx'}]",True,,True,[3641350],Fail,Fail
+772,160588,21944990,21808790, 'sequence & title match',Valenteen and Kelsie, 'Valenteen & Kelsie',|['Valenteen & Kelsie',3641506,3641506,,,,,,,Pass,Pass
+772,160590,21808871,21808790, 'sequence & title match',Gillian and Jennifer, 'Gillian & Jennifer',|['Gillian & Jennifer',3641464,3641464,,,,,,,Pass,Pass
+772,291360,22006912,21808790, 'sequence & title match',Amy and Jillian, 'Amy & Jillian',|['Amy & Jillian',3641645,3641645,,,,,,,Pass,Pass
+808,4366083,2266809,2262710, 'Exact sequence & title match',Second Chances, 'Second Chances',|['Second Chances',3344004,3344004,,,,,,,Pass,Pass
+808,4366082,2372503,2262710, 'Exact sequence & title match',New Beginnings, 'New Beginnings',|['New Beginnings',3344410,3344410,,,,,,,Pass,Pass
+808,4366077,2374190,2262710, 'title match only',New Lives, 'New Lives',|['New Lives',3344490,3344490,,,,,,,Pass,Pass
+808,129565,2262740,2262710, 'Exact sequence & title match',Crisis Dogs, 'Crisis Dogs',|['Crisis Dog',3343958,3343958,,,,,,,Pass,Pass
+808,129527,2461126,2262710, 'Exact sequence & title match',New Hope, 'New Hope',|['',3344911,3344911,,,,,,,Pass,Pass
+808,129553,2366559,2262710, 'Exact sequence & title match',Saving the Michael Vick Dogs, 'Saving the Michael Vick Dogs',|['',3344234,3344234,,,,,,,Pass,Pass
+808,129537,2377913,2262710, 'title match only',Road to Recovery, 'Road to Recovery',|['',3344546,3344546,,,,,,,Pass,Pass
+808,129512,2471132,2262710, 'title match only',A Fresh Start, 'A Fresh Start',|['',3345116,13012558,[{'sourceId': '129512'}],"[{'rovi_projectx_id_mapped': 'rovi_id:2471132,Map_reason:not found in projectx'}]",,,True,[3343676],Fail,Fail
+808,129516,2471277,2262710, 'Exact sequence & title match',Will to Survive, 'Will to Survive',|['',3345180,3345180,,,,,,,Pass,Pass
+808,129558,2272204,2262710, 'Exact sequence & title match',The Outsiders, 'The Outsiders',|['The Outsiders',3344125,3344125,,,,,,,Pass,Pass
+808,129509,2481223,2262710, 'Exact sequence & title match',Rescue and Renewal, 'Rescue and Renewal',|['',3345294,3345294,,,,,,,Pass,Pass
+808,129524,2465729,2262710, 'Exact sequence & title match',A Fighting Chance, 'A Fighting Chance',|['',3345012,3345012,,,,,,,Pass,Pass
+808,4366079,2371836,2262710, 'Exact sequence & title match',Project Rescue, 'Project Rescue',|['',3344330,3344330,,,,,,,Pass,Pass
+808,129535,2452498,2262710, 'Exact sequence & title match',The Survivors, 'The Survivors',|['',3344639,3344639,,,,,,,Pass,Pass
+808,129530,2460376,2262710, 'Exact sequence & title match',Starting Over, 'Starting Over',|['',3344822,3344822,,,,,,,Pass,Pass
+808,129520,18042213,2262710, 'title match only',Friends in Need, 'Friends in Need',|['',3346667,13012555,[{'sourceId': '129520'}],"[{'rovi_projectx_id_mapped': 'rovi_id:18042213,Map_reason:not found in projectx'}]",,,True,[3343676],Fail,Fail
+808,129533,2457579,2262710, 'Exact sequence & title match',Against the Odds, 'Against the Odds',|['',3344745,3344745,,,,,,,Pass,Pass
+809,4374671,2014175,2013204, 'Exact sequence & title match',Mangrove Man-eater, 'Mangrove Man-Eater',|['Mangrove Man-Eater',3015882,3015882,,,,,,,Pass,Pass
+809,128338,2014183,2013204, 'Exact sequence & title match',Death Down Under, 'Death Down Under',|['Death Down Under',3015988,3015988,,,,,,,Pass,Pass
+809,128327,2013206,2013204, 'Exact sequence & title match',Kodiak Attack, 'Kodiak Attack',|['Kodiak Attack',3015659,3015659,,,,,,,Pass,Pass
+809,128323,2014097,2013204, 'Exact sequence & title match',Stalked at Sea, 'Stalked at Sea',|['Stalked at Sea',3015858,3015858,,,,,,,Pass,Pass
+809,128316,2013210,2013204, 'title match only',The Silent Stalker, 'The Silent Stalker',|['The Silent Stalker',3015697,13457084,[{'sourceId': '128316'}],"[{'rovi_projectx_id_mapped': 'rovi_id:2013210,Map_reason:not found in projectx'}]",,,True,[3015449],Fail,Fail
+809,128312,2014094,2013204, 'title match only',Vanished, 'Vanished',|['Vanished',3015779,13457085,[{'sourceId': '128312'}],"[{'rovi_projectx_id_mapped': 'rovi_id:2014094,Map_reason:not found in projectx'}]",,,True,[3015449],Fail,Fail
+809,128304,2013213,2013204, 'title match only',Kidnapped, 'Kidnapped',|['Kidnapped',3015721,13457087,[{'sourceId': '128304'}],"[{'rovi_projectx_id_mapped': 'rovi_id:2013213,Map_reason:not found in projectx'}]",,,True,[3015449],Fail,Fail
+809,128296,2021479,2013204, 'title match only',Shadow Stalkers, 'Shadow Stalkers',|['Shadow Stalkers',3016008,13457088,[{'sourceId': '128296'}],"[{'rovi_projectx_id_mapped': 'rovi_id:2021479,Map_reason:not found in projectx'}]",,,True,[3015449],Fail,Fail
+809,128291,2023401,2013204, 'title match only',Dolphin Attack, 'Dolphin Attack',|['Dolphin Attack',3016110,13457089,[{'sourceId': '128291'}],"[{'rovi_projectx_id_mapped': 'rovi_id:2023401,Map_reason:not found in projectx'}]",,,True,[3015449],Fail,Fail
+809,128320,2013218,2013204, 'title match only',Tanzania Terror, 'Tanzania Terror',|['Tanzania Terror',3015741,13457083,[{'sourceId': '128320'}],"[{'rovi_projectx_id_mapped': 'rovi_id:2013218,Map_reason:not found in projectx'}]",,,True,[3015449],Fail,Fail
+809,128265,2198668,2013204, 'title match only',Bear Man's Land," ""Bear Man's Land""","|[""Bear Man's Land""",3016898,3016898,,,,,,,Pass,Pass
+809,128262,2198666,2013204, 'title match only',Jungle Breakout, 'Jungle Breakout',|['Jungle Breakout',3016793,13457093,[{'sourceId': '128262'}],"[{'rovi_projectx_id_mapped': 'rovi_id:2198666,Map_reason:not found in projectx'}]",,,True,[3015449],Fail,Fail
+809,128309,2339496,2013204, 'title match only',Victims of Venom, 'Victims of Venom',|['Victims of Venom',3017947,3017947,,,,,,,Pass,Pass
+809,128273,2107104,2013204, 'title match only',Cougar Island, 'Cougar Island',|['Cougar Island',3016589,13457090,[{'sourceId': '128273'}],"[{'rovi_projectx_id_mapped': 'rovi_id:2107104,Map_reason:not found in projectx'}]",,,True,[3015449],Fail,Fail
+809,128257,2269005,2013204, 'title match only',Rhino Showdown, 'Rhino Showdown',|['Rhino Showdown',3017427,13457094,[{'sourceId': '128257'}],"[{'rovi_projectx_id_mapped': 'rovi_id:2269005,Map_reason:not found in projectx'}]",,,True,[3015449],Fail,Fail
+809,128334,2014179,2013204, 'Exact sequence & title match',Predators in Paradise, 'Predators in Paradise',|['Predators in Paradise',3015981,3015981,,,,,,,Pass,Pass
+809,128270,2116163,2013204, 'title match only',Gator Attack, 'Gator Attack',|['Gator Attack',3016677,13457091,[{'sourceId': '128270'}],"[{'rovi_projectx_id_mapped': 'rovi_id:2116163,Map_reason:not found in projectx'}]",,,True,[3015449],Fail,Fail
+809,128277,2098664,2013204, 'title match only',Horns of Death, 'Horns of Death',|['Horns of Death',3016454,13457096,[{'sourceId': '128277'}],"[{'rovi_projectx_id_mapped': 'rovi_id:2098664,Map_reason:not found in projectx'}]",,,True,[3015449],Fail,Fail
+809,128259,2206396,2013204, 'title match only',Ghosts of the Snow, 'Ghosts of the Snow',|['Ghosts of the Snow',3017032,13457095,[{'sourceId': '128259'}],"[{'rovi_projectx_id_mapped': 'rovi_id:2206396,Map_reason:not found in projectx'}]",,,True,[3015449],Fail,Fail
+809,128281,2068260,2013204, 'title match only',Danger in the Delta, 'Danger in the Delta',|['Danger in the Delta',3016356,13457097,[{'sourceId': '128281'}],"[{'rovi_projectx_id_mapped': 'rovi_id:2068260,Map_reason:not found in projectx'}]",,,True,[3015449],Fail,Fail
+809,128285,2041508,2013204, 'title match only',Shark Invasion, 'Shark Invasion',|['Shark Invasion',3016217,3016217,,,,,,,Pass,Pass
+809,128288,2041510,2013204, 'title match only',Ambush, 'Ambush',|['Ambush',3016306,13457098,[{'sourceId': '128288'}],"[{'rovi_projectx_id_mapped': 'rovi_id:2041510,Map_reason:not found in projectx'}]",,,True,[3015449],Fail,Fail
+813,131111,13745713,13560491, 'Exact sequence & title match',Croc Escape, 'Croc Escape',|['Croc Escape',3321741,3321741,,,,,,,Pass,Pass
+813,131106,13810876,13560491, 'Exact sequence & title match',Break-In Bear, 'Break-in Bear',|['Break-in Bear',3321865,3321865,,,,,,,Pass,Pass
+813,131100,13560493,13560491, 'Exact sequence & title match',Newbies, 'Newbies',|['Newbies',3321692,3321692,,,,,,,Pass,Pass
+813,131096,17891213,13560491, 'Exact sequence & title match',Bee Bomb, 'Bee Bomb',|['Bee Bomb',3322154,3322154,,,,,,,Pass,Pass
+813,131092,17950260,13560491, 'Exact sequence & title match',Gator Breakout, 'Gator Breakout',|['Gator Breakout',3322317,3322317,,,,,,,Pass,Pass
+813,131088,17953393,13560491, 'Exact sequence & title match',Croc Swap, 'Croc Swap',|['Croc Swap',3322477,3322477,,,,,,,Pass,Pass
+813,131081,18027113,13560491, 'Exact sequence & title match',Predators on the Prowl, 'Predators on the Prowl',|['Predators on the Prowl',3322683,3322683,,,,,,,Pass,Pass
+813,131048,21895862,13560491, 'title match only',Predator Patrol, 'Predator Patrol',|['Predator Patrol',3323930,3323930,,,,,,,Pass,Pass
+813,131064,21702399,13560491, 'Exact sequence & title match',Most Wanted, 'Most Wanted',|['Most Wanted',3323178,3323178,,,,,,,Pass,Pass
+813,131104,13888726,13560491, 'Exact sequence & title match',Panther Down, 'Panther Down',|['Panther Down',3321971,3321971,,,,,,,Pass,Pass
+813,131045,21944404,13560491, 'title match only',Alligator Attack, 'Alligator Attack',|['Alligator Attack',3324086,3324086,,,,,,,Pass,Pass
+813,131039,21989970,13560491, 'title match only',Big Nasty, 'Big Nasty',|['Big Nasty',3324197,3324197,,,,,,,Pass,Pass
+813,197252,22265325,13560491, 'title match only',Gator Pit Roun
