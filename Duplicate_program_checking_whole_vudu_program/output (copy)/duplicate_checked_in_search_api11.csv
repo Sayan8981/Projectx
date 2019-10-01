@@ -1,0 +1,648 @@
+source,sm_id,id,show_type,movie_title,series_title,episode_title,release_year,link_expired,Projectx_ids,Variant id present for episode,Variant parent id for Episode,Projectx_series_id,comment,Result,Gb_id duplicate,Duplicate ids in search,Credit_match,Rovi_id count for duplicate,Gb_id count for duplicate,Vudu_id count for duplicate,Mapped rovi_id for duplicate,Mapped Gb_id for duplicate,Mapped Vudu_id for duplicate,variant_parent_id_present,variant_parent_id,link_fetched_from,Sources of link
+Vudu,276918,1150495,SE,,Full House,Full House: Little Shop of Sweaters,1989,False,"[2747011, 14793408]",,,,Duplicate projectx ids found in search api and rovi has duplicate,Duplicate projectx ids found in search api and rovi has duplicate,,"[5128598, 2732539]",False,2,1,1,"[{'5128598': 'Rovi_id:1704815'}, {'2732539': 'Rovi_id:424543'}]",[{'5128598': 'Gb_id:1663'}],[{'2732539': 'Vudu_id:276918'}],Null,[]
+Vudu,138707,1150831,SE,,The Dukes of Hazzard,The Dukes of Hazzard: The Haunting of J.D. Hogg,1985,False,[2809877],,,,"('No multiple ids for this episode', 1150831, 138707)",No multiple ids for this episode
+Vudu,1150990,1150994,SE,,The Thorn Birds,The Thorn Birds: The Complete First Season: Episode 1,1983,False,"[8260762, 14690670, 2751820]",,,,Duplicate projectx ids found in search api and rovi has duplicate,Duplicate projectx ids found in search api and rovi has duplicate,,"[2751657, 13399782, 8260593]",,2,2,1,"[{'2751657': 'Rovi_id:516537'}, {'8260593': 'Rovi_id:567945683'}]","[{'13399782': 'Gb_id:14913'}, {'8260593': 'Gb_id:11648'}]",[{'13399782': 'Vudu_id:1150990'}],Null,[]
+Vudu,135063,1151009,SE,,Martin,Martin: In Search of Martin,1994,False,[4245045],,,,"('No multiple ids for this episode', 1151009, 135063)",No multiple ids for this episode
+Vudu,1111052,1151491,SE,,Grand Hotel,Grand Hotel: Grand Hotel Trailer,2019,False,[14271494],,,,"('No multiple ids for this episode', 1151491, 1111052)",No multiple ids for this episode
+Vudu,1151712,1151716,SE,,Strange Angel,Strange Angel: Augurs of Spring,2019,False,[11208231],,,,"('No multiple ids for this episode', 1151716, 1151712)",No multiple ids for this episode
+Vudu,1151749,1151759,SE,,Declassified,Declassified: Trigon: The KGB Chess Game,2019,False,"[14551255, 9434865]",,,,Duplicate projectx ids found in search api and rovi has duplicate,Duplicate projectx ids found in search api and rovi has duplicate,,"[9434719, 3487775]",False,2,1,1,"[{'9434719': 'Rovi_id:1547434164'}, {'3487775': 'Rovi_id:934425024'}]",[{'9434719': 'Gb_id:37445'}],[{'3487775': 'Vudu_id:1151749'}],Different,[{'variant_parent_id': '1409443'}]
+Vudu,1151817,1151821,SE,,This Is Life With Lisa Ling,This Is Life With Lisa Ling: Sugar Daddies Sugar Babies,2019,False,"[13301964, 3976061]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[3975609, 13301144]",True,1,1,1,[{'3975609': 'Rovi_id:1219984724'}],[{'13301144': 'Gb_id:21864'}],[{'13301144': 'Vudu_id:1151817'}],,[]
+Vudu,1113403,1152116,SE,,The Waltons,The Waltons: The Journey,1973,False,[4194988],,,,"('No multiple ids for this episode', 1152116, 1113403)",No multiple ids for this episode
+Vudu,225986,1152931,SE,,Family Matters,Family Matters: Boom!,1991,False,[3435137],,,,"('No multiple ids for this episode', 1152931, 225986)",No multiple ids for this episode
+Vudu,1153211,1153219,SE,,Beaver Falls,Beaver Falls: Episode 1,2011,False,[7386975],,,,"('No multiple ids for this series', 1153219, 1153211)",No multiple ids for this link
+Vudu,235373,1153587,SE,,George Lopez,George Lopez: George Searches for a Needle in a Haight-stack,2004,False,[4963313],,,,"('No multiple ids for this episode', 1153587, 235373)",No multiple ids for this episode
+Vudu,1153799,1153817,SE,,Robotech: The Original Broadcast Version,Robotech: The Original Broadcast Version: Boobytrap,1985,False,[],,,,"('No multiple ids for this episode', 1153817, 1153799)",No multiple ids for this episode
+Vudu,1154027,1154031,SE,,Living Single,Living Single: Judging by the Cover,1993,False,[4120082],,,,"('No multiple ids for this episode', 1154031, 1154027)",No multiple ids for this episode
+Vudu,1113584,1154297,SE,,Mama's Family,Mama's Family: Flaming Forties,1983,False,[4138282],,,,"('No multiple ids for this episode', 1154297, 1113584)",No multiple ids for this episode
+Vudu,460663,1154435,SE,,Endeavour,Endeavour: Pylon,2019,False,"[3318050, 8217634]",,,,Duplicate ids not found in search api,Duplicate ids not found in search api,,[],,,,,,,,True,[{'variant_parent_id': '3318050'}],,
+Vudu,1005497,1154678,SE,,Jamestown,Jamestown: Episode 1,2019,False,[11047635],,,,"('No multiple ids for this episode', 1154678, 1005497)",No multiple ids for this episode
+Vudu,1154705,1154711,SE,,North and South,North and South: Episode 1,1985,False,"[3256744, 13392935]",,,,Duplicate projectx ids found in search api and rovi has duplicate,Duplicate projectx ids found in search api and rovi has duplicate,,"[3256652, 3076183]",False,2,2,1,"[{'3256652': 'Rovi_id:1932402'}, {'3076183': 'Rovi_id:618770'}]","[{'3256652': 'Gb_id:13479'}, {'3076183': 'Gb_id:15759'}]",[{'3076183': 'Vudu_id:1154705'}],Null,[]
+Vudu,273283,1155203,SE,,Night Court,Night Court: Life With Buddy,1989,False,[4239111],,,,"('No multiple ids for this episode', 1155203, 273283)",No multiple ids for this episode
+Vudu,1155769,1155773,SE,,Ready Jet Go!: One Small Step,Ready Jet Go!: One Small Step,2019,False,[],,,,"('No multiple ids for this episode', 1155773, 1155769)",No multiple ids for this episode
+Vudu,927021,1155790,SE,,Pinkalicious & Peterrific,Pinkalicious & Peterrific: Peterrific / Mother's Day Surprise,2019,False,[13514777],,,,"('No multiple ids for this episode', 1155790, 927021)",No multiple ids for this episode
+Vudu,233792,1155849,SE,,Dora the Explorer,Dora the Explorer: Dora's Pegaso Adventure,2010,False,[2732774],,,,"('No multiple ids for this series', 1155849, 233792)",No multiple ids for this link
+Vudu,635646,1155914,SE,,Island Life,Island Life: An Active Life on Hilton Head,2019,False,[13866296],,,,"('No multiple ids for this episode', 1155914, 635646)",No multiple ids for this episode
+Vudu,871456,1155968,SE,,Beach Hunters,Beach Hunters: Beach Hunting in Gulf Breeze,2019,False,[13866799],,,,"('No multiple ids for this episode', 1155968, 871456)",No multiple ids for this episode
+Vudu,1155779,1156012,SE,,Robotech: The Series Remastered,Robotech: The Series Remastered: Boobytrap,1985,False,[],,,,"('No multiple ids for this episode', 1156012, 1155779)",No multiple ids for this episode
+Vudu,1156289,1156297,SE,,Robotech: Super Dimension Fortress Macross,Robotech: Super Dimension Fortress Macross: Booby Trap,1982,False,[13428647],,,,"('No multiple ids for this series', 1156297, 1156289)",No multiple ids for this link
+Vudu,1156396,1156399,SE,,Robotech: Super Dimension Cavalry Southern Cross,Robotech: Super Dimension Cavalry Southern Cross: Prisoner,1984,False,[13200108],,,,"('No multiple ids for this series', 1156399, 1156396)",No multiple ids for this link
+Vudu,1156500,1156503,SE,,Robotech: Genesis Climber Mospeada,Robotech: Genesis Climber Mospeada: Prelude to the Offensive,1983,False,[13201042],,,,"('No multiple ids for this series', 1156503, 1156500)",No multiple ids for this link
+Vudu,,1156998,MO,My Dad Wrote a Porno,,,2019,False,[13472145],,,,"('No multiple ids for this link', 1156998)",No multiple ids for this link
+Vudu,927122,1157004,SE,,Final Space,Final Space: The Toro Regatta,2019,False,"[14767896, 13954057]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[14632259, 10823356]",True,1,1,1,[{'10823356': 'Rovi_id:4329360323'}],[{'14632259': 'Gb_id:47086'}],[{'14632259': 'Vudu_id:927122'}],,[]
+Vudu,760470,1157049,SE,,The Detour,The Detour: The Search,2019,False,"[3768332, 3771335]",,,,Duplicate ids not found in search api,Duplicate ids not found in search api,,[],,,,,,,,True,[{'variant_parent_id': '3768332'}],,
+Vudu,457490,1157549,SE,,Naked and Afraid,Naked and Afraid: Honduran Hell,2019,False,[13946782],,,,"('No multiple ids for this episode', 1157549, 457490)",No multiple ids for this episode
+Vudu,1157552,1157556,SE,,Death in the Bayou: The Jennings 8,Death in the Bayou: The Jennings 8: A Town Divided,2019,False,"[13982193, 13951699]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[13917390, 13982191]",,1,1,1,[{'13917390': 'Rovi_id:7342106945'}],[{'13982191': 'Gb_id:55328'}],[{'13982191': 'Vudu_id:1157552'}],,[]
+Vudu,1096863,1157563,SE,,Wife Swap,Wife Swap: Icgoren vs Legend,2019,False,"[13930439, 13825184]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[5108806, 13646472]",False,1,1,1,[{'5108806': 'Rovi_id:1672515'}],[{'13646472': 'Gb_id:14708'}],[{'13646472': 'Vudu_id:1096863'}],,[]
+Vudu,,1157648,MO,The Aftermath: Deleted Scenes (Featurette),,,,False,[],,,,"('No multiple ids for this link', 1157648)",No multiple ids for this link
+Vudu,,1157651,MO,The Aftermath: VFX Progressions (Featurette),,,,False,[],,,,"('No multiple ids for this link', 1157651)",No multiple ids for this link
+Vudu,,1157654,MO,The Aftermath: First Look (Featurette),,,,False,[],,,,"('No multiple ids for this link', 1157654)",No multiple ids for this link
+Vudu,875490,1158006,SE,,Claws,Claws: Just the Tip,2019,False,[13847022],,,,"('No multiple ids for this episode', 1158006, 875490)",No multiple ids for this episode
+Vudu,740298,1158186,SE,,Forbidden: Dying for Love,Forbidden: Dying for Love: Broken Trust,2019,False,"[3874296, 3387592]",,,,Duplicate ids not found in search api,Duplicate ids not found in search api,,[],,,,,,,,Null,[],,
+Vudu,,1158857,MO,Spider-Man: Far From Home,,,2019,False,[12785724],,,,"('No multiple ids for this link', 1158857)",No multiple ids for this link
+Vudu,,1158861,MO,Escape Plan: The Extractors,,,2019,False,"[14056546, 13953337, 14585682]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[14585682, 14056546]",,1,1,1,[{'14585682': 'Rovi_id:7209028704'}],[{'14056546': 'Gb_id:171624'}],[{'14056546': 'Vudu_id:1158861'}],,[]
+Vudu,,1159255,MO,Ophelia,,,2019,False,"[14519700, 975882]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[14519700, 975882]",False,1,1,1,[{'975882': 'Rovi_id:3537140879'}],[{'14519700': 'Gb_id:171955'}],[{'14519700': 'Vudu_id:1159255'}],,[]
+Vudu,,1159363,MO,Chuck Berry Hail! Hail! Rock 'n' Roll,,,1987,False,"[12259228, 90426]",,,,Duplicate ids not found in search api,Duplicate ids not found in search api,,[],,,,,,,,True,[{'variant_parent_id': '12259228'}],,
+Vudu,,1159366,MO,The Public,,,2019,False,[1072832],,,,"('No multiple ids for this link', 1159366)",No multiple ids for this link
+Vudu,,1159372,MO,Pet Sematary (2019): Night Terrors - Rachel (featurette),,,,False,[],,,,"('No multiple ids for this link', 1159372)",No multiple ids for this link
+Vudu,,1159375,MO,Pet Sematary (2019): Night Terrors - Ellie (featurette),,,,False,[],,,,"('No multiple ids for this link', 1159375)",No multiple ids for this link
+Vudu,,1159378,MO,Pet Sematary (2019): Night Terrors - Louis (featurette),,,,False,[],,,,"('No multiple ids for this link', 1159378)",No multiple ids for this link
+Vudu,,1159381,MO,Pet Sematary (2019): The Tale Of Timmy Baterman (featurette),,,,False,[],,,,"('No multiple ids for this link', 1159381)",No multiple ids for this link
+Vudu,,1159384,MO,Pet Sematary (2019): Deleted Scenes (featurette),,,,False,[],,,,"('No multiple ids for this link', 1159384)",No multiple ids for this link
+Vudu,,1159387,MO,Pet Sematary (2019): Alternate Ending (featurette),,,,False,[],,,,"('No multiple ids for this link', 1159387)",No multiple ids for this link
+Vudu,296423,1159499,SE,,Ridiculousness,Ridiculousness: Kane Brown,2019,False,[13795861],,,,"('No multiple ids for this episode', 1159499, 296423)",No multiple ids for this episode
+Vudu,1085932,1159511,SE,,Teen Mom 2,Teen Mom 2: Season 9 Unseen Moments,2019,False,"[14396568, 14678318, 13825829]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[3190936, 14678054]",False,1,1,1,[{'3190936': 'Rovi_id:19261804'}],[{'3190936': 'Gb_id:4471'}],[{'14678054': 'Vudu_id:1085932'}],,[]
+Vudu,1136786,1159579,SE,,Chernobyl,Chernobyl: Inside the Episode 1,2019,False,[],,,,"('No multiple ids for this episode', 1159579, 1136786)",No multiple ids for this episode
+Vudu,1159632,1159638,SE,,Alternatino With Arturo Castro,Alternatino With Arturo Castro: The Date,2019,False,[13926408],,,,"('No multiple ids for this episode', 1159638, 1159632)",No multiple ids for this episode
+Vudu,,1159732,MO,Black & Blue,,,2019,False,[13537075],,,,"('No multiple ids for this link', 1159732)",No multiple ids for this link
+Vudu,,1159738,MO,Dark Show,,,2019,False,"[14013283, 14640919]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[14640919, 14013283]",True,0,1,1,[],[{'14013283': 'Gb_id:171443'}],[{'14640919': 'Vudu_id:1159738'}],,[]
+Vudu,,1159741,MO,College Pranks,,,2019,False,[13951306],,,,"('No multiple ids for this link', 1159741)",No multiple ids for this link
+Vudu,,1159744,MO,Clickbait,,,2019,False,[14158229],,,,"('No multiple ids for this link', 1159744)",No multiple ids for this link
+Vudu,,1159747,MO,Evil River,,,2019,False,[13995345],,,,"('No multiple ids for this link', 1159747)",No multiple ids for this link
+Vudu,,1159750,MO,Abduction 101,,,2019,False,[14513856],,,,"('No multiple ids for this link', 1159750)",No multiple ids for this link
+Vudu,,1159761,MO,Annabelle Comes Home,,,2019,False,[13599735],,,,"('No multiple ids for this link', 1159761)",No multiple ids for this link
+Vudu,,1159765,MO,Scooby-Doo: Return to Zombie Island,,,,False,[14822174],,,,"('No multiple ids for this link', 1159765)",No multiple ids for this link
+Vudu,935995,1159777,SE,,Krypton,Krypton: Light-Years From Home,2019,False,[13810414],,,,"('No multiple ids for this episode', 1159777, 935995)",No multiple ids for this episode
+Vudu,805332,1159795,SE,,Queen Sugar,Queen Sugar: Pleasure is Black,2019,False,[13936886],,,,"('No multiple ids for this episode', 1159795, 805332)",No multiple ids for this episode
+Vudu,400243,1159828,SE,,Catfish: The TV Show,Catfish: The TV Show: Deven & James,2019,False,"[3292853, 3337111]",,,,Duplicate ids not found in search api,Duplicate ids not found in search api,,[],,,,,,,,True,[{'variant_parent_id': '3292853'}],,
+Vudu,,1159834,MO,Home Videos,,,2019,False,[240460],,,,"('No multiple ids for this link', 1159834)",No multiple ids for this link
+Vudu,1159846,1159850,SE,,Are you Smarter than a 5th Grader,Are You Smarter Than a 5th Grader: 3rd Grade Teacher,2019,False,"[3196751, 13885913]",,,,Duplicate projectx ids found in search api and rovi has duplicate,Duplicate projectx ids found in search api and rovi has duplicate,,"[13538530, 3195312]",False,2,1,2,"[{'13538530': 'Rovi_id:7080628833'}, {'3195312': 'Rovi_id:334142'}]",[{'3195312': 'Gb_id:2102'}],"[{'13538530': 'Vudu_id:1159846'}, {'3195312': 'Vudu_id:213562'}]",Null,[]
+Vudu,,1159871,MO,WWE: Becky Lynch - The Man,,,2019,False,"[14600464, 14599870]",,,,Duplicate projectx ids found in search api and rovi has duplicate,Duplicate projectx ids found in search api and rovi has duplicate,,"[14599870, 14600464]",False,2,1,1,"[{'14599870': 'Rovi_id:7494919787'}, {'14600464': 'Rovi_id:7494927999'}]",[{'14600464': 'Gb_id:174075'}],[{'14600464': 'Vudu_id:1159871'}],Null,[]
+Vudu,,1159877,MO,WWE: Stomping Grounds 2019,,,2019,False,"[14600471, 14599886, 14600334]",,,,Duplicate projectx ids found in search api and rovi has duplicate,Duplicate projectx ids found in search api and rovi has duplicate,,"[14599886, 14600334, 14600471]",,3,1,1,"[{'14599886': 'Rovi_id:7494923717'}, {'14600334': 'Rovi_id:7494927873'}, {'14600471': 'Rovi_id:7494928011'}]",[{'14600471': 'Gb_id:173942'}],[{'14600334': 'Vudu_id:1159877'}],Null,[]
+Vudu,1159938,1159942,SE,,The Spanish Princess,The Spanish Princess: The New World,2019,False,[13697404],,,,"('No multiple ids for this episode', 1159942, 1159938)",No multiple ids for this episode
+Vudu,892799,1159972,SE,,American Gods,American Gods: House on the Rock,2019,False,[12844319],,,,"('No multiple ids for this episode', 1159972, 892799)",No multiple ids for this episode
+Vudu,,1160002,MO,Savage Dog,,,2017,False,[1027717],,,,"('No multiple ids for this link', 1160002)",No multiple ids for this link
+Vudu,,1160080,MO,Love at Sea,,,2019,False,[389881],,,,"('No multiple ids for this link', 1160080)",No multiple ids for this link
+Vudu,,1160083,MO,Love Struck Cafe,,,2019,False,[388485],,,,"('No multiple ids for this link', 1160083)",No multiple ids for this link
+Vudu,,1160086,MO,Madness in the Method,,,2019,False,[14417147],,,,"('No multiple ids for this link', 1160086)",No multiple ids for this link
+Vudu,,1160089,MO,Penguin Highway,,,2019,False,[13599279],,,,"('No multiple ids for this link', 1160089)",No multiple ids for this link
+Vudu,,1160101,MO,The Fever and the Fret,,,2019,False,[13607311],,,,"('No multiple ids for this link', 1160101)",No multiple ids for this link
+Vudu,,1160107,MO,The Jungle Bunch,,,2019,False,"[18111, 18112, 14939572, 1043050, 436114]",,,,Duplicate projectx ids found in search api and rovi has duplicate,Duplicate projectx ids found in search api and rovi has duplicate,,"[14939572, 1043050, 18111, 436114]",,3,1,1,"[{'1043050': 'Rovi_id:5413504265'}, {'18111': 'Rovi_id:300176060'}, {'436114': 'Rovi_id:1324953259'}]",[{'18111': 'Gb_id:64666'}],[{'14939572': 'Vudu_id:1160107'}],Different,"[{'variant_parent_id': '5048056050'}, {'variant_parent_id': '21994067'}]"
+Vudu,,1160112,MO,Vice Squad,,,1982,False,[586996],,,,"('No multiple ids for this link', 1160112)",No multiple ids for this link
+Vudu,,1160115,MO,What We Left Behind: Looking Back at Deep Space Nine,,,2019,False,"[13782622, 14600324, 14600465]",,,,Duplicate projectx ids found in search api and rovi has duplicate,Duplicate projectx ids found in search api and rovi has duplicate,,"[13782622, 14600324, 14600465]",,3,1,1,"[{'13782622': 'Rovi_id:7494919783'}, {'14600324': 'Rovi_id:7494926210'}, {'14600465': 'Rovi_id:7494927993'}]",[{'13782622': 'Gb_id:170706'}],[{'13782622': 'Vudu_id:1160115'}],Null,[]
+Vudu,,1160118,MO,St. Louis Blues: 2019 Stanley Cup Champions,,,2019,False,[14869167],,,,"('No multiple ids for this link', 1160118)",No multiple ids for this link
+Vudu,,1160121,MO,Awake,,,2019,False,[14426526],,,,"('No multiple ids for this link', 1160121)",No multiple ids for this link
+Vudu,,1160124,MO,Bible Conspiracies 2,,,2019,False,[],,,,"('No multiple ids for this link', 1160124)",No multiple ids for this link
+Vudu,,1160127,MO,"Peter, Paul And Mary At Newport 1963-65",,,2019,False,[2704459],,,,"('No multiple ids for this link', 1160127)",No multiple ids for this link
+Vudu,,1160130,MO,Rick Steves' Cruising the Mediterranean,,,2019,False,[12428441],,,,"('No multiple ids for this link', 1160130)",No multiple ids for this link
+Vudu,,1160133,MO,Sesame Street: Dance Party!,,,2019,False,[14714786],,,,"('No multiple ids for this link', 1160133)",No multiple ids for this link
+Vudu,,1160136,MO,Teacher,,,2019,False,[14001509],,,,"('No multiple ids for this link', 1160136)",No multiple ids for this link
+Vudu,,1160142,MO,Cold Blood,,,2019,False,"[14000078, 13804388]",,,,Duplicate projectx ids found in search api and rovi has duplicate,Duplicate projectx ids found in search api and rovi has duplicate,,"[14000078, 13804388]",False,2,1,1,"[{'14000078': 'Rovi_id:7443342321'}, {'13804388': 'Rovi_id:7302126800'}]",[{'14000078': 'Gb_id:171349'}],[{'14000078': 'Vudu_id:1160142'}],Null,[]
+Vudu,,1160157,MO,Skin in the Game,,,2019,False,[13656115],,,,"('No multiple ids for this link', 1160157)",No multiple ids for this link
+Vudu,,1160181,MO,The Rise and Fall of Nokia Mobile,,,2019,False,[14320727],,,,"('No multiple ids for this link', 1160181)",No multiple ids for this link
+Vudu,,1160205,MO,Manson: Music From an Unsound Mind,,,2019,False,[14600502],,,,"('No multiple ids for this link', 1160205)",No multiple ids for this link
+Vudu,,1160211,MO,Light of My Life,,,2019,False,[13930408],,,,"('No multiple ids for this link', 1160211)",No multiple ids for this link
+Vudu,1124694,1160394,SE,,Kids Behind Bars: Life or Parole,Kids Behind Bars: Life or Parole: James,2019,False,"[13947115, 13791479]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[13653921, 13714929]",,1,1,1,[{'13653921': 'Rovi_id:7201864481'}],[{'13714929': 'Gb_id:54813'}],[{'13714929': 'Vudu_id:1124694'}],,[]
+Vudu,1160496,1160500,SE,,All That,All That: 1101,2019,False,"[13929351, 14802706]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[13831220, 14802703]",False,1,1,1,[{'13831220': 'Rovi_id:7348321003'}],[{'14802703': 'Gb_id:55246'}],[{'13831220': 'Vudu_id:1160496'}],,[]
+Vudu,1160598,1160604,SE,,Doom Patrol,Doom Patrol: Pilot,2019,False,[12931052],,,,"('No multiple ids for this episode', 1160604, 1160598)",No multiple ids for this episode
+Vudu,,1160765,MO,Long Lost,,,2019,False,[14901600],,,,"('No multiple ids for this link', 1160765)",No multiple ids for this link
+Vudu,,1160768,MO,Hail Satan?,,,2019,False,[12385555],,,,"('No multiple ids for this link', 1160768)",No multiple ids for this link
+Vudu,,1160777,MO,Recipe for Disaster,,,2003,False,[37924],,,,"('No multiple ids for this link', 1160777)",No multiple ids for this link
+Vudu,223726,1161122,SE,,Teen Mom,Teen Mom: Walking on Eggshells,2019,False,"[13854998, 14683335]",,,,Duplicate projectx ids found in search api and rovi has duplicate,Duplicate projectx ids found in search api and rovi has duplicate,,"[2869014, 3800604]",True,2,1,1,"[{'2869014': 'Rovi_id:9643551'}, {'3800604': 'Rovi_id:1416390363'}]",[{'3800604': 'Gb_id:542'}],[{'2869014': 'Vudu_id:223726'}],Null,[]
+Vudu,1161220,1161229,SE,,"WWE: John Cena: Hustle, Loyalty, Respect","WWE: John Cena: Hustle, Loyalty, Respect: Episode 1",2019,False,[14113593],,,,"('No multiple ids for this episode', 1161229, 1161220)",No multiple ids for this episode
+Vudu,1161348,1161355,SE,,Warrior,Warrior: The Itchy Onion,2019,False,[11131172],,,,"('No multiple ids for this series', 1161355, 1161348)",No multiple ids for this link
+Vudu,1161407,1161411,SE,,My True Brilliant Friend,My True Brilliant Friend: Episode 1,2018,False,[],,,,"('No multiple ids for this episode', 1161411, 1161407)",No multiple ids for this episode
+Vudu,,1161437,MO,Master of the White Crane Fist,,,2019,False,[14513853],,,,"('No multiple ids for this link', 1161437)",No multiple ids for this link
+Vudu,1161440,1161444,SE,,Adolf Island,Adolf Island: Episode 1,2019,False,[],,,,"('No multiple ids for this episode', 1161444, 1161440)",No multiple ids for this episode
+Vudu,1141797,1161447,SE,,House Hunters International,"House Hunters International: A PhD in Stirling, Scotland",2019,False,[13947934],,,,"('No multiple ids for this episode', 1161447, 1141797)",No multiple ids for this episode
+Vudu,257845,1161453,SE,,Big Brother,Big Brother: Episode 1,2019,False,"[14635729, 14687638, 13840060]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[14635258, 5616722]",True,1,1,1,[{'5616722': 'Rovi_id:11801491'}],[{'5616722': 'Gb_id:951'}],[{'14635258': 'Vudu_id:257845'}],,[]
+Vudu,1161573,1161577,SE,,Smithsonian Time Capsule,Smithsonian Time Capsule: Beyond Stonewall: Episode 1,2019,False,[],,,,"('No multiple ids for this episode', 1161577, 1161573)",No multiple ids for this episode
+Vudu,719213,1161583,SE,,Chopped Junior,Chopped Junior: Smoothie Operators,2019,False,[13866585],,,,"('No multiple ids for this episode', 1161583, 719213)",No multiple ids for this episode
+Vudu,1161601,1161605,SE,,The Berenstain Bears,The Berenstain Bears: Summer Vacation: The Berenstain Bears The Summer Job/The Big Red Kite,2003,False,[],,,,"('No multiple ids for this episode', 1161605, 1161601)",No multiple ids for this episode
+Vudu,1161617,1161621,SE,,The Day We Walked on the Moon,The Day We Walked on the Moon: Episode 1,2019,False,[],,,,"('No multiple ids for this episode', 1161621, 1161617)",No multiple ids for this episode
+Vudu,,1161943,MO,Meeting Gorbachev,,,2019,False,"[1083013, 13689826]",,,,Duplicate projectx ids found in search api and rovi has duplicate,Duplicate projectx ids found in search api and rovi has duplicate,,"[13689826, 1083013]",True,2,1,1,"[{'13689826': 'Rovi_id:7236266465'}, {'1083013': 'Rovi_id:6474367820'}]",[{'13689826': 'Gb_id:169236'}],[{'1083013': 'Vudu_id:1161943'}],Null,[]
+Vudu,,1161946,MO,Family,,,2019,False,[1060988],,,,"('No multiple ids for this link', 1161946)",No multiple ids for this link
+Vudu,,1161958,MO,Six Hot Chicks in a Warehouse,,,2019,False,"[13968633, 14882784]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[14882784, 13968633]",False,1,1,1,[{'13968633': 'Rovi_id:7422102005'}],[{'14882784': 'Gb_id:173950'}],[{'13968633': 'Vudu_id:1161958'}],,[]
+Vudu,,1161964,MO,Supervized,,,2019,False,[13602545],,,,"('No multiple ids for this link', 1161964)",No multiple ids for this link
+Vudu,,1161967,MO,No Blood of Mine,,,2018,False,[14608356],,,,"('No multiple ids for this link', 1161967)",No multiple ids for this link
+Vudu,,1161971,MO,Alita: Battle Angel - Alita's World: The Fall (featurette),,,,False,[],,,,"('No multiple ids for this link', 1161971)",No multiple ids for this link
+Vudu,,1161974,MO,Alita: Battle Angel - Motorball (featurette),,,,False,[],,,,"('No multiple ids for this link', 1161974)",No multiple ids for this link
+Vudu,,1161977,MO,Alita: Battle Angel - Streets of Iron City (featurette),,,,False,[],,,,"('No multiple ids for this link', 1161977)",No multiple ids for this link
+Vudu,,1161980,MO,Alita: Battle Angel - Alita's World: Rules of the Game (featurette),,,,False,[],,,,"('No multiple ids for this link', 1161980)",No multiple ids for this link
+Vudu,,1161983,MO,Alita: Battle Angel - Alita's World: Iron City (featurette),,,,False,[],,,,"('No multiple ids for this link', 1161983)",No multiple ids for this link
+Vudu,,1161986,MO,Alita: Battle Angel - Alita's World: What it Means to be a Cyborg (featurette),,,,False,[],,,,"('No multiple ids for this link', 1161986)",No multiple ids for this link
+Vudu,1037784,1162098,SE,,Shakespeare and Hathaway: Private Investigators,Shakespeare and Hathaway: Private Investigators: Outrageous Fortune,2019,False,[12880160],,,,"('No multiple ids for this episode', 1162098, 1037784)",No multiple ids for this episode
+Vudu,,1162327,MO,Stockholm,,,2019,False,[1064689],,,,"('No multiple ids for this link', 1162327)",No multiple ids for this link
+Vudu,,1162330,MO,Brain Matters,,,2019,False,[13995387],,,,"('No multiple ids for this link', 1162330)",No multiple ids for this link
+Vudu,336648,1162432,SE,,Cold Blood,Cold Blood: Island of Lies,2011,False,"[2943387, 14939723]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[2939826, 13239217]",False,1,2,1,[{'2939826': 'Rovi_id:2395599'}],"[{'2939826': 'Gb_id:10102'}, {'13239217': 'Gb_id:34184'}]",[{'13239217': 'Vudu_id:336648'}],,[]
+Vudu,1162574,1162581,SE,,Tunya the Lion Prince,Tunya the Lion Prince: Episode 1,2015,False,[],,,,"('No multiple ids for this episode', 1162581, 1162574)",No multiple ids for this episode
+Vudu,,1162709,MO,Ash is Purest White,,,2019,False,[1065913],,,,"('No multiple ids for this link', 1162709)",No multiple ids for this link
+Vudu,,1162712,MO,The Navigator,,,1924,False,[64647],,,,"('No multiple ids for this link', 1162712)",No multiple ids for this link
+Vudu,,1162715,MO,Sherlock Jr.,,,1924,False,[185564],,,,"('No multiple ids for this link', 1162715)",No multiple ids for this link
+Vudu,,1162956,MO,Anna,,,2019,False,[13926010],,,,"('No multiple ids for this link', 1162956)",No multiple ids for this link
+Vudu,661560,1163089,SE,,House Hunters,House Hunters: Flippers Find Forever Home,2019,False,"[14662242, 13948162]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[3976502, 14661853]",False,1,1,1,[{'3976502': 'Rovi_id:1111132'}],[{'3976502': 'Gb_id:2713'}],[{'14661853': 'Vudu_id:661560'}],,[]
+Vudu,,1163161,MO,Pinkalicious & Peterrific: A Pinkaperfect Birthday,,,2019,False,[14585816],,,,"('No multiple ids for this link', 1163161)",No multiple ids for this link
+Vudu,,1163164,MO,Masterpiece: The Chaperone,,,2019,False,[13455874],,,,"('No multiple ids for this link', 1163164)",No multiple ids for this link
+Vudu,,1163173,MO,Kathy Griffin: A Hell of a Story,,,2019,False,[14815738],,,,"('No multiple ids for this link', 1163173)",No multiple ids for this link
+Vudu,,1163176,MO,Priceless,,,2016,False,[984415],,,,"('No multiple ids for this link', 1163176)",No multiple ids for this link
+Vudu,,1163178,MO,Unstable,,,2012,False,[12272703],,,,"('No multiple ids for this link', 1163178)",No multiple ids for this link
+Vudu,1163180,1163184,SE,,Gentleman Jack,Gentleman Jack: I was just passing,2019,False,[11202199],,,,"('No multiple ids for this episode', 1163184, 1163180)",No multiple ids for this episode
+Vudu,1148149,1163217,SE,,The Hills: New Beginnings,The Hills: New Beginnings: Pratt House Tour,1900,False,[14685156],,,,"('No multiple ids for this episode', 1163217, 1148149)",No multiple ids for this episode
+Vudu,902029,1163223,SE,,Strange Evidence,Strange Evidence: Alien Armageddon Conspiracy,2019,False,[13937521],,,,"('No multiple ids for this episode', 1163223, 902029)",No multiple ids for this episode
+Vudu,1163253,1163257,SE,,Savage Builds,Savage Builds: Building Iron Man,2019,False,[13926539],,,,"('No multiple ids for this episode', 1163257, 1163253)",No multiple ids for this episode
+Vudu,907946,1163478,SE,,Truck U,Truck U: Duramax,2019,False,[13819071],,,,"('No multiple ids for this episode', 1163478, 907946)",No multiple ids for this episode
+Vudu,,1163517,MO,Shadow,,,2019,False,"[14939585, 1072859]",,,,Duplicate ids not found in search api,Duplicate ids not found in search api,,[],,,,,,,,Null,[],,
+Vudu,903614,1163526,SE,,Two Guys Garage,Two Guys Garage: Pontiac G8,2019,False,"[14690216, 13576518]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[4961901, 14623987]",True,1,1,1,[{'4961901': 'Rovi_id:1387893'}],[{'14623987': 'Gb_id:48688'}],[{'14623987': 'Vudu_id:903614'}],,[]
+Vudu,949183,1163568,SE,,Inside Carbonaro,Inside Carbonaro: A Problem with Chocolate Turtles and Seeds,2019,False,[13969970],,,,"('No multiple ids for this episode', 1163568, 949183)",No multiple ids for this episode
+Vudu,757468,1163592,SE,,The Powerpuff Girls,The Powerpuff Girls: Sideline Dad,2019,False,[13645411],,,,"('No multiple ids for this episode', 1163592, 757468)",No multiple ids for this episode
+Vudu,587469,1163595,SE,,The Amazing World of Gumball,The Amazing World of Gumball: The Decisions,2019,False,[13914579],,,,"('No multiple ids for this episode', 1163595, 587469)",No multiple ids for this episode
+Vudu,,1163713,MO,Crawl,,,2019,False,[13900419],,,,"('No multiple ids for this link', 1163713)",No multiple ids for this link
+Vudu,,1163773,MO,Alita: Battle Angel - London Screening Q and A (featurette),,,,False,[],,,,"('No multiple ids for this link', 1163773)",No multiple ids for this link
+Vudu,,1163779,MO,Alita: Battle Angel - Musical Themes (featurette),,,,False,[],,,,"('No multiple ids for this link', 1163779)",No multiple ids for this link
+Vudu,,1163782,MO,Alita: Battle Angel - Production Materials: 2005 Art Compilation (2019)  (featurette),,,,False,[],,,,"('No multiple ids for this link', 1163782)",No multiple ids for this link
+Vudu,,1163799,MO,Alita: Battle Angel - Evolution of Alita (featurette),,,,False,[],,,,"('No multiple ids for this link', 1163799)",No multiple ids for this link
+Vudu,,1163811,MO,Alita: Battle Angel - From Manga to Screen (featurette),,,,False,[],,,,"('No multiple ids for this link', 1163811)",No multiple ids for this link
+Vudu,,1163817,MO,Alita: Battle Angel - 10 Minute Cooking School: Chocolate  (featurette),,,,False,[],,,,"('No multiple ids for this link', 1163817)",No multiple ids for this link
+Vudu,,1163842,MO,Alita: Battle Angel - Production Materials: 2016 Art Reel (featurette),,,,False,[],,,,"('No multiple ids for this link', 1163842)",No multiple ids for this link
+Vudu,,1163866,MO,Alita: Battle Angel - Allies and Adversaries (featurette),,,,False,[],,,,"('No multiple ids for this link', 1163866)",No multiple ids for this link
+Vudu,,1164178,MO,Cinderella 2: Dreams Come True: Classic Bonus,,,,False,[],,,,"('No multiple ids for this link', 1164178)",No multiple ids for this link
+Vudu,,1164203,MO,Bragging Rights 3,,,2019,False,[14426525],,,,"('No multiple ids for this link', 1164203)",No multiple ids for this link
+Vudu,,1164210,MO,"Rock, Paper, Scissors",,,2019,False,[1434740],,,,"('No multiple ids for this link', 1164210)",No multiple ids for this link
+Vudu,225539,1164320,SE,,Basketball Wives,Basketball Wives: Episode 1,2019,False,[13965688],,,,"('No multiple ids for this episode', 1164320, 225539)",No multiple ids for this episode
+Vudu,965181,1164374,SE,,TrunkFest with Eddie Trunk,TrunkFest With Eddie Trunk: High Tide Beach Party,2018,False,[14417054],,,,"('No multiple ids for this episode', 1164374, 965181)",No multiple ids for this episode
+Vudu,1001846,1164407,SE,,How Far Is Tattoo Far?,"How Far Is Tattoo Far?: Once a Cheater, Always a Cheater",2019,False,[11719477],,,,"('No multiple ids for this series', 1164407, 1001846)",No multiple ids for this link
+Vudu,,1164425,MO,BloodShot,,,2014,False,"[848793, 280495]",,,,Duplicate projectx ids found in search api and rovi has duplicate,Duplicate projectx ids found in search api and rovi has duplicate,,"[280495, 848793]",False,2,2,1,"[{'280495': 'Rovi_id:1426139785'}, {'848793': 'Rovi_id:893634157'}]","[{'280495': 'Gb_id:113858'}, {'848793': 'Gb_id:114805'}]",[{'280495': 'Vudu_id:1164425'}],Different,[{'variant_parent_id': '829599738'}]
+Vudu,,1164428,MO,Undercover Hooligan,,,2016,False,[1020088],,,,"('No multiple ids for this link', 1164428)",No multiple ids for this link
+Vudu,,1164487,MO,Five Aces,,,1999,False,[59522],,,,"('No multiple ids for this link', 1164487)",No multiple ids for this link
+Vudu,,1164490,MO,The Last Descent,,,2016,False,[985658],,,,"('No multiple ids for this link', 1164490)",No multiple ids for this link
+Vudu,,1164493,MO,Legend of the Red Dragon,,,1994,False,"[140359, 658201, 518101]",,,,Duplicate ids not found in search api,Duplicate ids not found in search api,,[],,,,,,,,Null,[],,
+Vudu,,1164496,MO,The Prisoner,,,1990,False,"[879991, 63331]",,,,Duplicate ids not found in search api,Duplicate ids not found in search api,,[],,,,,,,,Null,[],,
+Vudu,,1164499,MO,Puppy Love,,,2017,False,"[2671477, 545076, 877513]",,,,Duplicate projectx ids found in search api and rovi has duplicate,Duplicate projectx ids found in search api and rovi has duplicate,,"[2671477, 545076]",False,2,1,1,"[{'2671477': 'Rovi_id:6403524613'}, {'545076': 'Rovi_id:195192'}]",[{'2671477': 'Gb_id:150691'}],[{'2671477': 'Vudu_id:1164499'}],Null,[]
+Vudu,,1164536,MO,Boys of Summer,,,2010,False,[741838],,,,"('No multiple ids for this link', 1164536)",No multiple ids for this link
+Vudu,1164539,1164545,SE,,Out There With Jack Randall,Out There with Jack Randall: Hunting the Ghost Serpent,2091,False,[14416616],,,,"('No multiple ids for this episode', 1164545, 1164539)",No multiple ids for this episode
+Vudu,1147062,1164563,SE,,What Just Happened??! With Fred Savage,What Just Happened??! With Fred Savage: Sneak Peek,2019,False,[14443361],,,,"('No multiple ids for this episode', 1164563, 1147062)",No multiple ids for this episode
+Vudu,680362,1164570,SE,,Wicked Tuna: Outer Banks,Wicked Tuna: Outer Banks: New Blood,2019,False,[13947591],,,,"('No multiple ids for this episode', 1164570, 680362)",No multiple ids for this episode
+Vudu,874972,1164612,SE,,Snowfall,Snowfall: Protect and Swerve,2019,False,[13952545],,,,"('No multiple ids for this episode', 1164612, 874972)",No multiple ids for this episode
+Vudu,1164860,1164864,SE,,City Vs Burbs,City Vs Burbs: Country Sounds in Music City,2019,False,"[14131458, 13975955]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[14131453, 13738201]",,1,1,1,[{'13738201': 'Rovi_id:7238215014'}],[{'14131453': 'Gb_id:55364'}],[{'14131453': 'Vudu_id:1164860'}],,[]
+Vudu,,1165031,MO,Dead Water,,,2019,False,[14707701],,,,"('No multiple ids for this link', 1165031)",No multiple ids for this link
+Vudu,743444,1165446,SE,,Shetland,Shetland: Episode 1,2019,False,[12828658],,,,"('No multiple ids for this episode', 1165446, 743444)",No multiple ids for this episode
+Vudu,596136,1165698,SE,,Beat Bobby Flay,Beat Bobby Flay: Use Your Noodle,2019,False,[13956600],,,,"('No multiple ids for this episode', 1165698, 596136)",No multiple ids for this episode
+Vudu,,1166034,MO,How High 2 (Unrated),,,2019,False,[13836691],,,,"('No multiple ids for this link', 1166034)",No multiple ids for this link
+Vudu,,1166150,MO,Trespassers,,,2019,False,[13908319],,,,"('No multiple ids for this link', 1166150)",No multiple ids for this link
+Vudu,,1166179,MO,Union,,,2019,False,[14939581],,,,"('No multiple ids for this link', 1166179)",No multiple ids for this link
+Vudu,,1166184,MO,Perfect Skin,,,2019,False,[13760021],,,,"('No multiple ids for this link', 1166184)",No multiple ids for this link
+Vudu,,1166294,MO,Missing Link: Making Faces (featurette),,,,False,[],,,,"('No multiple ids for this link', 1166294)",No multiple ids for this link
+Vudu,,1166303,MO,Missing Link: Oh What a Mystery - Pulling the Camera Back on Missing Link's Magic (featurette),,,,False,[],,,,"('No multiple ids for this link', 1166303)",No multiple ids for this link
+Vudu,,1166306,MO,Missing Link: Creating Mr. Link (featurette),,,,False,[],,,,"('No multiple ids for this link', 1166306)",No multiple ids for this link
+Vudu,,1166312,MO,Missing Link: Bringing the Final Battle on the Ice Bridge to Life (featurette),,,,False,[],,,,"('No multiple ids for this link', 1166312)",No multiple ids for this link
+Vudu,,1166318,MO,Missing Link: VFX Breakdown Reel - Realizing the Potential of Stop Motion (featurette),,,,False,[],,,,"('No multiple ids for this link', 1166318)",No multiple ids for this link
+Vudu,,1166327,MO,Missing Link: Inside the Magic of Laika (featurette),,,,False,[],,,,"('No multiple ids for this link', 1166327)",No multiple ids for this link
+Vudu,,1166339,MO,Missing Link: Animation Inspiration (featurette),,,,False,[],,,,"('No multiple ids for this link', 1166339)",No multiple ids for this link
+Vudu,1166451,1166458,SE,,Cupcake Championship,Cupcake Championship: Cacti to Chrysanthemums,2019,False,[13927086],,,,"('No multiple ids for this episode', 1166458, 1166451)",No multiple ids for this episode
+Vudu,886462,1166677,SE,,Man v. Food,"Man v. Food: Sacramento, California",2019,False,"[14797631, 14905189, 13955108]",,,,Duplicate projectx ids found in search api and rovi has duplicate,Duplicate projectx ids found in search api and rovi has duplicate,,"[3932638, 10938010, 11647625]",,3,1,1,"[{'3932638': 'Rovi_id:5030558887'}, {'10938010': 'Rovi_id:4524847473'}, {'11647625': 'Rovi_id:6352746440'}]",[{'10938010': 'Gb_id:10033'}],[{'11647625': 'Vudu_id:886462'}],Null,[]
+Vudu,975600,1166806,SE,,Crazy Cakes,"Crazy Cakes: Sea Creatures, Corvette Cakes",2019,False,[13955091],,,,"('No multiple ids for this episode', 1166806, 975600)",No multiple ids for this episode
+Vudu,,1166846,MO,AE: Apocalypse Earth,,,2013,False,"[814132, 149032]",,,,Duplicate ids not found in search api,Duplicate ids not found in search api,,[],,,,,,,,Different,"[{'variant_parent_id': '148984'}, {'variant_parent_id': '148984'}]",,
+Vudu,1166845,1166852,SE,,Fire Masters,Fire Masters: Hearts on Fire,2019,False,[13459101],,,,"('No multiple ids for this episode', 1166852, 1166845)",No multiple ids for this episode
+Vudu,,1166972,MO,A Little Bit of Heaven,,,2012,False,[102819],,,,"('No multiple ids for this link', 1166972)",No multiple ids for this link
+Vudu,,1166975,MO,Abe & Bruno,,,2006,False,[400473],,,,"('No multiple ids for this link', 1166975)",No multiple ids for this link
+Vudu,,1166983,MO,The Amateurs,,,2005,False,[5008],,,,"('No multiple ids for this link', 1166983)",No multiple ids for this link
+Vudu,,1166986,MO,American Yakuza,,,1993,False,"[2556, 4958]",,,,Duplicate ids not found in search api,Duplicate ids not found in search api,,[],,,,,,,,True,[{'variant_parent_id': '2556'}],,
+Vudu,,1166988,MO,Back to Back: American Yakuza 2,,,1996,False,"[628052, 556565, 49722]",,,,Duplicate ids not found in search api,Duplicate ids not found in search api,,[],,,,,,,,Null,[{'variant_parent_id': '49722'}],,
+Vudu,,1166990,MO,Animal,,,2005,False,[194753],,,,"('No multiple ids for this link', 1166990)",No multiple ids for this link
+Vudu,,1167105,MO,Are You Here,,,2014,False,[137277],,,,"('No multiple ids for this link', 1167105)",No multiple ids for this link
+Vudu,203539,1167111,SE,,Top Gear,Top Gear: Episode 1,2019,False,[1090657],,,,"('No multiple ids for this series', 1167111, 203539)",No multiple ids for this link
+Vudu,,1167140,MO,Avenging Angelo,,,2003,False,[6451],,,,"('No multiple ids for this link', 1167140)",No multiple ids for this link
+Vudu,,1167150,MO,Beat Girl,,,2013,False,[821562],,,,"('No multiple ids for this link', 1167150)",No multiple ids for this link
+Vudu,1166882,1167165,SE,,Pool Hunters,Pool Hunters: We Aren't in Texas Anymore,2019,False,[14369254],,,,"('No multiple ids for this episode', 1167165, 1166882)",No multiple ids for this episode
+Vudu,,1167180,MO,Between Strangers,,,2002,False,[68223],,,,"('No multiple ids for this link', 1167180)",No multiple ids for this link
+Vudu,1167194,1167207,SE,,Supersize My Pool,Supersize My Pool: Mountain of a Makeover,2019,False,[13996824],,,,"('No multiple ids for this series', 1167207, 1167194)",No multiple ids for this link
+Vudu,,1167463,MO,Big City Blues,,,1999,False,[2408],,,,"('No multiple ids for this link', 1167463)",No multiple ids for this link
+Vudu,,1167474,MO,Brother's Keeper,,,2015,False,[125913],,,,"('No multiple ids for this link', 1167474)",No multiple ids for this link
+Vudu,,1167480,MO,Cherrybomb,,,2009,False,[117526],,,,"('No multiple ids for this link', 1167480)",No multiple ids for this link
+Vudu,,1167483,MO,Cliffy,,,2013,False,[436434],,,,"('No multiple ids for this link', 1167483)",No multiple ids for this link
+Vudu,,1167573,MO,Comeback Season,,,2006,False,[639660],,,,"('No multiple ids for this link', 1167573)",No multiple ids for this link
+Vudu,,1167576,MO,Day Zero,,,2007,False,[126092],,,,"('No multiple ids for this link', 1167576)",No multiple ids for this link
+Vudu,,1167579,MO,Desert Saints,,,2002,False,[80221],,,,"('No multiple ids for this link', 1167579)",No multiple ids for this link
+Vudu,,1167582,MO,Donovan's Echo,,,2012,False,[774480],,,,"('No multiple ids for this link', 1167582)",No multiple ids for this link
+Vudu,,1167585,MO,Drive,,,1998,False,[598225],,,,"('No multiple ids for this link', 1167585)",No multiple ids for this link
+Vudu,,1167587,MO,Earthbound,,,2012,False,[166325],,,,"('No multiple ids for this link', 1167587)",No multiple ids for this link
+Vudu,,1167590,MO,Earthstorm,,,2006,False,[24709],,,,"('No multiple ids for this link', 1167590)",No multiple ids for this link
+Vudu,,1167593,MO,Evil Alien Conquerors,,,2003,False,[192131],,,,"('No multiple ids for this link', 1167593)",No multiple ids for this link
+Vudu,,1167596,MO,The Far Side of Jericho,,,2006,False,[643098],,,,"('No multiple ids for this link', 1167596)",No multiple ids for this link
+Vudu,,1167599,MO,First Born,,,2007,False,[102730],,,,"('No multiple ids for this link', 1167599)",No multiple ids for this link
+Vudu,,1167602,MO,Gang of Roses,,,2003,False,[731422],,,,"('No multiple ids for this link', 1167602)",No multiple ids for this link
+Vudu,,1167605,MO,Getting Married in Buffalo Jump,,,1990,False,[392545],,,,"('No multiple ids for this link', 1167605)",No multiple ids for this link
+Vudu,,1167607,MO,Ginger Snaps,,,2001,False,[77186],,,,"('No multiple ids for this link', 1167607)",No multiple ids for this link
+Vudu,,1167619,MO,The Girl From the Naked Eye,,,2002,False,"[14939586, 121923]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[121923, 14939586]",True,1,1,1,[{'121923': 'Rovi_id:21743948'}],[{'121923': 'Gb_id:8301'}],[{'14939586': 'Vudu_id:1167619'}],,[]
+Vudu,,1167628,MO,Grand Theft Parsons,,,2004,False,[66783],,,,"('No multiple ids for this link', 1167628)",No multiple ids for this link
+Vudu,,1167652,MO,Guy X,,,2007,False,[117186],,,,"('No multiple ids for this link', 1167652)",No multiple ids for this link
+Vudu,,1167661,MO,Harvard Man,,,2002,False,[67181],,,,"('No multiple ids for this link', 1167661)",No multiple ids for this link
+Vudu,,1167679,MO,The Healer,,,2018,False,[1062623],,,,"('No multiple ids for this link', 1167679)",No multiple ids for this link
+Vudu,,1167682,MO,Infinity,,,1996,False,[55277],,,,"('No multiple ids for this link', 1167682)",No multiple ids for this link
+Vudu,,1167690,MO,Invisible Dad,,,1998,False,[2077],,,,"('No multiple ids for this link', 1167690)",No multiple ids for this link
+Vudu,,1167695,MO,Island of the Dead,,,2000,False,[57125],,,,"('No multiple ids for this link', 1167695)",No multiple ids for this link
+Vudu,,1167729,MO,James Cameron's Deepsea Challenge,,,2014,False,[12280720],,,,"('No multiple ids for this link', 1167729)",No multiple ids for this link
+Vudu,,1167735,MO,James White,,,2015,False,[166361],,,,"('No multiple ids for this link', 1167735)",No multiple ids for this link
+Vudu,,1167756,MO,Killing Season,,,2013,False,[14939587],,,,"('No multiple ids for this link', 1167756)",No multiple ids for this link
+Vudu,,1167765,MO,Legend of the Red Reaper,,,2013,False,"[14939588, 269315]",,,,Duplicate ids not found in search api,Duplicate ids not found in search api,,[],,,,,,,,Null,[],,
+Vudu,,1167776,MO,Life of a King,,,2013,False,[153121],,,,"('No multiple ids for this link', 1167776)",No multiple ids for this link
+Vudu,,1167779,MO,Little Fish,,,2006,False,"[14939590, 74947]",,,,Duplicate ids not found in search api,Duplicate ids not found in search api,,[],,,,,,,,Null,[],,
+Vudu,,1167806,MO,Local Boys,,,2002,False,[626973],,,,"('No multiple ids for this link', 1167806)",No multiple ids for this link
+Vudu,,1167847,MO,Lover's Prayer,,,2001,False,[56181],,,,"('No multiple ids for this link', 1167847)",No multiple ids for this link
+Vudu,,1167861,MO,Mambo Cafe,,,2000,False,"[3573, 14939589]",,,,Duplicate ids not found in search api,Duplicate ids not found in search api,,[],,,,,,,,Null,[],,
+Vudu,,1167893,MO,Michael Moore Hates America,,,2004,False,[550952],,,,"('No multiple ids for this link', 1167893)",No multiple ids for this link
+Vudu,,1167925,MO,Mr. Fix It,,,2006,False,[83861],,,,"('No multiple ids for this link', 1167925)",No multiple ids for this link
+Vudu,,1167928,MO,My Date With Drew,,,2005,False,[74972],,,,"('No multiple ids for this link', 1167928)",No multiple ids for this link
+Vudu,,1167931,MO,My Magic Dog,,,1997,False,[2188],,,,"('No multiple ids for this link', 1167931)",No multiple ids for this link
+Vudu,,1167933,MO,Night Feeders,,,2006,False,[199685],,,,"('No multiple ids for this link', 1167933)",No multiple ids for this link
+Vudu,,1167936,MO,Night of the Templar,,,2013,False,[812682],,,,"('No multiple ids for this link', 1167936)",No multiple ids for this link
+Vudu,,1167939,MO,No Way Back,,,1996,False,[14939592],,,,"('No multiple ids for this link', 1167939)",No multiple ids for this link
+Vudu,,1167941,MO,The Nugget,,,2006,False,[14939591],,,,"('No multiple ids for this link', 1167941)",No multiple ids for this link
+Vudu,,1167944,MO,Operation Dalmatian: The Big Adventure,,,1997,False,[557902],,,,"('No multiple ids for this link', 1167944)",No multiple ids for this link
+Vudu,,1167946,MO,Operator,,,2015,False,[19473],,,,"('No multiple ids for this link', 1167946)",No multiple ids for this link
+Vudu,,1167949,MO,Paranormal Asylum,,,2013,False,[12970083],,,,"('No multiple ids for this link', 1167949)",No multiple ids for this link
+Vudu,,1167952,MO,"People, Places, Things",,,2015,False,[437252],,,,"('No multiple ids for this link', 1167952)",No multiple ids for this link
+Vudu,,1167955,MO,The Prince & Me 2: The Royal Wedding,,,2006,False,[5568],,,,"('No multiple ids for this link', 1167955)",No multiple ids for this link
+Vudu,,1167958,MO,The Prophecy,,,1995,False,[50445],,,,"('No multiple ids for this link', 1167958)",No multiple ids for this link
+Vudu,,1167960,MO,Puncture,,,2011,False,"[14939594, 97866]",,,,Duplicate ids not found in search api,Duplicate ids not found in search api,,[],,,,,,,,Null,[],,
+Vudu,,1167963,MO,Quicksand,,,2004,False,[1270406],,,,"('No multiple ids for this link', 1167963)",No multiple ids for this link
+Vudu,,1167965,MO,Rising Star,,,2013,False,[124318],,,,"('No multiple ids for this link', 1167965)",No multiple ids for this link
+Vudu,,1167968,MO,Rose Parade: A Pageant for the Ages,,,2004,False,[12973083],,,,"('No multiple ids for this link', 1167968)",No multiple ids for this link
+Vudu,,1167971,MO,Scorched,,,2003,False,[631193],,,,"('No multiple ids for this link', 1167971)",No multiple ids for this link
+Vudu,,1167974,MO,Sex and Breakfast,,,2007,False,[556274],,,,"('No multiple ids for this link', 1167974)",No multiple ids for this link
+Vudu,,1167977,MO,Shadows and Lies,,,2010,False,"[94350, 668559]",,,,Duplicate ids not found in search api,Duplicate ids not found in search api,,[],,,,,,,,True,[{'variant_parent_id': '94350'}],,
+Vudu,,1167983,MO,Shameless (AKA Mad Dogs and Englishmen),,,1995,False,"[2867, 14880391, 2876]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[2867, 14880391]",False,1,2,1,[{'2867': 'Rovi_id:458081'}],"[{'2867': 'Gb_id:21233'}, {'14880391': 'Gb_id:174163'}]",[{'2867': 'Vudu_id:1167983'}],,[]
+Vudu,,1167985,MO,Shooting Gallery,,,2005,False,[18223],,,,"('No multiple ids for this link', 1167985)",No multiple ids for this link
+Vudu,,1167996,MO,Sliding Doors,,,1998,False,[54552],,,,"('No multiple ids for this link', 1167996)",No multiple ids for this link
+Vudu,,1168010,MO,Snow White and the Magic Mirror,,,1994,False,[12969294],,,,"('No multiple ids for this link', 1168010)",No multiple ids for this link
+Vudu,,1168018,MO,Strangerland,,,2015,False,[],,,,"('No multiple ids for this link', 1168018)",No multiple ids for this link
+Vudu,,1168021,MO,Strays,,,1997,False,[528941],,,,"('No multiple ids for this link', 1168021)",No multiple ids for this link
+Vudu,,1168027,MO,Sunstorm,,,2007,False,[4778],,,,"('No multiple ids for this link', 1168027)",No multiple ids for this link
+Vudu,,1168035,MO,Tag,,,2015,False,[258541],,,,"('No multiple ids for this link', 1168035)",No multiple ids for this link
+Vudu,,1168043,MO,The Amazing Feats of Young Hercules,,,1997,False,[657056],,,,"('No multiple ids for this link', 1168043)",No multiple ids for this link
+Vudu,,1168048,MO,The Secret of Anastasia,,,1997,False,[183164],,,,"('No multiple ids for this link', 1168048)",No multiple ids for this link
+Vudu,,1168053,MO,The Secret of Mulan,,,1998,False,[900183],,,,"('No multiple ids for this link', 1168053)",No multiple ids for this link
+Vudu,,1168058,MO,The Secret of the Hunchbank,,,1996,False,"[664978, 14880389]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[14880389, 664978]",False,1,2,1,[{'664978': 'Rovi_id:12099566'}],"[{'14880389': 'Gb_id:174162'}, {'664978': 'Gb_id:95634'}]",[{'664978': 'Vudu_id:1168058'}],,[]
+Vudu,,1168060,MO,Ticks,,,1993,False,"[76530, 76607]",,,,Duplicate ids not found in search api,Duplicate ids not found in search api,,[],,,,,,,,True,[{'variant_parent_id': '76530'}],,
+Vudu,,1168064,MO,Touched,,,2006,False,[363963],,,,"('No multiple ids for this link', 1168064)",No multiple ids for this link
+Vudu,,1168079,MO,Unexpected,,,2015,False,"[886608, 1079383]",,,,Duplicate projectx ids found in search api and rovi has duplicate,Duplicate projectx ids found in search api and rovi has duplicate,,"[886608, 1079383]",False,2,1,1,"[{'886608': 'Rovi_id:1389712055'}, {'1079383': 'Rovi_id:6586074067'}]",[{'886608': 'Gb_id:127190'}],[{'886608': 'Vudu_id:1168079'}],Null,[]
+Vudu,,1168082,MO,Wake of Death,,,2004,False,[4581],,,,"('No multiple ids for this link', 1168082)",No multiple ids for this link
+Vudu,,1168085,MO,The Wedding Weekend,,,2006,False,"[83241, 83311]",,,,Duplicate ids not found in search api,Duplicate ids not found in search api,,[],,,,,,,,True,[{'variant_parent_id': '83241'}],,
+Vudu,1168103,1168108,SE,,Hunter X Hunter,Hunter X Hunter: Tracking x And x Pursuit,2013,False,"[14869228, 10389053]",,,,Duplicate ids not found in search api,Duplicate ids not found in search api,,[],,,,,,,,Null,[],,
+Vudu,1168518,1168522,SE,,Played,Played: Drugs,2013,False,[3461947],,,,"('No multiple ids for this episode', 1168522, 1168518)",No multiple ids for this episode
+Vudu,1168574,1168578,SE,,The Palace,The Palace: Episode 1,2008,False,[5408882],,,,"('No multiple ids for this episode', 1168578, 1168574)",No multiple ids for this episode
+Vudu,1168602,1168608,SE,,The Silence,The Silence: Part One,2010,False,[3419545],,,,"('No multiple ids for this series', 1168608, 1168602)",No multiple ids for this link
+Vudu,1168623,1168627,SE,,Flash Gordon,"Flash Gordon: Pilot, Part 1",2007,False,"[5359239, 14803459]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[5357859, 14803419]",False,1,1,1,[{'5357859': 'Rovi_id:2193104'}],[{'14803419': 'Gb_id:520'}],[{'5357859': 'Vudu_id:1168623'}],,[]
+Vudu,1168693,1168697,SE,,Ghost Squad,Ghost Squad: One of Us,2005,False,[6089189],,,,"('No multiple ids for this episode', 1168697, 1168693)",No multiple ids for this episode
+Vudu,,1168868,MO,The Reflecting Skin,,,1991,False,[568207],,,,"('No multiple ids for this link', 1168868)",No multiple ids for this link
+Vudu,1168974,1168978,SE,,Action,Action: 101,2019,False,[14714990],,,,"('No multiple ids for this episode', 1168978, 1168974)",No multiple ids for this episode
+Vudu,,1170040,MO,The Art of Self Defense,,,2019,False,[13599273],,,,"('No multiple ids for this link', 1170040)",No multiple ids for this link
+Vudu,,1170074,MO,Chasing Perfect,,,2019,False,[13968634],,,,"('No multiple ids for this link', 1170074)",No multiple ids for this link
+Vudu,,1170077,MO,Street Dreams: Los Angeles,,,2019,False,[14553294],,,,"('No multiple ids for this link', 1170077)",No multiple ids for this link
+Vudu,1170081,1170087,SE,,Tales,Tales: Brothers,2019,False,[11095478],,,,"('No multiple ids for this series', 1170087, 1170081)",No multiple ids for this link
+Vudu,,1170102,MO,Love Come Down,,,2001,False,[612693],,,,"('No multiple ids for this link', 1170102)",No multiple ids for this link
+Vudu,854627,1170122,SE,,Big Little Lies,Big Little Lies: What Have They Done?,2019,False,[13884856],,,,"('No multiple ids for this episode', 1170122, 854627)",No multiple ids for this episode
+Vudu,225156,1170155,SE,,Dallas Cowboys Cheerleaders: Making The Team,Dallas Cowboys Cheerleaders: Making The Team: First Impressions,2019,False,[14846665],,,,"('No multiple ids for this episode', 1170155, 225156)",No multiple ids for this episode
+Vudu,1170194,1170201,SE,,Racing Wives,"Racing Wives: Ladies, Start Your Engines",2019,False,[14821097],,,,"('No multiple ids for this episode', 1170201, 1170194)",No multiple ids for this episode
+Vudu,1170228,1170232,SE,,A Fatal Confession: Keith Morrison Investigates,A Fatal Confession: Keith Morrison Investigates: Episode 1,2019,False,[],,,,"('No multiple ids for this episode', 1170232, 1170228)",No multiple ids for this episode
+Vudu,1170303,1170307,SE,,Love & Listings,Love & Listings: Cocktails are for Closers,2019,False,[14754557],,,,"('No multiple ids for this episode', 1170307, 1170303)",No multiple ids for this episode
+Vudu,667135,1170340,SE,,Scream: The TV Series,Scream: The TV Series: The Deadfast Club,2019,False,[14426978],,,,"('No multiple ids for this episode', 1170340, 667135)",No multiple ids for this episode
+Vudu,749889,1170375,SE,,Full Frontal with Samantha Bee,"Full Frontal with Samantha Bee: June 19, 2019",2019,False,[13926523],,,,"('No multiple ids for this episode', 1170375, 749889)",No multiple ids for this episode
+Vudu,964057,1170417,SE,,Summer Camp Island,Summer Camp Island: Cosmic Bupkiss,2019,False,[13946064],,,,"('No multiple ids for this episode', 1170417, 964057)",No multiple ids for this episode
+Vudu,,1170430,MO,Toy Story Rewind (Featurette),,,,False,[],,,,"('No multiple ids for this link', 1170430)",No multiple ids for this link
+Vudu,1170429,1170436,SE,,Mao Mao: Heroes of Pure Heart,Mao Mao: Heroes of Pure Heart: I Love You Mao Mao,2019,False,[13831857],,,,"('No multiple ids for this series', 1170436, 1170429)",No multiple ids for this link
+Vudu,448106,1170469,SE,,Teenage Mutant Ninja Turtles (Animated),Teenage Mutant Ninja Turtles: Donatello Makes Time,2013,False,[],,,,"('No multiple ids for this episode', 1170469, 448106)",No multiple ids for this episode
+Vudu,1113627,1170850,SE,,Tales from the Crypt,Tales From the Crypt: Dead Right,1990,False,[4174265],,,,"('No multiple ids for this episode', 1170850, 1113627)",No multiple ids for this episode
+Vudu,,1171327,MO,Trial by Fire,,,2019,False,[13456097],,,,"('No multiple ids for this link', 1171327)",No multiple ids for this link
+Vudu,712963,1171785,SE,,Black Ink Crew: Chicago,Black Ink Crew: Chicago: From Chi-ami to Sky-ami,2019,False,[14010941],,,,"('No multiple ids for this episode', 1171785, 712963)",No multiple ids for this episode
+Vudu,,1171875,MO,Sword of Trust,,,2019,False,[12780240],,,,"('No multiple ids for this link', 1171875)",No multiple ids for this link
+Vudu,,1171878,MO,AI: The Final Countdown,,,2019,False,[13968636],,,,"('No multiple ids for this link', 1171878)",No multiple ids for this link
+Vudu,218293,1171960,SE,,The Real Housewives of Beverly Hills,"The Real Housewives of Beverly Hills: Reunion, Pt. 3",2019,False,[14737921],,,,"('No multiple ids for this episode', 1171960, 218293)",No multiple ids for this episode
+Vudu,,1172321,MO,The Lion King,,,2019,False,[171359],,,,"('No multiple ids for this link', 1172321)",No multiple ids for this link
+Vudu,1172466,1172470,SE,,Flipping Exes,Flipping Exes: Historic Headache,2019,False,[14839042],,,,"('No multiple ids for this episode', 1172470, 1172466)",No multiple ids for this episode
+Vudu,361125,1172494,SE,,Million Dollar Listing: New York,Million Dollar Listing: New York: Drumming Up Buyers,2019,False,[14814406],,,,"('No multiple ids for this episode', 1172494, 361125)",No multiple ids for this episode
+Vudu,269157,1172521,SE,,The Real Housewives of Orange County,"The Real Housewives of Orange County: New Friend, New Flames",2019,False,[14876475],,,,"('No multiple ids for this episode', 1172521, 269157)",No multiple ids for this episode
+Vudu,1088556,1172618,SE,,Growing Up Chrisley,Growing Up Chrisley: Going for Gold,2019,False,[14838993],,,,"('No multiple ids for this episode', 1172618, 1088556)",No multiple ids for this episode
+Vudu,,1173212,MO,Be Natural: The Untold Story of Alice Guy-Blache,,,2019,False,[12973880],,,,"('No multiple ids for this link', 1173212)",No multiple ids for this link
+Vudu,1173783,1173787,SE,,Ghosts of Morgan City,Ghosts of Morgan City: The Mist,2019,False,[13931224],,,,"('No multiple ids for this episode', 1173787, 1173783)",No multiple ids for this episode
+Vudu,,1173811,MO,A Bitter Legacy,,,2019,False,[14600488],,,,"('No multiple ids for this link', 1173811)",No multiple ids for this link
+Vudu,1173950,1173954,SE,,Best. Pool. Ever.,Best. Pool. Ever.: Party Pools,2019,False,[14427075],,,,"('No multiple ids for this episode', 1173954, 1173950)",No multiple ids for this episode
+Vudu,1174118,1174122,SE,,American Experience: Chasing the Moon,American Experience: Chasing the Moon: A Place Beyond the Sky,2019,False,[14714988],,,,"('No multiple ids for this episode', 1174122, 1174118)",No multiple ids for this episode
+Vudu,949224,1174147,SE,,Pool Kings,Pool Kings: A Rockin' Resort Pool,2019,False,[14576310],,,,"('No multiple ids for this episode', 1174147, 949224)",No multiple ids for this episode
+Vudu,840895,1174195,SE,,Restored,Restored: Spanish Colonial Farmhouse,2019,False,[14580175],,,,"('No multiple ids for this episode', 1174195, 840895)",No multiple ids for this episode
+Vudu,497752,1174239,SE,,Daniel Tiger's Neighborhood,Daniel Tiger's Neighborhood: Daniel Does Gymnastics/The Big Slide,2019,False,[3531638],,,,"('No multiple ids for this series', 1174239, 497752)",No multiple ids for this link
+Vudu,599236,1174266,SE,,The Dead Files,The Dead Files: Darkness Rises,2019,False,"[14744843, 14461472]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[7415459, 14470645]",True,1,1,1,[{'7415459': 'Rovi_id:19953585'}],[{'14470645': 'Gb_id:10020'}],[{'14470645': 'Vudu_id:599236'}],,[]
+Vudu,889282,1174330,SE,,Mighty Trains,Mighty Trains: KiwiRail,2019,False,"[3745748, 10933097]",,,,Duplicate ids not found in search api,Duplicate ids not found in search api,,[],,,,,,,,True,[{'variant_parent_id': '3745748'}],,
+Vudu,638695,1174353,SE,,Grantchester,Grantchester: Episode 1,2019,False,"[3537293, 10139198, 3539147]",,,,Duplicate ids not found in search api,Duplicate ids not found in search api,,[],,,,,,,,True,"[{'variant_parent_id': '3537293'}, {'variant_parent_id': '3537293'}]",,
+Vudu,1174380,1174384,SE,,Carnivorous,"Carnivorous: Beef, Pork and Chicken, Oh My!",2019,False,"[14742427, 14502295]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[14742425, 14502293]",,1,1,1,[{'14502293': 'Rovi_id:7415688439'}],[{'14742425': 'Gb_id:55648'}],[{'14742425': 'Vudu_id:1174380'}],,[]
+Vudu,,1174467,MO,Stuber,,,2019,False,[13494440],,,,"('No multiple ids for this link', 1174467)",No multiple ids for this link
+Vudu,,1174648,MO,Apollo: Missions to the Moon,,,2019,False,[13949317],,,,"('No multiple ids for this link', 1174648)",No multiple ids for this link
+Vudu,597696,1174663,SE,,Beachfront Bargain Hunt,Beachfront Bargain Hunt: A Forever Home on St. Thomas,2019,False,[14425234],,,,"('No multiple ids for this episode', 1174663, 597696)",No multiple ids for this episode
+Vudu,,1174704,MO,The Wedding Guest,,,2019,False,"[1072796, 14454538]",,,,Duplicate ids not found in search api,Duplicate ids not found in search api,,[],,,,,,,,True,[{'variant_parent_id': '1072796'}],,
+Vudu,,1174707,MO,15 Minutes of War,,,2019,False,"[14889726, 14939575, 13831523]",,,,Duplicate ids not found in search api,Duplicate ids not found in search api,,[],,,,,,,,Different,[{'variant_parent_id': '12401252'}],,
+Vudu,,1174713,MO,Defiant,,,2019,False,[14600483],,,,"('No multiple ids for this link', 1174713)",No multiple ids for this link
+Vudu,566871,1174734,SE,,Are You The One?,"Are You the One?: Come One, Come All Part 1",2019,False,"[14655495, 13958564]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[3423538, 14655260]",False,1,1,1,[{'3423538': 'Rovi_id:882118531'}],[{'3423538': 'Gb_id:17271'}],[{'14655260': 'Vudu_id:566871'}],,[]
+Vudu,1107327,1174752,SE,,Double Shot at Love With DJ Pauly D and Vinny,Double Shot at Love With DJ Pauly D and Vinny: Reunion,2019,False,[12920090],,,,"('No multiple ids for this series', 1174752, 1107327)",No multiple ids for this link
+Vudu,1174759,1174765,SE,,Florida Girls,Florida Girls: Pilot,2019,False,[14421833],,,,"('No multiple ids for this episode', 1174765, 1174759)",No multiple ids for this episode
+Vudu,1046150,1174795,SE,,The Configurators,The Configurators: Explosion of Potential,2012,False,[13208313],,,,"('No multiple ids for this episode', 1174795, 1046150)",No multiple ids for this episode
+Vudu,1046124,1174836,SE,,Iria: Zeiram The Bounty Hunter,Iria: Zeiram The Bounty Hunter: Pitch Black,1994,False,[13041749],,,,"('No multiple ids for this episode', 1174836, 1046124)",No multiple ids for this episode
+Vudu,,1174848,MO,Cold Blood: Locations (Featurette),,,,False,[],,,,"('No multiple ids for this link', 1174848)",No multiple ids for this link
+Vudu,,1174851,MO,Cold Blood: Making Of (Featurette),,,,False,[],,,,"('No multiple ids for this link', 1174851)",No multiple ids for this link
+Vudu,265449,1174906,SE,,Deadliest Catch,Deadliest Catch: The Mystery of F/V Destination,2019,False,[14426428],,,,"('No multiple ids for this episode', 1174906, 265449)",No multiple ids for this episode
+Vudu,1097996,1175125,SE,,Victor and Valentino,Victor & Valentino: A New Don,2019,False,[13987035],,,,"('No multiple ids for this episode', 1175125, 1097996)",No multiple ids for this episode
+Vudu,1175515,1175519,SE,,Til Death Do Us Part,Til Death Do Us Part: Don't Shoot!,2019,False,[14444438],,,,"('No multiple ids for this episode', 1175519, 1175515)",No multiple ids for this episode
+Vudu,966077,1175546,SE,,Dr. Pimple Popper,Dr. Pimple Popper: Sleepless in Steatocystoma,2019,False,[14463321],,,,"('No multiple ids for this episode', 1175546, 966077)",No multiple ids for this episode
+Vudu,486644,1175579,SE,,Untold Stories of the ER,Untold Stories of the ER: Grave Diagnosis,2019,False,"[14744380, 14459194]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[14636993, 2908903]",False,1,1,1,[{'2908903': 'Rovi_id:1658620'}],[{'2908903': 'Gb_id:14657'}],[{'14636993': 'Vudu_id:486644'}],,[]
+Vudu,1049451,1175619,SE,,Hanging With The Hendersons,Hanging With The Hendersons: Call of the Wild,2019,False,[12330181],,,,"('No multiple ids for this series', 1175619, 1049451)",No multiple ids for this link
+Vudu,1175640,1175644,SE,,JFK Jr. and Carolyn's Wedding: The Lost Tapes,JFK Jr. and Carolyn's Wedding: The Lost Tapes: Episode 1,2019,False,[],,,,"('No multiple ids for this episode', 1175644, 1175640)",No multiple ids for this episode
+Vudu,775824,1176300,SE,,Animal Kingdom,Animal Kingdom: Into the Black,2019,False,"[3788440, 13974101]",,,,Duplicate ids not found in search api,Duplicate ids not found in search api,,[],,,,,,,,True,[{'variant_parent_id': '3788440'}],,
+Vudu,401309,1176312,SE,,Cops,Cops: Don't Fence Me In,2019,False,"[14555221, 14002243]",,,,Duplicate projectx ids found in search api and rovi has duplicate,Duplicate projectx ids found in search api and rovi has duplicate,,"[4848420, 3121684]",False,2,1,1,"[{'4848420': 'Rovi_id:1214666'}, {'3121684': 'Rovi_id:432487'}]",[{'4848420': 'Gb_id:71'}],[{'4848420': 'Vudu_id:401309'}],Null,[]
+Vudu,1011699,1176336,SE,,T.I. and Tiny: Friends and Family Hustle,T.I. & Tiny: Friends & Family Hustle: Big Changes,2019,False,[14456425],,,,"('No multiple ids for this episode', 1176336, 1011699)",No multiple ids for this episode
+Vudu,302775,1176360,SE,,Ink Master,Ink Master: The Hunter & the Hunted,2019,False,[14007351],,,,"('No multiple ids for this episode', 1176360, 302775)",No multiple ids for this episode
+Vudu,1179752,1176617,SE,,Rescue Heroes,Rescue Heroes: Earthquake in Africa,2019,False,[14824145],,,,"('No multiple ids for this episode', 1176617, 1179752)",No multiple ids for this episode
+Vudu,1145639,1176671,SE,,Ambitions,Ambitions: Welcome to Birmingham,2019,False,[14010104],,,,"('No multiple ids for this episode', 1176671, 1145639)",No multiple ids for this episode
+Vudu,739186,1176680,SE,,Mexico Life,Mexico Life: Long-Term Paradise,2019,False,[14458249],,,,"('No multiple ids for this episode', 1176680, 739186)",No multiple ids for this episode
+Vudu,,1176724,MO,Shazam!: Deleted and Alternate Scenes -  Dr. Crosby and Sivana Interviews (featurette),,,,False,[],,,,"('No multiple ids for this link', 1176724)",No multiple ids for this link
+Vudu,,1176727,MO,Shazam!: Deleted and Alternate Scenes - Billy Sneaks Out (featurette),,,,False,[],,,,"('No multiple ids for this link', 1176727)",No multiple ids for this link
+Vudu,,1176730,MO,Shazam!: Deleted and Alternate Scenes - New School with Darla (featurette),,,,False,[],,,,"('No multiple ids for this link', 1176730)",No multiple ids for this link
+Vudu,,1176733,MO,"Shazam!: Deleted and Alternate Scenes - Sivana Christmas Party, Kills Family (featurette)",,,,False,[],,,,"('No multiple ids for this link', 1176733)",No multiple ids for this link
+Vudu,,1176736,MO,Shazam!: Deleted and Alternate Scenes - Shazam and Darla Tea Party (featurette),,,,False,[],,,,"('No multiple ids for this link', 1176736)",No multiple ids for this link
+Vudu,,1176739,MO,Shazam!: Deleted and Alternate Scenes - Lightning with My Hands/Bus Pencil Roll (featurette),,,,False,[],,,,"('No multiple ids for this link', 1176739)",No multiple ids for this link
+Vudu,,1176742,MO,Shazam!: Deleted and Alternate Scenes -  Additional Montage Beats (featurette),,,,False,[],,,,"('No multiple ids for this link', 1176742)",No multiple ids for this link
+Vudu,,1176745,MO,Shazam!: Deleted and Alternate Scenes - Freddy Hung from Locker (featurette),,,,False,[],,,,"('No multiple ids for this link', 1176745)",No multiple ids for this link
+Vudu,,1176748,MO,Shazam!: Deleted and Alternate Scenes - Carnival Fight (featurette),,,,False,[],,,,"('No multiple ids for this link', 1176748)",No multiple ids for this link
+Vudu,,1176751,MO,Shazam!: Deleted and Alternate Scenes - Freddy Flies by Airplane (featurette),,,,False,[],,,,"('No multiple ids for this link', 1176751)",No multiple ids for this link
+Vudu,,1176754,MO,Shazam!: Deleted and Alternate Scenes - Family on Thrones (featurette),,,,False,[],,,,"('No multiple ids for this link', 1176754)",No multiple ids for this link
+Vudu,,1176757,MO,Shazam!: Deleted and Alternate Scenes - Alternate Ending Family Beats (featurette),,,,False,[],,,,"('No multiple ids for this link', 1176757)",No multiple ids for this link
+Vudu,,1176766,MO,Shazam!: SUPERHERO HOOKY (featurette),,,,False,[],,,,"('No multiple ids for this link', 1176766)",No multiple ids for this link
+Vudu,,1176769,MO,Shazam!: The Magical World of Shazam! (featurette),,,,False,[],,,,"('No multiple ids for this link', 1176769)",No multiple ids for this link
+Vudu,,1176772,MO,Shazam!: Super Fun Zac (featurette),,,,False,[],,,,"('No multiple ids for this link', 1176772)",No multiple ids for this link
+Vudu,,1176775,MO,Shazam!: Carnival Scene Study (featurette),,,,False,[],,,,"('No multiple ids for this link', 1176775)",No multiple ids for this link
+Vudu,,1176778,MO,Shazam!: Shazamily Values (featurette),,,,False,[],,,,"('No multiple ids for this link', 1176778)",No multiple ids for this link
+Vudu,,1176781,MO,Shazam!: Who is Shazam? (featurette),,,,False,[],,,,"('No multiple ids for this link', 1176781)",No multiple ids for this link
+Vudu,,1176784,MO,Shazam!: Gag Reel (featurette),,,,False,[],,,,"('No multiple ids for this link', 1176784)",No multiple ids for this link
+Vudu,,1176787,MO,Shazam!: Wizard Prologue (featurette),,,,False,[],,,,"('No multiple ids for this link', 1176787)",No multiple ids for this link
+Vudu,,1176790,MO,Shazam!: Alternate Beginning (featurette),,,,False,[],,,,"('No multiple ids for this link', 1176790)",No multiple ids for this link
+Vudu,,1176793,MO,Shazam!: Billy on Subway (featurette),,,,False,[],,,,"('No multiple ids for this link', 1176793)",No multiple ids for this link
+Vudu,,1176796,MO,Shazam!: Alternate Intro to Group House (featurette),,,,False,[],,,,"('No multiple ids for this link', 1176796)",No multiple ids for this link
+Vudu,182489,1176799,SE,,American Dad,American Dad: Stompe Le Monde,2019,False,[13996844],,,,"('No multiple ids for this episode', 1176799, 182489)",No multiple ids for this episode
+Vudu,1137062,1176802,SE,,Pearson,Pearson: Suits / Pearson First Look,2019,False,[14821824],,,,"('No multiple ids for this episode', 1176802, 1137062)",No multiple ids for this episode
+Vudu,208111,1176808,SE,,Suits,Suits: Suits / Pearson First Look,2019,False,[14729125],,,,"('No multiple ids for this episode', 1176808, 208111)",No multiple ids for this episode
+Vudu,,1176988,MO,The Manson Family Massacre,,,2019,False,[14600467],,,,"('No multiple ids for this link', 1176988)",No multiple ids for this link
+Vudu,,1177000,MO,Storm Boy,,,2019,False,[12789169],,,,"('No multiple ids for this link', 1177000)",No multiple ids for this link
+Vudu,,1177003,MO,El Chicano,,,2019,False,[13690278],,,,"('No multiple ids for this link', 1177003)",No multiple ids for this link
+Vudu,,1177103,MO,Brice From Nice 3 (Subtitled),,,2016,False,[14869163],,,,"('No multiple ids for this link', 1177103)",No multiple ids for this link
+Vudu,,1177106,MO,D-Railed,,,2019,False,[14600490],,,,"('No multiple ids for this link', 1177106)",No multiple ids for this link
+Vudu,,1177109,MO,Halston,,,2019,False,[13693143],,,,"('No multiple ids for this link', 1177109)",No multiple ids for this link
+Vudu,,1177112,MO,Punk: Loud and Live in London,,,2019,False,[14752554],,,,"('No multiple ids for this link', 1177112)",No multiple ids for this link
+Vudu,,1177115,MO,Punk: Rocking Live in London,,,2019,False,[14752542],,,,"('No multiple ids for this link', 1177115)",No multiple ids for this link
+Vudu,,1177117,MO,Punk: Live in London,,,2019,False,[14752540],,,,"('No multiple ids for this link', 1177117)",No multiple ids for this link
+Vudu,,1177119,MO,Magic Molecule,,,2019,False,"[13757128, 14882783]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[14882783, 13757128]",False,1,1,1,[{'13757128': 'Rovi_id:7287742067'}],[{'14882783': 'Gb_id:173940'}],[{'13757128': 'Vudu_id:1177119'}],,[]
+Vudu,,1177122,MO,Bragging Rights 4,,,2019,False,[14882781],,,,"('No multiple ids for this link', 1177122)",No multiple ids for this link
+Vudu,,1177128,MO,Return to Earth,,,2019,False,[14420816],,,,"('No multiple ids for this link', 1177128)",No multiple ids for this link
+Vudu,,1177131,MO,Chain of Death,,,2019,False,[13968638],,,,"('No multiple ids for this link', 1177131)",No multiple ids for this link
+Vudu,,1177134,MO,Captain Black,,,2019,False,[13746833],,,,"('No multiple ids for this link', 1177134)",No multiple ids for this link
+Vudu,347825,1177141,SE,,Fast N' Loud,Fast N' Loud: Buillitt In The Chamber,2019,False,[14453584],,,,"('No multiple ids for this episode', 1177141, 347825)",No multiple ids for this episode
+Vudu,743859,1177189,SE,,Evil Lives Here,Evil Lives Here: I Tried to Prevent This,2019,False,[13950699],,,,"('No multiple ids for this episode', 1177189, 743859)",No multiple ids for this episode
+Vudu,959258,1177216,SE,,Primal Instinct,Primal Instinct: The Wrath of Love,2019,False,[14464621],,,,"('No multiple ids for this episode', 1177216, 959258)",No multiple ids for this episode
+Vudu,1177234,1177238,SE,,The Shadows of Death,The Shadows of Death: The Manifesto,2019,False,[14458937],,,,"('No multiple ids for this episode', 1177238, 1177234)",No multiple ids for this episode
+Vudu,1177256,1177260,SE,,Murder Board,Murder Board: Death in the Cemetery,2019,False,[14485050],,,,"('No multiple ids for this episode', 1177260, 1177256)",No multiple ids for this episode
+Vudu,,1177304,MO,Transgender Nation,,,2019,False,[14714796],,,,"('No multiple ids for this link', 1177304)",No multiple ids for this link
+Vudu,1177307,1177311,SE,,Murder in the Thirst,Murder in the Thirst: Who Killed The Queen Of The Courtroom?,2019,False,[14417150],,,,"('No multiple ids for this episode', 1177311, 1177307)",No multiple ids for this episode
+Vudu,1033543,1179123,SE,,Dating: No Filter,Dating: No Filter: Tats for Love,2019,False,[14839919],,,,"('No multiple ids for this episode', 1179123, 1033543)",No multiple ids for this episode
+Vudu,772174,1179215,SE,,Billions,Billions: Chucky Rhoades's Greatest Game,2019,False,[12837807],,,,"('No multiple ids for this episode', 1179215, 772174)",No multiple ids for this episode
+Vudu,813517,1179541,SE,,Worst Bakers in America,Worst Bakers in America: Piped Dreams,2019,False,[14001532],,,,"('No multiple ids for this episode', 1179541, 813517)",No multiple ids for this episode
+Vudu,1031990,1179568,SE,,Food Truck Nation,"Food Truck Nation: Pizza, Burgers and Cookies",2019,False,[14456229],,,,"('No multiple ids for this episode', 1179568, 1031990)",No multiple ids for this episode
+Vudu,901724,1179610,SE,,Man's Greatest Food,Man's Greatest Food: Tacos,2019,False,[14456232],,,,"('No multiple ids for this episode', 1179610, 901724)",No multiple ids for this episode
+Vudu,1179662,1179666,SE,,Molly of Denali,"Molly of Denali: Grandpa's Drum/Have Canoe, Will Paddle",2019,False,[12924693],,,,"('No multiple ids for this series', 1179666, 1179662)",No multiple ids for this link
+Vudu,1179702,1179706,SE,,Pandora,Pandora: Shelter From the Storm,2019,False,[14564355],,,,"('No multiple ids for this episode', 1179706, 1179702)",No multiple ids for this episode
+Vudu,,1179916,MO,Chuck Norris's Epic Guide to Military Vehicles,,,2019,False,[14428160],,,,"('No multiple ids for this link', 1179916)",No multiple ids for this link
+Vudu,,1179946,MO,The Madam of Purity Falls,,,2019,False,[14686582],,,,"('No multiple ids for this link', 1179946)",No multiple ids for this link
+Vudu,1179949,1179953,SE,,The UnXplained,The UnXplained: Evil Places,2019,False,[13993625],,,,"('No multiple ids for this episode', 1179953, 1179949)",No multiple ids for this episode
+Vudu,1179979,1179983,SE,,60 Days In: Narcoland,60 Days In: Narcoland: Fight for the Heartland,2019,False,[14754067],,,,"('No multiple ids for this episode', 1179983, 1179979)",No multiple ids for this episode
+Vudu,,1180032,MO,VC Andrews' Fallen Hearts,,,2019,False,[14849339],,,,"('No multiple ids for this link', 1180032)",No multiple ids for this link
+Vudu,1180091,1180098,SE,,My Crazy Birth Story,My Crazy Birth Story: How Do I Deliver a Baby?,2019,False,[14596178],,,,"('No multiple ids for this episode', 1180098, 1180091)",No multiple ids for this episode
+Vudu,1144177,1180324,SE,,sMOTHERED,sMOTHERED: Pushing Boundaries,2019,False,"[13816558, 13816560]",,,,Duplicate ids not found in search api,Duplicate ids not found in search api,,[],,,,,,,,True,[{'variant_parent_id': '13816558'}],,
+Vudu,,1181286,MO,Nightmare Cinema,,,2019,False,[13493625],,,,"('No multiple ids for this link', 1181286)",No multiple ids for this link
+Vudu,,1181374,MO,Ramy Youssef: Feelings,,,2019,False,[13921725],,,,"('No multiple ids for this link', 1181374)",No multiple ids for this link
+Vudu,,1181502,MO,Midsommar,,,2019,False,[12780295],,,,"('No multiple ids for this link', 1181502)",No multiple ids for this link
+Vudu,1182143,1182153,SE,,The Truth About the Harry Quebert Affair,The Truth About the Harry Quebert Affair: How Does Your Garden Grow?,2018,False,[11230673],,,,"('No multiple ids for this series', 1182153, 1182143)",No multiple ids for this link
+Vudu,874095,1182256,SE,,OK K.O.! Let's Be Heroes,OK K.O.! Let's Be Heroes: We Are Heroes,2019,False,[14463259],,,,"('No multiple ids for this episode', 1182256, 874095)",No multiple ids for this episode
+Vudu,542970,1182348,SE,,Father Brown,Father Brown: The Great Train Robbery,2019,False,[12376229],,,,"('No multiple ids for this episode', 1182348, 542970)",No multiple ids for this episode
+Vudu,1182431,1182435,SE,,Aaron Needs a Job,Aaron Needs a Job: What's Old Is New,2019,False,[14610632],,,,"('No multiple ids for this episode', 1182435, 1182431)",No multiple ids for this episode
+Vudu,971345,1182462,SE,,Dark Waters: Murder in the Deep,Dark Waters: Murder in the Deep: Burned,2019,False,[14601128],,,,"('No multiple ids for this episode', 1182462, 971345)",No multiple ids for this episode
+Vudu,957075,1182483,SE,,The Wonderland Murders,The Wonderland Murders: Terror in the Pines,2019,False,[14601125],,,,"('No multiple ids for this episode', 1182483, 957075)",No multiple ids for this episode
+Vudu,1182501,1182505,SE,,Impact of Murder,Impact of Murder: Hearts on Fire,2019,False,[14547681],,,,"('No multiple ids for this episode', 1182505, 1182501)",No multiple ids for this episode
+Vudu,357406,1182534,SE,,Say Yes to the Dress,Say Yes to the Dress: This Is Showtime,2019,False,"[2821335, 2976766]",,,,Duplicate ids not found in search api,Duplicate ids not found in search api,,[],,,,,,,,True,[{'variant_parent_id': '2821335'}],,
+Vudu,1064445,1182567,SE,,Say Yes to the Dress: Northern Edition,Say Yes to the Dress: Northern Edition: Mommy Dearest,2019,False,"[14767090, 10393948]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[13125990, 10392603]",False,1,1,1,[{'10392603': 'Rovi_id:3561792755'}],[{'13125990': 'Gb_id:43528'}],[{'13125990': 'Vudu_id:1064445'}],,[]
+Vudu,1182949,1182953,SE,,Gen:Lock,Gen:Lock: The Complete First Season: The Pilot,2018,False,"[14714998, 13523190, 14836455]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[12916986, 13022245]",False,1,1,1,[{'12916986': 'Rovi_id:6971712132'}],[{'13022245': 'Gb_id:54078'}],[{'13022245': 'Vudu_id:1182949'}],,[]
+Vudu,935259,1182978,SE,,Jersey Shore: Family Vacation,Jersey Shore: Family Vacation: The United States vs. The Situation Pt. 2,2019,False,[3963817],,,,"('No multiple ids for this series', 1182978, 935259)",No multiple ids for this link
+Vudu,,1182981,MO,The Hustle: Commentary (Featurette),,,,False,[],,,,"('No multiple ids for this link', 1182981)",No multiple ids for this link
+Vudu,,1182987,MO,Lamp Light,,,2019,False,[13750584],,,,"('No multiple ids for this link', 1182987)",No multiple ids for this link
+Vudu,,1182990,MO,Black White & Blue,,,2018,False,[12974962],,,,"('No multiple ids for this link', 1182990)",No multiple ids for this link
+Vudu,,1182993,MO,Enemy Within,,,2019,False,[14939577],,,,"('No multiple ids for this link', 1182993)",No multiple ids for this link
+Vudu,,1182996,MO,Perception,,,2019,False,[14763061],,,,"('No multiple ids for this link', 1182996)",No multiple ids for this link
+Vudu,,1182999,MO,American Bistro,,,2019,False,[14600493],,,,"('No multiple ids for this link', 1182999)",No multiple ids for this link
+Vudu,,1183002,MO,The Mummy: Rebirth,,,2019,False,[14600506],,,,"('No multiple ids for this link', 1183002)",No multiple ids for this link
+Vudu,,1183005,MO,The Night Sitter,,,2019,False,"[14600484, 14599895, 14600340]",,,,Duplicate projectx ids found in search api and rovi has duplicate,Duplicate projectx ids found in search api and rovi has duplicate,,"[14599895, 14600340, 14600484]",,3,1,1,"[{'14599895': 'Rovi_id:7494923733'}, {'14600340': 'Rovi_id:7494927885'}, {'14600484': 'Rovi_id:7494928029'}]",[{'14600484': 'Gb_id:174332'}],[{'14600484': 'Vudu_id:1183005'}],Null,[]
+Vudu,,1183008,MO,Out There [Ahi Afuera],,,2017,False,[14869168],,,,"('No multiple ids for this link', 1183008)",No multiple ids for this link
+Vudu,,1183019,MO,Tolkien: First Look (featurette),,,,False,[],,,,"('No multiple ids for this link', 1183019)",No multiple ids for this link
+Vudu,,1183022,MO,Tolkien: Deleted Scenes (featurette),,,,False,[],,,,"('No multiple ids for this link', 1183022)",No multiple ids for this link
+Vudu,,1183493,MO,The Electric Acid Surfboard Test: Stephanie Gilmore,,,2019,False,[14714935],,,,"('No multiple ids for this link', 1183493)",No multiple ids for this link
+Vudu,374885,1184022,SE,,The Incredible Dr. Pol,The Incredible Dr. Pol: Boot-Scootin' Boogie,2019,False,[14502570],,,,"('No multiple ids for this episode', 1184022, 374885)",No multiple ids for this episode
+Vudu,677761,1184040,SE,,Sharkfest,Sharkfest: Cannibal Sharks,2019,False,[14742767],,,,"('No multiple ids for this episode', 1184040, 677761)",No multiple ids for this episode
+Vudu,675333,1184058,SE,,When Sharks Attack,When Sharks Attack: Terror in the Gulf,2019,False,[14575699],,,,"('No multiple ids for this episode', 1184058, 675333)",No multiple ids for this episode
+Vudu,372566,1184135,SE,,Counting Cars,Counting Cars: Danny's Detroit Special,2019,False,[14426877],,,,"('No multiple ids for this episode', 1184135, 372566)",No multiple ids for this episode
+Vudu,1179934,1184153,SE,,Live PD Presents: Top 10 Police Vehicles,Live PD Presents: Top 10 Police Vehicles,2019,False,[14730318],,,,"('No multiple ids for this episode', 1184153, 1179934)",No multiple ids for this episode
+Vudu,1179937,1184178,SE,,Battle of the 80s Supercars With David Hasselhoff,Battle of the 80s Supercars with David Hasselhoff: Season 1: Episode 1,2019,False,[14747070],,,,"('No multiple ids for this episode', 1184178, 1179937)",No multiple ids for this episode
+Vudu,,1184202,MO,Moon Landing: The Lost Tapes,,,2019,False,"[14686856, 14076995]",,,,Duplicate projectx ids found in search api and rovi has duplicate,Duplicate projectx ids found in search api and rovi has duplicate,,"[14686856, 14076995]",,2,0,1,"[{'14686856': 'Rovi_id:7501949414'}, {'14076995': 'Rovi_id:7448359486'}]",[],[{'14686856': 'Vudu_id:1184202'}],Null,[]
+Vudu,1179940,1184217,SE,,UFOs: Dangerous Encounters Exposed,UFOs: Dangerous Encounters Exposed,2019,False,[14742429],,,,"('No multiple ids for this episode', 1184217, 1179940)",No multiple ids for this episode
+Vudu,,1185130,MO,Avengers: Endgame - A Man Out Of Time: Creating Captain America (featurette),,,,False,[],,,,"('No multiple ids for this link', 1185130)",No multiple ids for this link
+Vudu,,1185133,MO,Avengers: Endgame - Black Widow: Whatever It Takes (featurette),,,,False,[],,,,"('No multiple ids for this link', 1185133)",No multiple ids for this link
+Vudu,,1185136,MO,Avengers: Endgame - Bro Thor (featurette),,,,False,[],,,,"('No multiple ids for this link', 1185136)",No multiple ids for this link
+Vudu,,1185139,MO,Avengers: Endgame - Deleted Scene (featurette),,,,False,[],,,,"('No multiple ids for this link', 1185139)",No multiple ids for this link
+Vudu,,1185142,MO,Avengers: Endgame - Gag Reel (featurette),,,,False,[],,,,"('No multiple ids for this link', 1185142)",No multiple ids for this link
+Vudu,,1185145,MO,Avengers: Endgame - Remembering Stan Lee (featurette),,,,False,[],,,,"('No multiple ids for this link', 1185145)",No multiple ids for this link
+Vudu,,1185148,MO,Avengers: Endgame - Setting The Tone: Casting Robert Downey Jr (featurette),,,,False,[],,,,"('No multiple ids for this link', 1185148)",No multiple ids for this link
+Vudu,,1185151,MO,Avengers: Endgame - Steve and Peggy: One Last Dance (featurette),,,,False,[],,,,"('No multiple ids for this link', 1185151)",No multiple ids for this link
+Vudu,,1185154,MO,Avengers: Endgame - The Russo Brother's Journey To Endgame (featurette),,,,False,[],,,,"('No multiple ids for this link', 1185154)",No multiple ids for this link
+Vudu,,1185157,MO,Avengers: Endgame - The Women Of The MCU (featurette),,,,False,[],,,,"('No multiple ids for this link', 1185157)",No multiple ids for this link
+Vudu,,1185160,MO,Kings of Beer,,,2019,False,"[14600466, 14889725]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[14889725, 14600466]",False,1,1,1,[{'14600466': 'Rovi_id:7494928001'}],[{'14889725': 'Gb_id:174267'}],[{'14600466': 'Vudu_id:1185160'}],,[]
+Vudu,1185696,1185700,SE,,From the Earth to the Moon,From the Earth to the Moon: Can We Do This?,1998,False,[2883410],,,,"('No multiple ids for this series', 1185700, 1185696)",No multiple ids for this link
+Vudu,1185758,1185762,SE,,The Wonder List,The Wonder List: Vanuatu: Landlords of Paradise,2015,False,"[14906348, 3862603]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[14892379, 3862445]",False,1,1,1,[{'3862445': 'Rovi_id:1426362634'}],[{'14892379': 'Gb_id:56070'}],[{'3862445': 'Vudu_id:1185758'}],,[]
+Vudu,1185831,1185835,SE,,Christiane Amanpour: Sex & Love Around the World,Amanpour: Sex and Love Around the World: Berlin,2018,False,[11497918],,,,"('No multiple ids for this series', 1185835, 1185831)",No multiple ids for this link
+Vudu,1185853,1185857,SE,,Wu-Tang Clan: Of Mics and Men,Wu-Tang Clan: Of Mics and Men: 101,2019,False,[13715296],,,,"('No multiple ids for this episode', 1185857, 1185853)",No multiple ids for this episode
+Vudu,329663,1185910,SE,,Tanked,Tanked: Brett Takes A Dive,2011,False,[12268961],,,,"('No multiple ids for this episode', 1185910, 329663)",No multiple ids for this episode
+Vudu,661744,1186055,SE,,The Vanilla Ice Project,The Vanilla Ice Project: Kicking Hot Pink to the Curb,2019,False,[14722559],,,,"('No multiple ids for this episode', 1186055, 661744)",No multiple ids for this episode
+Vudu,1186073,1186077,SE,,Amazing Dogs,Amazing Dogs: Man's Best Friend,2019,False,[14451223],,,,"('No multiple ids for this episode', 1186077, 1186073)",No multiple ids for this episode
+Vudu,,1186274,MO,Maiden,,,2019,False,[1083057],,,,"('No multiple ids for this link', 1186274)",No multiple ids for this link
+Vudu,,1186309,MO,A Dark Place,,,2019,False,[12976026],,,,"('No multiple ids for this link', 1186309)",No multiple ids for this link
+Vudu,,1186312,MO,Airplane Mode,,,2019,False,[14600491],,,,"('No multiple ids for this link', 1186312)",No multiple ids for this link
+Vudu,,1186315,MO,Everytime I Die,,,2019,False,[14600450],,,,"('No multiple ids for this link', 1186315)",No multiple ids for this link
+Vudu,,1186351,MO,Avengers: Endgame - Commentary (featurette),,,,False,[],,,,"('No multiple ids for this link', 1186351)",No multiple ids for this link
+Vudu,,1186354,MO,Avengers: Endgame - Play Movie With Intro (featurette),,,,False,[],,,,"('No multiple ids for this link', 1186354)",No multiple ids for this link
+Vudu,,1186411,MO,Firecrackers,,,2019,False,[13494058],,,,"('No multiple ids for this link', 1186411)",No multiple ids for this link
+Vudu,,1186940,MO,The Devil's Playground,,,1976,False,[578326],,,,"('No multiple ids for this link', 1186940)",No multiple ids for this link
+Vudu,,1186946,MO,Blindsided,,,2019,False,[14939579],,,,"('No multiple ids for this link', 1186946)",No multiple ids for this link
+Vudu,,1186972,MO,A Score to Settle,,,2019,False,[14612518],,,,"('No multiple ids for this link', 1186972)",No multiple ids for this link
+Vudu,,1186981,MO,One Remains,,,2019,False,[14600472],,,,"('No multiple ids for this link', 1186981)",No multiple ids for this link
+Vudu,,1186987,MO,Doe,,,2019,False,[14914363],,,,"('No multiple ids for this link', 1186987)",No multiple ids for this link
+Vudu,,1186990,MO,2: HRS,,,2019,False,[14914362],,,,"('No multiple ids for this link', 1186990)",No multiple ids for this link
+Vudu,,1186993,MO,Cleavers: Killer Clowns,,,2019,False,"[14600335, 14600473]",,,,Duplicate projectx ids found in search api and rovi has duplicate,Duplicate projectx ids found in search api and rovi has duplicate,,"[14600335, 14600473]",False,2,1,1,"[{'14600335': 'Rovi_id:7494927877'}, {'14600473': 'Rovi_id:7494928015'}]",[{'14600335': 'Gb_id:174331'}],[{'14600335': 'Vudu_id:1186993'}],Null,[]
+Vudu,,1186996,MO,Xenophobia,,,2019,False,[14600457],,,,"('No multiple ids for this link', 1186996)",No multiple ids for this link
+Vudu,,1186999,MO,Pentagram,,,2019,False,[14600470],,,,"('No multiple ids for this link', 1186999)",No multiple ids for this link
+Vudu,,1187005,MO,Belong to Us,,,2019,False,[14914364],,,,"('No multiple ids for this link', 1187005)",No multiple ids for this link
+Vudu,,1187011,MO,Woodstock or Bust,,,2019,False,[14939578],,,,"('No multiple ids for this link', 1187011)",No multiple ids for this link
+Vudu,,1187043,MO,Clarence Clemons: Who Do I Think I Am?,,,2019,False,[14566266],,,,"('No multiple ids for this link', 1187043)",No multiple ids for this link
+Vudu,1003973,1187379,SE,,JoJo's Bizarre Adventure,JoJo's Bizarre Adventure: King of Kings,2019,False,[14618424],,,,"('No multiple ids for this episode', 1187379, 1003973)",No multiple ids for this episode
+Vudu,,1187392,MO,The Buccaneer,,,1958,False,[72886],,,,"('No multiple ids for this link', 1187392)",No multiple ids for this link
+Vudu,,1187420,MO,Laura's Star,,,2007,False,"[68942, 87277, 68998]",,,,Duplicate ids not found in search api,Duplicate ids not found in search api,,[],,,,,,,,True,[{'variant_parent_id': '68942'}],,
+Vudu,1187470,1187476,SE,,Apollo: The Forgotten Films,Apollo: The Forgotten Films,2019,False,[],,,,"('No multiple ids for this episode', 1187476, 1187470)",No multiple ids for this episode
+Vudu,1187493,1187500,SE,,Confessions From Space: Apollo,Confessions from Space: Apollo,2019,False,[],,,,"('No multiple ids for this episode', 1187500, 1187493)",No multiple ids for this episode
+Vudu,487946,1187523,SE,,North Woods Law,North Woods Law: Wild Winter,2019,False,[14710981],,,,"('No multiple ids for this episode', 1187523, 487946)",No multiple ids for this episode
+Vudu,804246,1187591,SE,,90 Day Fiance: Happily Ever After?,90 Day Fiance: Happily Ever After?: Tell All: Part 2,2019,False,[14730790],,,,"('No multiple ids for this episode', 1187591, 804246)",No multiple ids for this episode
+Vudu,1187603,1187607,SE,,Serial Killer: Devil Unchained,Serial Killer The Devil Unchained: A Killer Revealed,2019,False,[14703675],,,,"('No multiple ids for this episode', 1187607, 1187603)",No multiple ids for this episode
+Vudu,1187616,1187620,SE,,The Family Chantel,The Family Chantel: All's Fair in Love and War,2019,False,[14711449],,,,"('No multiple ids for this episode', 1187620, 1187616)",No multiple ids for this episode
+Vudu,1187650,1187647,SE,,Cajun Navy,Cajun Navy: Episode 1,2019,False,[],,,,"('No multiple ids for this episode', 1187647, 1187650)",No multiple ids for this episode
+Vudu,945965,1187654,SE,,Salvage Hunters: Classic Cars,Salvage Hunters: Classic Cars: Ford Capri and Lancia Delta Integrale,2019,False,[12440953],,,,"('No multiple ids for this episode', 1187654, 945965)",No multiple ids for this episode
+Vudu,234405,1187675,SE,,Bar Rescue,"Bar Rescue: All Blaze, No Glory",2019,False,[14575755],,,,"('No multiple ids for this episode', 1187675, 234405)",No multiple ids for this episode
+Vudu,,1187710,MO,Steven Universe: The Movie,,,2019,False,"[14901602, 14001869]",,,,Duplicate ids not found in search api,Duplicate ids not found in search api,,[],,,,,,,,Null,[],,
+Vudu,,1187713,MO,The Kitchen,,,2019,False,[12786568],,,,"('No multiple ids for this link', 1187713)",No multiple ids for this link
+Vudu,598296,1188046,SE,,Restaurant: Impossible,Restaurant: Impossible: Hard Times at Josephine's,2019,False,"[14710696, 14901802]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[3403213, 14553210]",True,1,1,1,[{'3403213': 'Rovi_id:18040773'}],[{'3403213': 'Gb_id:10382'}],[{'14553210': 'Vudu_id:598296'}],,[]
+Vudu,1188212,1188219,SE,,Delicious Miss Brown,Delicious Miss Brown: Sunday Supper,2019,False,[14713724],,,,"('No multiple ids for this episode', 1188219, 1188212)",No multiple ids for this episode
+Vudu,,1188246,MO,Dora and the Lost City of Gold,,,2019,False,[1074303],,,,"('No multiple ids for this link', 1188246)",No multiple ids for this link
+Vudu,,1188552,MO,Confirmation,,,2016,False,[30942],,,,"('No multiple ids for this link', 1188552)",No multiple ids for this link
+Vudu,,1188555,MO,The Leisure Class,,,2015,False,[45495],,,,"('No multiple ids for this link', 1188555)",No multiple ids for this link
+Vudu,,1188561,MO,Tour de Pharmacy,,,2017,False,"[31884, 31984]",,,,Duplicate ids not found in search api,Duplicate ids not found in search api,,[],,,,,,,,True,[{'variant_parent_id': '31884'}],,
+Vudu,,1188666,MO,The Goddesses of Food,,,2017,False,[14869164],,,,"('No multiple ids for this link', 1188666)",No multiple ids for this link
+Vudu,595636,1188787,SE,,He-Man and the Masters of the Universe,He-Man and the Masters of the Universe: He-Man & She-Ra: The Secret of the Sword,1985,False,[14824139],,,,"('No multiple ids for this episode', 1188787, 595636)",No multiple ids for this episode
+Vudu,1137480,1188791,SE,,She-Ra: Princess of Power,She-Ra: Princess of Power: The Secret of the Sword,1985,False,[14766934],,,,"('No multiple ids for this episode', 1188791, 1137480)",No multiple ids for this episode
+Vudu,,1188987,MO,The Lion King: Perfecting The Pride,,,,False,[],,,,"('No multiple ids for this link', 1188987)",No multiple ids for this link
+Vudu,,1188993,MO,Monster Energy Big Wave Tow-In Invitational,,,2019,False,[14914360],,,,"('No multiple ids for this link', 1188993)",No multiple ids for this link
+Vudu,,1189007,MO,The Wrecking Crew,,,1969,False,"[512318, 128483]",,,,Duplicate projectx ids found in search api and rovi has duplicate,Duplicate projectx ids found in search api and rovi has duplicate,,"[128483, 512318]",False,2,1,1,"[{'128483': 'Rovi_id:447260'}, {'512318': 'Rovi_id:44119'}]",[{'128483': 'Gb_id:63726'}],[{'128483': 'Vudu_id:1189007'}],Null,[]
+Vudu,,1189020,MO,Girl Of The Sun,,,2019,False,"[1065836, 14939574]",,,,Duplicate ids not found in search api,Duplicate ids not found in search api,,[],,,,,,,,Null,[],,
+Vudu,,1189380,MO,The Farewell,,,2019,False,[12442459],,,,"('No multiple ids for this link', 1189380)",No multiple ids for this link
+Vudu,1008521,1189465,SE,,This Week at the Comedy Cellar,"This Week at the Comedy Cellar: July 14 - July 19, 2019",2019,False,[14617197],,,,"('No multiple ids for this episode', 1189465, 1008521)",No multiple ids for this episode
+Vudu,942670,1189553,SE,,Ex on the Beach,"Ex on the Beach: Love, Next Love",2019,False,[14711212],,,,"('No multiple ids for this episode', 1189553, 942670)",No multiple ids for this episode
+Vudu,1189556,1189560,SE,,Scooby-Doo and Guess Who?,Scooby-Doo and Guess Who?: Revenge of the Swamp Monster!,2019,False,[14455719],,,,"('No multiple ids for this episode', 1189560, 1189556)",No multiple ids for this episode
+Vudu,253156,1189635,SE,,MasterChef,MasterChef: Backyard BBQ,2019,False,"[14577393, 14764809]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[12264638, 14619139]",True,1,2,1,[{'12264638': 'Rovi_id:12219366'}],"[{'12264638': 'Gb_id:76'}, {'14619139': 'Gb_id:16215'}]",[{'14619139': 'Vudu_id:253156'}],,[]
+Vudu,1192592,1189660,SE,,Girls Cruise,Girls Cruise: The Jump Off,2019,False,[14703654],,,,"('No multiple ids for this episode', 1189660, 1192592)",No multiple ids for this episode
+Vudu,,1189768,MO,One at a Time,,,2019,False,[14921126],,,,"('No multiple ids for this link', 1189768)",No multiple ids for this link
+Vudu,,1189780,MO,Mick Jagger: A Knight to Remember,,,2019,False,[14914366],,,,"('No multiple ids for this link', 1189780)",No multiple ids for this link
+Vudu,,1189783,MO,Incredible Violence,,,2019,False,[14564586],,,,"('No multiple ids for this link', 1189783)",No multiple ids for this link
+Vudu,,1189786,MO,White Rhino,,,2019,False,[14939580],,,,"('No multiple ids for this link', 1189786)",No multiple ids for this link
+Vudu,,1189789,MO,Vision,,,2019,False,"[14869165, 1075218]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[14869165, 1075218]",False,1,1,1,[{'1075218': 'Rovi_id:6067496819'}],[{'14869165': 'Gb_id:174078'}],[{'14869165': 'Vudu_id:1189789'}],,[]
+Vudu,,1189792,MO,The Buskers and Lou,,,2019,False,"[14914367, 14600449]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[14914367, 14600449]",True,1,1,1,[{'14600449': 'Rovi_id:7494927983'}],[{'14914367': 'Gb_id:174354'}],[{'14914367': 'Vudu_id:1189792'}],,[]
+Vudu,,1189795,MO,PALAU the Movie,,,2019,False,[13449013],,,,"('No multiple ids for this link', 1189795)",No multiple ids for this link
+Vudu,,1189798,MO,Michelle Obama: The Story,,,2019,False,[14914368],,,,"('No multiple ids for this link', 1189798)",No multiple ids for this link
+Vudu,,1189801,MO,Alien Artifacts: The Lost World,,,2019,False,[14565582],,,,"('No multiple ids for this link', 1189801)",No multiple ids for this link
+Vudu,,1189804,MO,Michael Jackson: Chase the Truth,,,2019,False,[14890841],,,,"('No multiple ids for this link', 1189804)",No multiple ids for this link
+Vudu,,1189807,MO,Jimi Hendrix: Trapped in Amber,,,2019,False,[2433542],,,,"('No multiple ids for this link', 1189807)",No multiple ids for this link
+Vudu,1190368,1190372,SE,,If We Built It Today,If We Built It Today: Secrets in the Pyramid,2019,False,[14549037],,,,"('No multiple ids for this episode', 1190372, 1190368)",No multiple ids for this episode
+Vudu,864212,1190405,SE,,Unearthed,Unearthed: Mysteries in the Alien Desert,2019,False,[14724631],,,,"('No multiple ids for this episode', 1190405, 864212)",No multiple ids for this episode
+Vudu,337546,1190433,SE,,How It's Made,"How It's Made: Leather Sculptures, Travel Hot Plates, Ocher, and Hurdy Gurdies",2019,False,"[14752544, 14800901, 13968800]",,,,Duplicate projectx ids found in search api and rovi has duplicate,Duplicate projectx ids found in search api and rovi has duplicate,,"[14531870, 2870737, 3240890]",,2,1,1,"[{'2870737': 'Rovi_id:2020459'}, {'3240890': 'Rovi_id:11921481'}]",[{'3240890': 'Gb_id:2589'}],[{'14531870': 'Vudu_id:337546'}],Null,[]
+Vudu,,1190484,MO,Once Upon a Time... in Hollywood,,,2019,False,[1071991],,,,"('No multiple ids for this link', 1190484)",No multiple ids for this link
+Vudu,1190488,1190492,SE,,Built by Hand,Built by Hand: King of the Battlefield,2019,False,[14815136],,,,"('No multiple ids for this episode', 1190492, 1190488)",No multiple ids for this episode
+Vudu,,1191535,MO,UglyDolls: Sing-Along (Featurette),,,,False,[],,,,"('No multiple ids for this link', 1191535)",No multiple ids for this link
+Vudu,1191739,1191763,SE,,Years and Years,Years and Years: Season 1 Trailer,2019,False,[14940384],,,,"('No multiple ids for this episode', 1191763, 1191739)",No multiple ids for this episode
+Vudu,1191766,1191788,SE,,Los Espookys,Los Espookys: Season 1 Trailer,2019,False,[14940383],,,,"('No multiple ids for this episode', 1191788, 1191766)",No multiple ids for this episode
+Vudu,1191792,1191821,SE,,Euphoria,Euphoria: Season 1 Trailer,2019,False,[14940411],,,,"('No multiple ids for this episode', 1191821, 1191792)",No multiple ids for this episode
+Vudu,,1191854,MO,Share,,,2019,False,"[12444220, 14719629]",,,,Duplicate projectx ids found in search api and rovi has duplicate,Duplicate projectx ids found in search api and rovi has duplicate,,"[12444220, 14719629]",False,2,2,1,"[{'12444220': 'Rovi_id:6927798672'}, {'14719629': 'Rovi_id:7517553530'}]","[{'12444220': 'Gb_id:174047'}, {'14719629': 'Gb_id:141426'}]",[{'12444220': 'Vudu_id:1191854'}],Null,[]
+Vudu,,1192574,MO,Red Joan,,,2019,False,[1072799],,,,"('No multiple ids for this link', 1192574)",No multiple ids for this link
+Vudu,,1192577,MO,Non-Fiction,,,2019,False,"[12788197, 1072835]",,,,Duplicate projectx ids found in search api and rovi has duplicate,Duplicate projectx ids found in search api and rovi has duplicate,,"[1072835, 12788197]",True,2,1,1,"[{'1072835': 'Rovi_id:6366182695'}, {'12788197': 'Rovi_id:6398022000'}]",[{'1072835': 'Gb_id:170525'}],[{'12788197': 'Vudu_id:1192577'}],Null,[{'variant_parent_id': '6835174186'}]
+Vudu,1192820,1192824,SE,,My First Place (2019),My First Place (2019): A Shot at a First-Time Home,2019,False,"[5210066, 14890255]",,,,Duplicate ids not found in search api,Duplicate ids not found in search api,,[],,,,,,,,Null,[],,
+Vudu,775181,1192842,SE,,Extreme RVs,Extreme RVs: Fit for a King,2018,False,"[14807030, 14902124]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[9017431, 14666648]",True,1,1,1,[{'9017431': 'Rovi_id:22301160'}],[{'9017431': 'Gb_id:16286'}],[{'14666648': 'Vudu_id:775181'}],,[]
+Vudu,1192962,1192966,SE,,BBQ Brawl: Flay V. Symon,BBQ Brawl: Flay V. Symon: Backyard BBQ,2019,False,[14565551],,,,"('No multiple ids for this episode', 1192966, 1192962)",No multiple ids for this episode
+Vudu,1192978,1192985,SE,,Going for Sold,Going for Sold: Stairway To Sell,2019,False,[14750236],,,,"('No multiple ids for this episode', 1192985, 1192978)",No multiple ids for this episode
+Vudu,638429,1193024,SE,,Texas Flip N Move,Texas Flip N Move: Built-In Beauty,2019,False,[14812987],,,,"('No multiple ids for this episode', 1193024, 638429)",No multiple ids for this episode
+Vudu,1193089,1193093,SE,,Kitchen Takeover,Kitchen Takeover: Hill Stress Cafe,2018,False,[11708827],,,,"('No multiple ids for this episode', 1193093, 1193089)",No multiple ids for this episode
+Vudu,636892,1193169,SE,,Worst Cooks in America,Worst Cooks in America: Nowhere to Go But Up,2019,False,"[14579785, 14940119]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[14660121, 3577903]",True,1,1,1,[{'3577903': 'Rovi_id:9898869'}],[{'3577903': 'Gb_id:9892'}],[{'14660121': 'Vudu_id:636892'}],,[]
+Vudu,653646,1193215,SE,,Barnwood Builders,Barnwood Builders: Teach and Train,2019,False,[14846843],,,,"('No multiple ids for this episode', 1193215, 653646)",No multiple ids for this episode
+Vudu,1193889,1193893,SE,,BH90210,BH90210: The Reunion,2019,False,"[13751726, 14856476, 14869442, 14837155]",,,,Duplicate ids not found in search api,Duplicate ids not found in search api,,[],,,,,,,,True,"[{'variant_parent_id': '13751726'}, {'variant_parent_id': '13751726'}, {'variant_parent_id': '13751726'}]",,
+Vudu,688064,1194079,SE,,Naked and Afraid XL,Naked and Afraid XL: Den of Vipers,2019,False,[14732458],,,,"('No multiple ids for this episode', 1194079, 688064)",No multiple ids for this episode
+Vudu,509134,1194088,SE,,Web of Lies,Web of Lies: Episode 1,2019,False,[14711296],,,,"('No multiple ids for this episode', 1194088, 509134)",No multiple ids for this episode
+Vudu,597754,1194249,SE,,Flip or Flop,Flip or Flop: Unpermitted Flip,2019,False,[14750157],,,,"('No multiple ids for this episode', 1194249, 597754)",No multiple ids for this episode
+Vudu,884442,1194306,SE,,90 Day Fiance: Before The 90 Days,90 Day Fiance: Before the 90 Days: Crazy in Love,2019,False,[14823806],,,,"('No multiple ids for this episode', 1194306, 884442)",No multiple ids for this episode
+Vudu,785772,1194882,SE,,Conan Specials,Conan Specials: Conan Con 7/17/19: It Chapter Two,2019,False,"[6773574, 14667217]",,,,Duplicate ids not found in search api,Duplicate ids not found in search api,,[],,,,,,,,Null,[],,
+Vudu,1194894,1194898,SE,,Infinity Train,Infinity Train: The Grid Car,2019,False,"[14824157, 10939013]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[14824155, 10938951]",False,1,0,1,[{'10938951': 'Rovi_id:4524428358'}],[],[{'14824155': 'Vudu_id:1194894'}],,[]
+Vudu,,1194949,MO,Aladdin (Walt Disney Signature Edition),,,1992,False,"[14879522, 89890, 123841]",,,,Duplicate ids not found in search api,Duplicate ids not found in search api,,[],,,,,,,,Different,"[{'variant_parent_id': '75978'}, {'variant_parent_id': '75978'}]",,
+Vudu,,1195009,MO,Aladdin (Walt Disney Signature Edition): Drawing Jasmine (Featurette),,,,False,[],,,,"('No multiple ids for this link', 1195009)",No multiple ids for this link
+Vudu,,1195458,MO,The Art of Racing in the Rain,,,2019,False,[13938093],,,,"('No multiple ids for this link', 1195458)",No multiple ids for this link
+Vudu,,1196045,MO,The Tracker,,,2019,False,[14420818],,,,"('No multiple ids for this link', 1196045)",No multiple ids for this link
+Vudu,,1196384,MO,A Lover Scorned,,,2019,False,"[14901601, 14602763]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[14901601, 14602763]",False,1,1,1,[{'14602763': 'Rovi_id:7498406894'}],[{'14901601': 'Gb_id:174262'}],[{'14602763': 'Vudu_id:1196384'}],,[]
+Vudu,,1196981,MO,Pokemon Detective Pikachu: My Pokemon Adventure (Featurette),,,,False,[],,,,"('No multiple ids for this link', 1196981)",No multiple ids for this link
+Vudu,,1196987,MO,Pokemon Detective Pikachu: Detective Mode (Featurette),,,,False,[],,,,"('No multiple ids for this link', 1196987)",No multiple ids for this link
+Vudu,,1196990,MO,"Pokemon Detective Pikachu: ""Carry On"" by Rita Ora & Kygo (Featurette)",,,,False,[],,,,"('No multiple ids for this link', 1196990)",No multiple ids for this link
+Vudu,,1196993,MO,Pokemon Detective Pikachu: Mr. Mime's Audio Commentary (Featurette),,,,False,[],,,,"('No multiple ids for this link', 1196993)",No multiple ids for this link
+Vudu,,1196996,MO,Pokemon Detective Pikachu: Ryan Reynolds- Outside the Actors Studio (Featurette),,,,False,[],,,,"('No multiple ids for this link', 1196996)",No multiple ids for this link
+Vudu,,1197002,MO,Pokemon Detective Pikachu: Creating the World of Detective Pikachu: Welcome to Ryme City (Featurette),,,,False,[],,,,"('No multiple ids for this link', 1197002)",No multiple ids for this link
+Vudu,,1197008,MO,Pokemon Detective Pikachu: Creating the World of Detective Pikachu: Bringing Pokemon to Life (Feature,,,,False,[],,,,"('No multiple ids for this link', 1197008)",No multiple ids for this link
+Vudu,,1197011,MO,Pokemon Detective Pikachu: Creating the World of Detective Pikachu: Action (Featurette),,,,False,[],,,,"('No multiple ids for this link', 1197011)",No multiple ids for this link
+Vudu,,1197014,MO,Pokemon Detective Pikachu: Creating the World of Detective Pikachu: Colorful Characters (Featurette),,,,False,[],,,,"('No multiple ids for this link', 1197014)",No multiple ids for this link
+Vudu,,1197020,MO,Pokemon Detective Pikachu: Creating the World of Detective Pikachu: Uncovering the Magic (Featurette),,,,False,[],,,,"('No multiple ids for this link', 1197020)",No multiple ids for this link
+Vudu,361578,1197081,SE,,Shark Week,Shark Week: Expedition Unknown: Megalodon,2019,False,"[14869172, 14898390]",,,,Duplicate projectx ids found in search api and rovi has duplicate,Duplicate projectx ids found in search api and rovi has duplicate,,"[13744466, 10065744]",False,2,1,1,"[{'13744466': 'Rovi_id:7256982411'}, {'10065744': 'Rovi_id:1972680291'}]",[{'10065744': 'Gb_id:2527'}],[{'10065744': 'Vudu_id:361578'}],Null,[]
+Vudu,1197153,1197159,SE,,The Last Cowboy,The Last Cowboy: The Cowboy Way,2019,False,[14464718],,,,"('No multiple ids for this episode', 1197159, 1197153)",No multiple ids for this episode
+Vudu,1126374,1197174,SE,,Uncovered: The McMartin Family Trials,Uncovered: The McMartin Family Trials [TV Series]: Uncovered: The McMartin Family Trials,2019,False,[14863543],,,,"('No multiple ids for this episode', 1197174, 1126374)",No multiple ids for this episode
+Vudu,,1197177,MO,VC ANDREWS' HEAVEN,,,2019,False,[13847571],,,,"('No multiple ids for this link', 1197177)",No multiple ids for this link
+Vudu,1197186,1197192,SE,,Witness to Disaster,Witness to Disaster: Tornado Outbreak,2019,False,[14710119],,,,"('No multiple ids for this episode', 1197192, 1197186)",No multiple ids for this episode
+Vudu,1197201,1197207,SE,,South Side,South Side: Xbox,2019,False,[14715126],,,,"('No multiple ids for this episode', 1197207, 1197201)",No multiple ids for this episode
+Vudu,413400,1197234,SE,,Love & Hip Hop,Love & Hip Hop Atlanta: Reunion Part 1,2019,False,"[14828777, 14710182]",,,,Duplicate projectx ids found in search api and rovi has duplicate,Duplicate projectx ids found in search api and rovi has duplicate,,"[3767209, 7800757]",False,2,2,1,"[{'3767209': 'Rovi_id:18172030'}, {'7800757': 'Rovi_id:67064234'}]","[{'3767209': 'Gb_id:3899'}, {'7800757': 'Gb_id:12855'}]",[{'3767209': 'Vudu_id:413400'}],Null,[]
+Vudu,222062,1197255,SE,,The Bachelorette,The Bachelorette: 1510A,2019,False,[2757416],,,,"('No multiple ids for this series', 1197255, 222062)",No multiple ids for this link
+Vudu,907320,1197264,SE,,Unexpected,"Unexpected: We're Back, Baby",2019,False,[14832847],,,,"('No multiple ids for this episode', 1197264, 907320)",No multiple ids for this episode
+Vudu,1198372,1198376,SE,,Mystic Britain,Mystic Britain: Witches and Demons,2019,False,[14832636],,,,"('No multiple ids for this episode', 1198376, 1198372)",No multiple ids for this episode
+Vudu,1198455,1198459,SE,,Paranormal Emergency,Paranormal Emergency: It Wasn't Human,2019,False,[14832594],,,,"('No multiple ids for this episode', 1198459, 1198455)",No multiple ids for this episode
+Vudu,646435,1198492,SE,,Kids Baking Championship,Kids Baking Championship: Splatter Up!,2019,False,[14826161],,,,"('No multiple ids for this episode', 1198492, 646435)",No multiple ids for this episode
+Vudu,1198519,1198523,SE,,Code of the Wild,Code of the Wild: The Curse of El Dorado,2019,False,[14839038],,,,"('No multiple ids for this episode', 1198523, 1198519)",No multiple ids for this episode
+Vudu,1198547,1198551,SE,,Queen of the Pythons,Queen of the Pythons,2019,False,[],,,,"('No multiple ids for this episode', 1198551, 1198547)",No multiple ids for this episode
+Vudu,1017121,1198557,SE,,Let's Go Luna!,Let's Go Luna!: Guitar To Sitar/Spring Has Not Sprung,2019,False,[12897849],,,,"('No multiple ids for this episode', 1198557, 1017121)",No multiple ids for this episode
+Vudu,1198572,1198576,SE,,Mountain Mamas,Mountain Mamas: Rustic Dream Home in Montana,2017,False,[14940399],,,,"('No multiple ids for this episode', 1198576, 1198572)",No multiple ids for this episode
+Vudu,770225,1198606,SE,,Preacher,Preacher: Masada,2019,False,[14752261],,,,"('No multiple ids for this episode', 1198606, 770225)",No multiple ids for this episode
+Vudu,1198693,1198697,SE,,Strange World,Strange World: Zombie Boys,2019,False,[14850461],,,,"('No multiple ids for this episode', 1198697, 1198693)",No multiple ids for this episode
+Vudu,1141513,1198779,SE,,Adventures in Duckport,Adventures in Duckport: What's Wrong With Boris,2019,False,[14920759],,,,"('No multiple ids for this episode', 1198779, 1141513)",No multiple ids for this episode
+Vudu,1036528,1198870,SE,,Frankie Drake Mysteries,Frankie Drake Mysteries: The Old Switcheroo,2018,False,[11356986],,,,"('No multiple ids for this episode', 1198870, 1036528)",No multiple ids for this episode
+Vudu,,1199215,MO,Rocketman: It's Going To Be A Wild Ride - Creative Vision (featurette),,,,False,[],,,,"('No multiple ids for this link', 1199215)",No multiple ids for this link
+Vudu,,1199221,MO,Rocketman: Becoming Elton John - Taron's Transformation (featurette),,,,False,[],,,,"('No multiple ids for this link', 1199221)",No multiple ids for this link
+Vudu,,1199239,MO,Rocketman: The Right Chemistry - The Ensemble Cast (featurette),,,,False,[],,,,"('No multiple ids for this link', 1199239)",No multiple ids for this link
+Vudu,,1199242,MO,Rocketman: Larger Than Life - Production Design and Costuming (featurette),,,,False,[],,,,"('No multiple ids for this link', 1199242)",No multiple ids for this link
+Vudu,,1199245,MO,Rocketman: Full Tilt - Staging The Musical Numbers (featurette),,,,False,[],,,,"('No multiple ids for this link', 1199245)",No multiple ids for this link
+Vudu,,1199248,MO,Rocketman: Music Reimagined - The Studio Sessions (featurette),,,,False,[],,,,"('No multiple ids for this link', 1199248)",No multiple ids for this link
+Vudu,,1199251,MO,Rocketman: Rocket Man - Anatomy Of A Scene (featurette),,,,False,[],,,,"('No multiple ids for this link', 1199251)",No multiple ids for this link
+Vudu,,1199254,MO,Rocketman: Rocket Man Music Video (featurette),,,,False,[],,,,"('No multiple ids for this link', 1199254)",No multiple ids for this link
+Vudu,,1199257,MO,Rocketman: Extended Musical Number - Introduction By Dexter Fletcher (featurette),,,,False,[],,,,"('No multiple ids for this link', 1199257)",No multiple ids for this link
+Vudu,,1199260,MO,Rocketman: Extended Musical Number - The Bitch Is Back (featurette),,,,False,[],,,,"('No multiple ids for this link', 1199260)",No multiple ids for this link
+Vudu,,1199263,MO,Rocketman: Extended Musical Number - Saturday Night's Alright (For Fighting) (featurette),,,,False,[],,,,"('No multiple ids for this link', 1199263)",No multiple ids for this link
+Vudu,,1199266,MO,Rocketman: Extended Musical Number - Breaking Down The Walls Of Heartache (featurette),,,,False,[],,,,"('No multiple ids for this link', 1199266)",No multiple ids for this link
+Vudu,,1199269,MO,Rocketman: Extended Musical Number - Honky Cat (featurette),,,,False,[],,,,"('No multiple ids for this link', 1199269)",No multiple ids for this link
+Vudu,,1199272,MO,Rocketman: Deleted and Extended Scenes with Introduction By Dexter Fletcher (featurette),,,,False,[],,,,"('No multiple ids for this link', 1199272)",No multiple ids for this link
+Vudu,,1199275,MO,Rocketman: Rocketman Lyric Companion - Sing-Along With Select Songs (featurette),,,,False,[],,,,"('No multiple ids for this link', 1199275)",No multiple ids for this link
+Vudu,776927,1199515,SE,,The Kitchen,The Kitchen: Episode 1,2019,False,[14940224],,,,"('No multiple ids for this episode', 1199515, 776927)",No multiple ids for this episode
+Vudu,,1199557,MO,Scary Stories to Tell in the Dark,,,2019,False,"[12787754, 846068]",,,,Duplicate projectx ids found in search api and rovi has duplicate,Duplicate projectx ids found in search api and rovi has duplicate,,"[846068, 12787754]",True,2,1,1,"[{'846068': 'Rovi_id:853505858'}, {'12787754': 'Rovi_id:6459026409'}]",[{'12787754': 'Gb_id:170248'}],[{'12787754': 'Vudu_id:1199557'}],Null,[]
+Vudu,,1199606,MO,Luce,,,2019,False,[13689762],,,,"('No multiple ids for this link', 1199606)",No multiple ids for this link
+Vudu,,1199609,MO,Nekrotronic,,,2019,False,[14756451],,,,"('No multiple ids for this link', 1199609)",No multiple ids for this link
+Vudu,,1199615,MO,Brian Banks,,,2019,False,[13599284],,,,"('No multiple ids for this link', 1199615)",No multiple ids for this link
+Vudu,,1199724,MO,Coyote Lake,,,2019,False,[14709646],,,,"('No multiple ids for this link', 1199724)",No multiple ids for this link
+Vudu,948754,1200132,SE,,BattleBots,BattleBots: Eyes on the Prize,2019,False,[14940340],,,,"('No multiple ids for this episode', 1200132, 948754)",No multiple ids for this episode
+Vudu,338398,1200165,SE,,The Little Couple,"The Little Couple: Wait, theyre cutting you open?",2019,False,[14839246],,,,"('No multiple ids for this episode', 1200165, 338398)",No multiple ids for this episode
+Vudu,724096,1200259,SE,,Adult Swim Specials,Adult Swim Specials: Jamir at Home,2019,False,[14869147],,,,"('No multiple ids for this episode', 1200259, 724096)",No multiple ids for this episode
+Vudu,1200270,1200274,SE,,Chasing the Cure,Chasing the Cure: Chasing the Cure 101,2019,False,[14845364],,,,"('No multiple ids for this episode', 1200274, 1200270)",No multiple ids for this episode
+Vudu,1149466,1200313,SE,,Danny's House,Danny's House: Trailer,2019,False,[14847859],,,,"('No multiple ids for this episode', 1200313, 1149466)",No multiple ids for this episode
+Vudu,,1200771,MO,Deadly Influencer,,,2019,False,[14858292],,,,"('No multiple ids for this link', 1200771)",No multiple ids for this link
+Vudu,1200869,1200873,SE,,Serengeti,Serengeti: Destiny,2019,False,[14071482],,,,"('No multiple ids for this episode', 1200873, 1200869)",No multiple ids for this episode
+Vudu,1201146,1201153,SE,,Fire Force (Dubbed),Fire Force: Shinra Kusakabe Enlists,2019,False,[14832536],,,,"('No multiple ids for this series', 1201153, 1201146)",No multiple ids for this link
+Vudu,1201215,1201222,SE,,Fire Force (Original Japanese),Fire Force: Shinra Kusakabe Enlists,2019,False,[14832547],,,,"('No multiple ids for this episode', 1201222, 1201215)",No multiple ids for this episode
+Vudu,511191,1201392,SE,,Wahlburgers,Wahlburgers: Wahlburgers Comes Home,2019,False,[14807122],,,,"('No multiple ids for this episode', 1201392, 511191)",No multiple ids for this episode
+Vudu,,1201565,MO,The Secret Life of Pets 2: Super Gidget (Featurette),,,,False,[],,,,"('No multiple ids for this link', 1201565)",No multiple ids for this link
+Vudu,1201577,1201581,SE,,The Zoo: San Diego,The Zoo: San Diego: Welcome to our World,2019,False,[14869390],,,,"('No multiple ids for this episode', 1201581, 1201577)",No multiple ids for this episode
+Vudu,,1202025,MO,WWE WrestleMania 35: 2019 Hall of Fame Ceremony (Featurette),,,,False,[],,,,"('No multiple ids for this link', 1202025)",No multiple ids for this link
+Vudu,1202556,1202560,SE,,Making Monsters,Making Monsters: It's Not Easy Making Monsters,2011,False,[7471198],,,,"('No multiple ids for this episode', 1202560, 1202556)",No multiple ids for this episode
+Vudu,535211,1203443,SE,,Fear Thy Neighbor,Fear Thy Neighbor: A Killer View,2019,False,[14847342],,,,"('No multiple ids for this episode', 1203443, 535211)",No multiple ids for this episode
+Vudu,565824,1203493,SE,,Alaskan Bush People,Alaskan Bush People: King of the Mountain,2019,False,[14721210],,,,"('No multiple ids for this episode', 1203493, 565824)",No multiple ids for this episode
+Vudu,1203647,1203651,SE,,Undercover Billionaire,Undercover Billionaire: Million Dollar Bet,2019,False,"[14824858, 11549904]",,,,Duplicate ids not found in search api,Duplicate ids not found in search api,,[],,,,,,,,Null,[{'variant_parent_id': '11549904'}],,
+Vudu,1203675,1203679,SE,,Contact,Contact: Alien Evidence,2019,False,[14847519],,,,"('No multiple ids for this episode', 1203679, 1203675)",No multiple ids for this episode
+Vudu,776607,1203706,SE,,The Vet Life,The Vet Life: The Dog Ate My Shorts,2019,False,[14892804],,,,"('No multiple ids for this episode', 1203706, 776607)",No multiple ids for this episode
+Vudu,586598,1204164,SE,,Squidbillies,Squidbillies: Forever Autumn,2019,False,[14867726],,,,"('No multiple ids for this episode', 1204164, 586598)",No multiple ids for this episode
+Vudu,713393,1204224,SE,,Adam Ruins Everything,Adam Ruins Everything: Vol. 6 Sneak Peek,2019,False,[14940207],,,,"('No multiple ids for this episode', 1204224, 713393)",No multiple ids for this episode
+Vudu,1173749,1205570,SE,,Impulse,Impulse: Pilot,2018,False,"[14937471, 10859032]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[14937468, 10858951]",True,1,1,1,[{'10858951': 'Rovi_id:4389969622'}],[{'14937468': 'Gb_id:56250'}],[{'14937468': 'Vudu_id:1173749'}],,[]
+Vudu,1149633,1206126,SE,,Ghost Hunters,Ghost Hunters: Ghost Hunters Reboot Sneak Peak,2019,False,[14940414],,,,"('No multiple ids for this episode', 1206126, 1149633)",No multiple ids for this episode
+Vudu,1206129,1206133,SE,,The Food That Built America,The Food That Built America: Lines in the Sand,2019,False,[14862152],,,,"('No multiple ids for this episode', 1206133, 1206129)",No multiple ids for this episode
+Vudu,560409,1206175,SE,,Bachelor in Paradise,Bachelor in Paradise: 601A,2019,False,[14762214],,,,"('No multiple ids for this episode', 1206175, 560409)",No multiple ids for this episode
+Vudu,1206114,1206202,SE,,Monster Croc Wrangler,Monster Croc Wrangler: Croc in the Hole,2019,False,"[14840743, 14940402]",,,,Duplicate ids found in search api,Duplicate ids found in search api,,"[11428003, 14940400]",False,1,1,1,[{'11428003': 'Rovi_id:5640075303'}],[{'11428003': 'Gb_id:46739'}],[{'14940400': 'Vudu_id:1206114'}],,[]
+Vudu,995122,1206226,SE,,Secrets of the Zoo,Secrets of the Zoo: Baby Elephant Watch,2019,False,[14849498],,,,"('No multiple ids for this episode', 1206226, 995122)",No multiple ids for this episode
+Vudu,,1209244,MO,Song of Parkland,,,2019,False,[12783724],,,,"('No multiple ids for this link', 1209244)",No multiple ids for this link
+Vudu,,1209247,MO,Boycott,,,2001,False,[63515],,,,"('No multiple ids for this link', 1209247)",No multiple ids for this link
+Vudu,,1209250,MO,In the Gloaming,,,1997,False,[24807],,,,"('No multiple ids for this link', 1209250)",No multiple ids for this link
+Vudu,,1209253,MO,Maria Full of Grace,,,2004,False,"[14939593, 66703]",,,,Duplicate ids not found in search api,Duplicate ids not found in search api,,[],,,,,,,,Null,[],,
+Vudu,920740,1210483,SE,,Building Giants,Building Giants: Arctic Ice Hotel,2019,False,[14904468],,,,"('No multiple ids for this episode', 1210483, 920740)",No multiple ids for this episode
+Vudu,1210510,1210514,SE,,Monster Ships,Monster Ships: Hell on Water,2019,False,[14893452],,,,"('No multiple ids for this episode', 1210514, 1210510)",No multiple ids for this episode
+Vudu,,1210954,MO,American Experience: Woodstock: Three Days That Defined a Generation,,,2019,False,[13693029],,,,"('No multiple ids for this link', 1210954)",No multiple ids for this link
+Vudu,1150004,1211609,SE,,First Responders Live,First Responders Live: Episode 8,2019,False,[14854201],,,,"('No multiple ids for this episode', 1211609, 1150004)",No multiple ids for this episode
+Vudu,686612,1212464,SE,,Fear The Walking Dead,Fear the Walking Dead: Channel 4,2019,False,[14940129],,,,"('No multiple ids for this episode', 1212464, 686612)",No multiple ids for this episode
