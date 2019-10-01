@@ -1,0 +1,42 @@
+Vudu_id,Projectx_id,show_type,px_video_link_present,Vudu_link_present,ott_link_result,mapping
+407322,3303053,SE,,,Present,True(Rovi+others),"[{'Rovi': u'982760468'}, {'GuideBox': u'372378'}, {'Vudu': u'407322'}]"
+407326,3303093,SE,,,Present,True(Rovi+others),"[{'Rovi': u'982760469'}, {'GuideBox': u'372379'}, {'Vudu': u'407326'}]"
+407330,3303146,SE,,,Present,True(Rovi+others),"[{'Rovi': u'982760470'}, {'GuideBox': u'372380'}, {'Vudu': u'407330'}]"
+407338,3357806,SE,,,Present,True(Rovi+others),"[{'Rovi': u'374178762'}, {'GuideBox': u'336322'}, {'Vudu': u'407338'}]"
+407342,3357727,SE,,,Present,True(Rovi+others),"[{'Rovi': u'373515014'}, {'GuideBox': u'336323'}, {'Vudu': u'407342'}]"
+407346,3357882,SE,,,Present,True(Rovi+others),"[{'Rovi': u'374193086'}, {'GuideBox': u'336324'}, {'Vudu': u'407346'}]"
+407350,3357958,SE,,,Present,True(Rovi+others),"[{'Rovi': u'382852711'}, {'GuideBox': u'336325'}, {'Vudu': u'407350'}]"
+407354,3358072,SE,,,Present,True(Rovi+others),"[{'Rovi': u'383640589'}, {'GuideBox': u'336326'}, {'Vudu': u'407354'}]"
+407358,3358170,SE,,,Present,True(Rovi+others),"[{'Rovi': u'386545450'}, {'GuideBox': u'336327'}, {'Vudu': u'407358'}]"
+407362,3358245,SE,,,Present,True(Rovi+others),"[{'Rovi': u'424790877'}, {'GuideBox': u'337237'}, {'Vudu': u'407362'}]"
+407366,3358317,SE,,,Present,True(Rovi+others),"[{'Rovi': u'435451600'}, {'GuideBox': u'360024'}, {'Vudu': u'407366'}]"
+407370,3358374,SE,,,Present,True(Rovi+others),"[{'Rovi': u'444087754'}, {'GuideBox': u'360025'}, {'Vudu': u'407370'}]"
+407374,3358475,SE,,,Present,True(Rovi+others),"[{'Rovi': u'457386893'}, {'GuideBox': u'360026'}, {'Vudu': u'407374'}]"
+407378,3358565,SE,,,Present,True(Rovi+others),"[{'Rovi': u'460074133'}, {'GuideBox': u'360027'}, {'Vudu': u'407378'}]"
+407382,3358653,SE,,,Present,True(Rovi+others),"[{'Rovi': u'471081783'}, {'GuideBox': u'360028'}, {'Vudu': u'407382'}]"
+407386,3358744,SE,,,Present,True(Rovi+others),"[{'Rovi': u'471082038'}, {'GuideBox': u'360029'}, {'Vudu': u'407386'}]"
+407390,3358784,SE,,,Present,True(Rovi+others),"[{'Rovi': u'471216656'}, {'GuideBox': u'360030'}, {'Vudu': u'407390'}]"
+407394,3358867,SE,,,Present,True(Rovi+others),"[{'Rovi': u'471216921'}, {'GuideBox': u'360031'}, {'Vudu': u'407394'}]"
+407399,14683641,SE,True,True,Present,True,[{'Vudu': u'407399'}]
+407402,14683642,SE,True,True,Present,True,[{'Vudu': u'407402'}]
+407404,14683643,SE,True,True,Present,True,[{'Vudu': u'407404'}]
+407406,14683645,SE,True,True,Present,True,[{'Vudu': u'407406'}]
+407408,14683647,SE,True,True,Present,True,[{'Vudu': u'407408'}]
+407410,14683648,SE,True,True,Present,True,[{'Vudu': u'407410'}]
+407412,14683650,SE,True,True,Present,True,[{'Vudu': u'407412'}]
+407414,14683656,SE,True,True,Present,True,[{'Vudu': u'407414'}]
+407416,3338456,SE,,,Present,True(Rovi+others),"[{'Rovi': u'385846493'}, {'Vudu': u'407416'}]"
+407418,14683661,SE,True,True,Present,True,[{'Vudu': u'407418'}]
+407422,14642438,SE,True,True,Present,True,[{'Vudu': u'407422'}]
+407434,7731550,SE,,,Present,True(Rovi+others),"[{'Rovi': u'336750708'}, {'GuideBox': u'296257'}, {'Vudu': u'407434'}]"
+407438,7731625,SE,,,Present,True(Rovi+others),"[{'Rovi': u'336995927'}, {'GuideBox': u'296258'}, {'Vudu': u'407438'}]"
+407442,3338557,SE,,,Present,True(Rovi+others),"[{'Rovi': u'423650821'}, {'Vudu': u'407442'}]"
+407444,14683665,SE,True,True,Present,True,[{'Vudu': u'407444'}]
+407446,13389377,SE,,,Present,True(Rovi+others),"[{'GuideBox': u'435507'}, {'Vudu': u'407446'}]"
+407450,14801625,SE,True,True,Present,True,[{'Vudu': u'407450'}]
+407454,3203340,SE,,,Present,True(Rovi+others),"[{'Rovi': u'360270627'}, {'GuideBox': u'295475'}, {'Vudu': u'407454'}]"
+407458,3203377,SE,,,Present,True(Rovi+others),"[{'Rovi': u'360270640'}, {'GuideBox': u'295474'}, {'Vudu': u'407458'}]"
+407462,3393069,SE,,,Present,True(Rovi+others),"[{'Rovi': u'360270635'}, {'GuideBox': u'295173'}, {'Vudu': u'407462'}]"
+407466,3392010,SE,,,Present,True(Rovi+others),"[{'Rovi': u'361106478'}, {'GuideBox': u'295171'}, {'Vudu': u'407466'}]"
+407470,14517291,SE,True,True,Present,True,[{'Vudu': u'407470'}]
+407474,14516667,SE,True,True,P
