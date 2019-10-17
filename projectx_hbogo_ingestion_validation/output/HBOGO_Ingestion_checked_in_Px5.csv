@@ -1,0 +1,1001 @@
+HBOGO_id,HBOGO_show_type,title,series_title,season_number,episode_number,year,Duration,Duration > 60 mins,Updated_at,expired,expiry_date,Duplicate_present,Duplicate_source_id,Ingested,Not_ingested
+urn:hbo:episode:GVU34Hg5nzVFvjSoJAaMB,SE,Anointing Oil,Capadocia,3,3,2013,58 min,False,2019-04-28 13:51:45,0,,False,,,True
+urn:hbo:episode:GVU21DwIV9Y7DwvwIAVxb,SE,The Chosen,Capadocia,3,4,2013,54 min,False,2019-04-28 13:52:32,0,,False,,,True
+urn:hbo:episode:GVU34qA429INJjhsJAaMD,SE,Destroy (Kill What Hurts You),Capadocia,3,5,2013,58 min,False,2019-04-28 13:53:20,0,,False,,,True
+urn:hbo:episode:GVU3yMAQT7Y7DwvwIAZ_g,SE,The Wells of Salvation,Capadocia,3,6,2013,59 min,False,2019-04-28 13:54:06,0,,False,,,True
+urn:hbo:episode:GVU4ajAazkoNJjhsJAcV5,SE,The Righteous,Capadocia,3,7,2013,56 min,False,2019-04-28 13:54:52,0,,False,,,True
+urn:hbo:episode:GVU3eGw7AClFvjSoJAYej,SE,The Angel of the Abyss,Capadocia,3,8,2013,52 min,False,2019-04-28 13:55:39,0,,False,,,True
+urn:hbo:episode:GVU2tawTwsINJjhsJAVBu,SE,Sheep and Wolves,Capadocia,3,9,2013,57 min,False,2019-04-28 13:56:26,0,,False,,,True
+urn:hbo:episode:GVU3L8wP-qI7DwvwIAXWd,SE,The Shadow of Your Wings,Capadocia,3,10,2013,57 min,False,2019-04-28 13:57:13,0,,False,,,True
+urn:hbo:episode:GVU2ybw7V5lFvjSoJAVa_,SE,Peace and a Sword,Capadocia,3,11,2013,59 min,False,2019-04-28 13:58:00,0,,False,,,True
+urn:hbo:episode:GVU3jdwlgFFFvjSoJAY0H,SE,The Blood of the Innocent,Capadocia,3,12,2013,59 min,False,2019-04-28 13:58:47,0,,False,,,True
+urn:hbo:episode:GVU3dawfqp4NJjhsJAYYG,SE,Apocalypse,Capadocia,3,13,2013,57 min,False,2019-04-28 13:59:35,0,,False,,,True
+urn:hbo:series:GV442egnRLgrDwgEAAAAr,SM,Chumel con Chumel Torres,,,,,,NULL,2019-04-28 14:00:22,0,,False,,,True
+urn:hbo:season:GV442eguDkHyHrwEAAAAf,SN,,Chumel con Chumel Torres,1,,,,NULL,2018-01-07 08:37:17,1,,False,,,True
+urn:hbo:episode:GV442gwD4xXyHrwEAAAAg,SE,Chumel con Chumel Torres 01,Chumel con Chumel Torres,1,1,2016,26 min,False,2017-09-13 03:39:31,1,,False,,,True
+urn:hbo:episode:GV442lwHTr7zCPgEAAAAo,SE,Chumel con Chumel Torres 02,Chumel con Chumel Torres,1,2,2016,26 min,False,2017-09-13 03:39:36,1,,False,,,True
+urn:hbo:episode:GV442ygRCZwrDwgEAAAAw,SE,Chumel con Chumel Torres 03,Chumel con Chumel Torres,1,3,2016,32 min,False,2017-09-13 03:39:40,1,,False,,,True
+urn:hbo:episode:GV4428ghRGbzCPgEAAAAs,SE,Chumel con Chumel Torres 04,Chumel con Chumel Torres,1,4,2016,30 min,False,2017-09-13 03:39:45,1,,False,,,True
+urn:hbo:episode:GV443EAvuqLzCPgEAAAAu,SE,Chumel con Chumel Torres 05,Chumel con Chumel Torres,1,5,2016,30 min,False,2017-09-13 03:39:50,1,,False,,,True
+urn:hbo:episode:GV443OQQpVHyHrwEAAAAq,SE,Chumel con Chumel Torres 06,Chumel con Chumel Torres,1,6,2016,28 min,False,2017-09-13 03:39:55,1,,False,,,True
+urn:hbo:episode:GV5fEVwLKoMPCwwEAAAAH,SE,Chumel con Chumel Torres 07,Chumel con Chumel Torres,1,7,2016,31 min,False,2017-09-14 07:27:18,1,,False,,,True
+urn:hbo:episode:GV5fEVA8U-cIKwgEAAAAs,SE,Chumel con Chumel Torres 08,Chumel con Chumel Torres,1,8,2016,30 min,False,2017-09-17 03:40:56,1,,False,,,True
+urn:hbo:episode:GV5fEVQKTE8LCMAEAAAAF,SE,Chumel con Chumel Torres 09,Chumel con Chumel Torres,1,9,2016,29 min,False,2017-09-23 03:38:44,1,,False,,,True
+urn:hbo:episode:GV8bx3wOsXiDCwgEAAAAC,SE,Chumel con Chumel Torres 10,Chumel con Chumel Torres,1,10,2016,27 min,False,2017-09-28 03:37:56,1,,False,,,True
+urn:hbo:episode:GV8dZbACO1J6RcAEAAAAC,SE,Chumel con Chumel Torres 11,Chumel con Chumel Torres,1,11,2016,30 min,False,2018-01-07 08:37:32,1,,False,,,True
+urn:hbo:episode:GV8daCA5hwJ6RcAEAAAAD,SE,Chumel con Chumel Torres 12,Chumel con Chumel Torres,1,12,2016,29 min,False,2018-01-07 08:37:52,1,,False,,,True
+urn:hbo:episode:GV8daTAmT-yDCwgEAAAAI,SE,Chumel con Chumel Torres 13,Chumel con Chumel Torres,1,13,2016,29 min,False,2018-01-07 08:38:27,1,,False,,,True
+urn:hbo:episode:GV8dalAWi-aykwwEAAAAL,SE,Chumel con Chumel Torres 14,Chumel con Chumel Torres,1,14,2016,29 min,False,2018-01-07 08:38:51,1,,False,,,True
+urn:hbo:episode:GV87VqAEkJatocAEAAAAC,SE,Chumel con Chumel Torres 15,Chumel con Chumel Torres,1,15,2016,30 min,False,2018-01-07 08:39:13,1,,False,,,True
+urn:hbo:episode:GV-QedAxEMivDZAEAAAA4,SE,Chumel con Chumel Torres 16,Chumel con Chumel Torres,1,16,2016,30 min,False,2018-01-07 08:39:29,1,,False,,,True
+urn:hbo:episode:GV-QeVgpR3km5oAEAAAA3,SE,Chumel con Chumel Torres 17,Chumel con Chumel Torres,1,17,2016,30 min,False,2018-01-07 08:39:46,1,,False,,,True
+urn:hbo:episode:GV-QekwB0cL-cFQEAAAAQ,SE,Chumel con Chumel Torres 18,Chumel con Chumel Torres,1,18,2016,31 min,False,2018-01-07 08:40:15,1,,False,,,True
+urn:hbo:episode:GV-QeOAtVkCvDZAEAAAA2,SE,Chumel con Chumel Torres 19,Chumel con Chumel Torres,1,19,2016,30 min,False,2018-01-07 08:40:50,1,,False,,,True
+urn:hbo:episode:GWABsrQCGIpmUmQEAAAA0,SE,Chumel con Chumel Torres 20,Chumel con Chumel Torres,1,20,2016,31 min,False,2018-01-07 08:41:14,1,,False,,,True
+urn:hbo:episode:GWABs7gV3v8LDwgEAAAAz,SE,Chumel con Chumel Torres 21,Chumel con Chumel Torres,1,21,2016,29 min,False,2018-01-07 08:41:29,1,,False,,,True
+urn:hbo:episode:GWABtJQ5Au8LDwgEAAAA1,SE,Chumel con Chumel Torres 22,Chumel con Chumel Torres,1,22,2016,31 min,False,2018-01-07 08:41:42,1,,False,,,True
+urn:hbo:season:GWJyCZAZ3x47DwwEAAAAD,SN,,Chumel con Chumel Torres,2,,,,NULL,2018-11-19 09:51:03,1,2018-11-19 09:51:03,False,,,True
+urn:hbo:episode:GWJyCZwDN98ItmQEAAAAG,SE,Chumel con Chumel Torres 23,Chumel con Chumel Torres,2,1,2017,32 min,False,2018-10-24 08:03:53,1,2018-10-24 08:03:53,False,,,True
+urn:hbo:episode:GWJyCZg6_h1SwwgEAAAAE,SE,Chumel con Chumel Torres 24,Chumel con Chumel Torres,2,2,2017,30 min,False,2018-10-24 08:04:01,1,2018-10-24 08:04:01,False,,,True
+urn:hbo:episode:GWJyCYwCFyYOOpgEAAAAF,SE,Chumel con Chumel Torres 25,Chumel con Chumel Torres,2,3,2017,31 min,False,2018-10-24 08:04:10,1,2018-10-24 08:04:10,False,,,True
+urn:hbo:episode:GWJyCbA7GPMIuRQEAAAAF,SE,Chumel con Chumel Torres 26,Chumel con Chumel Torres,2,4,2017,29 min,False,2018-10-24 08:04:18,1,2018-10-24 08:04:18,False,,,True
+urn:hbo:episode:GWJyCZwD6scMqBgEAAAAE,SE,Chumel con Chumel Torres 27,Chumel con Chumel Torres,2,5,2017,29 min,False,2018-10-24 08:04:27,1,2018-10-24 08:04:27,False,,,True
+urn:hbo:episode:GWJyCaQFcu8ItmQEAAAAH,SE,Chumel con Chumel Torres 28,Chumel con Chumel Torres,2,6,2017,29 min,False,2018-10-24 08:04:36,1,2018-10-24 08:04:36,False,,,True
+urn:hbo:episode:GWKNs8gYlmYWdlwEAAAAY,SE,Chumel con Chumel Torres 29,Chumel con Chumel Torres,2,7,2017,30 min,False,2018-10-24 08:04:44,1,2018-10-24 08:04:44,False,,,True
+urn:hbo:episode:GWKNs8gadAbAWrwEAAAAT,SE,Chumel con Chumel Torres 30,Chumel con Chumel Torres,2,8,2017,30 min,False,2018-10-24 08:04:53,1,2018-10-24 08:04:53,False,,,True
+urn:hbo:episode:GWNkeRwoMmsMWnQEAAAFL,SE,Chumel con Chumel Torres 31,Chumel con Chumel Torres,2,9,2017,29 min,False,2018-10-24 08:05:01,1,2018-10-24 08:05:01,False,,,True
+urn:hbo:episode:GWNkeMwZBMMLCGwEAAAE8,SE,Chumel con Chumel Torres 32,Chumel con Chumel Torres,2,10,2017,29 min,False,2018-10-24 08:05:10,1,2018-10-24 08:05:10,False,,,True
+urn:hbo:episode:GWNkeHwtiL8MMcgEAAAFN,SE,Chumel con Chumel Torres 33,Chumel con Chumel Torres,2,11,2017,33 min,False,2018-10-24 08:05:18,1,2018-10-24 08:05:18,False,,,True
+urn:hbo:episode:GWNkeXwl0kZrCDwEAAAFL,SE,Chumel con Chumel Torres 34,Chumel con Chumel Torres,2,12,2017,30 min,False,2018-10-24 08:05:27,1,2018-10-24 08:05:27,False,,,True
+urn:hbo:series:GVU2jogF-pY7DwvwIAUiD,SM,Destino Deporte,,,,,,NULL,2018-11-29 01:34:55,1,2018-11-29 01:34:55,False,,,True
+urn:hbo:season:GVU2-9AZLMoNJjhsJAWQS,SN,,Destino Deporte,2,,,,NULL,2018-01-07 08:43:18,1,,False,,,True
+urn:hbo:episode:GVU32fwoInVFvjSoJAaFK,SE,Destino Deporte 11,Destino Deporte,2,1,2013,49 min,False,2018-01-07 08:43:31,1,,False,,,True
+urn:hbo:episode:GVU3X0w8SEFFvjSoJAYDp,SE,Destino Deporte 12,Destino Deporte,2,2,2013,55 min,False,2018-01-07 08:43:53,1,,False,,,True
+urn:hbo:episode:GVU4IvwSm3lFvjSoJAbRu,SE,Destino Deporte 13,Destino Deporte,2,3,2013,59 min,False,2018-01-07 08:44:25,1,,False,,,True
+urn:hbo:episode:GVU3zYAX95VFvjSoJAZ43,SE,Destino Deporte 14,Destino Deporte,2,4,2013,57 min,False,2018-01-07 08:44:54,1,,False,,,True
+urn:hbo:episode:GVU3JWgQSz4NJjhsJAW-6,SE,Destino Deporte 15,Destino Deporte,2,5,2013,1 hr,True,2018-01-07 08:45:09,1,,False,,,True
+urn:hbo:episode:GVU3fAghCiFFvjSoJAYix,SE,Destino Deporte 16,Destino Deporte,2,6,2013,55 min,False,2018-01-07 08:45:14,1,,False,,,True
+urn:hbo:episode:GVU2-9AbkOoNJjhsJAWQT,SE,Destino Deporte 17,Destino Deporte,2,7,2013,52 min,False,2018-01-07 08:45:19,1,,False,,,True
+urn:hbo:episode:GVU2_xwzgiY7DwvwIAWhj,SE,Destino Deporte 18,Destino Deporte,2,8,2013,53 min,False,2018-01-07 08:45:31,1,,False,,,True
+urn:hbo:episode:GVU3pFwBnzoNJjhsJAZHX,SE,Destino Deporte 19,Destino Deporte,2,9,2013,52 min,False,2018-01-07 08:45:47,1,,False,,,True
+urn:hbo:season:GVU2jogIUFlFvjSoJAUaG,SN,,Destino Deporte,3,,,,NULL,2018-10-24 08:06:21,1,2018-10-24 08:06:21,False,,,True
+urn:hbo:episode:GVU21xQYsSo7DwvwIAV1E,SE,Destino Deporte 20,Destino Deporte,3,1,2014,53 min,False,2018-10-24 08:06:29,1,2018-10-24 08:06:29,False,,,True
+urn:hbo:episode:GVU2mGwmxalFvjSoJAUnH,SE,Destino Deporte 21,Destino Deporte,3,2,2014,52 min,False,2018-10-24 08:06:38,1,2018-10-24 08:06:38,False,,,True
+urn:hbo:episode:GVU2l1g0Yao7DwvwIAUti,SE,Destino Deporte 22,Destino Deporte,3,3,2014,52 min,False,2018-10-24 08:06:47,1,2018-10-24 08:06:47,False,,,True
+urn:hbo:episode:GVU38pwC5pFFvjSoJAacp,SE,Destino Deporte 23,Destino Deporte,3,4,2014,48 min,False,2018-10-24 08:06:55,1,2018-10-24 08:06:55,False,,,True
+urn:hbo:episode:GVU2jogKf3Y7DwvwIAUiE,SE,Destino Deporte 24,Destino Deporte,3,5,2014,53 min,False,2018-10-24 08:07:04,1,2018-10-24 08:07:04,False,,,True
+urn:hbo:episode:GVU4y8AX3sI7DwvwIAeBq,SE,Destino Deporte 25,Destino Deporte,3,6,2014,56 min,False,2018-10-24 08:07:12,1,2018-10-24 08:07:12,False,,,True
+urn:hbo:episode:GVU229g89noNJjhsJAVuW,SE,Destino Deporte 26,Destino Deporte,3,7,2014,56 min,False,2018-10-24 08:07:21,1,2018-10-24 08:07:21,False,,,True
+urn:hbo:episode:GVU3hQQ20BVFvjSoJAYsr,SE,Destino Deporte 27,Destino Deporte,3,8,2014,54 min,False,2018-10-24 08:07:29,1,2018-10-24 08:07:29,False,,,True
+urn:hbo:episode:GVU3AmAWVJVFvjSoJAWbH,SE,Destino Deporte 28,Destino Deporte,3,9,2014,58 min,False,2018-10-24 08:07:38,1,2018-10-24 08:07:38,False,,,True
+urn:hbo:season:GVU2nlw52FINJjhsJAUpn,SN,,Destino Deporte,4,,,,NULL,2018-11-29 01:35:05,1,2018-11-29 01:35:05,False,,,True
+urn:hbo:episode:GVU3jUA5vBoNJjhsJAYwL,SE,Destino Deporte 29,Destino Deporte,4,1,2014,53 min,False,2018-11-29 01:35:13,1,2018-11-29 01:35:13,False,,,True
+urn:hbo:episode:GVU3YsAUXDo7DwvwIAYRg,SE,Destino Deporte 30,Destino Deporte,4,2,2014,53 min,False,2018-11-29 01:35:22,1,2018-11-29 01:35:22,False,,,True
+urn:hbo:episode:GVU21YgLNsI7DwvwIAVzS,SE,Destino Deporte 31,Destino Deporte,4,3,2014,59 min,False,2018-11-29 01:35:30,1,2018-11-29 01:35:30,False,,,True
+urn:hbo:episode:GVU3-iQeu147DwvwIAaxR,SE,Destino Deporte 32,Destino Deporte,4,4,2014,58 min,False,2018-11-29 01:35:39,1,2018-11-29 01:35:39,False,,,True
+urn:hbo:episode:GVU3SvgJ3HVFvjSoJAXph,SE,Destino Deporte 33,Destino Deporte,4,5,2015,52 min,False,2018-11-29 01:35:47,1,2018-11-29 01:35:47,False,,,True
+urn:hbo:episode:GVU2nlw7wwI7DwvwIAU13,SE,Destino Deporte 34,Destino Deporte,4,6,2015,1 hr,True,2018-11-29 01:35:56,1,2018-11-29 01:35:56,False,,,True
+urn:hbo:episode:GVU3xwQnNII7DwvwIAZ96,SE,Destino Deporte 35,Destino Deporte,4,7,2015,52 min,False,2018-11-29 01:36:05,1,2018-11-29 01:36:05,False,,,True
+urn:hbo:episode:GVU3mmgKtKINJjhsJAY9g,SE,Destino Deporte 36,Destino Deporte,4,8,2015,52 min,False,2018-11-29 01:36:14,1,2018-11-29 01:36:14,False,,,True
+urn:hbo:episode:GVU3fCgRqxlFvjSoJAYi0,SE,Destino Deporte 37,Destino Deporte,4,9,2015,51 min,False,2018-11-29 01:36:22,1,2018-11-29 01:36:22,False,,,True
+urn:hbo:series:GVvk8Gw1uUYE0m2IJAAAn,SM,Dios Inc.,,,,2016,,NULL,2019-04-28 14:01:10,0,,False,,,True
+urn:hbo:season:GVvk8Gw2yocIQt2AJAAC_,SN,,Dios Inc.,1,,,,NULL,2019-04-28 14:01:57,0,,False,,,True
+urn:hbo:episode:GVwPfKgK7-zyEv5cJAABP,SE,The Cave,Dios Inc.,1,1,2016,59 min,False,2019-04-28 14:02:43,0,,False,,,True
+urn:hbo:episode:GVvk8Gw0KDcIQt2AJAAC-,SE,Lifting the Veil,Dios Inc.,1,2,2016,50 min,False,2019-04-28 14:03:30,0,,False,,,True
+urn:hbo:episode:GVxo-oQLTciWMQQEAAABB,SE,The Wrath of Indra,Dios Inc.,1,3,2016,50 min,False,2019-04-28 14:04:18,0,,False,,,True
+urn:hbo:episode:GVxpJdA2Cs7KQwwEAAAA1,SE,Crossroads,Dios Inc.,1,4,2016,53 min,False,2019-04-28 14:05:05,0,,False,,,True
+urn:hbo:episode:GVxpLEAH2pEWCwwEAAABE,SE,The Flock,Dios Inc.,1,5,2016,49 min,False,2019-04-28 14:05:52,0,,False,,,True
+urn:hbo:episode:GVxpXYQu8VbKQwwEAAAA8,SE,The Holy Grail,Dios Inc.,1,6,2016,48 min,False,2019-04-28 14:06:39,0,,False,,,True
+urn:hbo:episode:GV2Bh7gKqF665JQEAAAA8,SE,The Catacombs,Dios Inc.,1,7,2016,46 min,False,2019-04-28 14:07:25,0,,False,,,True
+urn:hbo:episode:GV2qX_gk0eIw_pwEAAAAg,SE,The Prodigal Son,Dios Inc.,1,8,2016,47 min,False,2019-04-28 14:08:12,0,,False,,,True
+urn:hbo:episode:GV2qZDwTAnow_pwEAAAAk,SE,The Snake in the Garden,Dios Inc.,1,9,2016,49 min,False,2019-04-28 14:08:59,0,,False,,,True
+urn:hbo:episode:GV2qZdA8qMYw_pwEAAAAl,SE,30 Pieces of Silver,Dios Inc.,1,10,2016,46 min,False,2019-04-28 14:09:46,0,,False,,,True
+urn:hbo:episode:GV2qZtADnd4w_pwEAAAAq,SE,Holocaust,Dios Inc.,1,11,2016,47 min,False,2019-04-28 14:10:34,0,,False,,,True
+urn:hbo:episode:GV2BWVQhF70rCwwEAAACq,SE,Crucifixion,Dios Inc.,1,12,2016,48 min,False,2019-04-28 14:11:21,0,,False,,,True
+urn:hbo:series:GVs8omQqyv7qGtt8IAABb,SM,El Hipnotizador,,,,2016,,NULL,2019-04-28 14:12:09,0,,False,,,True
+urn:hbo:season:GVs8omQp8l7qGtt8IAABa,SN,,El Hipnotizador,1,,,,NULL,2019-04-28 14:12:56,0,,False,,,True
+urn:hbo:episode:GVs8ooATOzLqGtt8IAABc,SE,The Yellow Ribbon,El Hipnotizador,1,1,2016,57 min,False,2019-04-28 14:13:43,0,,False,,,True
+urn:hbo:episode:GVs8qrAe7Rjeqw9kIAADg,SE,The Collector of Days,El Hipnotizador,1,2,2016,59 min,False,2019-04-28 14:14:30,0,,False,,,True
+urn:hbo:episode:GVs8rUQJhYLqGtt8IAABi,SE,The Portrait of Adele,El Hipnotizador,1,3,2016,1 hr 2 min,True,2019-04-28 14:15:16,0,,False,,,True
+urn:hbo:episode:GVs8w6AIWcrCxtuIIAAE8,SE,The Ivory Door,El Hipnotizador,1,4,2016,1 hr 3 min,True,2019-04-28 14:16:03,0,,False,,,True
+urn:hbo:episode:GVs80PwheV7CxtuIIAAE_,SE,The Mirror,El Hipnotizador,1,5,2016,59 min,False,2019-04-28 14:16:50,0,,False,,,True
+urn:hbo:episode:GVumkmAykY8Mzw0oJAAFs,SE,The King of Strombolia,El Hipnotizador,1,6,2016,1 hr 1 min,True,2019-04-28 14:17:37,0,,False,,,True
+urn:hbo:episode:GVumkmgImHsMzw0oJAAFu,SE,Where the Serpents Dream,El Hipnotizador,1,7,2016,49 min,False,2019-04-28 14:18:24,0,,False,,,True
+urn:hbo:episode:GVumkmAwSv7ynAEoJAAAC,SE,The Feather Pillow,El Hipnotizador,1,8,2016,59 min,False,2019-04-28 14:19:11,0,,False,,,True
+urn:hbo:series:GVU2fTQeHeo7DwvwIAUH5,SM,El Negocio,,,,2014,,NULL,2019-04-28 14:19:59,0,,False,,,True
+urn:hbo:season:GVU2fTQg3ZFFvjSoJAUAT,SN,,El Negocio,1,,,,NULL,2019-04-28 14:20:45,0,,False,,,True
+urn:hbo:episode:GVU3XoA3dY47DwvwIAYNN,SE,Vision,El Negocio,1,1,2014,51 min,False,2019-04-28 14:21:32,0,,False,,,True
+urn:hbo:episode:GVU2zkAG0kFFvjSoJAVgv,SE,Tying Sale,El Negocio,1,2,2014,51 min,False,2019-04-28 14:22:19,0,,False,,,True
+urn:hbo:episode:GVU4VqAOBAINJjhsJAcDf,SE,Focus Group,El Negocio,1,3,2014,51 min,False,2019-04-28 14:23:06,0,,False,,,True
+urn:hbo:episode:GVU3urAMNC4NJjhsJAZiC,SE,Overbooking,El Negocio,1,4,2014,51 min,False,2019-04-28 14:23:54,0,,False,,,True
+urn:hbo:episode:GVU33sQXzW1FvjSoJAaK_,SE,All About Karin,El Negocio,1,5,2014,52 min,False,2019-04-28 14:24:41,0,,False,,,True
+urn:hbo:episode:GVU3ZxAC2oVFvjSoJAYJ1,SE,Impulse Buying,El Negocio,1,6,2014,49 min,False,2019-04-28 14:25:27,0,,False,,,True
+urn:hbo:episode:GVU2hBgoUKINJjhsJAUHZ,SE,Turn Around,El Negocio,1,7,2014,53 min,False,2019-04-28 14:26:14,0,,False,,,True
+urn:hbo:episode:GVU2lFgltXVFvjSoJAUhW,SE,Repositioning,El Negocio,1,8,2014,49 min,False,2019-04-28 14:27:01,0,,False,,,True
+urn:hbo:episode:GVU2fTQjJLVFvjSoJAUAU,SE,Luna,El Negocio,1,9,2014,54 min,False,2019-04-28 14:27:47,0,,False,,,True
+urn:hbo:episode:GVU4RuAEduI7DwvwIAcB_,SE,Share of Heart,El Negocio,1,10,2014,50 min,False,2019-04-28 14:28:34,0,,False,,,True
+urn:hbo:episode:GVU3ppgusho7DwvwIAZWh,SE,Value of the Brand,El Negocio,1,11,2014,50 min,False,2019-04-28 14:29:22,0,,False,,,True
+urn:hbo:episode:GVU3Q8wDh64NJjhsJAXd2,SE,Loyalty Plan,El Negocio,1,12,2014,51 min,False,2019-04-28 14:30:09,0,,False,,,True
+urn:hbo:episode:GVU26xg2AQ47DwvwIAWLS,SE,Share of Wallet,El Negocio,1,13,2014,53 min,False,2019-04-28 14:30:57,0,,False,,,True
+urn:hbo:season:GVWHPTAcnGMJtGzYJAAE8,SN,,El Negocio,2,,,,NULL,2019-04-28 14:31:44,0,,False,,,True
+urn:hbo:episode:GVWHPTAfG86a9wxYJAAE2,SE,Piracy,El Negocio,2,1,2015,56 min,False,2019-04-28 14:32:31,0,,False,,,True
+urn:hbo:episode:GVWHm1Q7958JtGzYJAAL4,SE,Why Not?,El Negocio,2,2,2015,55 min,False,2019-04-28 14:33:19,0,,False,,,True
+urn:hbo:episode:GVWHqDACkdaa9wxYJAAMx,SE,Settlement,El Negocio,2,3,2015,58 min,False,2019-04-28 14:34:06,0,,False,,,True
+urn:hbo:episode:GVWHiYQLRoYUfw_AIAAKD,SE,Justice,El Negocio,2,4,2015,49 min,False,2019-04-28 14:34:54,0,,False,,,True
+urn:hbo:episode:GVYSifwGkHIqLlS8JADuU,SE,Bingo,El Negocio,2,5,2015,58 min,False,2019-04-28 14:35:41,0,,False,,,True
+urn:hbo:episode:GVYSiZw1RR5ewhCwJADuA,SE,Freedom,El Negocio,2,6,2015,56 min,False,2019-04-28 14:36:29,0,,False,,,True
+urn:hbo:episode:GVYSiOg58W5ewhCwJADts,SE,Business Plan,El Negocio,2,7,2015,57 min,False,2019-04-28 14:37:16,0,,False,,,True
+urn:hbo:episode:GVYSiOw5WdizCKRAJADpX,SE,Quicksand,El Negocio,2,8,2015,59 min,False,2019-04-28 14:38:04,0,,False,,,True
+urn:hbo:episode:GVaRIwQQWeJHCDxYJAABl,SE,Valentine's Day,El Negocio,2,9,2015,52 min,False,2019-04-28 14:38:51,0,,False,,,True
+urn:hbo:episode:GVaRIwgAJBEXDdgMJAAB5,SE,Strike,El Negocio,2,10,2015,54 min,False,2019-04-28 14:39:38,0,,False,,,True
+urn:hbo:episode:GVaRJAQjHMTvCwh4JAACc,SE,Behind the Mask,El Negocio,2,11,2015,55 min,False,2019-04-28 14:40:25,0,,False,,,True
+urn:hbo:episode:GVaRJCAfEskXDdgMJAAC2,SE,Private Equity Fund,El Negocio,2,12,2015,51 min,False,2019-04-28 14:41:13,0,,False,,,True
+urn:hbo:episode:GVduk_wHXHMMaqpsIAACv,SE,Trademark,El Negocio,2,13,2015,55 min,False,2019-04-28 14:42:00,0,,False,,,True
+urn:hbo:season:GV2BO-QBvCSvDZAEAAACX,SN,,El Negocio,3,,,,NULL,2019-04-28 14:42:48,0,,False,,,True
+urn:hbo:episode:GV2Bh6gf0Ya65JQEAAAA7,SE,Chief Executive Officer,El Negocio,3,1,2016,59 min,False,2019-04-28 14:43:35,0,,False,,,True
+urn:hbo:episode:GV2BV9QpAA7euvAEAAAAI,SE,Biography,El Negocio,3,2,2016,48 min,False,2019-04-28 14:44:23,0,,False,,,True
+urn:hbo:episode:GV2BO-A7mKkrCwwEAAACQ,SE,Mia,El Negocio,3,3,2016,52 min,False,2019-04-28 14:45:10,0,,False,,,True
+urn:hbo:episode:GV5fEVA7XYWzCwwEAAAA5,SE,Value,El Negocio,3,4,2016,52 min,False,2019-04-28 14:45:56,0,,False,,,True
+urn:hbo:episode:GV5fEiwc4Z8IKwgEAAAAw,SE,The Friend,El Negocio,3,5,2016,58 min,False,2019-04-28 14:46:43,0,,False,,,True
+urn:hbo:episode:GV5fEXwgn1K1ejwEAAAAE,SE,For the First Time,El Negocio,3,6,2016,51 min,False,2019-04-28 14:47:30,0,,False,,,True
+urn:hbo:episode:GV5fEfwXpaq1ejwEAAAAI,SE,Unfair Competition,El Negocio,3,7,2016,55 min,False,2019-04-28 14:48:18,0,,False,,,True
+urn:hbo:episode:GV5fEagM-j61ejwEAAAAF,SE,Separation,El Negocio,3,8,2016,51 min,False,2019-04-28 14:49:05,0,,False,,,True
+urn:hbo:episode:GV8YK5gciLonDwwEAAAAI,SE,Farewell,El Negocio,3,9,2016,55 min,False,2019-04-28 14:49:52,0,,False,,,True
+urn:hbo:episode:GV8YLOA1gpIWfAQEAAAAJ,SE,What Would Karin Do,El Negocio,3,10,2016,58 min,False,2019-04-28 14:50:39,0,,False,,,True
+urn:hbo:episode:GV8YLawDsA4nDwwEAAAAN,SE,Ariel,El Negocio,3,11,2016,52 min,False,2019-04-28 14:51:27,0,,False,,,True
+urn:hbo:episode:GV8YLdQyeu4nDwwEAAAAQ,SE,Market Share,El Negocio,3,12,2016,57 min,False,2019-04-28 14:52:14,0,,False,,,True
+urn:hbo:episode:GV-QqbgOGxb-cFQEAAAAX,SE,Business Game,El Negocio,3,13,2016,56 min,False,2019-04-28 14:53:02,0,,False,,,True
+urn:hbo:series:GVU2dPQ1mH47DwvwIAT-6,SM,Epitafios,,,,2005,,NULL,2019-04-28 14:53:49,0,,False,,,True
+urn:hbo:season:GVU2dPQ367VFvjSoJAT3b,SN,,Epitafios,1,,,,NULL,2019-04-28 14:54:37,0,,False,,,True
+urn:hbo:episode:GVU2lMQvc8Y7DwvwIAUp_,SE,Epitafios,Epitafios,1,1,2005,47 min,False,2019-04-28 14:55:24,0,,False,,,True
+urn:hbo:episode:GVU4s9wWahY7DwvwIAdrC,SE,Epitafios,Epitafios,1,2,2005,51 min,False,2019-04-28 14:56:11,0,,False,,,True
+urn:hbo:episode:GVU3Xewk4Z1FvjSoJAYBY,SE,Epitafios,Epitafios,1,3,2005,50 min,False,2019-04-28 14:56:58,0,,False,,,True
+urn:hbo:episode:GVU2xfgwKQY7DwvwIAVf2,SE,Epitafios,Epitafios,1,4,2005,46 min,False,2019-04-28 14:57:44,0,,False,,,True
+urn:hbo:episode:GVU3wrAaQgINJjhsJAZqt,SE,Epitafios,Epitafios,1,5,2005,46 min,False,2019-04-28 14:58:31,0,,False,,,True
+urn:hbo:episode:GVU3pcgrag47DwvwIAZV1,SE,Epitafios,Epitafios,1,6,2005,47 min,False,2019-04-28 14:59:18,0,,False,,,True
+urn:hbo:episode:GVU2dPQ41ioNJjhsJATzn,SE,Epitafios,Epitafios,1,7,2005,46 min,False,2019-04-28 15:00:05,0,,False,,,True
+urn:hbo:episode:GVU3crQvwu4NJjhsJAYVQ,SE,Epitafios,Epitafios,1,8,2005,47 min,False,2019-04-28 15:00:53,0,,False,,,True
+urn:hbo:episode:GVU3syw7crY7DwvwIAZoB,SE,Epitafios,Epitafios,1,9,2005,50 min,False,2019-04-28 15:01:41,0,,False,,,True
+urn:hbo:episode:GVU2t-A3yxlFvjSoJAVGh,SE,Epitafios,Epitafios,1,10,2005,48 min,False,2019-04-28 15:02:28,0,,False,,,True
+urn:hbo:episode:GVU3Qjg8ZR4NJjhsJAXb3,SE,Epitafios,Epitafios,1,11,2005,47 min,False,2019-04-28 15:03:15,0,,False,,,True
+urn:hbo:episode:GVU4FXwBDIVFvjSoJAbEm,SE,Epitafios,Epitafios,1,12,2005,48 min,False,2019-04-28 15:04:03,0,,False,,,True
+urn:hbo:episode:GVU27GwsuQ47DwvwIAWNU,SE,Epitafios,Epitafios,1,13,2005,52 min,False,2019-04-28 15:04:50,0,,False,,,True
+urn:hbo:season:GVU2logU0t47DwvwIAUsj,SN,,Epitafios,2,,,,NULL,2019-04-28 15:05:38,0,,False,,,True
+urn:hbo:episode:GVU2oWADDRFFvjSoJAUv6,SE,Epitafios,Epitafios,2,1,2009,51 min,False,2019-04-28 15:06:26,0,,False,,,True
+urn:hbo:episode:GVU2puAAjflFvjSoJAU1e,SE,Epitafios,Epitafios,2,2,2009,52 min,False,2019-04-28 15:07:13,0,,False,,,True
+urn:hbo:episode:GVU3_DQGVwI7DwvwIAazY,SE,Epitafios,Epitafios,2,3,2009,53 min,False,2019-04-28 15:08:00,0,,False,,,True
+urn:hbo:episode:GVU3H2gGyAY7DwvwIAXFd,SE,Epitafios,Epitafios,2,4,2009,53 min,False,2019-04-28 15:08:48,0,,False,,,True
+urn:hbo:episode:GVU2sKQHWiY7DwvwIAVHp,SE,Epitafios,Epitafios,2,5,2009,55 min,False,2019-04-28 15:09:35,0,,False,,,True
+urn:hbo:episode:GVU2pdQjbeYNJjhsJAUxk,SE,Epitafios,Epitafios,2,6,2009,56 min,False,2019-04-28 15:10:23,0,,False,,,True
+urn:hbo:episode:GVU2logXRCY7DwvwIAUsk,SE,Epitafios,Epitafios,2,7,2009,52 min,False,2019-04-28 15:11:09,0,,False,,,True
+urn:hbo:episode:GVU2ppAV7yo7DwvwIAU-H,SE,Epitafios,Epitafios,2,8,2009,56 min,False,2019-04-28 15:11:56,0,,False,,,True
+urn:hbo:episode:GVU2zDAihCVFvjSoJAVdI,SE,Epitafios,Epitafios,2,9,2009,55 min,False,2019-04-28 15:12:43,0,,False,,,True
+urn:hbo:episode:GVU3AhAhCjYNJjhsJAWXV,SE,Epitafios,Epitafios,2,10,2009,49 min,False,2019-04-28 15:13:30,0,,False,,,True
+urn:hbo:episode:GVU4tAQE-I1FvjSoJAdeg,SE,Epitafios,Epitafios,2,11,2009,50 min,False,2019-04-28 15:14:17,0,,False,,,True
+urn:hbo:episode:GVU2vOgKRzY7DwvwIAVTi,SE,Epitafios,Epitafios,2,12,2009,48 min,False,2019-04-28 15:15:03,0,,False,,,True
+urn:hbo:episode:GVU37_QZNwFFvjSoJAaaZ,SE,Epitafios,Epitafios,2,13,2009,54 min,False,2019-04-28 15:15:51,0,,False,,,True
+urn:hbo:series:GWIvJmgnwlRemQQEAAAAH,SM,Fantasmagorias,,,,2017,,NULL,2019-04-28 15:16:37,0,,False,,,True
+urn:hbo:season:GWIvJowww74RZpwEAAAAN,SN,,Fantasmagorias,1,,,,NULL,2019-04-28 15:17:25,0,,False,,,True
+urn:hbo:episode:GWIvJpAWM44SKFgEAAAAD,SE,The Weeping Woman,Fantasmagorias,1,1,2017,2 min,False,2019-04-28 15:18:12,0,,False,,,True
+urn:hbo:episode:GWIvJrghJNRemQQEAAAAJ,SE,The Babysitter,Fantasmagorias,1,2,2017,3 min,False,2019-04-28 15:18:59,0,,False,,,True
+urn:hbo:episode:GWIvJpAzlzgakQgEAAAAI,SE,Organ Theft,Fantasmagorias,1,3,2017,2 min,False,2019-04-28 15:19:47,0,,False,,,True
+urn:hbo:episode:GWIvJowtJp8IapQEAAAAI,SE,The Whistler,Fantasmagorias,1,4,2017,3 min,False,2019-04-28 15:20:34,0,,False,,,True
+urn:hbo:episode:GWIvJ4AeRYoSKFgEAAAAH,SE,Ghost Passenger,Fantasmagorias,1,5,2017,3 min,False,2019-04-28 15:21:22,0,,False,,,True
+urn:hbo:episode:GWIvJ9QShM2e3rAEAAAAJ,SE,The Chupacabras,Fantasmagorias,1,6,2017,3 min,False,2019-04-28 15:22:09,0,,False,,,True
+urn:hbo:episode:GWIvJrQ1J34RZpwEAAAAP,SE,The Sayona,Fantasmagorias,1,7,2017,4 min,False,2019-04-28 15:22:57,0,,False,,,True
+urn:hbo:episode:GWIvJwwnAYISKFgEAAAAF,SE,Cursed Twins,Fantasmagorias,1,8,2017,3 min,False,2019-04-28 15:23:44,0,,False,,,True
+urn:hbo:series:GVeiX2w182I2Am6oIAAAz,SM,Gran'pa Knows Best,,,,,,NULL,2018-10-24 08:18:39,1,2018-10-24 08:18:39,False,,,True
+urn:hbo:season:GVeiX2w8wc7-QL8wIAAA0,SN,,Gran'pa Knows Best,1,,,,NULL,2017-09-13 03:43:48,1,,False,,,True
+urn:hbo:episode:GVfC8vA4lhcLCw98IAAAF,SE,Computers,Gran'pa Knows Best,1,1,2015,3 min,False,2017-09-13 03:43:53,1,,False,,,True
+urn:hbo:episode:GVeiYGA6VY7-QL8wIAAA2,SE,Recreational Marijuana,Gran'pa Knows Best,1,2,2015,3 min,False,2017-09-13 03:43:59,1,,False,,,True
+urn:hbo:episode:GVeiYGwWDuGwqwqsIAAA9,SE,Military,Gran'pa Knows Best,1,3,2015,2 min,False,2017-09-13 03:44:04,1,,False,,,True
+urn:hbo:episode:GVeiYFQo4xI2Am6oIAAA3,SE,Politics,Gran'pa Knows Best,1,4,2015,3 min,False,2017-09-13 03:44:09,1,,False,,,True
+urn:hbo:episode:GVeiYGAeaXI2Am6oIAAA4,SE,Visiting NYC,Gran'pa Knows Best,1,5,2015,3 min,False,2017-09-13 03:44:13,1,,False,,,True
+urn:hbo:episode:GVeiX3w8EJ42Am6oIAAA2,SE,Dating Advice,Gran'pa Knows Best,1,6,2015,2 min,False,2017-09-13 03:44:19,1,,False,,,True
+urn:hbo:episode:GVeiX4giJRWwqwqsIAAA8,SE,Birthdate,Gran'pa Knows Best,1,7,2015,3 min,False,2017-09-13 03:44:22,1,,False,,,True
+urn:hbo:episode:GVeiX3AD8Qb-QL8wIAAA1,SE,Exercising,Gran'pa Knows Best,1,8,2015,2 min,False,2017-09-13 03:44:27,1,,False,,,True
+urn:hbo:episode:GVeiX3QWrAY2Am6oIAAA1,SE,Marriage,Gran'pa Knows Best,1,9,2015,2 min,False,2017-09-13 03:44:32,1,,False,,,True
+urn:hbo:episode:GVeibCQH7zmwqwqsIAAA_,SE,Job,Gran'pa Knows Best,1,10,2015,3 min,False,2017-09-13 03:44:44,1,,False,,,True
+urn:hbo:episode:GVeibCAglpI2Am6oIAAA5,SE,Having Babies,Gran'pa Knows Best,1,11,2015,3 min,False,2017-09-13 03:44:49,1,,False,,,True
+urn:hbo:episode:GVeibBwMiSmwqwqsIAAA-,SE,Super Heroes,Gran'pa Knows Best,1,12,2015,3 min,False,2017-09-13 03:44:53,1,,False,,,True
+urn:hbo:episode:GVeib2Q8vPr-QL8wIAAA5,SE,Money,Gran'pa Knows Best,1,13,2015,2 min,False,2017-09-13 03:45:02,1,,False,,,True
+urn:hbo:episode:GVeib1ADlHL-QL8wIAAA4,SE,Vacation,Gran'pa Knows Best,1,14,2015,2 min,False,2017-09-13 03:45:06,1,,False,,,True
+urn:hbo:episode:GVeibzwAtor-QL8wIAAA3,SE,Sickness Prevention,Gran'pa Knows Best,1,15,2015,3 min,False,2017-09-13 03:45:12,1,,False,,,True
+urn:hbo:season:GV0ZgGgSIgYOWwwEAAAAG,SN,,Gran'pa Knows Best,2,,,,NULL,2018-10-24 08:18:47,1,2018-10-24 08:18:47,False,,,True
+urn:hbo:episode:GV0ZgGgRWZb_CPAEAAAAG,SE,Celebrity,Gran'pa Knows Best,2,1,2016,3 min,False,2018-10-24 08:18:56,1,2018-10-24 08:18:56,False,,,True
+urn:hbo:episode:GV1HeygQ31qzDdAEAAABp,SE,Holiday,Gran'pa Knows Best,2,2,2016,3 min,False,2018-10-24 08:19:04,1,2018-10-24 08:19:04,False,,,True
+urn:hbo:episode:GV1He3AriFLjCRAEAAABW,SE,Day in the Life,Gran'pa Knows Best,2,3,2016,3 min,False,2018-10-24 08:19:13,1,2018-10-24 08:19:13,False,,,True
+urn:hbo:episode:GV1HeyAC_v6uTIQEAAACD,SE,Family Tree,Gran'pa Knows Best,2,4,2016,3 min,False,2018-10-24 08:19:22,1,2018-10-24 08:19:22,False,,,True
+urn:hbo:episode:GV0ZhowdfrY-acQEAAAAE,SE,Blind,Gran'pa Knows Best,2,5,2016,3 min,False,2018-10-24 08:19:30,1,2018-10-24 08:19:30,False,,,True
+urn:hbo:episode:GV1HeqglKJKuTIQEAAACA,SE,Cooking Show,Gran'pa Knows Best,2,6,2016,4 min,False,2018-10-24 08:19:40,1,2018-10-24 08:19:40,False,,,True
+urn:hbo:episode:GV1HekAmqqauTIQEAAAB_,SE,Restaurant,Gran'pa Knows Best,2,7,2016,3 min,False,2018-10-24 08:19:48,1,2018-10-24 08:19:48,False,,,True
+urn:hbo:episode:GV1He4AxIq6zDdAEAAABu,SE,Wrestling,Gran'pa Knows Best,2,8,2016,3 min,False,2018-10-24 08:19:57,1,2018-10-24 08:19:57,False,,,True
+urn:hbo:episode:GV1He4AWEg7jCRAEAAABY,SE,Respect,Gran'pa Knows Best,2,9,2016,3 min,False,2018-10-24 08:20:06,1,2018-10-24 08:20:06,False,,,True
+urn:hbo:episode:GV1HexAEmNauTIQEAAACB,SE,Therapy,Gran'pa Knows Best,2,10,2016,3 min,False,2018-10-24 08:20:14,1,2018-10-24 08:20:14,False,,,True
+urn:hbo:episode:GV1HexwUuULjCRAEAAABS,SE,Kingdom,Gran'pa Knows Best,2,11,2016,3 min,False,2018-10-24 08:20:23,1,2018-10-24 08:20:23,False,,,True
+urn:hbo:episode:GV0Zj1wSDBwaFkQEAAAAd,SE,Recycling,Gran'pa Knows Best,2,12,2016,3 min,False,2018-10-24 08:20:32,1,2018-10-24 08:20:32,False,,,True
+urn:hbo:episode:GV0Zh3wxiwo-acQEAAAAF,SE,Ticket,Gran'pa Knows Best,2,13,2016,3 min,False,2018-10-24 08:20:40,1,2018-10-24 08:20:40,False,,,True
+urn:hbo:episode:GV1He3wNLVLjCRAEAAABX,SE,Cuba,Gran'pa Knows Best,2,14,2016,3 min,False,2018-10-24 08:20:49,1,2018-10-24 08:20:49,False,,,True
+urn:hbo:episode:GV1Hexg4XeqzDdAEAAABn,SE,Bedtime Story,Gran'pa Knows Best,2,15,2016,3 min,False,2018-10-24 08:20:57,1,2018-10-24 08:20:57,False,,,True
+urn:hbo:series:GVU2aPwf631FvjSoJATve,SM,HDP,,,,,,NULL,2017-09-13 03:45:33,1,,False,,,True
+urn:hbo:season:GVU2aPwk884NJjhsJATsW,SN,,HDP,1,,,,NULL,2017-09-13 03:45:40,1,,False,,,True
+urn:hbo:episode:GVU3Z2Ag3oFFvjSoJAYKP,SE,Judge vs. Referee,HDP,1,1,2013,34 min,False,2017-09-13 03:45:48,1,,False,,,True
+urn:hbo:episode:GVU3_hALR2lFvjSoJAaqO,SE,The Mother,HDP,1,2,2013,28 min,False,2017-09-13 03:45:53,1,,False,,,True
+urn:hbo:episode:GVU4ABA8QXFFvjSoJAasR,SE,Between a Cleat and a Ballet Shoe,HDP,1,3,2013,29 min,False,2017-09-13 03:45:57,1,,False,,,True
+urn:hbo:episode:GVU2tNALgGlFvjSoJAVDm,SE,The Referee's Team,HDP,1,4,2013,30 min,False,2017-09-13 03:46:06,1,,False,,,True
+urn:hbo:episode:GVU3BUg6DWVFvjSoJAWdt,SE,A Sexy Lineswoman,HDP,1,5,2013,28 min,False,2017-09-13 03:46:11,1,,False,,,True
+urn:hbo:episode:GVU3GngaWMI7DwvwIAW_A,SE,Collateral Damage,HDP,1,6,2013,26 min,False,2017-09-13 03:46:15,1,,False,,,True
+urn:hbo:episode:GVU200Qg0iY7DwvwIAVwi,SE,Naked with a Hand in the Pocket,HDP,1,7,2013,28 min,False,2017-09-13 03:46:23,1,,False,,,True
+urn:hbo:episode:GVU3kgwb9sI7DwvwIAZBw,SE,"The Video Tape Is Wrong, the Coordinator Worse",HDP,1,8,2013,28 min,False,2017-09-13 03:46:27,1,,False,,,True
+urn:hbo:episode:GVU2aPwjBjlFvjSoJATvf,SE,Yellow Card,HDP,1,9,2013,29 min,False,2017-09-13 03:46:32,1,,False,,,True
+urn:hbo:episode:GVU2_7gjrM4NJjhsJAWVA,SE,"You Break It, You Pay for It!",HDP,1,10,2013,30 min,False,2017-09-13 03:46:39,1,,False,,,True
+urn:hbo:episode:GVU2hjgNO4oNJjhsJAUKO,SE,Men Don't Betray Each Other,HDP,1,11,2013,27 min,False,2017-09-13 03:46:45,1,,False,,,True
+urn:hbo:episode:GVU2jCwV_u4NJjhsJAUSk,SE,"White Case, Black Case",HDP,1,12,2013,26 min,False,2017-09-13 03:46:50,1,,False,,,True
+urn:hbo:episode:GVU2vAQuPYoNJjhsJAVHj,SE,"Finally, the Final",HDP,1,13,2013,28 min,False,2017-09-13 03:46:55,1,,False,,,True
+urn:hbo:series:GVaRKLwdVuJHCDxYJAAER,SM,Heroes Cotidianos,,,,2015,,NULL,2019-04-28 15:24:30,0,,False,,,True
+urn:hbo:season:GVaRKLwfHUJHCDxYJAAET,SN,,Heroes Cotidianos,1,,,,NULL,2019-04-28 15:25:17,0,,False,,,True
+urn:hbo:episode:GVaRKLwhqckXDdgMJAAEE,SE,The Comet,Heroes Cotidianos,1,1,2015,50 min,False,2019-04-28 15:26:04,0,,False,,,True
+urn:hbo:episode:GVaRKLw2bypHCDxYJAAEf,SE,The Harvest,Heroes Cotidianos,1,2,2015,54 min,False,2019-04-28 15:26:52,0,,False,,,True
+urn:hbo:episode:GVaRKRg1zrjvCwh4JAAEQ,SE,Las Patronas,Heroes Cotidianos,1,3,2015,52 min,False,2019-04-28 15:27:39,0,,False,,,True
+urn:hbo:episode:GVdulNA68rk-PpJIIAAHG,SE,The Invisible Ones,Heroes Cotidianos,1,4,2015,51 min,False,2019-04-28 15:28:27,0,,False,,,True
+urn:hbo:episode:GVdulNQGHFU-PpJIIAAHI,SE,The Gang,Heroes Cotidianos,1,5,2015,50 min,False,2019-04-28 15:29:14,0,,False,,,True
+urn:hbo:episode:GVdulNQGdJ0-PpJIIAAHJ,SE,Los Topos,Heroes Cotidianos,1,6,2015,52 min,False,2019-04-28 15:30:01,0,,False,,,True
+urn:hbo:series:GVU2ctwpQioNJjhsJATx0,SM,Hijos del Carnaval,,,,2008,,NULL,2019-04-28 15:30:49,0,,False,,,True
+urn:hbo:season:GVU2iOQPmlYNJjhsJAUOX,SN,,Hijos del Carnaval,1,,,,NULL,2019-04-28 15:31:37,0,,False,,,True
+urn:hbo:episode:GVU23oAbPoFFvjSoJAV1H,SE,Hijos del Carnaval 01,Hijos del Carnaval,1,1,2008,52 min,False,2019-04-28 15:32:24,0,,False,,,True
+urn:hbo:episode:GVU2iOQRrkYNJjhsJAUOY,SE,Hijos del Carnaval 02,Hijos del Carnaval,1,2,2008,50 min,False,2019-04-28 15:33:11,0,,False,,,True
+urn:hbo:episode:GVU4diQE6vVFvjSoJAcku,SE,Hijos del Carnaval 03,Hijos del Carnaval,1,3,2008,55 min,False,2019-04-28 15:33:58,0,,False,,,True
+urn:hbo:episode:GVU2rMQ2x-VFvjSoJAU7Y,SE,Hijos del Carnaval 04,Hijos del Carnaval,1,4,2008,51 min,False,2019-04-28 15:34:46,0,,False,,,True
+urn:hbo:episode:GVU24LA5a047DwvwIAWBc,SE,Hijos del Carnaval 05,Hijos del Carnaval,1,5,2008,48 min,False,2019-04-28 15:35:33,0,,False,,,True
+urn:hbo:episode:GVU4fXwYJ3o7DwvwIAc2z,SE,Hijos del Carnaval 06,Hijos del Carnaval,1,6,2008,56 min,False,2019-04-28 15:36:20,0,,False,,,True
+urn:hbo:season:GVU2ctwrB8Y7DwvwIAT9B,SN,,Hijos del Carnaval,2,,,,NULL,2019-04-28 15:37:07,0,,False,,,True
+urn:hbo:episode:GVU2rfgWNy47DwvwIAVFY,SE,Hijos Del Carnaval 07,Hijos del Carnaval,2,1,2010,47 min,False,2019-04-28 15:37:54,0,,False,,,True
+urn:hbo:episode:GVU2kTwHOdINJjhsJAUZW,SE,Hijos Del Carnaval 08,Hijos del Carnaval,2,2,2010,48 min,False,2019-04-28 15:38:41,0,,False,,,True
+urn:hbo:episode:GVU3CmwKyeYNJjhsJAWgO,SE,Hijos Del Carnaval 09,Hijos del Carnaval,2,3,2010,51 min,False,2019-04-28 15:39:28,0,,False,,,True
+urn:hbo:episode:GVU3wxARaw1FvjSoJAZuA,SE,Secret Santa,Hijos del Carnaval,2,4,2010,48 min,False,2019-04-28 15:40:16,0,,False,,,True
+urn:hbo:episode:GVU2ctwtZBI7DwvwIAT9C,SE,Common Grave,Hijos del Carnaval,2,5,2010,52 min,False,2019-04-28 15:41:04,0,,False,,,True
+urn:hbo:episode:GVU2f2wDtro7DwvwIAUK_,SE,Love Boat,Hijos del Carnaval,2,6,2010,49 min,False,2019-04-28 15:41:51,0,,False,,,True
+urn:hbo:episode:GVU3iogFfgoNJjhsJAYtu,SE,Blood Brothers,Hijos del Carnaval,2,7,2010,51 min,False,2019-04-28 15:42:38,0,,False,,,True
+urn:hbo:series:GVfvUMQlxeLKLw_QIAAH9,SM,Magnifica 70,,,,2015,,NULL,2019-04-28 15:43:26,0,,False,,,True
+urn:hbo:season:GVfvUMQoRX7umn9wIAAH8,SN,,Magnifica 70,1,,,,NULL,2019-04-28 15:44:14,0,,False,,,True
+urn:hbo:episode:GVfvUpg0afrumn9wIAAII,SE,At Boco do Lixo,Magnifica 70,1,1,2015,52 min,False,2019-04-28 15:45:01,0,,False,,,True
+urn:hbo:episode:GVfvUMQrHRLumn9wIAAH9,SE,Screenplay,Magnifica 70,1,2,2015,1 hr 4 min,True,2019-04-28 15:45:48,0,,False,,,True
+urn:hbo:episode:GVfvUPAFtHbKLw_QIAAIC,SE,Production,Magnifica 70,1,3,2015,51 min,False,2019-04-28 15:46:35,0,,False,,,True
+urn:hbo:episode:GVfvURgHdtLszwvAIAAH7,SE,Main Cast,Magnifica 70,1,4,2015,54 min,False,2019-04-28 15:47:23,0,,False,,,True
+urn:hbo:episode:GVfvUSwUI0Lumn9wIAAID,SE,Principal Photography,Magnifica 70,1,5,2015,57 min,False,2019-04-28 15:48:10,0,,False,,,True
+urn:hbo:episode:GVgUOmQSjkgCvkzsKAAAL,SE,Wrap Up,Magnifica 70,1,6,2015,50 min,False,2019-04-28 15:48:58,0,,False,,,True
+urn:hbo:episode:GVgUOoAU1JE6rwyEKAAAS,SE,The End,Magnifica 70,1,7,2015,51 min,False,2019-04-28 15:49:45,0,,False,,,True
+urn:hbo:episode:GVgUOqA1bkU6rwyEKAAAW,SE,Editing,Magnifica 70,1,8,2015,50 min,False,2019-04-28 15:50:33,0,,False,,,True
+urn:hbo:episode:GVgUOsQeoB06rwyEKAAAX,SE,Original Score,Magnifica 70,1,9,2015,49 min,False,2019-04-28 15:51:20,0,,False,,,True
+urn:hbo:episode:GVhw_ggOJ9pRpwnAKAAAl,SE,Censorship,Magnifica 70,1,10,2015,50 min,False,2019-04-28 15:52:08,0,,False,,,True
+urn:hbo:episode:GVhw_fgaIxcITwy0KAAAq,SE,Premiere,Magnifica 70,1,11,2015,49 min,False,2019-04-28 15:52:54,0,,False,,,True
+urn:hbo:episode:GVhw_gAx_v8ITwy0KAAA1,SE,Profit Sharing,Magnifica 70,1,12,2015,51 min,False,2019-04-28 15:53:41,0,,False,,,True
+urn:hbo:episode:GViKBTAqSpsIYmXEKAAAi,SE,The Magnificent,Magnifica 70,1,13,2015,48 min,False,2019-04-29 02:21:08,0,,False,,,True
+urn:hbo:season:GV-9bxAWb02ISVAEAAAAE,SN,,Magnifica 70,2,,,,NULL,2019-04-29 02:21:55,0,,False,,,True
+urn:hbo:episode:GV-9b1gmNoGISVAEAAAAH,SE,The Love Machine,Magnifica 70,2,1,2016,58 min,False,2019-04-29 02:22:43,0,,False,,,True
+urn:hbo:episode:GV--ozQ3TzQoxJgEAAAAL,SE,Vicente's Plan,Magnifica 70,2,2,2016,51 min,False,2019-04-29 02:23:30,0,,False,,,True
+urn:hbo:episode:GV--pKgtaj2ISVAEAAAAP,SE,The Devil Walks with Dora,Magnifica 70,2,3,2016,51 min,False,2019-04-29 02:24:18,0,,False,,,True
+urn:hbo:episode:GV--paAWYF2ISVAEAAAAQ,SE,Champion of the Brazilian Family,Magnifica 70,2,4,2016,52 min,False,2019-04-29 02:25:05,0,,False,,,True
+urn:hbo:episode:GWBz16AOzNJm4qAEAAAAS,SE,She-Devils of the Night,Magnifica 70,2,5,2016,54 min,False,2019-04-29 02:25:53,0,,False,,,True
+urn:hbo:episode:GWBz2GgVXJ5m4qAEAAAAU,SE,The Judgment,Magnifica 70,2,6,2016,50 min,False,2019-04-29 02:26:40,0,,False,,,True
+urn:hbo:episode:GWBz2QwtoihbCSAEAAAAX,SE,The Crane,Magnifica 70,2,7,2016,55 min,False,2019-04-29 02:27:27,0,,False,,,True
+urn:hbo:episode:GWBNi4gEjLZzCOwEAAAAJ,SE,"The Festival, The Priest, and The Politician",Magnifica 70,2,8,2016,52 min,False,2019-04-29 02:28:15,0,,False,,,True
+urn:hbo:episode:GWBNjOQDi2K0nhgEAAAAD,SE,The Sting,Magnifica 70,2,9,2016,50 min,False,2019-04-29 02:29:02,0,,False,,,True
+urn:hbo:episode:GWBNjdQXUMUNJvgEAAAAE,SE,Final Moments,Magnifica 70,2,10,2016,55 min,False,2019-04-29 02:29:49,0,,False,,,True
+urn:hbo:series:GVU2jKQeIBlFvjSoJAUW5,SM,Mandrake,,,,2008,,NULL,2018-10-24 08:27:16,1,2018-10-24 08:27:16,False,,,True
+urn:hbo:season:GVU2jKQgegINJjhsJAUS3,SN,,Mandrake,1,,,,NULL,2018-10-24 08:27:26,1,2018-10-24 08:27:26,False,,,True
+urn:hbo:episode:GVU3PxAbCBo7DwvwIAXms,SE,Mandrake Season 1: 01,Mandrake,1,1,2008,53 min,False,2018-10-24 08:27:34,1,2018-10-24 08:27:34,False,,,True
+urn:hbo:episode:GVU38UwO11VFvjSoJAabI,SE,Mandrake Season 1: 02,Mandrake,1,2,2008,47 min,False,2018-10-24 08:27:43,1,2018-10-24 08:27:43,False,,,True
+urn:hbo:episode:GVU2jKQiqTI7DwvwIAUe5,SE,Mandrake Season 1: 03,Mandrake,1,3,2008,50 min,False,2018-10-24 08:27:51,1,2018-10-24 08:27:51,False,,,True
+urn:hbo:episode:GVU3UIAYrE4NJjhsJAXtG,SE,Mandrake Season 1: 04,Mandrake,1,4,2008,51 min,False,2018-10-24 08:28:00,1,2018-10-24 08:28:00,False,,,True
+urn:hbo:episode:GVU4ISgx1R47DwvwIAba7,SE,Mandrake Season 1: 05,Mandrake,1,5,2008,45 min,False,2018-10-24 08:28:09,1,2018-10-24 08:28:09,False,,,True
+urn:hbo:episode:GVU2nQQPIGlFvjSoJAUru,SE,Mandrake Season 1: 06,Mandrake,1,6,2008,50 min,False,2018-10-24 08:28:18,1,2018-10-24 08:28:18,False,,,True
+urn:hbo:episode:GVU3TQgQhUY7DwvwIAX2U,SE,Mandrake Season 1: 07,Mandrake,1,7,2008,58 min,False,2018-10-24 08:28:26,1,2018-10-24 08:28:26,False,,,True
+urn:hbo:episode:GVU3lLwf0nYNJjhsJAY2h,SE,Mandrake Season 1: 08,Mandrake,1,8,2008,47 min,False,2018-10-24 08:28:35,1,2018-10-24 08:28:35,False,,,True
+urn:hbo:episode:GVU3BtASaOoNJjhsJAWbv,SE,Mandrake Season 1: 09,Mandrake,1,9,2008,48 min,False,2018-10-24 08:28:43,1,2018-10-24 08:28:43,False,,,True
+urn:hbo:episode:GVU297gIjSo7DwvwIAWYP,SE,Mandrake Season 1: 10,Mandrake,1,10,2008,50 min,False,2018-10-24 08:28:52,1,2018-10-24 08:28:52,False,,,True
+urn:hbo:episode:GVU3_MQ8hZ1FvjSoJAapI,SE,Mandrake Season 1: 11,Mandrake,1,11,2008,47 min,False,2018-10-24 08:29:01,1,2018-10-24 08:29:01,False,,,True
+urn:hbo:episode:GVU35uQNHDINJjhsJAaQj,SE,Mandrake Season 1: 12,Mandrake,1,12,2008,50 min,False,2018-10-24 08:29:09,1,2018-10-24 08:29:09,False,,,True
+urn:hbo:episode:GVU3TNwdyDINJjhsJAXoN,SE,Mandrake Season 1: 13,Mandrake,1,13,2008,1 hr 10 min,True,2018-10-24 08:29:18,1,2018-10-24 08:29:18,False,,,True
+urn:hbo:series:GVU2kRAyeDoNJjhsJAUZK,SM,Mujer de Fases,,,,2012,,NULL,2019-04-29 02:30:37,0,,False,,,True
+urn:hbo:season:GVU2kRA0sw4NJjhsJAUZL,SN,,Mujer de Fases,1,,,,NULL,2019-04-29 02:31:24,0,,False,,,True
+urn:hbo:episode:GVU2kRA2xMY7DwvwIAUld,SE,A Smoker and a Mystic,Mujer de Fases,1,1,2012,31 min,False,2019-04-29 02:32:11,0,,False,,,True
+urn:hbo:episode:GVU39SQikpI7DwvwIAaq1,SE,A Millionaire and an Athlete,Mujer de Fases,1,2,2012,31 min,False,2019-04-29 02:32:58,0,,False,,,True
+urn:hbo:episode:GVU3MLQi4tFFvjSoJAXNe,SE,An Emo and a Mensch,Mujer de Fases,1,3,2012,27 min,False,2019-04-29 02:33:46,0,,False,,,True
+urn:hbo:episode:GVU3EMwuChoNJjhsJAWmE,SE,A Major and a Minor,Mujer de Fases,1,4,2012,29 min,False,2019-04-29 02:34:33,0,,False,,,True
+urn:hbo:episode:GVU21Uwjew47DwvwIAVy3,SE,A Maniac and a Politician,Mujer de Fases,1,5,2012,27 min,False,2019-04-29 02:35:20,0,,False,,,True
+urn:hbo:episode:GVU38ewbHDI7DwvwIAanR,SE,A Gentleman and a Handyman,Mujer de Fases,1,6,2012,25 min,False,2019-04-29 02:36:08,0,,False,,,True
+urn:hbo:episode:GVU2tXw4G9o7DwvwIAVNh,SE,A Moody Guy and a Cutie Pie,Mujer de Fases,1,7,2012,30 min,False,2019-04-29 02:36:55,0,,False,,,True
+urn:hbo:episode:GVU4A8wuBZ47DwvwIAa51,SE,A Cheat and a Certain Person,Mujer de Fases,1,8,2012,27 min,False,2019-04-29 02:37:42,0,,False,,,True
+urn:hbo:episode:GVU3jpwYb9Y7DwvwIAY_a,SE,A Politically Correct Guy and a Bohemian,Mujer de Fases,1,9,2012,27 min,False,2019-04-29 02:38:30,0,,False,,,True
+urn:hbo:episode:GVU4JyAS7BFFvjSoJAbV2,SE,A Space Cadet and an Airhead,Mujer de Fases,1,10,2012,28 min,False,2019-04-29 02:39:17,0,,False,,,True
+urn:hbo:episode:GVU3mVQtDzo7DwvwIAZJ6,SE,An Argentinian and a Poor Devil,Mujer de Fases,1,11,2012,26 min,False,2019-04-29 02:40:04,0,,False,,,True
+urn:hbo:episode:GVU4Ciwdjgo7DwvwIAbCq,SE,A Butcher and a Devout,Mujer de Fases,1,12,2012,28 min,False,2019-04-29 02:40:52,0,,False,,,True
+urn:hbo:episode:GVU25xwZbQoNJjhsJAV5g,SE,A Shrink and a Surfer,Mujer de Fases,1,13,2012,28 min,False,2019-04-29 02:41:39,0,,False,,,True
+urn:hbo:series:GVU2gAAVqjoNJjhsJAUAm,SM,Profugos,,,,2012,,NULL,2019-04-29 02:42:27,0,,False,,,True
+urn:hbo:season:GVU2haAFENlFvjSoJAUNn,SN,,Profugos,1,,,,NULL,2019-04-29 02:43:14,0,,False,,,True
+urn:hbo:episode:GVU2yzgrsMo7DwvwIAVln,SE,Profugos 01,Profugos,1,1,2012,50 min,False,2019-04-29 02:44:02,0,,False,,,True
+urn:hbo:episode:GVU3tbwK8vo7DwvwIAZq1,SE,Profugos 02,Profugos,1,2,2012,52 min,False,2019-04-29 02:44:49,0,,False,,,True
+urn:hbo:episode:GVU4G-Q6OF1FvjSoJAbKL,SE,Profugos 03,Profugos,1,3,2012,51 min,False,2019-04-29 02:45:37,0,,False,,,True
+urn:hbo:episode:GVU2k7QbLcVFvjSoJAUgd,SE,Profugos 04,Profugos,1,4,2012,49 min,False,2019-04-29 02:46:25,0,,False,,,True
+urn:hbo:episode:GVU3d-AjpVoNJjhsJAYal,SE,Profugos 05,Profugos,1,5,2012,52 min,False,2019-04-29 02:47:12,0,,False,,,True
+urn:hbo:episode:GVU2kKgYUjINJjhsJAUYh,SE,Profugos 06,Profugos,1,6,2012,51 min,False,2019-04-29 02:47:59,0,,False,,,True
+urn:hbo:episode:GVU2haAHuAVFvjSoJAUNo,SE,Profugos 07,Profugos,1,7,2012,48 min,False,2019-04-29 02:48:46,0,,False,,,True
+urn:hbo:episode:GVU2zcgn2wo7DwvwIAVo1,SE,Profugos 08,Profugos,1,8,2012,49 min,False,2019-04-29 02:49:34,0,,False,,,True
+urn:hbo:episode:GVU3O8QmJllFvjSoJAXYW,SE,Profugos 09,Profugos,1,9,2012,49 min,False,2019-04-29 02:50:21,0,,False,,,True
+urn:hbo:episode:GVU4rdACsaFFvjSoJAdaw,SE,Profugos 10,Profugos,1,10,2012,51 min,False,2019-04-29 02:51:08,0,,False,,,True
+urn:hbo:episode:GVU4AkgO-U47DwvwIAa4t,SE,Profugos 11,Profugos,1,11,2012,49 min,False,2019-04-29 02:51:55,0,,False,,,True
+urn:hbo:episode:GVU24PA4WS1FvjSoJAV4Z,SE,Profugos 12,Profugos,1,12,2012,49 min,False,2019-04-29 02:52:42,0,,False,,,True
+urn:hbo:episode:GVU4WOgWITI7DwvwIAcTz,SE,Profugos 13,Profugos,1,13,2012,49 min,False,2019-04-29 02:53:30,0,,False,,,True
+urn:hbo:season:GVU2gAAX5l47DwvwIAUMJ,SN,,Profugos,2,,,,NULL,2019-04-29 02:54:17,0,,False,,,True
+urn:hbo:episode:GVU2gAAaKY47DwvwIAUMK,SE,Profugos 14,Profugos,2,1,2014,58 min,False,2019-04-29 02:55:05,0,,False,,,True
+urn:hbo:episode:GVU4jzQqZDFFvjSoJAc87,SE,Profugos 15,Profugos,2,2,2014,53 min,False,2019-04-29 02:55:52,0,,False,,,True
+urn:hbo:episode:GVU3EkwjN74NJjhsJAWoW,SE,Profugos 16,Profugos,2,3,2014,55 min,False,2019-04-29 02:56:39,0,,False,,,True
+urn:hbo:episode:GVU3Xyg3mmoNJjhsJAYAr,SE,Profugos 17,Profugos,2,4,2014,52 min,False,2019-04-29 02:57:26,0,,False,,,True
+urn:hbo:episode:GVU3O-QopNY7DwvwIAXjK,SE,Profugos 18,Profugos,2,5,2014,53 min,False,2019-04-29 02:58:14,0,,False,,,True
+urn:hbo:episode:GVU3uLwronINJjhsJAZf4,SE,Profugos 19,Profugos,2,6,2014,57 min,False,2019-04-29 02:59:01,0,,False,,,True
+urn:hbo:episode:GVU2vdQxLtlFvjSoJAVLy,SE,Profugos 20,Profugos,2,7,2014,51 min,False,2019-04-29 02:59:48,0,,False,,,True
+urn:hbo:episode:GVU4eRAkytI7DwvwIAcyw,SE,Profugos 21,Profugos,2,8,2014,52 min,False,2019-04-29 03:00:36,0,,False,,,True
+urn:hbo:episode:GVU3F5QEU5VFvjSoJAWxq,SE,Profugos 22,Profugos,2,9,2014,53 min,False,2019-04-29 03:01:23,0,,False,,,True
+urn:hbo:episode:GVU2sgQgHYY7DwvwIAVJj,SE,Profugos 23,Profugos,2,10,2014,50 min,False,2019-04-29 03:02:10,0,,False,,,True
+urn:hbo:episode:GVU4E6gF5hFFvjSoJAbDE,SE,Profugos 24,Profugos,2,11,2014,52 min,False,2019-04-29 03:02:57,0,,False,,,True
+urn:hbo:episode:GVU29gQCbKYNJjhsJAWIt,SE,Profugos 25,Profugos,2,12,2014,53 min,False,2019-04-29 03:03:45,0,,False,,,True
+urn:hbo:episode:GVU2hNAX6PINJjhsJAUIU,SE,Profugos 26,Profugos,2,13,2014,54 min,False,2019-04-29 03:04:32,0,,False,,,True
+urn:hbo:series:GVU2mJQsqQINJjhsJAUi_,SM,Psi,,,,,,NULL,2019-04-29 03:05:19,0,,False,,,True
+urn:hbo:season:GVU2mJQu7K47DwvwIAUvO,SN,,Psi,1,,,,NULL,2019-04-29 03:06:06,0,,False,,,True
+urn:hbo:episode:GVU3fRw0u_4NJjhsJAYg1,SE,The Girl Who Never Looked You in the Eye,Psi,1,1,2015,58 min,False,2019-03-24 21:15:10,1,2019-03-24 21:15:10,False,,,True
+urn:hbo:episode:GVU3HwgM211FvjSoJAW5-,SE,Cutting Desires,Psi,1,2,2015,52 min,False,2019-03-24 21:15:20,1,2019-03-24 21:15:20,False,,,True
+urn:hbo:episode:GVU3tzQoZZo7DwvwIAZsa,SE,The Perfect Couple,Psi,1,3,2015,50 min,False,2019-03-24 21:15:28,1,2019-03-24 21:15:28,False,,,True
+urn:hbo:episode:GVU2n-wFlqI7DwvwIAU21,SE,Believing In the Afterlife,Psi,1,4,2015,51 min,False,2019-03-24 21:16:15,1,2019-03-24 21:16:15,False,,,True
+urn:hbo:episode:GVU3OvA4QwY7DwvwIAXh-,SE,Incompetents,Psi,1,5,2015,53 min,False,2019-03-24 21:16:24,1,2019-03-24 21:16:24,False,,,True
+urn:hbo:episode:GVU2mJQxsyoNJjhsJAUjA,SE,The Girl Next Door,Psi,1,6,2015,54 min,False,2019-03-24 21:16:33,1,2019-03-24 21:16:33,False,,,True
+urn:hbo:episode:GVU23WgRqYlFvjSoJAVz4,SE,My Beloved Vampire,Psi,1,7,2015,58 min,False,2019-03-24 21:16:41,1,2019-03-24 21:16:41,False,,,True
+urn:hbo:episode:GVU3AfAW0Oo7DwvwIAWkd,SE,Is Fantasy a Crime?,Psi,1,8,2015,58 min,False,2019-03-24 21:16:50,1,2019-03-24 21:16:50,False,,,True
+urn:hbo:episode:GVU2tAQW_K4NJjhsJAU_Y,SE,A Life in My Hands,Psi,1,9,2015,53 min,False,2019-03-27 03:18:31,1,2019-03-27 03:18:31,False,,,True
+urn:hbo:episode:GVU21owbAiY7DwvwIAV0e,SE,Shared Delusions,Psi,1,10,2015,51 min,False,2019-03-24 21:17:46,1,2019-03-24 21:17:46,False,,,True
+urn:hbo:episode:GVU3dVAOY9Y7DwvwIAYlF,SE,The Patient Never Lies,Psi,1,11,2015,54 min,False,2019-03-24 21:17:56,1,2019-03-24 21:17:56,False,,,True
+urn:hbo:episode:GVU3kVANR947DwvwIAZA-,SE,I Want to Be Who I Am,Psi,1,12,2015,52 min,False,2019-03-24 21:18:04,1,2019-03-24 21:18:04,False,,,True
+urn:hbo:episode:GVU3hSgg7O1FvjSoJAYsu,SE,End of Treatment,Psi,1,13,2015,53 min,False,2019-03-24 21:18:13,1,2019-03-24 21:18:13,False,,,True
+urn:hbo:season:GVktt2wkcspOtaqsKAAnD,SN,,Psi,2,,,,NULL,2019-04-29 03:06:55,0,,False,,,True
+urn:hbo:episode:GVktt2wgdyJOtaqsKAAnB,SE,The Shelter,Psi,2,1,2016,55 min,False,2019-03-24 21:19:08,1,2019-03-24 21:19:08,False,,,True
+urn:hbo:episode:GVlOssg66kr6MiqgKAAPY,SE,The American Patient,Psi,2,2,2016,57 min,False,2019-03-24 21:19:17,1,2019-03-24 21:19:17,False,,,True
+urn:hbo:episode:GVnr2IAVKJoOWwxMJAAJL,SE,Vigilante,Psi,2,3,2016,51 min,False,2019-03-24 21:19:26,1,2019-03-24 21:19:26,False,,,True
+urn:hbo:episode:GVnr0DAuZD6JeisAIAAt6,SE,Fashion Week,Psi,2,4,2016,54 min,False,2019-03-24 21:19:34,1,2019-03-24 21:19:34,False,,,True
+urn:hbo:episode:GVnr1FAmVF4OWwxMJAAJE,SE,Mother's Day,Psi,2,5,2016,57 min,False,2019-03-24 21:19:43,1,2019-03-24 21:19:43,False,,,True
+urn:hbo:episode:GVnrzBQN20YOWwxMJAAI-,SE,What Happened To You?,Psi,2,6,2016,57 min,False,2019-03-24 21:19:52,1,2019-03-24 21:19:52,False,,,True
+urn:hbo:episode:GVq3SJQ7TvFGTncUIAABJ,SE,Hostages,Psi,2,7,2016,57 min,False,2019-03-24 21:20:00,1,2019-03-24 21:20:00,False,,,True
+urn:hbo:episode:GVq3SKwrVGp2vpKwIAACl,SE,Girls,Psi,2,8,2016,58 min,False,2019-03-24 21:20:09,1,2019-03-24 21:20:09,False,,,True
+urn:hbo:episode:GVq3SEwhOd5PDD5oIAACT,SE,The Opponent,Psi,2,9,2016,1 hr 9 min,True,2019-03-24 21:20:17,1,2019-03-24 21:20:17,False,,,True
+urn:hbo:episode:GVq3SGw0PvpPDD5oIAACV,SE,The Cost of Desire,Psi,2,10,2016,1 hr,True,2019-03-24 21:20:26,1,2019-03-24 21:20:26,False,,,True
+urn:hbo:season:GWM_D_wHhB6HCwgEAAACi,SN,,Psi,3,,,,NULL,2019-04-29 03:07:42,0,,False,,,True
+urn:hbo:episode:GWM_D_g7Db5rCDwEAAACj,SE,A Belgian Friend (Pt. 1),Psi,3,1,2017,54 min,False,2019-04-29 03:08:30,0,,False,,,True
+urn:hbo:episode:GWM_EOgeNZsMMcgEAAACc,SE,A Belgian Friend (Pt. 2),Psi,3,2,2017,53 min,False,2019-04-29 03:09:16,0,,False,,,True
+urn:hbo:episode:GWM_EdgjuN5rCDwEAAACk,SE,Descendants (Pt. 1),Psi,3,3,2017,56 min,False,2019-04-29 03:10:04,0,,False,,,True
+urn:hbo:episode:GWNvawwQ2DaKJvAEAAAG2,SE,Descendants (Pt. 2),Psi,3,4,2017,1 hr 5 min,True,2019-04-29 03:10:51,0,,False,,,True
+urn:hbo:episode:GWNvdRAXTKqKJvAEAAAG3,SE,Flight (Pt. 1),Psi,3,5,2017,52 min,False,2019-04-29 03:11:38,0,,False,,,True
+urn:hbo:episode:GWNvdfwqOQ5rCDwEAAAHJ,SE,Flight (Pt. 2),Psi,3,6,2017,1 hr 4 min,True,2019-04-29 03:12:26,0,,False,,,True
+urn:hbo:episode:GWNvdnQvhMMMWnQEAAAG9,SE,Psi 30,Psi,3,7,2017,1 hr 3 min,True,2019-04-29 03:13:13,0,,False,,,True
+urn:hbo:series:GVU2dDg65dI7DwvwIAT-W,SM,Sr. Avila,,,,2014,,NULL,2019-04-29 03:14:00,0,,False,,,True
+urn:hbo:season:GVU2fEw0wA47DwvwIAUHF,SN,,Sr. Avila,1,,,,NULL,2019-04-29 03:14:48,0,,False,,,True
+urn:hbo:episode:GVU2qWg11yVFvjSoJAU3t,SE,Surprise Party,Sr. Avila,1,1,2014,53 min,False,2019-04-29 03:15:35,0,,False,,,True
+urn:hbo:episode:GVU3Mjgput47DwvwIAXY9,SE,By the Book,Sr. Avila,1,2,2014,50 min,False,2019-04-29 03:16:22,0,,False,,,True
+urn:hbo:episode:GVU3kkwWwv47DwvwIAZBz,SE,A Lousy Job,Sr. Avila,1,3,2014,48 min,False,2019-04-29 03:17:10,0,,False,,,True
+urn:hbo:episode:GVU2iuQCFkI7DwvwIAUdc,SE,A Stranger in the Mirror,Sr. Avila,1,4,2014,49 min,False,2019-04-29 03:17:57,0,,False,,,True
+urn:hbo:episode:GVU2fEwzUXYNJjhsJAT7l,SE,Sr. Avila,Sr. Avila,1,5,2014,50 min,False,2019-04-29 03:18:45,0,,False,,,True
+urn:hbo:episode:GVU4jhASfvo7DwvwIAdHr,SE,Reliquaries and Vampires,Sr. Avila,1,6,2014,53 min,False,2019-04-29 03:19:32,0,,False,,,True
+urn:hbo:episode:GVU28gAubHo7DwvwIAWS7,SE,To Kill an Immortal,Sr. Avila,1,7,2014,50 min,False,2019-04-29 03:20:20,0,,False,,,True
+urn:hbo:episode:GVU4E9APn9oNJjhsJAbAL,SE,God's Whims,Sr. Avila,1,8,2014,50 min,False,2019-04-29 03:21:07,0,,False,,,True
+urn:hbo:episode:GVU3juAqJr4NJjhsJAYxo,SE,The Child and the Spiderweb,Sr. Avila,1,9,2014,52 min,False,2019-04-29 03:21:55,0,,False,,,True
+urn:hbo:episode:GVU2sEQY7yYNJjhsJAU7X,SE,"Neither Borges, Nor God",Sr. Avila,1,10,2014,50 min,False,2019-04-29 03:22:43,0,,False,,,True
+urn:hbo:episode:GVU3wHAf761FvjSoJAZrW,SE,Freud and Ghosts,Sr. Avila,1,11,2014,54 min,False,2019-04-29 03:23:30,0,,False,,,True
+urn:hbo:episode:GVU2uKAdi94NJjhsJAVEj,SE,That Day,Sr. Avila,1,12,2014,48 min,False,2019-04-29 03:24:17,0,,False,,,True
+urn:hbo:episode:GVU29KQb0P1FvjSoJAWLX,SE,A Child's Gaze,Sr. Avila,1,13,2014,59 min,False,2019-04-29 03:25:04,0,,False,,,True
+urn:hbo:season:GVU2dDg5X14NJjhsJATzG,SN,,Sr. Avila,2,,,,NULL,2019-04-29 03:25:52,0,,False,,,True
+urn:hbo:episode:GVU4cjgFci1FvjSoJAchi,SE,Christ's Hitman,Sr. Avila,2,1,2015,59 min,False,2019-04-29 03:26:39,0,,False,,,True
+urn:hbo:episode:GVU2nggX5-4NJjhsJAUpS,SE,Pies in the Face,Sr. Avila,2,2,2015,53 min,False,2019-04-29 03:27:26,0,,False,,,True
+urn:hbo:episode:GVU2dDwJwu4NJjhsJATzH,SE,The Master and the Watchmaker,Sr. Avila,2,3,2015,58 min,False,2019-04-29 03:28:13,0,,False,,,True
+urn:hbo:episode:GVU2_GA17No7DwvwIAWd5,SE,Playing to Be Someone Else,Sr. Avila,2,4,2015,53 min,False,2019-04-29 03:29:00,0,,False,,,True
+urn:hbo:episode:GVU3JxwHF3o7DwvwIAXNd,SE,Compensation,Sr. Avila,2,5,2015,53 min,False,2019-04-29 03:29:47,0,,False,,,True
+urn:hbo:episode:GVVzCUQY7osLCwwEJAABt,SE,The Good and the Bad Master,Sr. Avila,2,6,2015,57 min,False,2019-04-29 03:30:34,0,,False,,,True
+urn:hbo:episode:GVU26IQGWj4NJjhsJAV7o,SE,A Shot in the Mouth,Sr. Avila,2,7,2015,54 min,False,2019-04-29 03:31:21,0,,False,,,True
+urn:hbo:episode:GVU4cOQzJyI7DwvwIAcq4,SE,Beast's Mercy,Sr. Avila,2,8,2015,1 hr 1 min,True,2019-04-29 03:32:09,0,,False,,,True
+urn:hbo:episode:GVU3XkQqI3Y7DwvwIAYMv,SE,El Sr. Juarez,Sr. Avila,2,9,2015,56 min,False,2019-04-29 03:32:57,0,,False,,,True
+urn:hbo:episode:GVWG_dw7J-6a9wxYJAAB8,SE,Master of Masters,Sr. Avila,2,10,2015,1 hr 2 min,True,2019-04-29 03:33:44,0,,False,,,True
+urn:hbo:season:GV2BcogkdMpHCZQEAAAAX,SN,,Sr. Avila,3,,,,NULL,2019-04-29 03:34:31,0,,False,,,True
+urn:hbo:episode:GV2BcrwCBkq65JQEAAAAc,SE,A Clown Roars into the Night,Sr. Avila,3,1,2016,55 min,False,2019-04-29 03:35:19,0,,False,,,True
+urn:hbo:episode:GV2qfJQ7TnbynAAEAAAAa,SE,The Woman without a Face,Sr. Avila,3,2,2016,49 min,False,2019-04-29 03:36:06,0,,False,,,True
+urn:hbo:episode:GV2qgQAOtKQinuQEAAAA1,SE,The Hacking Bells,Sr. Avila,3,3,2016,49 min,False,2019-04-29 03:36:54,0,,False,,,True
+urn:hbo:episode:GV2qhMQ0xjwinuQEAAAA3,SE,The Puzzle of Faces,Sr. Avila,3,4,2016,48 min,False,2019-04-29 03:37:41,0,,False,,,True
+urn:hbo:episode:GV2qhZA3SL4w_pwEAAAA3,SE,"Gentlemen, Place Your Bets",Sr. Avila,3,5,2016,50 min,False,2019-04-29 03:38:28,0,,False,,,True
+urn:hbo:episode:GV2qjZA3rNLynAAEAAAAq,SE,Too Long of a Night,Sr. Avila,3,6,2016,50 min,False,2019-04-29 03:39:15,0,,False,,,True
+urn:hbo:episode:GV5fEggF2LiSKwwEAAAAH,SE,Rumors about a Dead Man,Sr. Avila,3,7,2016,49 min,False,2019-04-29 03:40:02,0,,False,,,True
+urn:hbo:episode:GV5fEdwabZsPDMgEAAAAI,SE,A Ghost Named Molina,Sr. Avila,3,8,2016,56 min,False,2019-04-29 03:40:50,0,,False,,,True
+urn:hbo:episode:GV5fExA6WhH_CwwEAAAAF,SE,Puppets and Puppeteers,Sr. Avila,3,9,2016,1 hr 1 min,True,2019-04-29 03:41:37,0,,False,,,True
+urn:hbo:episode:GV5fEgAVmTMMYhQEAAAAG,SE,Twelve Names,Sr. Avila,3,10,2016,1 hr 10 min,True,2019-04-29 03:42:25,0,,False,,,True
+urn:hbo:feature:GWPUlwg8AP5hdqgEAAAA9,MO,The Accountant,,,,2016,2 hr 9 min,True,2018-01-07 09:08:58,1,,False,,,True
+urn:hbo:feature:GWRnCognZd8MaoAEAAABn,MO,All Eyez on Me: HBO First Look,,,,2017,13 min,False,2017-09-13 03:51:41,1,,False,,,True
+urn:hbo:feature:GWPUf7Q2awICfwwEAAAAY,MO,Be Cool,,,,2005,2 hr,True,2018-01-07 09:09:16,1,,False,,,True
+urn:hbo:feature:GWPUmWQ3xJZ2-hAEAAABU,MO,Bend It Like Beckham,,,,2003,1 hr 53 min,True,2018-01-07 09:09:32,1,,False,,,True
+urn:hbo:feature:GWQdX3gZ3wMJOCAEAAAAT,MO,The Bodyguard,,,,1992,2 hr 10 min,True,2018-01-07 09:09:54,1,,False,,,True
+urn:hbo:feature:GWPUoyAT6TMIrugEAAABZ,MO,Boiler Room,,,,2000,2 hr,True,2018-01-07 09:10:40,1,,False,,,True
+urn:hbo:feature:GWPUe6ARtEICfwwEAAAAE,MO,Cake,,,,2006,1 hr 35 min,True,2018-10-24 08:39:29,1,2018-10-24 08:39:29,False,,,True
+urn:hbo:feature:GV4z7YwXV4ZKhwgEAAAAF,MO,Cafe para llevar (Coffee to Go),,,,2016,14 min,False,2018-10-24 08:39:38,1,2018-10-24 08:39:38,False,,,True
+urn:hbo:feature:GWPUl4QPD6Z2-hAEAAABB,MO,The Clearing,,,,2004,1 hr 35 min,True,2018-01-07 09:11:37,1,,False,,,True
+urn:hbo:feature:GWPUpBAozz8IrugEAAABp,MO,Coal Miner's Daughter,,,,1980,2 hr 5 min,True,2018-10-24 08:39:46,1,2018-10-24 08:39:46,False,,,True
+urn:hbo:feature:GV4z7jAIWF5KhwgEAAAAI,MO,Codigo Paz (Peace Code),,,,2016,1 hr 41 min,True,2017-09-17 03:51:22,1,,False,,,True
+urn:hbo:feature:GViSy5AVTE6LCbIoKAAAR,MO,Completo,,,,2015,16 min,False,2018-01-07 09:12:50,1,,False,,,True
+urn:hbo:feature:GV_ZJKQuFvVOggwEAAAAK,MO,The Conjuring,,,,2013,1 hr 52 min,True,2018-01-07 09:13:04,1,,False,,,True
+urn:hbo:feature:GWQdptACDh8JOCAEAAAAZ,MO,Driving Miss Daisy,,,,1989,1 hr 39 min,True,2018-01-07 09:13:43,1,,False,,,True
+urn:hbo:feature:GWPUo2wzBQ6GYvgEAAABj,MO,Eight Below,,,,2006,2 hr 1 min,True,2018-10-24 08:39:55,1,2018-10-24 08:39:55,False,,,True
+urn:hbo:feature:GVcvYhAr5MsLCw48IAAAx,MO,El beso (The Kiss),,,,2015,12 min,False,2017-09-13 03:51:48,1,,False,,,True
+urn:hbo:feature:GVtSggQxqlMLDdPgIAABA,MO,En las nubes (In the Clouds),,,,2016,21 min,False,2017-09-17 03:51:27,1,,False,,,True
+urn:hbo:feature:GWPUlpQPafJ2-hAEAAAAy,MO,Executive Decision,,,,1996,2 hr 13 min,True,2018-01-07 09:14:43,1,,False,,,True
+urn:hbo:feature:GWPUo3AA5cLCtkwEAAABg,MO,Frequency,,,,2000,1 hr 59 min,True,2018-10-24 08:40:03,1,2018-10-24 08:40:03,False,,,True
+urn:hbo:feature:GWP-ttA00v5jDwgEAAAAk,MO,Get Smart,,,,2008,1 hr 50 min,True,2018-01-07 09:15:45,1,,False,,,True
+urn:hbo:feature:GWPUmdw09rMM2pAEAAABU,MO,Girl 6,,,,1996,1 hr 49 min,True,2018-01-07 09:16:05,1,,False,,,True
+urn:hbo:feature:GWPUgFg7OX7CtkwEAAAAZ,MO,Harold & Kumar Escape from Guantanamo Bay,,,,2008,1 hr 41 min,True,2018-01-07 09:16:21,1,,False,,,True
+urn:hbo:feature:GWPUo3AMPnrCtkwEAAABh,MO,Hostage,,,,2005,1 hr 54 min,True,2018-10-24 08:40:12,1,2018-10-24 08:40:12,False,,,True
+urn:hbo:feature:GWPUmCQYycMM2pAEAAABD,MO,Highlander,,,,1986,1 hr 51 min,True,2018-01-07 09:17:08,1,,False,,,True
+urn:hbo:feature:GWPUgFQ5rHYCfwwEAAAAg,MO,I Spy,,,,2002,1 hr 37 min,True,2018-01-07 09:17:41,1,,False,,,True
+urn:hbo:feature:GWPdx6ARMjJ2-hAEAAACb,MO,The Inquisition of Camilo Sanz,,,,2017,1 hr 48 min,True,2018-12-03 16:30:27,1,2018-12-03 16:30:27,False,,,True
+urn:hbo:feature:GWPUl_wQfbphdqgEAAABB,MO,Insomnia,,,,2002,1 hr 59 min,True,2018-01-07 09:18:12,1,,False,,,True
+urn:hbo:feature:GVqIUegUWUEywpMUIAAEf,MO,Kamikaze,,,,2016,1 hr 37 min,True,2017-09-13 03:51:57,1,,False,,,True
+urn:hbo:feature:GWPUlrg5hK5hdqgEAAAA3,MO,Journey to the Center of the Earth,,,,1959,2 hr 10 min,True,2018-10-24 08:41:06,1,2018-10-24 08:41:06,False,,,True
+urn:hbo:feature:GVkttVQYUqL6MiqgKAANv,MO,La isla minima,,,,2016,1 hr 45 min,True,2017-09-13 03:52:09,1,,False,,,True
+urn:hbo:feature:GWQASbwpCqqezVAEAAAAn,MO,"Kiki, El Amor se Hace (Kiki, Love to Love)",,,,2017,1 hr 43 min,True,2018-12-03 16:30:36,1,2018-12-03 16:30:36,False,,,True
+urn:hbo:feature:GWPUmPAHFFaGYvgEAAABI,MO,Krampus,,,,2015,1 hr 38 min,True,2018-01-07 09:18:46,1,,False,,,True
+urn:hbo:feature:GVkttVQDYf76MiqgKAANl,MO,Ladron que roba a ladron,,,,2007,1 hr 39 min,True,2017-09-13 03:52:20,1,,False,,,True
+urn:hbo:feature:GVvMFxAM11cPDw30JAABn,MO,Las ovejas no pierden el tren (Sidetracked),,,,2016,1 hr 44 min,True,2017-09-17 03:51:34,1,,False,,,True
+urn:hbo:feature:GWPUluQzwFphdqgEAAAA7,MO,The League of Extraordinary Gentlemen,,,,2003,1 hr 51 min,True,2018-01-07 09:19:18,1,,False,,,True
+urn:hbo:feature:GVvAM1gJ4aTDCF_gIAAA0,MO,Magallanes,,,,2016,1 hr 50 min,True,2017-09-17 03:51:39,1,,False,,,True
+urn:hbo:feature:GV-LJSA5eFZqOiQEAAAAq,MO,"Lucia, Lucia",,,,2003,1 hr 49 min,True,2017-09-13 03:52:32,1,,False,,,True
+urn:hbo:feature:GWDR5YgmQab5WnwEAAAAG,MO,Me case con un boludo (I Married a Dumbass),,,,2017,1 hr 50 min,True,2017-09-17 03:51:44,1,,False,,,True
+urn:hbo:feature:GWPUmUARG9JhdqgEAAABT,MO,Michael,,,,1996,1 hr 46 min,True,2018-01-07 09:19:46,1,,False,,,True
+urn:hbo:feature:GWPUe6Acu8cM2pAEAAAAD,MO,Miss Peregrine's Home for Peculiar Children,,,,2016,2 hr 7 min,True,2018-01-07 09:20:05,1,,False,,,True
+urn:hbo:feature:GWDPIKgXZJmrDwgEAAAAM,MO,Nada S.A. (Nothing Co.),,,,2017,16 min,False,2018-10-24 08:42:00,1,2018-10-24 08:42:00,False,,,True
+urn:hbo:feature:GWPUmFAYDJYCfwwEAAABG,MO,The Order,,,,2003,1 hr 43 min,True,2018-01-07 09:20:21,1,,False,,,True
+urn:hbo:feature:GWPUmOwoPXoUfwwEAAABJ,MO,Phone Booth,,,,2003,1 hr 21 min,True,2018-01-07 09:20:54,1,,False,,,True
+urn:hbo:feature:GWPUlpQUs0cM2pAEAAAAx,MO,Protocol,,,,1984,1 hr 36 min,True,2018-01-07 09:21:19,1,,False,,,True
+urn:hbo:feature:GWPUgMwrp_JhdqgEAAAAw,MO,Rails & Ties,,,,2007,1 hr 41 min,True,2018-01-07 09:21:34,1,,False,,,True
+urn:hbo:episode:GWP5b2QkHNcPDwwEAAAAO,SE,The Keenan Vortex,Silicon Valley,4,8,2017,31 min,False,2019-04-29 03:43:12,0,,False,,,True
+urn:hbo:episode:GWP5b1Qa2qz1owwEAAAAR,SE,Hooli-Con,SILICON VALLEY,4,9,2017,31 min,False,2019-04-29 03:43:59,0,,False,,,True
+urn:hbo:feature:GWSMGlAwwmqAYwwEAAADD,MO,About a Boy,,,,2002,1 hr 42 min,True,2018-10-24 08:42:09,1,2018-10-24 08:42:09,False,,,True
+urn:hbo:feature:GWSXlpgdPKYqXwgEAAAEF,MO,American Gigolo,,,,1980,1 hr 57 min,True,2018-01-07 09:22:22,1,,False,,,True
+urn:hbo:feature:GWSMGYQQAAxqGggEAAADH,MO,Bean,,,,1997,1 hr 32 min,True,2018-10-24 08:42:17,1,2018-10-24 08:42:17,False,,,True
+urn:hbo:feature:GWSMHowmaqxqGggEAAADg,MO,Big Trouble,,,,2002,1 hr 26 min,True,2018-10-24 08:42:26,1,2018-10-24 08:42:26,False,,,True
+urn:hbo:feature:GVktsuwNb5ZOtaqsKAAkt,MO,Bikini: una historia real,,,,2016,18 min,False,2017-09-13 03:52:40,1,,False,,,True
+urn:hbo:feature:GWPUfLgu4mZhdqgEAAAAT,MO,The Birth of a Nation,,,,2016,2 hr 1 min,True,2018-10-24 08:42:35,1,2018-10-24 08:42:35,False,,,True
+urn:hbo:feature:GWSMCgA0RkoqXwgEAAACA,MO,The Blair Witch Project,,,,1999,1 hr 22 min,True,2018-01-07 09:24:32,1,,False,,,True
+urn:hbo:feature:GWSMCbQjCW6LCwgEAAACF,MO,Body Parts,,,,1991,1 hr 29 min,True,2018-01-07 09:25:04,1,,False,,,True
+urn:hbo:feature:GWSMCdwDJEIORngEAAACV,MO,Book of Shadows: Blair Witch 2,,,,2000,1 hr 31 min,True,2018-01-07 09:25:09,1,,False,,,True
+urn:hbo:feature:GWSMGiQXzy5-ogAEAAAC3,MO,Born on the Fourth of July,,,,1989,2 hr 25 min,True,2018-10-24 08:42:44,1,2018-10-24 08:42:44,False,,,True
+urn:hbo:feature:GWGwk6A4iw4BArgEAAABU,MO,Brillantes (aka Bright),,,,2017,1 hr 37 min,True,2018-10-24 08:42:53,1,2018-10-24 08:42:53,False,,,True
+urn:hbo:feature:GWSMGqAjhd4qXwgEAAADI,MO,Civil Brand,,,,2003,1 hr 32 min,True,2018-10-24 08:43:01,1,2018-10-24 08:43:01,False,,,True
+urn:hbo:episode:GWQdYIQc11cJOCAEAAAAU,SE,Chumel con Chumel Torres 36,Chumel con Chumel Torres,2,14,2017,32 min,False,2018-10-24 08:43:10,1,2018-10-24 08:43:10,False,,,True
+urn:hbo:episode:GWQdYLgdd1Z4ywwEAAAAd,SE,Chumel con Chumel Torres 37,Chumel con Chumel Torres,2,15,2017,31 min,False,2018-10-24 08:43:19,1,2018-10-24 08:43:19,False,,,True
+urn:hbo:franchise:GWEH85gapN5NBtgEAAADG,SM,Last Week Tonight with John Oliver,,,,,,NULL,2019-04-29 03:44:47,0,,False,,,True
+urn:hbo:episode:GWP9Y8wP0Bj1owwEAAAAb,SE,"June 18, 2017",Last Week Tonight with John Oliver,4,16,2017,32 min,False,2018-10-24 08:44:12,1,2018-10-24 08:44:12,False,,,True
+urn:hbo:episode:GWP9ZBwKWw4qUuAEAAAAX,SE,"June 25, 2017",LAST WEEK TONIGHT WITH JOHN OLIVER,4,17,2017,40 min,False,2018-10-24 08:44:21,1,2018-10-24 08:44:21,False,,,True
+urn:hbo:feature:GWP5iig5cjZjDwgEAAAAV,OT,Real Sports with Bryant Gumbel Ep 243 (June 2017),,,,2017,56 min,False,2018-01-23 20:04:54,1,,False,,,True
+urn:hbo:franchise:GWEH9WA5JXqzCwgEAAAAm,SM,Real Time with Bill Maher,,,,,,NULL,2019-04-29 03:45:34,0,,False,,,True
+urn:hbo:episode:GWQeD2Q5qE8LCwwEAAAAh,SE,"June 23, 2017",REAL TIME WITH BILL MAHER,15,20,2017,58 min,False,2018-10-24 08:45:15,1,2018-10-24 08:45:15,False,,,True
+urn:hbo:episode:GWQeFOAxZ26k8NwEAAAAf,SE,"June 30, 2017",REAL TIME WITH BILL MAHER,15,21,2017,57 min,False,2018-10-24 08:45:23,1,2018-10-24 08:45:23,False,,,True
+urn:hbo:episode:GWP5aRAysKsPCwgEAAAAH,SE,The Recycling Fairy,Sesame Street,2017,4725,2017,27 min,False,2019-04-29 03:46:21,0,,False,,,True
+urn:hbo:episode:GWR3xogShy8PCVwEAAAAE,SE,The Camouflage Show,Sesame Street,2017,4726,2017,27 min,False,2019-04-29 03:47:08,0,,False,,,True
+urn:hbo:episode:GWP5b1QOfRsPCwgEAAAAJ,SE,Server Error,SILICON VALLEY,4,10,2017,31 min,False,2019-04-29 03:47:56,0,,False,,,True
+urn:hbo:feature:GWP5iiQZsCJjDwgEAAAAU,OT,The Fight Game with Jim Lampley 6/14/17,,,,2017,28 min,False,2017-09-17 07:38:14,1,,False,,,True
+urn:hbo:episode:GWP5b2QFFlLVjhwEAAAAR,SE,The Book of Nora,THE LEFTOVERS,3,8,2017,1 hr 18 min,True,2019-04-29 03:48:43,0,,False,,,True
+urn:hbo:episode:GWP5bxQYzHqezVAEAAAAJ,SE,A Woman First,VEEP,6,9,2017,30 min,False,2019-04-29 03:49:30,0,,False,,,True
+urn:hbo:episode:GWP5bzA57ssLDMgEAAAAS,SE,Groundbreaking,VEEP,6,10,2017,31 min,False,2019-04-29 03:50:18,0,,False,,,True
+urn:hbo:feature:GWPUpFw5gVrCtkwEAAABv,MO,The Conjuring 2,,,,2016,2 hr 15 min,True,2018-10-24 08:45:32,1,2018-10-24 08:45:32,False,,,True
+urn:hbo:feature:GWQni7gLaX567LQEAAAB4,MO,Locos de Amor (Crazy in Love),,,,2017,1 hr 45 min,True,2018-12-03 16:38:31,1,2018-12-03 16:38:31,False,,,True
+urn:hbo:episode:GV7xczAePp8JfPwEAAAFn,SE,Dennis Miller Live 164,Dennis Miller Live,9,1,2001,28 min,False,2018-10-24 08:46:26,1,2018-10-24 08:46:26,False,,,True
+urn:hbo:episode:GV7xc3Q0vpcPDWwEAAAA5,SE,Dennis Miller Live 165,Dennis Miller Live,9,2,2001,29 min,False,2018-10-24 08:46:35,1,2018-10-24 08:46:35,False,,,True
+urn:hbo:episode:GV7xc2AHGN8JfPwEAAAFr,SE,Dennis Miller Live 166,Dennis Miller Live,9,3,2001,29 min,False,2018-10-24 08:46:44,1,2018-10-24 08:46:44,False,,,True
+urn:hbo:episode:GV7xc2w3EbsJfPwEAAAFx,SE,Dennis Miller Live 167,Dennis Miller Live,9,4,2001,29 min,False,2018-10-24 08:46:52,1,2018-10-24 08:46:52,False,,,True
+urn:hbo:episode:GV7xc4wskpsJfPwEAAAF0,SE,Dennis Miller Live 168,Dennis Miller Live,9,5,2001,28 min,False,2018-10-24 08:47:00,1,2018-10-24 08:47:00,False,,,True
+urn:hbo:episode:GV7xczANaw8JfPwEAAAFj,SE,Dennis Miller Live 169,Dennis Miller Live,9,6,2001,28 min,False,2018-10-24 08:47:09,1,2018-10-24 08:47:09,False,,,True
+urn:hbo:episode:GV7xdAgRFgMJfPwEAAAF4,SE,Dennis Miller Live 170,Dennis Miller Live,9,7,2001,29 min,False,2018-10-24 08:47:17,1,2018-10-24 08:47:17,False,,,True
+urn:hbo:episode:GV7xc2wAuB8MbwgEAAAGK,SE,Dennis Miller Live 171,Dennis Miller Live,9,8,2001,29 min,False,2018-10-24 08:47:26,1,2018-10-24 08:47:26,False,,,True
+urn:hbo:episode:GV7xdDgPT6MPDWwEAAABD,SE,Dennis Miller Live 172,Dennis Miller Live,9,9,2001,28 min,False,2018-10-24 08:47:34,1,2018-10-24 08:47:34,False,,,True
+urn:hbo:episode:GV7xdEAv-38JfPwEAAAF7,SE,Dennis Miller Live 173,Dennis Miller Live,9,10,2001,29 min,False,2018-10-24 08:47:43,1,2018-10-24 08:47:43,False,,,True
+urn:hbo:episode:GV7xdDAxpkcMbwgEAAAGZ,SE,Dennis Miller Live 174,Dennis Miller Live,9,11,2001,29 min,False,2018-10-24 08:47:52,1,2018-10-24 08:47:52,False,,,True
+urn:hbo:episode:GV7xdFQg9T8MbwgEAAAGe,SE,Dennis Miller Live 175,Dennis Miller Live,9,12,2001,29 min,False,2018-10-24 08:48:00,1,2018-10-24 08:48:00,False,,,True
+urn:hbo:episode:GV7xdDAjqVMJfPwEAAAF5,SE,Dennis Miller Live 176,Dennis Miller Live,9,13,2001,27 min,False,2018-10-24 08:48:09,1,2018-10-24 08:48:09,False,,,True
+urn:hbo:episode:GV7xc3gNHaMMbwgEAAAGP,SE,Dennis Miller Live 177,Dennis Miller Live,9,14,2001,29 min,False,2018-10-24 08:48:17,1,2018-10-24 08:48:17,False,,,True
+urn:hbo:episode:GV7xczQFMCMPDWwEAAAAw,SE,Dennis Miller Live 178,Dennis Miller Live,9,15,2001,29 min,False,2018-10-24 08:48:26,1,2018-10-24 08:48:26,False,,,True
+urn:hbo:episode:GV7xczwgzHsJfPwEAAAFp,SE,Dennis Miller Live 179,Dennis Miller Live,9,16,2001,27 min,False,2018-10-24 08:48:35,1,2018-10-24 08:48:35,False,,,True
+urn:hbo:episode:GV7xc9w6OnsMbwgEAAAGU,SE,Dennis Miller Live 180,Dennis Miller Live,9,17,2001,29 min,False,2018-10-24 08:48:43,1,2018-10-24 08:48:43,False,,,True
+urn:hbo:episode:GV7xc2wVJeMPDWwEAAAA2,SE,Dennis Miller Live 181,Dennis Miller Live,9,18,2001,28 min,False,2018-10-24 08:48:52,1,2018-10-24 08:48:52,False,,,True
+urn:hbo:episode:GV7xc4wp8c8MbwgEAAAGR,SE,Dennis Miller Live 182,Dennis Miller Live,9,19,2001,28 min,False,2018-10-24 08:49:00,1,2018-10-24 08:49:00,False,,,True
+urn:hbo:episode:GV7xdDQD4qMPDWwEAAABC,SE,Dennis Miller Live 183,Dennis Miller Live,9,20,2001,29 min,False,2018-10-24 08:49:09,1,2018-10-24 08:49:09,False,,,True
+urn:hbo:episode:GV7xczAR89sJfPwEAAAFm,SE,Dennis Miller Live 184,Dennis Miller Live,9,21,2001,29 min,False,2018-10-24 08:49:18,1,2018-10-24 08:49:18,False,,,True
+urn:hbo:episode:GV7xdDQETbsMbwgEAAAGa,SE,Dennis Miller Live 186,Dennis Miller Live,9,23,2001,28 min,False,2018-10-24 08:49:26,1,2018-10-24 08:49:26,False,,,True
+urn:hbo:episode:GV7xc2AZHysPDWwEAAAAz,SE,Dennis Miller Live 187,Dennis Miller Live,9,24,2001,28 min,False,2018-10-24 08:49:35,1,2018-10-24 08:49:35,False,,,True
+urn:hbo:episode:GV7xc9wnEuMPDWwEAAAA8,SE,Dennis Miller Live 188,Dennis Miller Live,9,25,2001,29 min,False,2018-10-24 08:49:43,1,2018-10-24 08:49:43,False,,,True
+urn:hbo:episode:GV7xc2AO5g8JfPwEAAAFu,SE,Dennis Miller Live 189,Dennis Miller Live,9,26,2001,28 min,False,2018-10-24 08:49:52,1,2018-10-24 08:49:52,False,,,True
+urn:hbo:episode:GWP5b2QofmcLCwgEAAAAQ,SE,The Patent Troll,Silicon Valley,4,7,2017,31 min,False,2019-04-29 03:51:05,0,,False,,,True
+urn:hbo:episode:GWP5bwwWDSMLCwgEAAAAN,SE,Judge,Veep,6,8,2017,31 min,False,2019-04-29 03:51:53,0,,False,,,True
+urn:hbo:episode:GWSYplwHHvSe_tAEAAAEI,SE,"July 2, 2017",LAST WEEK TONIGHT WITH JOHN OLIVER,4,18,2017,35 min,False,2018-10-24 08:50:00,1,2018-10-24 08:50:00,False,,,True
+urn:hbo:episode:GWR8qRAjaSKAYwwEAAAAR,SE,Twinkle Twinkle Little Elmo,SESAME STREET,2017,4727,2017,27 min,False,2019-04-29 03:52:40,0,,False,,,True
+urn:hbo:episode:GWP5hFQZr2aezVAEAAAAO,SE,"June 11, 2017",Last Week Tonight with John Oliver,4,15,2017,30 min,False,2018-10-24 08:50:09,1,2018-10-24 08:50:09,False,,,True
+urn:hbo:episode:GWP5hGQigb4_CwwEAAAAQ,SE,"June 4, 2017",Last Week Tonight with John Oliver,4,14,2017,30 min,False,2018-10-24 08:50:17,1,2018-10-24 08:50:17,False,,,True
+urn:hbo:episode:GWP9Y6A5VMo_CwwEAAAAY,SE,"May 21, 2017",Last Week Tonight with John Oliver,4,13,2017,30 min,False,2018-10-24 08:50:26,1,2018-10-24 08:50:26,False,,,True
+urn:hbo:episode:GWQeLVAEiv54ywwEAAAAm,SE,"May 14, 2017",Last Week Tonight with John Oliver,4,12,2017,40 min,False,2018-10-24 08:50:35,1,2018-10-24 08:50:35,False,,,True
+urn:hbo:episode:GWP9YwQMurLVjhwEAAAAh,SE,"May 7, 2017",Last Week Tonight with John Oliver,4,11,2017,30 min,False,2018-10-24 08:50:43,1,2018-10-24 08:50:43,False,,,True
+urn:hbo:episode:GWLX-qQbjGcMMcgEAAAAc,SE,"April 23, 2017",Last Week Tonight with John Oliver,4,10,2017,35 min,False,2018-10-24 08:50:52,1,2018-10-24 08:50:52,False,,,True
+urn:hbo:episode:GWLX_3gXtu5rCDwEAAAAi,SE,"April 16, 2017",Last Week Tonight with John Oliver,4,9,2017,30 min,False,2018-10-24 08:51:00,1,2018-10-24 08:51:00,False,,,True
+urn:hbo:episode:GWLX_zQej-cMWnQEAAAAl,SE,"April 9, 2017",Last Week Tonight with John Oliver,4,8,2017,35 min,False,2018-10-24 08:51:09,1,2018-10-24 08:51:09,False,,,True
+urn:hbo:episode:GWLX_wwV6-8LCGwEAAAAm,SE,"April 2, 2017",Last Week Tonight with John Oliver,4,7,2017,30 min,False,2018-10-24 08:51:18,1,2018-10-24 08:51:18,False,,,True
+urn:hbo:episode:GWIfLRgWWbQJ3MAEAAAI5,SE,"March 19, 2017",Last Week Tonight with John Oliver,4,6,2017,30 min,False,2018-10-24 08:51:26,1,2018-10-24 08:51:26,False,,,True
+urn:hbo:episode:GWIfLMgUwuamywwEAAAIV,SE,"March 12, 2017",Last Week Tonight with John Oliver,4,5,2017,30 min,False,2018-10-24 08:51:35,1,2018-10-24 08:51:35,False,,,True
+urn:hbo:episode:GWIfLPQ2Mpgm4NgEAAAC6,SE,"March 5, 2017",Last Week Tonight with John Oliver,4,4,2017,30 min,False,2018-10-24 08:51:43,1,2018-10-24 08:51:43,False,,,True
+urn:hbo:episode:GWH-eGwtnyopCiAEAAAAV,SE,"February 26, 2017",Last Week Tonight with John Oliver,4,3,2017,30 min,False,2018-10-24 08:51:52,1,2018-10-24 08:51:52,False,,,True
+urn:hbo:episode:GWH-eIgoRT6mywwEAAAFS,SE,"February 19, 2017",Last Week Tonight with John Oliver,4,2,2017,30 min,False,2018-10-24 08:52:01,1,2018-10-24 08:52:01,False,,,True
+urn:hbo:episode:GWH-eGwoIy6bCwwEAAAAQ,SE,"February 12, 2017",Last Week Tonight with John Oliver,4,1,2017,30 min,False,2018-10-24 08:52:10,1,2018-10-24 08:52:10,False,,,True
+urn:hbo:episode:GV-RBWAgYMr-cFQEAAAA-,SE,"November 13, 2016",Last Week Tonight with John Oliver,3,30,2016,30 min,False,2018-01-07 09:39:01,1,,False,,,True
+urn:hbo:episode:GV-RBWArqxUm5oAEAAABq,SE,"November 6, 2016",Last Week Tonight with John Oliver,3,29,2016,40 min,False,2018-01-07 09:39:17,1,,False,,,True
+urn:hbo:episode:GV8Wh3wmoJYG_uwEAAAAH,SE,"October 30, 2016",Last Week Tonight with John Oliver,3,28,2016,30 min,False,2018-01-07 09:39:35,1,,False,,,True
+urn:hbo:episode:GV8WhlAHFvoG_uwEAAAAG,SE,"October 23, 2016",Last Week Tonight with John Oliver,3,27,2016,35 min,False,2018-01-07 09:40:02,1,,False,,,True
+urn:hbo:episode:GV8Wg9A0P8IG_uwEAAAAE,SE,"October 16, 2016",Last Week Tonight with John Oliver,3,26,2016,30 min,False,2018-01-07 09:40:25,1,,False,,,True
+urn:hbo:episode:GV7xuxgVoE8MbwgEAAAHa,SE,"October 9, 2016",Last Week Tonight with John Oliver,3,25,2016,40 min,False,2018-01-07 09:40:47,1,,False,,,True
+urn:hbo:episode:GV7xuxwa7mcJfPwEAAAG0,SE,"October 2, 2016",Last Week Tonight with John Oliver,3,24,2016,37 min,False,2018-01-07 09:41:16,1,,False,,,True
+urn:hbo:episode:GV5fexQ3jbK1ejwEAAAAd,SE,"September 25, 2016",Last Week Tonight with John Oliver,3,23,2016,30 min,False,2017-09-28 03:45:47,1,,False,,,True
+urn:hbo:episode:GV2B5SAaeI6qSRQEAAACW,SE,"August 21, 2016",Last Week Tonight with John Oliver,3,22,2016,35 min,False,2017-09-13 03:55:06,1,,False,,,True
+urn:hbo:episode:GV2B5SAgjhaqSRQEAAACY,SE,"August 14, 2016",Last Week Tonight with John Oliver,3,21,2016,30 min,False,2017-09-13 03:55:11,1,,False,,,True
+urn:hbo:episode:GV2B5RwDMcqqSRQEAAACT,SE,"August 7, 2016",Last Week Tonight with John Oliver,3,20,2016,30 min,False,2017-09-13 03:55:14,1,,False,,,True
+urn:hbo:episode:GVzn9qAHrJx6RwgEAAAAX,SE,"July 31, 2016",Last Week Tonight with John Oliver,3,19,2016,30 min,False,2017-09-13 03:55:18,1,,False,,,True
+urn:hbo:episode:GVzn9dQntaMLDdQEAAAAX,SE,"July 24, 2016",Last Week Tonight with John Oliver,3,18,2016,30 min,False,2017-09-13 03:55:21,1,,False,,,True
+urn:hbo:episode:GWQeC_QkBXak8NwEAAAAe,SE,"June 16, 2017",Real Time with Bill Maher,15,19,2017,58 min,False,2018-10-24 08:52:19,1,2018-10-24 08:52:19,False,,,True
+urn:hbo:episode:GWQeBlAK2_p4ywwEAAAAk,SE,"June 9, 2017",Real Time with Bill Maher,15,18,2017,57 min,False,2018-10-24 08:52:27,1,2018-10-24 08:52:27,False,,,True
+urn:hbo:episode:GWQeAAwBfzKk8NwEAAAAd,SE,"June 2, 2017",Real Time with Bill Maher,15,17,2017,57 min,False,2018-10-24 08:52:36,1,2018-10-24 08:52:36,False,,,True
+urn:hbo:episode:GWNveaASjDhmMtwEAAAG_,SE,"May 19, 2017",Real Time with Bill Maher,15,16,2017,59 min,False,2018-10-24 08:52:45,1,2018-10-24 08:52:45,False,,,True
+urn:hbo:episode:GWNveUgnWimCGAQEAAAGy,SE,"May 12, 2017",Real Time with Bill Maher,15,15,2017,58 min,False,2018-10-24 08:52:53,1,2018-10-24 08:52:53,False,,,True
+urn:hbo:episode:GWNveVgiBfmCGAQEAAAGz,SE,"May 5, 2017",Real Time with Bill Maher,15,14,2017,56 min,False,2018-10-24 08:53:02,1,2018-10-24 08:53:02,False,,,True
+urn:hbo:episode:GWLSTlg7lKDzCwgEAAAAU,SE,"April 28, 2017",Real Time with Bill Maher,15,13,2017,57 min,False,2018-10-24 08:53:10,1,2018-10-24 08:53:10,False,,,True
+urn:hbo:episode:GWLSTlgZU2qHCwgEAAAAU,SE,"April 21, 2017",Real Time with Bill Maher,15,12,2017,58 min,False,2018-10-24 08:53:19,1,2018-10-24 08:53:19,False,,,True
+urn:hbo:episode:GWKN8MAdx-Ym4wwEAAAAO,SE,"April 7, 2017",Real Time with Bill Maher,15,11,2017,56 min,False,2018-10-24 08:53:27,1,2018-10-24 08:53:27,False,,,True
+urn:hbo:episode:GWIfLPAid5qbCwwEAAAC0,SE,"March 31, 2017",Real Time with Bill Maher,15,10,2017,58 min,False,2018-10-24 08:53:36,1,2018-10-24 08:53:36,False,,,True
+urn:hbo:episode:GWIfLRgSx-8NWsQEAAACm,SE,"March 24, 2017",Real Time with Bill Maher,15,9,2017,57 min,False,2018-10-24 08:53:44,1,2018-10-24 08:53:44,False,,,True
+urn:hbo:episode:GWIfLPQB-wgJ3MAEAAAI2,SE,"March 17, 2017",Real Time with Bill Maher,15,8,2017,57 min,False,2018-10-24 08:53:53,1,2018-10-24 08:53:53,False,,,True
+urn:hbo:episode:GWIfLMgTgxAm4NgEAAAC5,SE,"March 3, 2017",Real Time with Bill Maher,15,7,2017,59 min,False,2018-10-24 08:54:02,1,2018-10-24 08:54:02,False,,,True
+urn:hbo:episode:GWGwm0AawYmuRmwEAAACG,SE,"February 24, 2017",Real Time with Bill Maher,15,6,2017,57 min,False,2018-10-24 08:54:10,1,2018-10-24 08:54:10,False,,,True
+urn:hbo:episode:GWGwm0A4HWoBArgEAAACJ,SE,"February 17, 2017",Real Time with Bill Maher,15,5,2017,57 min,False,2018-10-24 08:54:18,1,2018-10-24 08:54:18,False,,,True
+urn:hbo:episode:GWGwm2A45EpBYwwEAAABz,SE,"February 10, 2017",Real Time with Bill Maher,15,4,2017,58 min,False,2018-10-24 08:54:27,1,2018-10-24 08:54:27,False,,,True
+urn:hbo:episode:GWGwm2QK1XpyXCQEAAACH,SE,"February 3, 2017",Real Time with Bill Maher,15,3,2017,56 min,False,2018-10-24 08:54:35,1,2018-10-24 08:54:35,False,,,True
+urn:hbo:episode:GWFl_SwsAfAiYbQEAAAFa,SE,"January 27, 2017",Real Time with Bill Maher,15,2,2017,57 min,False,2018-10-24 08:54:44,1,2018-10-24 08:54:44,False,,,True
+urn:hbo:episode:GWFl_SQ2qDkvCwwEAAAB5,SE,"January 20, 2017",Real Time with Bill Maher,15,1,2017,58 min,False,2018-01-23 20:31:26,1,,False,,,True
+urn:hbo:episode:GWBuVgQRhr5KNBAEAAAAP,SE,"Nov. 11, 2016",Real Time with Bill Maher,14,38,2016,57 min,False,2018-01-07 09:50:57,1,,False,,,True
+urn:hbo:episode:GWBuVRAccfMLDFgEAAAAR,SE,"Nov. 4, 2016",Real Time with Bill Maher,14,37,2016,58 min,False,2018-01-07 09:51:28,1,,False,,,True
+urn:hbo:episode:GV8YGtggHyoWfAQEAAAAD,SE,"Oct. 28, 2016",Real Time with Bill Maher,14,36,2016,57 min,False,2018-01-07 09:52:03,1,,False,,,True
+urn:hbo:episode:GV8YGtgq5b4nDwwEAAAAF,SE,"Oct. 14, 2016",Real Time with Bill Maher,14,35,2016,58 min,False,2018-01-07 09:52:30,1,,False,,,True
+urn:hbo:episode:GV8YGoQlKeDCpHAEAAAAE,SE,"Oct. 7, 2016",Real Time with Bill Maher,14,34,2016,57 min,False,2018-01-07 09:52:56,1,,False,,,True
+urn:hbo:episode:GV5fejAN43SSKwwEAAAAY,SE,"Sept. 30, 2016",Real Time with Bill Maher,14,33,2016,57 min,False,2018-01-07 09:53:20,1,,False,,,True
+urn:hbo:episode:GV5feigdiriSKwwEAAAAW,SE,"Sept. 23, 2016",Real Time with Bill Maher,14,32,2016,56 min,False,2017-09-28 03:45:53,1,,False,,,True
+urn:hbo:episode:GV5feig0FQxKpZAEAAAAg,SE,"Sept. 16, 2016",Real Time with Bill Maher,14,31,2016,59 min,False,2017-09-20 03:28:34,1,,False,,,True
+urn:hbo:episode:GV3FiHgSC7wLDwgEAAAAL,SE,"Aug 5, 2016",Real Time with Bill Maher,14,30,2016,57 min,False,2017-09-13 03:55:24,1,,False,,,True
+urn:hbo:episode:GV2qpnwcIP4w_pwEAAAA6,SE,"July 29, 2016",Real Time with Bill Maher,14,29,2016,58 min,False,2017-09-13 03:55:27,1,,False,,,True
+urn:hbo:episode:GV4UJEArBzALDQgEAAAAk,SE,"July 28, 2016",Real Time with Bill Maher,14,28,2016,31 min,False,2017-09-13 03:55:33,1,,False,,,True
+urn:hbo:episode:GV4UIRgy9EQzDbwEAAAAs,SE,"July 27, 2016",Real Time with Bill Maher,14,27,2016,30 min,False,2017-09-13 03:55:36,1,,False,,,True
+urn:hbo:episode:GV2qpqQ69HQinuQEAAABC,SE,"July 22, 2016",Real Time with Bill Maher,14,26,2016,56 min,False,2017-09-13 03:55:41,1,,False,,,True
+urn:hbo:episode:GV4UHegCFLwzDbwEAAAAr,SE,"July 21, 2016",Real Time with Bill Maher,14,25,2016,29 min,False,2017-09-13 03:55:48,1,,False,,,True
+urn:hbo:episode:GV4UF5A2kwQLDQgEAAAAf,SE,"July 20, 2016",Real Time with Bill Maher,14,24,2016,35 min,False,2017-09-13 03:55:51,1,,False,,,True
+urn:hbo:episode:GV2qpnwa0gLynAAEAAAAw,SE,"July 15, 2016",Real Time with Bill Maher,14,23,2016,58 min,False,2017-09-13 03:55:55,1,,False,,,True
+urn:hbo:episode:GVdyMVwjbAk-PpJIIAAS-,SE,Open Close Ring,A Little Curious,1,9,1999,25 min,False,2018-10-24 08:54:53,1,2018-10-24 08:54:53,False,,,True
+urn:hbo:episode:GVdyMMArvbk-PpJIIAAS7,SE,Bubble Picture Mirror,A Little Curious,1,10,1999,25 min,False,2018-10-24 08:55:01,1,2018-10-24 08:55:01,False,,,True
+urn:hbo:episode:GVdyNBwpsOISRB70IAAP7,SE,First Last Step,A Little Curious,1,12,1999,25 min,False,2018-10-24 08:55:10,1,2018-10-24 08:55:10,False,,,True
+urn:hbo:episode:GVdyL5QeMDk-PpJIIAASw,SE,Long Short Roll,A Little Curious,1,17,1999,25 min,False,2018-10-24 08:55:19,1,2018-10-24 08:55:19,False,,,True
+urn:hbo:episode:GVdyMqgSHoISRB70IAAPu,SE,Compilation Bob Show,A Little Curious,1,18,1999,25 min,False,2018-10-24 08:55:28,1,2018-10-24 08:55:28,False,,,True
+urn:hbo:episode:GWP5aVgDcB8PCwgEAAAAI,SE,Rocking Rollie,Sesame Street,2017,4722,2017,27 min,False,2019-04-29 03:53:27,0,,False,,,True
+urn:hbo:episode:GWP5akQ0bTMLDMgEAAAAQ,SE,Elmo and Rosita's Rainbow Search,Sesame Street,2017,4723,2017,27 min,False,2019-04-29 03:54:14,0,,False,,,True
+urn:hbo:episode:GWP5aQgQv3ZjDwgEAAAAO,SE,Father's Day,Sesame Street,2017,4724,2017,27 min,False,2019-04-29 03:55:02,0,,False,,,True
+urn:hbo:episode:GWPZS6QIELI6DggEAAAB3,SE,Chumel con Chumel Torres 35,Chumel con Chumel Torres,2,13,2017,33 min,False,2018-10-24 08:55:36,1,2018-10-24 08:55:36,False,,,True
+urn:hbo:series:GWT7L-QiJlsPDwgEAAAAQ,SM,El Jardin de Bronce,,,,2017,,NULL,2019-04-29 03:55:49,0,,False,,,True
+urn:hbo:episode:GWT7L5wets8PDwgEAAAAP,SE,El Jardin de Bronce 01,El Jardin de Bronce,1,1,2017,1 hr,True,2019-04-29 03:56:36,0,,False,,,True
+urn:hbo:episode:GWVZ8XQMEYAedlQEAAAAC,SE,El Jardin de Bronce 02,El Jardin de Bronce,1,2,2017,58 min,False,2019-04-29 03:57:24,0,,False,,,True
+urn:hbo:episode:GWQD8swEH8YvCDwEAAAAE,SE,Good with Numbers (Pt. 2),Psi,3,8,2017,59 min,False,2019-04-29 03:58:12,0,,False,,,True
+urn:hbo:episode:GWQD8sQqb7KezVAEAAAAp,SE,An Inheritance (Pt. 1),Psi,3,9,2017,51 min,False,2019-04-29 03:58:59,0,,False,,,True
+urn:hbo:episode:GWQD8rwmW5JXDSwEAAAAD,SE,An Inheritance (Pt. 2),Psi,3,10,2017,1 hr,True,2019-04-29 03:59:47,0,,False,,,True
+urn:hbo:feature:GWSL-DgChOq6-wgEAAABP,MO,Cobra,,,,1986,1 hr 27 min,True,2018-10-24 08:56:30,1,2018-10-24 08:56:30,False,,,True
+urn:hbo:feature:GWThJWgCaSr84hwEAAABY,MO,The Dark Knight,,,,2008,2 hr 34 min,True,2018-01-07 09:57:00,1,,False,,,True
+urn:hbo:feature:GWSMHmAjtK66-wgEAAADT,MO,Deceived,,,,1991,1 hr 49 min,True,2018-10-24 08:56:39,1,2018-10-24 08:56:39,False,,,True
+urn:hbo:feature:GWTmxUQo4u79csAEAAAAD,MO,El Cerdo (The Pig),,,,2017,10 min,False,2017-10-09 07:02:58,1,,False,,,True
+urn:hbo:feature:GVxqC_A0zGUWCwwEAAABf,MO,El elefante desaparecido (The Vanished Elephant),,,,2016,1 hr 50 min,True,2018-01-07 09:58:08,1,,False,,,True
+urn:hbo:feature:GWGwk9QKTKIBArgEAAABX,MO,El Hueco (The Hole),,,,2017,15 min,False,2019-02-02 13:37:51,1,2019-02-02 13:37:51,False,,,True
+urn:hbo:feature:GVxqclAMvvkWCwwEAAACM,MO,"El Padre Jorge A.I.E. (Francis, Father George)",,,,2016,1 hr 45 min,True,2018-01-07 09:58:36,1,,False,,,True
+urn:hbo:feature:GV-qT9QjUDsLCQwEAAAAY,MO,Embarazados (We Are Pregnant),,,,2016,1 hr 45 min,True,2017-09-13 03:56:48,1,,False,,,True
+urn:hbo:feature:GWSMGigAvIgjDwgEAAADW,MO,Erin Brockovich,,,,2000,2 hr 12 min,True,2018-10-24 08:57:35,1,2018-10-24 08:57:35,False,,,True
+urn:hbo:feature:GWSMsUQo2gye_tAEAAAD7,MO,Esteban,,,,2017,1 hr 32 min,True,2019-01-01 21:41:19,1,2019-01-01 21:41:19,False,,,True
+urn:hbo:feature:GWRyaXAWCAcLDwwEAAACD,MO,Flipped,,,,2010,1 hr 30 min,True,2018-10-24 08:58:29,1,2018-10-24 08:58:29,False,,,True
+urn:hbo:feature:GWSL-SgPYdBqGggEAAABg,MO,The Glimmer Man,,,,1996,1 hr 32 min,True,2018-10-24 08:58:37,1,2018-10-24 08:58:37,False,,,True
+urn:hbo:feature:GWSMCOANZdYqXwgEAAAB2,MO,Heartburn,,,,1986,1 hr 50 min,True,2018-01-07 10:00:51,1,,False,,,True
+urn:hbo:feature:GWSMIYgc0o4qXwgEAAADc,MO,HBO First Look: War for the Planet of the Apes,,,,2017,14 min,False,2017-09-13 03:56:54,1,,False,,,True
+urn:hbo:feature:GWSMCYgipL4ORngEAAACO,MO,"He Said, She Said",,,,1991,1 hr 56 min,True,2018-01-07 10:01:22,1,,False,,,True
+urn:hbo:feature:GWSMCnAuFop-ogAEAAACH,MO,Her,,,,2013,2 hr 6 min,True,2018-01-07 10:01:44,1,,False,,,True
+urn:hbo:feature:GWRyabgzkwZhMuQEAAACV,MO,Inkheart,,,,2009,1 hr 46 min,True,2018-10-24 08:58:46,1,2018-10-24 08:58:46,False,,,True
+urn:hbo:feature:GWSMCOAH1jSe_tAEAAAB5,MO,Jennifer Eight,,,,1992,2 hr 6 min,True,2018-01-07 10:02:39,1,,False,,,True
+urn:hbo:feature:GWSMB3gEW36LCwgEAAAB3,MO,Johnny Handsome,,,,1989,1 hr 34 min,True,2018-01-07 10:03:01,1,,False,,,True
+urn:hbo:feature:GWSL-GQ68zSe_tAEAAABY,MO,Just Cause,,,,1995,1 hr 43 min,True,2018-10-24 08:58:55,1,2018-10-24 08:58:55,False,,,True
+urn:hbo:feature:GWSMGnQYyGwjDwgEAAADg,MO,K-PAX,,,,2001,2 hr 1 min,True,2018-10-24 08:59:03,1,2018-10-24 08:59:03,False,,,True
+urn:hbo:feature:GWUHMkA8SVIudjgEAAAC-,MO,La invitacion (Sleepover),,,,2017,15 min,False,2019-04-29 04:00:34,0,,False,,,True
+urn:hbo:feature:GWSMCVwuHIMPCVwEAAACC,MO,Lara Croft: Tomb Raider,,,,2001,1 hr 41 min,True,2018-01-07 10:04:28,1,,False,,,True
+urn:hbo:feature:GWSL-SwNqd8PCVwEAAABj,MO,Le Divorce,,,,2003,1 hr 58 min,True,2018-10-24 08:59:57,1,2018-10-24 08:59:57,False,,,True
+urn:hbo:feature:GWSMCRAs2wJ-ogAEAAAB3,MO,Leatherheads,,,,2008,1 hr 54 min,True,2018-01-07 10:05:32,1,,False,,,True
+urn:hbo:feature:GV8R48AB6zRLDwgEAAAAQ,MO,Living Legend,,,,2016,16 min,False,2018-10-24 09:00:06,1,2018-10-24 09:00:06,False,,,True
+urn:hbo:feature:GWSMFegLovq6-wgEAAACk,MO,Loving,,,,2016,2 hr 4 min,True,2018-10-24 09:00:15,1,2018-10-24 09:00:15,False,,,True
+urn:hbo:feature:GWSL-TAZFOAjDwgEAAABl,MO,The Man Without a Face,,,,1993,1 hr 55 min,True,2018-10-24 09:00:24,1,2018-10-24 09:00:24,False,,,True
+urn:hbo:feature:GWSMCgALXE4ORngEAAACX,MO,Martin Lawrence Live: Runteldat,,,,2002,1 hr 44 min,True,2018-01-07 10:07:21,1,,False,,,True
+urn:hbo:feature:GWSMCgAAKLhqGggEAAACO,MO,Mission: Impossible II,,,,2000,2 hr 4 min,True,2018-01-07 10:08:02,1,,False,,,True
+urn:hbo:feature:GWSMSLQtY7qAYwwEAAADj,MO,Mimic,,,,1997,1 hr 46 min,True,2018-01-07 10:08:15,1,,False,,,True
+urn:hbo:feature:GV-BK0A6P8LOCwgEAAAB6,MO,Minority Report,,,,2002,2 hr 26 min,True,2018-01-07 10:08:47,1,,False,,,True
+urn:hbo:feature:GWSMCnAu81ye_tAEAAACS,MO,Mr. Deeds,,,,2002,1 hr 37 min,True,2018-01-07 10:09:13,1,,False,,,True
+urn:hbo:feature:GWSMCbANuACe_tAEAAAB_,MO,Mr. Woodcock,,,,2007,1 hr 28 min,True,2018-01-07 10:09:38,1,,False,,,True
+urn:hbo:feature:GWSMB3QmvVYqXwgEAAABw,MO,Necessary Roughness,,,,1991,1 hr 49 min,True,2018-01-07 10:10:01,1,,False,,,True
+urn:hbo:feature:GWSMB8glCZAjDwgEAAACF,MO,Next Day Air,,,,2009,1 hr 25 min,True,2018-01-07 10:10:23,1,,False,,,True
+urn:hbo:feature:GWSL-XwxaXye_tAEAAABk,MO,The Other Side of the Door,,,,2016,1 hr 36 min,True,2018-10-24 09:00:33,1,2018-10-24 09:00:33,False,,,True
+urn:hbo:feature:GWSMCYQQZWK6-wgEAAABy,MO,Over Her Dead Body,,,,2008,1 hr 35 min,True,2018-01-07 10:11:21,1,,False,,,True
+urn:hbo:feature:GWSL_yAVGBAjDwgEAAAB_,MO,Panic Room,,,,2002,1 hr 52 min,True,2018-01-07 10:11:57,1,,False,,,True
+urn:hbo:feature:GWSMHogl-JaLCwgEAAADa,MO,Pearl Harbor,,,,2001,3 hr 4 min,True,2018-10-24 09:00:42,1,2018-10-24 09:00:42,False,,,True
+urn:hbo:feature:GWGwk4Ai00wJ3MAEAAABb,MO,Permitidos (That's Not Cheating),,,,2017,1 hr 47 min,True,2018-10-24 09:00:51,1,2018-10-24 09:00:51,False,,,True
+urn:hbo:feature:GWCN38Qy09L2gIgEAAAAN,MO,Platoon,,,,1986,2 hr,True,2018-10-24 09:01:00,1,2018-10-24 09:01:00,False,,,True
+urn:hbo:feature:GV4z87AL_TpKhwgEAAAAb,MO,Por amor en el caserio (For Love in the Projects),,,,2015,1 hr 47 min,True,2017-09-13 03:57:06,1,,False,,,True
+urn:hbo:feature:GWSgwpA59HqAYwwEAAAEH,MO,Richie Rich,,,,1994,1 hr 35 min,True,2018-10-24 09:01:09,1,2018-10-24 09:01:09,False,,,True
+urn:hbo:feature:GWSL-GQey-gjDwgEAAABb,MO,Robin Hood: Men in Tights,,,,1993,1 hr 45 min,True,2018-10-24 09:01:18,1,2018-10-24 09:01:18,False,,,True
+urn:hbo:feature:GWSL-SgKMCMPCVwEAAABh,MO,The Rose,,,,1979,2 hr 15 min,True,2018-10-24 09:01:27,1,2018-10-24 09:01:27,False,,,True
+urn:hbo:feature:GWP-txwUDO4_CwwEAAAAi,MO,Rush Hour 3,,,,2007,1 hr 31 min,True,2018-01-07 10:14:58,1,,False,,,True
+urn:hbo:feature:GWSg2wAbvHZzDwwEAAAAK,MO,Selena,,,,1997,2 hr 8 min,True,2018-10-24 09:01:37,1,2018-10-24 09:01:37,False,,,True
+urn:hbo:feature:GWPUo3Ah0csIrugEAAABc,MO,Serendipity,,,,2001,1 hr 31 min,True,2018-10-24 09:01:46,1,2018-10-24 09:01:46,False,,,True
+urn:hbo:feature:GWPUgKQ34qoUfwwEAAAAl,MO,Shaft,,,,2000,1 hr 40 min,True,2018-01-07 10:16:42,1,,False,,,True
+urn:hbo:feature:GWPUe3wNsOqGYvgEAAAAD,MO,Shakespeare in Love,,,,1998,2 hr 4 min,True,2018-01-07 10:16:58,1,,False,,,True
+urn:hbo:feature:GWSMCTA2MvYqXwgEAAAB3,MO,Shoot 'Em Up,,,,2007,1 hr 27 min,True,2018-01-07 10:17:11,1,,False,,,True
+urn:hbo:feature:GWSL-DwtrYK6-wgEAAABQ,MO,Solaris,,,,2002,1 hr 39 min,True,2018-10-24 09:01:55,1,2018-10-24 09:01:55,False,,,True
+urn:hbo:feature:GWPUo8APkB7CtkwEAAABo,MO,Sister Act,,,,1992,1 hr 41 min,True,2018-10-24 09:02:04,1,2018-10-24 09:02:04,False,,,True
+urn:hbo:feature:GWPUo-w8-BoCfwwEAAAB1,MO,Sister Act 2: Back in the Habit,,,,1993,1 hr 48 min,True,2018-10-24 09:02:13,1,2018-10-24 09:02:13,False,,,True
+urn:hbo:feature:GWSL-BAzenRqGggEAAABR,MO,Soul Food,,,,1997,1 hr 55 min,True,2018-10-24 09:02:23,1,2018-10-24 09:02:23,False,,,True
+urn:hbo:feature:GWQni8APjV567LQEAAAB6,MO,Spark,,,,2017,19 min,False,2018-10-24 09:02:32,1,2018-10-24 09:02:32,False,,,True
+urn:hbo:feature:GWPUe_AuML52-hAEAAAAJ,MO,Speed,,,,1994,1 hr 56 min,True,2018-01-07 10:19:50,1,,False,,,True
+urn:hbo:feature:GWPUmJwld2MIrugEAAAA6,MO,Spring Breakdown,,,,2008,1 hr 24 min,True,2018-01-07 10:20:09,1,,False,,,True
+urn:hbo:feature:GWPUmCQW9oKGYvgEAAAA7,MO,Term Life,,,,2016,1 hr 33 min,True,2018-01-07 10:20:12,1,,False,,,True
+urn:hbo:feature:GWSL-dAiEsBqGggEAAABs,MO,Thirteen,,,,2003,1 hr 40 min,True,2018-10-24 09:02:41,1,2018-10-24 09:02:41,False,,,True
+urn:hbo:feature:GWSMQEAhaoqAYwwEAAADd,MO,Towelhead,,,,2008,1 hr 57 min,True,2018-01-07 10:21:05,1,,False,,,True
+urn:hbo:feature:GVvLTIgR_esPCw2EJAAAo,MO,Trabajo (Job),,,,2016,14 min,False,2018-01-07 10:21:45,1,,False,,,True
+urn:hbo:feature:GWPUl1whBcrCtkwEAAAAz,MO,Transformers: Revenge of the Fallen,,,,2009,2 hr 30 min,True,2018-01-07 10:22:16,1,,False,,,True
+urn:hbo:feature:GWSMOxQMmpcPCVwEAAADU,MO,Watchmen,,,,2009,2 hr 43 min,True,2018-01-07 10:22:42,1,,False,,,True
+urn:hbo:feature:GWVEQDg5JWlbDwgEAAAAQ,MO,What to Watch: July 2017,,,,2017,10 min,False,2017-09-13 03:57:16,1,,False,,,True
+urn:hbo:feature:GWSMB8gBEfBqGggEAAACA,MO,What Women Want,,,,2000,2 hr 7 min,True,2018-01-07 10:23:15,1,,False,,,True
+urn:hbo:feature:GWPUe6QOsKp2xYwEAAAAG,MO,The Winning Season,,,,2010,1 hr 44 min,True,2018-10-24 09:02:50,1,2018-10-24 09:02:50,False,,,True
+urn:hbo:feature:GWPUl6wjKt6GYvgEAAAA1,MO,The Witches of Eastwick,,,,1987,1 hr 58 min,True,2018-01-07 10:24:29,1,,False,,,True
+urn:hbo:feature:GWSMCiQbr1KAYwwEAAACD,MO,The Women,,,,2008,1 hr 55 min,True,2018-01-07 10:24:53,1,,False,,,True
+urn:hbo:feature:GWSMCbA3k4sPCVwEAAACL,MO,The X-Files: I Want to Believe,,,,2008,1 hr 45 min,True,2018-01-07 10:25:14,1,,False,,,True
+urn:hbo:feature:GWEhj0w15BEvCwwEAAAAL,MO,Yo no soy guerrillero (I'm Not a Rebel),,,,2017,1 hr 44 min,True,2017-09-13 03:57:19,1,,False,,,True
+urn:hbo:feature:GWSbjGw2Nd4ORngEAAAEe,MO,"Entre Nos, Part 1",,,,2017,29 min,False,2018-11-29 05:51:43,1,2018-11-29 05:51:43,False,,,True
+urn:hbo:feature:GWP5Z5gWWSz1owwEAAAAP,MO,T.J. Miller: Meticulously Ridiculous,,,,2017,1 hr 2 min,True,2019-04-29 04:01:21,0,,False,,,True
+urn:hbo:feature:GWQEBzgaSroGjkQEAAAAC,OT,24/7 Ward/Kovalev 2,,,,2017,28 min,False,2017-09-13 03:57:23,1,,False,,,True
+urn:hbo:feature:GWUk4GA5C_KKmmgEAAAAQ,OT,Andre Ward vs. Sergey Kovalev 2 (6/17/17),,,,2017,55 min,False,2018-01-07 10:26:53,1,,False,,,True
+urn:hbo:feature:GWArtbA1w51TDUwEAAAAC,OT,Greatest Hits: Andre Ward,,,,2016,4 min,False,2017-09-13 03:57:31,1,,False,,,True
+urn:hbo:feature:GVU3ctgSMM47DwvwIAYiv,OT,Greatest Hits: Sergey Kovalev,,,,2014,4 min,False,2017-09-13 03:57:35,1,,False,,,True
+urn:hbo:feature:GWUnf_gRBlKGYvgEAAAAf,OT,Real Sports with Bryant Gumbel Ep 243: Negro League Sleuth,,,,2017,12 min,False,2018-10-24 09:04:33,1,2018-10-24 09:04:33,False,,,True
+urn:hbo:feature:GWUnDxAWyLIuGwgEAAAAj,SM,Real Sports with Bryant Gumbel Ep 243: Bullfighting,,,,,14 min,False,2018-10-24 09:04:43,1,2018-10-24 09:04:43,False,,,True
+urn:hbo:feature:GWUnEAQ1Tf5KgrAEAAAAa,OT,Real Sports with Bryant Gumbel Ep 243: Frances Tiafoe,,,,2017,12 min,False,2018-01-23 20:53:11,1,,False,,,True
+urn:hbo:feature:GWUnDxAx6EcPCPAEAAAAZ,OT,Real Sports with Bryant Gumbel Ep 243: Jeff Glasbrenner-Unbreakable,,,,2017,13 min,False,2018-10-24 09:04:51,1,2018-10-24 09:04:51,False,,,True
+urn:hbo:feature:GWP5fKgcXmbVjhwEAAAAT,OT,"If You're Not in the Obit, Eat Breakfast",,,,2017,1 hr 26 min,True,2019-04-29 04:02:09,0,,False,,,True
+urn:hbo:feature:GWTyVWwTwWrgEnQEAAAAC,OT,Starring Adam West,,,,2013,1 hr 25 min,True,2018-01-07 10:30:32,1,,False,,,True
+urn:hbo:feature:GWUGV1gqBxIudjgEAAACm,OT,The Words That Built America,,,,2017,49 min,False,2019-04-29 04:02:56,0,,False,,,True
+urn:hbo:feature:GWR8nqgPwEa6-wgEAAAAK,OT,Bedroom Eyes,,,,2017,1 hr 22 min,True,2017-09-13 03:57:40,1,,False,,,True
+urn:hbo:feature:GVYFMIQkoHizCKRAJAC5W,OT,The Best of Katie Morgan,,,,2010,27 min,False,2017-09-13 03:57:51,1,,False,,,True
+urn:hbo:feature:GV7xTmwWufMMbwgEAAAF7,OT,Cathouse: Cat Call,,,,2010,28 min,False,2017-09-13 03:57:54,1,,False,,,True
+urn:hbo:feature:GWIe9Gw0ZhQm4NgEAAACp,OT,Cosmic Cover Girls,,,,2016,1 hr 22 min,True,2017-09-13 03:57:59,1,,False,,,True
+urn:hbo:feature:GV-P4iA4qs425wgEAAAAz,OT,The Deadly Pick Up,,,,2016,1 hr 22 min,True,2017-09-13 03:58:11,1,,False,,,True
+urn:hbo:feature:GWR8ntQraVKAYwwEAAAAP,OT,High Heel Homicide,,,,2017,1 hr 22 min,True,2017-09-13 03:58:15,1,,False,,,True
+urn:hbo:feature:GWR8nqwvOXIORngEAAAAO,OT,Kiss and Kill,,,,2017,1 hr 22 min,True,2017-09-13 03:58:19,1,,False,,,True
+urn:hbo:feature:GWR8ntAfNKoORngEAAAAP,OT,Real Sex 6,,,,1993,55 min,False,2017-09-13 03:58:24,1,,False,,,True
+urn:hbo:feature:GVznvEAVSJxuwkwEAAAAP,OT,Vixens From Venus,,,,2016,1 hr 22 min,True,2017-09-13 03:58:28,1,,False,,,True
+urn:hbo:series:GWR822wr17aLCwgEAAAAc,SM,The Defiant Ones,,,,2017,,NULL,2019-04-29 04:03:44,0,,False,,,True
+urn:hbo:episode:GWR83pQa8YaLCwgEAAAAd,SE,The Defiant Ones,THE DEFIANT ONES,1,1,2017,55 min,False,2019-04-29 04:04:31,0,,False,,,True
+urn:hbo:episode:GWR83nAY-2RqGggEAAAAY,SE,The Defiant Ones,THE DEFIANT ONES,1,2,2017,1 hr 8 min,True,2019-04-29 04:05:19,0,,False,,,True
+urn:hbo:episode:GWR83nAXKhSe_tAEAAAAg,SE,The Defiant Ones,THE DEFIANT ONES,1,3,2017,1 hr 23 min,True,2019-04-29 04:06:06,0,,False,,,True
+urn:hbo:episode:GWR83nAua-oORngEAAAAZ,SE,The Defiant Ones,THE DEFIANT ONES,1,4,2017,1 hr,True,2019-04-29 04:06:54,0,,False,,,True
+urn:hbo:episode:GWSkUBAe5nqa9gAEAAAAQ,SE,Chumel con Chumel Torres 38,CHUMEL CON CHUMEL TORRES,2,16,2017,32 min,False,2018-10-24 09:07:18,1,2018-10-24 09:07:18,False,,,True
+urn:hbo:feature:GWSMFjwi2saAYwwEAAACs,MO,Popstar: Never Stop Never Stopping,,,,2016,1 hr 28 min,True,2018-10-24 09:07:26,1,2018-10-24 09:07:26,False,,,True
+urn:hbo:feature:GWUGXsQZbz4udjgEAAACu,MO,Tour de Pharmacy,,,,2017,40 min,False,2019-04-29 04:07:42,0,,False,,,True
+urn:hbo:series:GVU2crwcbVVFvjSoJAT1F,SM,Vice,,,,2013,,NULL,2019-04-29 04:08:29,0,,False,,,True
+urn:hbo:episode:GVU202AMJKo7DwvwIAVwk,SE,Bad Borders,Vice,1,2,2013,30 min,False,2019-04-29 04:09:16,0,,False,,,True
+urn:hbo:episode:GVU2lJQifq1FvjSoJAUhk,SE,Killer Kids,Vice,1,1,2013,27 min,False,2019-04-29 04:10:03,0,,False,,,True
+urn:hbo:episode:GVU3WLACq9o7DwvwIAYEv,SE,The Hermit Kingdom,Vice,1,10,2013,31 min,False,2019-04-29 04:10:50,0,,False,,,True
+urn:hbo:episode:GVU2xBwkG-INJjhsJAVRr,SE,Gangs & Oil,Vice,1,9,2013,30 min,False,2019-04-29 04:11:37,0,,False,,,True
+urn:hbo:episode:GVU2crwg7zo7DwvwIAT8o,SE,Fighting Chances,Vice,1,8,2013,29 min,False,2019-04-29 04:12:25,0,,False,,,True
+urn:hbo:episode:GVU2tDwffo1FvjSoJAVCn,SE,Addiction,Vice,1,7,2013,29 min,False,2019-04-29 04:13:12,0,,False,,,True
+urn:hbo:episode:GVU2v6wJpVoNJjhsJAVLq,SE,Corruption,Vice,1,6,2013,29 min,False,2019-04-29 04:13:59,0,,False,,,True
+urn:hbo:episode:GVU37rQ6BaY7DwvwIAakO,SE,Winners & Losers,Vice,1,5,2013,29 min,False,2019-04-29 04:14:47,0,,False,,,True
+urn:hbo:episode:GVU2lVAzFao7DwvwIAUqm,SE,Love & Rockets,Vice,1,4,2013,29 min,False,2019-04-29 04:15:34,0,,False,,,True
+urn:hbo:episode:GVU2xDwkoF1FvjSoJAVVL,SE,Guns & Ammo,Vice,1,3,2013,29 min,False,2019-04-29 04:16:21,0,,False,,,True
+urn:hbo:episode:GVU27Jgvn5YNJjhsJAWAe,SE,A Syria of Their Own & White Gold,Vice,2,4,2014,29 min,False,2019-04-29 04:17:08,0,,False,,,True
+urn:hbo:episode:GVU2i4gcPTY7DwvwIAUd_,SE,American Scrap & Children of the Drones,Vice,2,3,2014,29 min,False,2019-04-29 04:17:56,0,,False,,,True
+urn:hbo:episode:GVU2q9AiuhI7DwvwIAVDU,SE,Surveillance City & The Forgotten War,Vice,2,12,2014,30 min,False,2019-04-29 04:18:43,0,,False,,,True
+urn:hbo:episode:GVU3LJAjSrYNJjhsJAXFc,SE,Heroin Warfare & The Coldest War,Vice,2,11,2014,30 min,False,2019-04-29 04:19:30,0,,False,,,True
+urn:hbo:episode:GVU3J_QsQ14NJjhsJAXAc,SE,Playing with Nuclear Fire & No Man Left Behind,Vice,2,10,2014,30 min,False,2019-04-29 04:20:17,0,,False,,,True
+urn:hbo:episode:GVU2hcwORm4NJjhsJAUJ2,SE,Crude Awakening & The Enemy of My Enemy,Vice,2,9,2014,29 min,False,2019-04-29 04:21:04,0,,False,,,True
+urn:hbo:episode:GVU3GTgF9I4NJjhsJAWwH,SE,The Resource Curse & Deliver Us from Drought,Vice,2,8,2014,29 min,False,2019-04-29 04:21:51,0,,False,,,True
+urn:hbo:episode:GVU2o5gQajFFvjSoJAUyg,SE,The Pink Gang Rebellion & Genetic Passport,Vice,2,7,2014,29 min,False,2019-04-29 04:22:39,0,,False,,,True
+urn:hbo:episode:GVU2i8wJjNlFvjSoJAUWN,SE,Rocky Mountain High & North Korean Defectors,Vice,2,6,2014,29 min,False,2019-04-29 04:23:26,0,,False,,,True
+urn:hbo:episode:GVU2ySQUnj4NJjhsJAVXs,SE,Terrorist University & Armageddon Now,Vice,2,5,2014,30 min,False,2019-04-29 04:24:13,0,,False,,,True
+urn:hbo:episode:GVU2tGQKdjYNJjhsJAU_l,SE,Greenland Is Melting & Bonded Labor,Vice,2,2,2014,29 min,False,2019-04-29 04:25:00,0,,False,,,True
+urn:hbo:episode:GVU2f-Qyo9o7DwvwIAULw,SE,The Afghan Money Pit & The Pacification of Rio,Vice,2,1,2014,29 min,False,2019-04-29 04:25:48,0,,False,,,True
+urn:hbo:episode:GVU2tuAStAI7DwvwIAVOo,SE,The Post-Antibiotic World/Indonesia's Palm Bomb,Vice,3,6,2015,29 min,False,2019-04-29 04:26:35,0,,False,,,True
+urn:hbo:episode:GVU4JIgJ3jVFvjSoJAbTD,SE,Synthetic Drug Revolution/Transsexuals of Iran,Vice,3,5,2015,29 min,False,2019-04-29 04:27:22,0,,False,,,True
+urn:hbo:episode:GVU4ddAX1FFFvjSoJAckq,SE,Cold War 2.0,Vice,3,14,2015,43 min,False,2019-04-29 04:28:09,0,,False,,,True
+urn:hbo:episode:GVU4yywsZVYNJjhsJAdwE,SE,Afghanistan After Us/La Haine,Vice,3,13,2015,30 min,False,2019-04-29 04:28:56,0,,False,,,True
+urn:hbo:episode:GVU43JgkJj1FvjSoJAeEg,SE,Enemies at the Gates/Global Jihad,Vice,3,12,2015,30 min,False,2019-04-29 04:29:44,0,,False,,,True
+urn:hbo:episode:GVU4QeglZTVFvjSoJAbyq,SE,Evolution of a Plague/Campus Coverup,Vice,3,11,2015,30 min,False,2019-04-29 04:30:31,0,,False,,,True
+urn:hbo:episode:GVU23PQP1NVFvjSoJAVzl,SE,A Prayer for Uganda/Kidneyville,Vice,3,10,2015,30 min,False,2019-04-29 04:31:19,0,,False,,,True
+urn:hbo:episode:GVU2x4wbxHINJjhsJAVV8,SE,Savior Seeds/India's Water Crisis,Vice,3,9,2015,30 min,False,2019-04-29 04:32:06,0,,False,,,True
+urn:hbo:episode:GVU3FpAMhx4NJjhsJAWtb,SE,Egyptian Tomb Raiders/Rent a White Guy,Vice,3,8,2015,29 min,False,2019-04-29 04:32:53,0,,False,,,True
+urn:hbo:episode:GVU2rjA0vEY7DwvwIAVFt,SE,Sweet Home Alabama/Haitian Money Pit,Vice,3,7,2015,29 min,False,2019-04-29 04:33:40,0,,False,,,True
+urn:hbo:episode:GVU3YHgLcrlFvjSoJAYFJ,SE,Lines in the Sand/Outsourcing Embryos,Vice,3,4,2015,29 min,False,2019-04-26 20:57:21,0,,False,,,True
+urn:hbo:episode:GVU2-5Q4J74NJjhsJAWQP,SE,We the People/Countdown to Extinction,Vice,3,3,2015,29 min,False,2019-04-26 20:58:08,0,,False,,,True
+urn:hbo:episode:GVU2r7g2uEVFvjSoJAU-G,SE,To Serve and Protect/Coming to America,Vice,3,2,2015,28 min,False,2019-04-26 20:58:56,0,,False,,,True
+urn:hbo:episode:GVU22RQaxzFFvjSoJAVvK,SE,Our Rising Oceans,Vice,3,1,2015,43 min,False,2019-04-26 20:59:44,0,,False,,,True
+urn:hbo:episode:GVtS1DwYez6OdZtkIAAAC,SE,Trump in Dubai/China in Africa,Vice,4,10,2016,34 min,False,2019-04-26 21:00:31,0,,False,,,True
+urn:hbo:episode:GVtSzjQtKFcLDwtoIAABc,SE,The Future of Energy,Vice,4,9,2016,33 min,False,2019-04-26 21:01:19,0,,False,,,True
+urn:hbo:episode:GVzn9kw1nBoW7kQEAAAAT,SE,The New $pace Race/Closing Gitmo,Vice,4,18,2016,30 min,False,2019-04-26 21:02:07,0,,False,,,True
+urn:hbo:episode:GVw1dEAvoLsMEvJYJAAAI,SE,Student Debt/Fecal Medicine,Vice,4,17,2016,33 min,False,2019-04-26 21:02:55,0,,False,,,True
+urn:hbo:episode:GVw1c3AauksPDw5gJAAMX,SE,Die Trying,Vice,4,16,2016,33 min,False,2019-04-26 21:03:42,0,,False,,,True
+urn:hbo:episode:GVw1dFgdf9MPDw5gJAAMf,SE,Flint Water Crisis/Libya on the Brink,Vice,4,15,2016,35 min,False,2019-04-26 21:04:30,0,,False,,,True
+urn:hbo:episode:GVw1c3ANfOq6XhJYJAACi,SE,Heroin Crisis/New Age of Nukes,Vice,4,14,2016,34 min,False,2019-04-26 21:05:18,0,,False,,,True
+urn:hbo:episode:GVvCNXwgYFX9sw_gIAAAH,SE,State of Surveillance,Vice,4,13,2016,31 min,False,2019-04-26 21:06:06,0,,False,,,True
+urn:hbo:episode:GVumOXQO5AcPCcDgJAAAD,SE,The End of Polio/Collateral Damage,Vice,4,12,2016,33 min,False,2019-04-26 21:06:53,0,,False,,,True
+urn:hbo:episode:GVtS1dQXO9SacwtoIAAAE,SE,The Deal/City of Lost Children,Vice,4,11,2016,35 min,False,2019-04-26 21:07:41,0,,False,,,True
+urn:hbo:episode:GVtSxYAXJjiacwtoIAAAD,SE,Afghan Women's Rights/Floating Armories,Vice,4,8,2016,30 min,False,2019-04-26 21:08:29,0,,False,,,True
+urn:hbo:episode:GVtSvlQj2y2fCwtwIAAAW,SE,Palestine Now/Viva Cuba Libre,Vice,4,7,2016,34 min,False,2019-04-26 21:09:17,0,,False,,,True
+urn:hbo:episode:GVs3Ppgiu_MPCw-0IAAAC,SE,Return to Yemen/Church and States,Vice,4,6,2016,30 min,False,2019-04-26 21:10:05,0,,False,,,True
+urn:hbo:episode:GVs3M4gPUnrrDwjQyAAB2,SE,Meathooked/End of Water,Vice,4,5,2016,33 min,False,2019-04-26 21:10:52,0,,False,,,True
+urn:hbo:episode:GVnrqdAVq9p3Dww0JAAH4,SE,Beating Blindness/White Collar Weed,Vice,4,4,2016,33 min,False,2019-04-26 21:11:40,0,,False,,,True
+urn:hbo:episode:GVns42ADTkYOWwxMJAAJQ,SE,Right to Die,Vice,4,3,2016,32 min,False,2019-04-26 21:12:28,0,,False,,,True
+urn:hbo:episode:GVnro3AhN04OWwxMJAAIZ,SE,Escape to Europe/Cycle of Terror,Vice,4,2,2016,30 min,False,2019-04-26 21:13:15,0,,False,,,True
+urn:hbo:episode:GVnrpYwnBN53Dww0JAAH2,SE,Boko Haram/Unnatural Selection,Vice,4,1,2016,36 min,False,2019-04-26 21:14:03,0,,False,,,True
+urn:hbo:episode:GWQeWmwCkZLm9nQEAAAAb,SE,Future of Firearms/Russia 'Wins' Climate Change,Vice,5,17,2017,30 min,False,2019-04-26 21:14:51,0,,False,,,True
+urn:hbo:episode:GWQeWaArFup67LQEAAAAc,SE,The Politics of Terror/End of the EU?,Vice,5,16,2017,31 min,False,2019-04-26 21:15:38,0,,False,,,True
+urn:hbo:episode:GWQeVMgBKq6k8NwEAAAAh,SE,Taking Back Iraq/Lost Generation,Vice,5,13,2017,30 min,False,2019-04-26 21:16:26,0,,False,,,True
+urn:hbo:episode:GWNvhWQY8_zzCwgEAAAGr,SE,Women Behind Bars/The Business of Making Art,Vice,5,12,2017,31 min,False,2019-04-26 21:17:14,0,,False,,,True
+urn:hbo:episode:GWNvhYQvoEjzCwgEAAAGs,SE,Engineering Immortality/Robot Revolution,Vice,5,11,2017,31 min,False,2019-04-26 21:18:02,0,,False,,,True
+urn:hbo:episode:GWNkkUgPQV8MWnQEAAAFX,SE,Taliban Resurgence,Vice,5,10,2017,26 min,False,2019-04-26 21:18:50,0,,False,,,True
+urn:hbo:episode:GWKN9LQatN4m4wwEAAAAR,SE,Medical Detente/Bananas!,Vice,5,9,2017,31 min,False,2019-04-26 21:19:37,0,,False,,,True
+urn:hbo:episode:GWKN9Ngj6Z8NmwgEAAAAY,SE,Fast Food of Arabia/Nollywood,Vice,5,8,2017,31 min,False,2019-04-26 21:20:25,0,,False,,,True
+urn:hbo:episode:GWKN9LQUn0Ym4wwEAAAAQ,SE,Life Under Sharia/Plastic Oceans,Vice,5,7,2017,31 min,False,2019-04-26 21:21:13,0,,False,,,True
+urn:hbo:episode:GWIfQ_Q4kjgJ3MAEAAAI6,SE,End of Amateurism,Vice,5,6,2017,30 min,False,2019-04-26 21:22:00,0,,False,,,True
+urn:hbo:episode:GWIfQ_Q3MXsNWsQEAAACn,SE,Black and Blue/Our Bionic Future,Vice,5,5,2017,30 min,False,2019-04-26 21:22:48,0,,False,,,True
+urn:hbo:episode:GWIfRCA3BeAm4NgEAAAC7,SE,Kings of Cannabis/Into the Darkness,Vice,5,4,2017,30 min,False,2019-04-26 21:23:36,0,,False,,,True
+urn:hbo:episode:GWIfQ_gT6xqmywwEAAAIY,SE,When the Earth Melts/The Displaced,Vice,5,3,2017,30 min,False,2019-04-26 21:24:24,0,,False,,,True
+urn:hbo:episode:GWIfQ_wfxScJOAgEAAADU,SE,Trans Youth,Vice,5,2,2017,31 min,False,2019-04-26 21:25:12,0,,False,,,True
+urn:hbo:episode:GWGwvHA8PSMJjwwEAAADV,SE,Assad's Syria/Cost of Climate Change,Vice,5,1,2017,56 min,False,2019-04-26 21:25:59,0,,False,,,True
+urn:hbo:episode:GWQeWNwH40KCFwgEAAAAk,SE,Cyber Supremacy/Japan Rising,Vice,5,15,2017,30 min,False,2019-04-26 21:26:47,0,,False,,,True
+urn:hbo:episode:GWQeV3AFy5GtWpgEAAAAd,SE,Last Line of Defense/El Rostro,VICE,5,14,2017,29 min,False,2019-04-26 21:27:34,0,,False,,,True
+urn:hbo:episode:GWTeTdABvfL84hwEAAABN,SE,Power to the President,VICE,5,18,2017,27 min,False,2019-04-26 21:28:22,0,,False,,,True
+urn:hbo:episode:GWR8qOw2ytAjDwgEAAAAR,SE,Bert and Ernie Make a Movie,SESAME STREET,2017,4728,2017,27 min,False,2019-04-26 21:29:10,0,,False,,,True
+urn:hbo:episode:GWSL97g2lpwjDwgEAAAAl,SE,Dragonstone,GAME OF THRONES,7,1,2017,1 hr 9 min,True,2019-04-28 04:27:18,0,,False,,,True
+urn:hbo:episode:GWVZ-HwaG7JuTwwEAAAAD,SE,El Jardin de Bronce 03,El Jardin de Bronce,1,3,2017,50 min,False,2019-04-26 21:29:57,0,,False,,,True
+urn:hbo:episode:GWSkUfQWIwwjDwgEAAAEi,SE,Chumel con Chumel Torres 39,CHUMEL CON CHUMEL TORRES,2,17,2017,29 min,False,2018-10-24 09:09:09,1,2018-10-24 09:09:09,False,,,True
+urn:hbo:feature:GWSMFgwzYka6-wgEAAACn,MO,Keeping Up With the Joneses,,,,2016,1 hr 48 min,True,2018-10-24 09:09:18,1,2018-10-24 09:09:18,False,,,True
+urn:hbo:feature:GWToDUAPkvk_DwwEAAAAH,MO,Rara,,,,2017,1 hr 30 min,True,2019-01-02 11:49:58,1,2019-01-02 11:49:58,False,,,True
+urn:hbo:feature:GWR8x_AJVMp-ogAEAAAAS,OT,Real Sports with Bryant Gumbel Ep 244 (July 2017),,,,2017,59 min,False,2018-10-24 09:10:14,1,2018-10-24 09:10:14,False,,,True
+urn:hbo:feature:GWTkCCgz9aMPDfgEAAABI,OT,Boxing: Jezreel Corrales vs. Robinson Castellanos (7/15/17),,,,2017,50 min,False,2018-01-07 10:35:26,1,,False,,,True
+urn:hbo:feature:GWTkCCwX_a784hwEAAABd,OT,Boxing: Joe Smith Jr. vs. Sullivan Barrera (7/15/17),,,,2017,48 min,False,2018-01-07 10:35:39,1,,False,,,True
+urn:hbo:feature:GWTkCCgxoyb84hwEAAABc,OT,Boxing: Miguel Berchelt vs. Takashi Miura (7/15/17),,,,2017,1 hr 1 min,True,2018-01-07 10:35:59,1,,False,,,True
+urn:hbo:episode:GWR8qRgkeQSe_tAEAAAAW,SE,Big Bird's Big Move,Sesame Street,2017,4729,2017,27 min,False,2019-04-26 21:30:45,0,,False,,,True
+urn:hbo:episode:GWVZ-egGFPLfDYwEAAAAF,SE,El Jardin de Bronce 04,El Jardin de Bronce,1,4,2017,51 min,False,2019-04-26 21:31:32,0,,False,,,True
+urn:hbo:episode:GWTglugn69aO2nAEAAABL,SE,Seeds of Expansion,Ballers,3,1,2017,33 min,False,2019-04-26 21:32:20,0,,False,,,True
+urn:hbo:feature:GWSMFhAH5XYqXwgEAAACj,MO,Hacksaw Ridge,,,,2016,2 hr 21 min,True,2018-10-24 09:10:25,1,2018-10-24 09:10:25,False,,,True
+urn:hbo:feature:GWR9gAQzcdZ-ogAEAAAAg,MO,Truman,,,,2017,1 hr 49 min,True,2019-01-02 17:40:14,1,2019-01-02 17:40:14,False,,,True
+urn:hbo:episode:GWSXlQgHEvMPCVwEAAAD7,SE,Hella Great,Insecure,2,1,2017,39 min,False,2019-04-26 21:33:08,0,,False,,,True
+urn:hbo:feature:GWW40nQZe9b4zuwEAAAA4,OT,Real Sports with Bryant Gumbel Ep 244: Rod Carew,,,,2017,15 min,False,2018-10-24 09:11:25,1,2018-10-24 09:11:25,False,,,True
+urn:hbo:feature:GWW4x9gz9-KOCwwEAAAAj,OT,Real Sports with Bryant Gumbel Ep 244: Great Barrier Reef,,,,2017,14 min,False,2018-10-24 09:11:35,1,2018-10-24 09:11:35,False,,,True
+urn:hbo:feature:GWW4xJQEyqcNYhQEAAAAt,OT,Real Sports with Bryant Gumbel Ep 244: MMA Dictator,,,,2017,26 min,False,2018-10-24 09:11:45,1,2018-10-24 09:11:45,False,,,True
+urn:hbo:episode:GWSkUwwTpX7NwfAEAAAAO,SE,Chumel con Chumel Torres 40,Chumel con Chumel Torres,2,18,2017,28 min,False,2018-10-24 09:11:55,1,2018-10-24 09:11:55,False,,,True
+urn:hbo:feature:GWWcHcQdgwVx_uQEAAABc,OT,"Diana, Our Mother: Her Life and Legacy",,,,2017,1 hr 9 min,True,2019-04-26 21:33:56,0,,False,,,True
+urn:hbo:episode:GWSL97gx3ioqXwgEAAAAh,SE,Stormborn,Game of Thrones,7,2,2017,1 hr 6 min,True,2019-04-28 04:28:05,0,,False,,,True
+urn:hbo:series:GWTbFJQqY4aO2nAEAAAAt,SM,Room 104,,,,2017,,NULL,2019-04-26 21:34:44,0,,False,,,True
+urn:hbo:episode:GWTbFLwF3i784hwEAAAAl,SE,Ralphie,ROOM 104,1,1,2017,26 min,False,2019-04-26 21:35:31,0,,False,,,True
+urn:hbo:episode:GWTeQIAP6HKCyiwEAAABX,SE,Crude Reality/Between Oil and Water,VICE,5,19,2017,31 min,False,2019-04-26 21:36:19,0,,False,,,True
+urn:hbo:episode:GWR8qMQyfcoORngEAAAAV,SE,Battle of the Chefs,SESAME STREET,2017,4730,2017,27 min,False,2019-04-26 21:37:06,0,,False,,,True
+urn:hbo:episode:GWW08EgFudaOCwwEAAAAX,SE,El Jardin de Bronce 05,El Jardin de Bronce,1,5,2017,52 min,False,2019-04-26 21:37:54,0,,False,,,True
+urn:hbo:episode:GWSMALQD6eAjDwgEAAACE,SE,The Queen's Justice,GAME OF THRONES,7,3,2017,1 hr 11 min,True,2019-04-28 04:28:53,0,,False,,,True
+urn:hbo:episode:GWR3ydQApKBqGggEAAAAF,SE,Bull Rush,BALLERS,3,2,2017,33 min,False,2019-04-26 21:38:41,0,,False,,,True
+urn:hbo:episode:GWSXlQgD05ye_tAEAAAEF,SE,Hella Questions,INSECURE,2,2,2017,36 min,False,2019-04-26 21:39:29,0,,False,,,True
+urn:hbo:episode:GWTeRBgjxyiuZwwEAAAA-,SE,"July 30, 2017",LAST WEEK TONIGHT WITH JOHN OLIVER,4,19,2017,33 min,False,2018-10-24 09:13:38,1,2018-10-24 09:13:38,False,,,True
+urn:hbo:feature:GWSMFjQ565YqXwgEAAACp,MO,Almost Christmas,,,,2016,1 hr 52 min,True,2018-10-24 09:13:49,1,2018-10-24 09:13:49,False,,,True
+urn:hbo:feature:GWTbXpQ8y96CyiwEAAAAo,MO,Las horas contadas (The Numbered Hours),,,,2017,1 hr 29 min,True,2019-01-02 17:50:54,1,2019-01-02 17:50:54,False,,,True
+urn:hbo:episode:GV_Ubiw1idajCwwEAAAAO,SE,Dennis Miller Live 190,Dennis Miller Live,10,1,2002,29 min,False,2018-10-24 09:14:44,1,2018-10-24 09:14:44,False,,,True
+urn:hbo:episode:GV_UbcAk3AMLCZQEAAAAI,SE,Dennis Miller Live 191,Dennis Miller Live,10,2,2002,28 min,False,2018-10-24 09:14:53,1,2018-10-24 09:14:53,False,,,True
+urn:hbo:episode:GV_UbjA1ifMLCZQEAAAAP,SE,Dennis Miller Live 192,Dennis Miller Live,10,3,2002,28 min,False,2018-10-24 09:15:03,1,2018-10-24 09:15:03,False,,,True
+urn:hbo:episode:GV_UbjQJ90ajCwwEAAAAP,SE,Dennis Miller Live 193,Dennis Miller Live,10,4,2002,29 min,False,2018-10-24 09:15:11,1,2018-10-24 09:15:11,False,,,True
+urn:hbo:episode:GV_UbhQlAOqjCwwEAAAAM,SE,Dennis Miller Live 194,Dennis Miller Live,10,5,2002,29 min,False,2018-10-24 09:15:20,1,2018-10-24 09:15:20,False,,,True
+urn:hbo:episode:GV_UbsANffajCwwEAAAAa,SE,Dennis Miller Live 195,Dennis Miller Live,10,6,2002,29 min,False,2018-10-24 09:15:28,1,2018-10-24 09:15:28,False,,,True
+urn:hbo:episode:GV_UbuwgaC6jCwwEAAAAe,SE,Dennis Miller Live 196,Dennis Miller Live,10,7,2002,27 min,False,2018-10-24 09:15:37,1,2018-10-24 09:15:37,False,,,True
+urn:hbo:episode:GV_UbuATkGb8htgEAAAAd,SE,Dennis Miller Live 197,Dennis Miller Live,10,8,2002,28 min,False,2018-10-24 09:15:46,1,2018-10-24 09:15:46,False,,,True
+urn:hbo:episode:GV_UbpwLQKMLCZQEAAAAW,SE,Dennis Miller Live 198,Dennis Miller Live,10,9,2002,28 min,False,2018-10-24 09:15:55,1,2018-10-24 09:15:55,False,,,True
+urn:hbo:episode:GV_UbcwkdLqjCwwEAAAAH,SE,Dennis Miller Live 199,Dennis Miller Live,10,10,2002,28 min,False,2018-10-24 09:16:04,1,2018-10-24 09:16:04,False,,,True
+urn:hbo:episode:GV_UbZwj6378htgEAAAAH,SE,Dennis Miller Live 200,Dennis Miller Live,10,11,2002,28 min,False,2018-10-24 09:16:12,1,2018-10-24 09:16:12,False,,,True
+urn:hbo:episode:GV_UbmgZNd6jCwwEAAAAU,SE,Dennis Miller Live 201,Dennis Miller Live,10,12,2002,29 min,False,2018-10-24 09:16:21,1,2018-10-24 09:16:21,False,,,True
+urn:hbo:episode:GV_UbkwcH4b8htgEAAAAT,SE,Dennis Miller Live 202,Dennis Miller Live,10,13,2002,29 min,False,2018-10-24 09:16:30,1,2018-10-24 09:16:30,False,,,True
+urn:hbo:episode:GV_UbbQXpYsLCZQEAAAAF,SE,Dennis Miller Live 203,Dennis Miller Live,10,14,2002,27 min,False,2018-10-24 09:16:39,1,2018-10-24 09:16:39,False,,,True
+urn:hbo:episode:GV_UbqQIkCL8htgEAAAAX,SE,Dennis Miller Live 204,Dennis Miller Live,10,15,2002,29 min,False,2018-10-24 09:16:48,1,2018-10-24 09:16:48,False,,,True
+urn:hbo:episode:GV_UbfwfzBMLCZQEAAAAN,SE,Dennis Miller Live 205,Dennis Miller Live,10,16,2002,29 min,False,2018-10-24 09:16:56,1,2018-10-24 09:16:56,False,,,True
+urn:hbo:episode:GV_UbtQw_db8htgEAAAAc,SE,Dennis Miller Live 206,Dennis Miller Live,10,17,2002,29 min,False,2018-10-24 09:17:05,1,2018-10-24 09:17:05,False,,,True
+urn:hbo:episode:GV_UbpABC-6jCwwEAAAAV,SE,Dennis Miller Live 207,Dennis Miller Live,10,18,2002,28 min,False,2018-10-24 09:17:14,1,2018-10-24 09:17:14,False,,,True
+urn:hbo:episode:GV_UbbgFrrsLCZQEAAAAG,SE,Dennis Miller Live 208,Dennis Miller Live,10,19,2002,28 min,False,2018-10-24 09:17:23,1,2018-10-24 09:17:23,False,,,True
+urn:hbo:episode:GV_UbpQZ6xajCwwEAAAAX,SE,Dennis Miller Live 210,Dennis Miller Live,10,21,2002,30 min,False,2018-10-24 09:17:32,1,2018-10-24 09:17:32,False,,,True
+urn:hbo:episode:GV_UbkwwL6cLCZQEAAAAS,SE,Dennis Miller Live 211,Dennis Miller Live,10,22,2002,28 min,False,2018-10-24 09:17:40,1,2018-10-24 09:17:40,False,,,True
+urn:hbo:episode:GV_Ubsgvgvb8htgEAAAAa,SE,Dennis Miller Live 212,Dennis Miller Live,10,23,2002,29 min,False,2018-10-24 09:17:49,1,2018-10-24 09:17:49,False,,,True
+urn:hbo:episode:GV_UbcANLyb8htgEAAAAK,SE,Dennis Miller Live 213,Dennis Miller Live,10,24,2002,29 min,False,2018-10-24 09:17:58,1,2018-10-24 09:17:58,False,,,True
+urn:hbo:episode:GV_UbgwUGpqjCwwEAAAAL,SE,Dennis Miller Live 214,Dennis Miller Live,10,25,2002,29 min,False,2018-10-24 09:18:07,1,2018-10-24 09:18:07,False,,,True
+urn:hbo:episode:GV_UbvgJkhsLCZQEAAAAc,SE,Dennis Miller Live 215,Dennis Miller Live,10,26,2002,26 min,False,2018-10-24 09:18:16,1,2018-10-24 09:18:16,False,,,True
+urn:hbo:episode:GVsSzRgS5RI8PvtYIAAAR,SE,High Low Stretch,A Little Curious,1,24,1999,25 min,False,2018-10-24 09:18:24,1,2018-10-24 09:18:24,False,,,True
+urn:hbo:episode:GVsSzLArwAKwWUtYIAAAO,SE,Top Bottom Jump,A Little Curious,2,1,2000,25 min,False,2018-10-24 09:18:33,1,2018-10-24 09:18:33,False,,,True
+urn:hbo:episode:GVsSzQgXDs8JoE9UIAAAS,SE,Tight Loose Squeeze,A Little Curious,2,4,2000,25 min,False,2018-10-24 09:18:42,1,2018-10-24 09:18:42,False,,,True
+urn:hbo:episode:GVsSzVAuPcsPCAtcIAAAK,SE,Hit Miss Bump,A Little Curious,2,5,2000,25 min,False,2018-10-24 09:18:51,1,2018-10-24 09:18:51,False,,,True
+urn:hbo:episode:GVsSzSgoIbG7Dw8UIAAFu,SE,Hard Easy Change,A Little Curious,2,7,2000,25 min,False,2018-10-24 09:19:00,1,2018-10-24 09:19:00,False,,,True
+urn:hbo:episode:GWSkVAADKzAjDwgEAAAEk,SE,Chumel con Chumel Torres 41,CHUMEL CON CHUMEL TORRES,2,19,2017,29 min,False,2018-10-24 09:19:08,1,2018-10-24 09:19:08,False,,,True
+urn:hbo:feature:GVvLJeAEP3cPCw2EJAAAS,MO,Quedate (Stay),,,,2016,24 min,False,2018-10-24 09:19:18,1,2018-10-24 09:19:18,False,,,True
+urn:hbo:feature:GVsSyHADvuI8PvtYIAAAE,MO,Refugiado,,,,2016,1 hr 35 min,True,2017-09-13 03:59:20,1,,False,,,True
+urn:hbo:feature:GVnK0mAIrcsIzRhQJAACC,MO,"Alexander and the Terrible, Horrible, No Good, Very Bad Day",,,,1990,30 min,False,2019-04-26 21:40:16,0,,False,,,True
+urn:hbo:feature:GVnK1ywt_TMIzRhQJAACo,MO,A Child's Garden of Verses,,,,1992,26 min,False,2019-04-26 21:41:04,0,,False,,,True
+urn:hbo:feature:GWP8eEwLBw6ezVAEAAAAb,OT,Cinderella's Hot Night,,,,2017,1 hr 22 min,True,2018-01-07 10:44:40,1,,False,,,True
+urn:hbo:feature:GV__o2w1-OpmUmQEAAAAL,OT,The Love Machine,,,,2016,1 hr 22 min,True,2018-01-07 10:45:02,1,,False,,,True
+urn:hbo:feature:GVzoI6gSJeJ8slAEAAAAV,OT,Perky and Punctual,,,,2004,26 min,False,2017-09-13 03:59:23,1,,False,,,True
+urn:hbo:feature:GWKNHxw4CSYWdlwEAAAAN,OT,Primal Pleasure Station,,,,2017,1 hr 22 min,True,2017-09-13 03:59:26,1,,False,,,True
+urn:hbo:feature:GVYD1WQeKhpewhCwJAAcz,OT,Real Sex 18,,,,1997,47 min,False,2017-09-13 03:59:30,1,,False,,,True
+urn:hbo:feature:GWP8eEwLnNMPCwgEAAAAT,OT,Sleeping Beauties,,,,2017,1 hr 22 min,True,2018-01-07 10:45:24,1,,False,,,True
+urn:hbo:feature:GVnK0mQYjf6JeisAIAAjW,MO,Earthday Birthday,,,,1990,29 min,False,2019-04-26 21:41:52,0,,False,,,True
+urn:hbo:feature:GVnK1ygwsEMJak7gIAAk-,MO,Ira Sleeps Over,,,,1991,25 min,False,2019-04-26 21:42:40,0,,False,,,True
+urn:hbo:feature:GVnK0oAb1ucIzRhQJAACK,MO,"Lyle, Lyle Crocodile: The Musical",,,,1987,26 min,False,2019-04-26 21:43:27,0,,False,,,True
+urn:hbo:feature:GVnK0mwtaYMIzRhQJAACJ,MO,Mike Mulligan and His Steam Shovel,,,,1990,26 min,False,2019-04-26 21:44:15,0,,False,,,True
+urn:hbo:feature:GVnK0lwBuDqJeisAIAAjR,MO,The Tale of Peter Rabbit,,,,1991,28 min,False,2019-04-26 21:45:02,0,,False,,,True
+urn:hbo:feature:GWUFEGgc7GMPCwwEAAABC,MO,Adaptation.,,,,2002,1 hr 55 min,True,2018-10-24 09:24:52,1,2018-10-24 09:24:52,False,,,True
+urn:hbo:feature:GWUQLdQUSesPDwgEAAAC6,MO,Bad Company,,,,2002,1 hr 57 min,True,2018-10-24 09:25:02,1,2018-10-24 09:25:02,False,,,True
+urn:hbo:feature:GWUFUAQfx3MPCwwEAAACD,MO,Changing Lanes,,,,2002,1 hr 39 min,True,2018-10-24 09:25:12,1,2018-10-24 09:25:12,False,,,True
+urn:hbo:feature:GWUFGkwMQjYvDPgEAAAB3,MO,Chasing Papi,,,,2003,1 hr 21 min,True,2018-10-24 09:25:21,1,2018-10-24 09:25:21,False,,,True
+urn:hbo:feature:GWUFUKQvKIYvDPgEAAACR,MO,Consenting Adults,,,,1992,1 hr 39 min,True,2018-10-24 09:25:30,1,2018-10-24 09:25:30,False,,,True
+urn:hbo:feature:GWUFT2QiZB4vDPgEAAACG,MO,"Corrina, Corrina",,,,1994,1 hr 56 min,True,2018-10-24 09:25:39,1,2018-10-24 09:25:39,False,,,True
+urn:hbo:feature:GWUFD3QjBhKrCfwEAAAA4,MO,Down With Love,,,,2003,1 hr 42 min,True,2018-10-24 09:25:48,1,2018-10-24 09:25:48,False,,,True
+urn:hbo:feature:GWUFUCwtw2ZtsqwEAAAB0,MO,Emelie,,,,2016,1 hr 23 min,True,2018-10-24 09:25:57,1,2018-10-24 09:25:57,False,,,True
+urn:hbo:feature:GWUFE2gg78IudjgEAAABb,MO,Enough,,,,2002,1 hr 56 min,True,2018-10-24 09:26:06,1,2018-10-24 09:26:06,False,,,True
+urn:hbo:feature:GWUFUSAUU68PDwgEAAAB4,MO,Fire Down Below,,,,1997,1 hr 45 min,True,2018-10-24 09:26:16,1,2018-10-24 09:26:16,False,,,True
+urn:hbo:feature:GWUFEdAXLlJtsqwEAAABJ,MO,Frost/Nixon,,,,2008,2 hr 2 min,True,2018-10-24 09:26:25,1,2018-10-24 09:26:25,False,,,True
+urn:hbo:feature:GWUFN8AfNooudjgEAAABv,MO,Garfield The Movie,,,,2004,1 hr 21 min,True,2018-11-04 09:56:15,1,2018-11-04 09:56:15,False,,,True
+urn:hbo:feature:GWUFGYQGEc0_DwwEAAAB4,MO,Girl With a Pearl Earring,,,,2003,1 hr 41 min,True,2018-10-24 09:27:21,1,2018-10-24 09:27:21,False,,,True
+urn:hbo:feature:GWUFT9wRNergEnQEAAABh,MO,Gung Ho,,,,1986,1 hr 53 min,True,2018-10-24 09:27:30,1,2018-10-24 09:27:30,False,,,True
+urn:hbo:feature:GWUQLfAuIAoudjgEAAADC,MO,Happy Tears,,,,2010,1 hr 36 min,True,2018-10-24 09:27:38,1,2018-10-24 09:27:38,False,,,True
+urn:hbo:feature:GWUFELwCr8MPCwwEAAABN,MO,House of Sand and Fog,,,,2003,2 hr 7 min,True,2018-10-24 09:27:47,1,2018-10-24 09:27:47,False,,,True
+urn:hbo:feature:GWUFY3QmtX6e1iQEAAACP,MO,The Incredible Hulk,,,,2008,1 hr 53 min,True,2018-10-24 09:27:56,1,2018-10-24 09:27:56,False,,,True
+urn:hbo:feature:GWUF3SgG_40_DwwEAAACw,MO,The Lizzie McGuire Movie,,,,2003,1 hr 34 min,True,2019-02-02 15:01:11,1,2019-02-02 15:01:11,False,,,True
+urn:hbo:feature:GWUFD8wRVHoudjgEAAABE,MO,Love and a Bullet,,,,2002,1 hr 26 min,True,2018-10-24 09:28:53,1,2018-10-24 09:28:53,False,,,True
+urn:hbo:feature:GWUFDywlKbIudjgEAAAA8,MO,Love Liza,,,,2002,1 hr 30 min,True,2018-10-24 09:29:02,1,2018-10-24 09:29:02,False,,,True
+urn:hbo:feature:GWUFDtQ8NiarCfwEAAAAz,MO,Martian Child,,,,2007,1 hr 48 min,True,2018-10-24 09:29:12,1,2018-10-24 09:29:12,False,,,True
+urn:hbo:feature:GWUFELgXJNIudjgEAAABM,MO,Max Payne,,,,2008,1 hr 40 min,True,2018-01-23 21:28:00,1,,False,,,True
+urn:hbo:feature:GWUFUFgezlrgEnQEAAABq,MO,My Fellow Americans,,,,1996,1 hr 42 min,True,2018-10-24 09:29:24,1,2018-10-24 09:29:24,False,,,True
+urn:hbo:feature:GWWjkcQkqVLCNwgEAAABh,MO,Personal Best,,,,1982,2 hr 9 min,True,2018-10-24 09:29:34,1,2018-10-24 09:29:34,False,,,True
+urn:hbo:feature:GWUFEJACQuYudjgEAAABK,MO,The Ring,,,,2002,1 hr 56 min,True,2018-10-24 09:29:43,1,2018-10-24 09:29:43,False,,,True
+urn:hbo:feature:GWUFEGQ1K5k_DwwEAAABZ,MO,The Rocker,,,,2008,1 hr 43 min,True,2018-10-24 09:29:52,1,2018-10-24 09:29:52,False,,,True
+urn:hbo:feature:GWUFD3Q6GoptsqwEAAAA3,MO,RocknRolla,,,,2008,1 hr 55 min,True,2018-10-24 09:30:01,1,2018-10-24 09:30:01,False,,,True
+urn:hbo:feature:GWULK6gYyhKKJvAEAAAAE,MO,The Rookie,,,,2002,2 hr 8 min,True,2018-10-24 09:30:11,1,2018-10-24 09:30:11,False,,,True
+urn:hbo:feature:GWULhtQ1wtKKJvAEAAAAF,MO,The Royal Tenenbaums,,,,2001,1 hr 50 min,True,2018-10-24 09:30:20,1,2018-10-24 09:30:20,False,,,True
+urn:hbo:feature:GWULocwkvFE_DwwEAAADT,MO,The Shaggy Dog,,,,2006,1 hr 39 min,True,2019-02-02 15:01:20,1,2019-02-02 15:01:20,False,,,True
+urn:hbo:feature:GWUFEIw4pU4udjgEAAABJ,MO,Silk,,,,2007,1 hr 49 min,True,2018-10-24 09:31:16,1,2018-10-24 09:31:16,False,,,True
+urn:hbo:feature:GWUFEWATohcPCwwEAAABP,MO,The Strangers,,,,2008,1 hr 26 min,True,2018-10-24 09:31:25,1,2018-10-24 09:31:25,False,,,True
+urn:hbo:feature:GWUFEagVpE6e1iQEAAABR,MO,Sunshine State,,,,2002,2 hr 21 min,True,2018-10-24 09:31:34,1,2018-10-24 09:31:34,False,,,True
+urn:hbo:feature:GWUFUIAJwa5tsqwEAAAB3,MO,Tango & Cash,,,,1989,1 hr 44 min,True,2018-10-24 09:31:43,1,2018-10-24 09:31:43,False,,,True
+urn:hbo:feature:GWUFEIw1pOqKCWgEAAAAx,MO,Thirteen Conversations About One Thing,,,,2002,1 hr 44 min,True,2018-10-24 09:31:54,1,2018-10-24 09:31:53,False,,,True
+urn:hbo:feature:GWWb1agxee8PCwwEAAABY,MO,Tin Cup,,,,1996,2 hr 15 min,True,2018-10-24 09:32:08,1,2018-10-24 09:32:08,False,,,True
+urn:hbo:feature:GWUP9HQOZPcPDwwEAAAAJ,MO,Verde (Green),,,,2017,23 min,False,2018-12-01 11:37:20,1,2018-12-01 11:37:20,False,,,True
+urn:hbo:feature:GWUFUAQer4U_DwwEAAACM,MO,Vigilante Diaries,,,,2016,1 hr 48 min,True,2018-10-24 09:33:04,1,2018-10-24 09:33:04,False,,,True
+urn:hbo:feature:GWUFkVgaHharCfwEAAACS,MO,What to Watch: August 2017,,,,2017,9 min,False,2017-09-13 04:00:32,1,,False,,,True
+urn:hbo:episode:GWXEcwQwCDneFrwEAAACT,SE,El Jardin de Bronce 06,EL JARDIN DE BRONCE,1,6,2017,59 min,False,2019-04-26 21:45:50,0,,False,,,True
+urn:hbo:episode:GWVE54gxVe5ShqQEAAAAK,SE,Pizza Boy,ROOM 104,1,2,2017,26 min,False,2019-04-26 21:46:38,0,,False,,,True
+urn:hbo:episode:GWUKpPA1wlR2uuwEAAAAC,SE,"August 4, 2017",REAL TIME WITH BILL MAHER,15,22,2017,58 min,False,2018-10-24 09:33:12,1,2018-10-24 09:33:12,False,,,True
+urn:hbo:episode:GWUA3Eglc8arCfwEAAAAp,SE,Hello Rudy,SESAME STREET,2017,4731,2017,27 min,False,2019-04-26 21:47:26,0,,False,,,True
+urn:hbo:episode:GWVQTyQ6tRncnfwEAAAAC,SE,Autism Under the Lens,VICE,5,20,2017,28 min,False,2019-04-26 21:48:14,0,,False,,,True
+urn:hbo:feature:GWUP6mwa5cZiCgwEAAAAI,MO,Juegos de familia (Family Games),,,,2017,1 hr 35 min,True,2019-02-02 15:04:35,1,2019-02-02 15:04:35,False,,,True
+urn:hbo:episode:GWWTxLACL6LVjhwEAAAAE,SE,The Spoils of War,GAME OF THRONES,7,4,2017,58 min,False,2019-04-28 04:29:40,0,,False,,,True
+urn:hbo:episode:GWVP2Hwwa06eYBwEAAAAC,SE,In the Teeth,BALLERS,3,3,2017,31 min,False,2019-04-26 21:49:01,0,,False,,,True
+urn:hbo:episode:GWVQRjAiwnXSgwwEAAAAG,SE,Hella Open,INSECURE,2,3,2017,35 min,False,2019-04-26 21:49:49,0,,False,,,True
+urn:hbo:episode:GWUA5xwwlHcPCwwEAAAAl,SE,"August 6, 2017",LAST WEEK TONIGHT WITH JOHN OLIVER,4,20,2017,31 min,False,2018-10-24 09:34:08,1,2018-10-24 09:34:08,False,,,True
+urn:hbo:feature:GWUQLfAH8Zqe1iQEAAADU,MO,Collateral Beauty,,,,2016,1 hr 38 min,True,2018-10-24 09:34:17,1,2018-10-24 09:34:17,False,,,True
+urn:hbo:feature:GWWTczgL-EpzDwgEAAAAF,MO,"George Lopez: The Wall, Live from Washington, D.C.",,,,2017,1 hr 1 min,True,2019-04-26 21:50:37,0,,False,,,True
+urn:hbo:episode:GWWOO7w0M18LDQgEAAAAD,SE,Chumel con Chumel Torres 42,CHUMEL CON CHUMEL TORRES,2,20,2017,31 min,False,2018-10-24 09:35:13,1,2018-10-24 09:35:13,False,,,True
+urn:hbo:feature:GWWY9SQqHBrVjhwEAAAAs,OT,Brillo Box (3¢ Off),,,,2017,41 min,False,2018-12-28 21:59:35,1,2018-12-28 21:59:35,False,,,True
+urn:hbo:feature:GWWTgbwfHe6ygmQEAAAAC,SM,Hard Knocks: Training Camp with the Tampa Bay Buccane…,,,,,58 min,False,2018-10-24 09:36:07,1,2018-10-24 09:36:07,False,,,True
+urn:hbo:series:GV-PlHgFL00m5oAEAAAAE,SM,Vice News Tonight,,,,,,NULL,2019-04-28 04:30:27,0,,False,,,True
+urn:hbo:episode:GWUBEygHh2cPCwwEAAAAp,SE,"August 9, 2017",Vice News Tonight,1,179,2017,24 min,False,2018-01-23 21:44:55,1,,False,,,True
+urn:hbo:episode:GWUBEvw4v0MPCwwEAAAAo,SE,"August 8, 2017",Vice News Tonight,1,178,2017,24 min,False,2018-01-23 21:45:38,1,,False,,,True
+urn:hbo:episode:GWUBEtQdjGZtsqwEAAAAp,SE,"August 7, 2017",Vice News Tonight,1,177,2017,27 min,False,2018-01-23 21:46:29,1,,False,,,True
+urn:hbo:episode:GWUBEtQDVZIudjgEAAAA0,SE,"August 3, 2017",Vice News Tonight,1,176,2017,28 min,False,2018-01-23 21:47:17,1,,False,,,True
+urn:hbo:episode:GWTgiyAqfhjSunQEAAABA,SE,"August 2, 2017",Vice News Tonight,1,175,2017,24 min,False,2018-01-23 21:48:04,1,,False,,,True
+urn:hbo:episode:GWTgivQ5czqwCjQEAAAAF,SE,"August 1, 2017",Vice News Tonight,1,174,2017,28 min,False,2018-01-23 21:49:03,1,,False,,,True
+urn:hbo:episode:GWRyeUwO3qaKKswEAAAB_,SE,"July 31, 2017",Vice News Tonight,1,173,2017,22 min,False,2018-01-23 21:49:50,1,,False,,,True
+urn:hbo:episode:GWRyeNASUt5y6mwEAAACS,SE,"July 27, 2017",Vice News Tonight,1,172,2017,28 min,False,2017-09-28 03:47:51,1,,False,,,True
+urn:hbo:episode:GWRyeXwusZ5y6mwEAAACX,SE,"July 26, 2017",Vice News Tonight,1,171,2017,28 min,False,2017-09-28 03:47:56,1,,False,,,True
+urn:hbo:episode:GWRyeYAzitJhMuQEAAACd,SE,"July 25, 2017",Vice News Tonight,1,170,2017,28 min,False,2017-09-28 03:48:03,1,,False,,,True
+urn:hbo:episode:GWRyeXQr1WL6akgEAAACK,SE,"July 24, 2017",Vice News Tonight,1,169,2017,24 min,False,2017-09-25 03:43:01,1,,False,,,True
+urn:hbo:episode:GWRyePgxZ3FuChQEAAACy,SE,"July 20, 2017",Vice News Tonight,1,168,2017,30 min,False,2017-09-21 06:24:10,1,,False,,,True
+urn:hbo:episode:GWRyePAAz6cI-igEAAACR,SE,"July 19, 2017",Vice News Tonight,1,167,2017,28 min,False,2017-09-20 03:30:24,1,,False,,,True
+urn:hbo:episode:GWRyeZwZkAZgekQEAAACI,SE,"July 18, 2017",Vice News Tonight,1,166,2017,26 min,False,2017-09-19 04:02:41,1,,False,,,True
+urn:hbo:episode:GWRyeTwi25JhMuQEAAACZ,SE,"July 17, 2017",Vice News Tonight,1,165,2017,23 min,False,2017-09-19 04:02:46,1,,False,,,True
+urn:hbo:episode:GWRyeUAI9yZgekQEAAACG,SE,"July 13, 2017",Vice News Tonight,1,164,2017,25 min,False,2017-09-13 12:55:35,1,,False,,,True
+urn:hbo:episode:GWRyeUAQELMLDwwEAAACR,SE,"July 12, 2017",Vice News Tonight,1,163,2017,26 min,False,2017-09-13 04:00:35,1,,False,,,True
+urn:hbo:episode:GWRyeMgWvwL6akgEAAACF,SE,"July 11, 2017",Vice News Tonight,1,162,2017,28 min,False,2017-09-13 04:00:38,1,,False,,,True
+urn:hbo:episode:GWRyeOwS9AMPCwwEAAACL,SE,"July 10, 2017",Vice News Tonight,1,161,2017,23 min,False,2017-09-13 04:00:41,1,,False,,,True
+urn:hbo:episode:GWRyeXw3m0cMaoAEAAACS,SE,"July 6, 2017",Vice News Tonight,1,160,2017,29 min,False,2017-09-13 04:00:44,1,,False,,,True
+urn:hbo:episode:GWRyeUwsay8LDwwEAAACU,SE,"July 5, 2017",Vice News Tonight,1,159,2017,26 min,False,2017-09-13 04:00:47,1,,False,,,True
+urn:hbo:episode:GWP5l6AFxisLCwgEAAAAb,SE,"June 29, 2017",Vice News Tonight,1,158,2017,24 min,False,2017-09-13 04:00:50,1,,False,,,True
+urn:hbo:episode:GWP5l5gzz2sPCwgEAAAAQ,SE,"June 28, 2017",Vice News Tonight,1,157,2017,23 min,False,2017-09-13 04:00:55,1,,False,,,True
+urn:hbo:episode:GWP5l0gp1KI_CwwEAAAAU,SE,"June 27, 2017",Vice News Tonight,1,156,2017,26 min,False,2017-09-13 04:00:58,1,,False,,,True
+urn:hbo:episode:GWP5lyAbfkqezVAEAAAAW,SE,"June 26, 2017",Vice News Tonight,1,155,2017,27 min,False,2017-09-13 04:01:09,1,,False,,,True
+urn:hbo:episode:GWP5lwAwHbLVjhwEAAAAc,SE,"June 22, 2017",Vice News Tonight,1,154,2017,24 min,False,2017-09-13 04:01:12,1,,False,,,True
+urn:hbo:episode:GWP5lvggvP8LDMgEAAAAY,SE,"June 21, 2017",Vice News Tonight,1,153,2017,28 min,False,2017-09-13 04:01:16,1,,False,,,True
+urn:hbo:episode:GWP5lqgQtM4qUuAEAAAAP,SE,"June 20, 2017",Vice News Tonight,1,152,2017,28 min,False,2017-09-13 04:01:20,1,,False,,,True
+urn:hbo:episode:GWP5mzQWv37VjhwEAAAAf,SE,"June 19, 2017",Vice News Tonight,1,151,2017,26 min,False,2017-09-13 04:01:23,1,,False,,,True
+urn:hbo:episode:GWUBE0weOq4vDPgEAAABA,SE,"August 10, 2017",Vice News Tonight,1,180,2017,27 min,False,2018-01-23 21:50:38,1,,False,,,True
+urn:hbo:episode:GWVQUJAlgaoanowEAAAAF,SE,Show of Force/Return to Somalia,VICE,5,21,2017,31 min,False,2019-04-26 21:51:25,0,,False,,,True
+urn:hbo:episode:GWVE6CgRIoo6jwgEAAAAL,SE,The Knockandoo,ROOM 104,1,3,2017,29 min,False,2019-04-26 21:52:13,0,,False,,,True
+urn:hbo:episode:GWWTyZwkOFZzDwgEAAAAI,SE,"August 11, 2017",REAL TIME WITH BILL MAHER,15,23,2017,56 min,False,2018-10-24 09:37:04,1,2018-10-24 09:37:04,False,,,True
+urn:hbo:episode:GWUA3HAhze8PDwgEAAAAp,SE,Rudy Lets Loose,SESAME STREET,2017,4732,2017,27 min,False,2019-04-26 21:53:01,0,,False,,,True
+urn:hbo:episode:GWTghiQTNQr84hwEAAABQ,SE,Eastwatch,GAME OF THRONES,7,5,2017,1 hr 7 min,True,2019-04-28 04:31:15,0,,False,,,True
+urn:hbo:episode:GWVP2Wwfi0onCwwEAAAAD,SE,Ride and Die,BALLERS,3,4,2017,32 min,False,2019-04-26 21:53:48,0,,False,,,True
+urn:hbo:episode:GWVQRggn2j7u5wwEAAAAH,SE,Hella LA,INSECURE,2,4,2017,37 min,False,2019-04-26 21:54:36,0,,False,,,True
+urn:hbo:episode:GWUA5vQxvsbgEnQEAAAAi,SE,"August 13, 2017",LAST WEEK TONIGHT WITH JOHN OLIVER,4,21,2017,36 min,False,2018-10-24 09:37:12,1,2018-10-24 09:37:12,False,,,True
+urn:hbo:episode:GWUBE3Qs6McPCwwEAAAAr,SE,"August 14, 2017",VICE NEWS TONIGHT,1,181,2017,22 min,False,2019-05-03 08:27:20,0,,False,,,True
+urn:hbo:episode:GWUBE6AVAJ6e1iQEAAAAo,SE,"August 15, 2017",Vice News Tonight,1,182,2017,24 min,False,2018-01-23 21:53:28,1,,False,,,True
+urn:hbo:episode:GWWWWxA3BcsPCZQEAAAAP,SE,Chumel con Chumel Torres 43,CHUMEL CON CHUMEL TORRES,2,21,2017,30 min,False,2018-10-24 09:37:21,1,2018-10-24 09:37:21,False,,,True
+urn:hbo:episode:GWYtVBwt5nMIvtgEAAAAT,SE,El Jardin de Bronce 07,EL JARDIN DE BRONCE,1,7,2017,51 min,False,2019-04-26 21:55:24,0,,False,,,True
+urn:hbo:feature:GWWTwVASr1cPCZQEAAAAD,OT,Hard Knocks: Training Camp with the Tampa Bay Buccaneers 02,,,,2017,59 min,False,2018-10-24 09:37:30,1,2018-10-24 09:37:30,False,,,True
+urn:hbo:feature:GWUFT4wOwT5tsqwEAAABu,MO,Fantastic Beasts and Where to Find Them,,,,2016,2 hr 14 min,True,2018-11-08 05:23:47,1,2018-11-08 05:23:47,False,,,True
+urn:hbo:feature:GWULDOgwkjZKgrAEAAAAF,MO,Rules Don't Apply,,,,2016,2 hr 8 min,True,2018-10-24 09:38:26,1,2018-10-24 09:38:26,False,,,True
+urn:hbo:feature:GWWTyDw4YNra8pAEAAAAG,OT,Pedro Capo: En Letra de Otro,,,,2017,52 min,False,2018-10-24 09:38:35,1,2018-10-24 09:38:35,False,,,True
+urn:hbo:episode:GWUBE8QKWJE_DwwEAAABB,SE,"August 16, 2017",Vice News Tonight,1,183,2017,28 min,False,2018-01-23 21:56:34,1,,False,,,True
+urn:hbo:episode:GWUBE-g8-B5tsqwEAAAAs,SE,"August 17, 2017",Vice News Tonight,1,184,2017,26 min,False,2018-01-23 21:57:19,1,,False,,,True
+urn:hbo:episode:GWVE6eAwF1MLDwgEAAAAK,SE,I Knew You Weren't Dead,ROOM 104,1,4,2017,27 min,False,2019-04-26 21:56:11,0,,False,,,True
+urn:hbo:episode:GWZIdiQih38IvtgEAAABB,SE,El Jardin de Bronce 08,EL JARDIN DE BRONCE,1,8,2017,58 min,False,2019-04-26 21:56:59,0,,False,,,True
+urn:hbo:episode:GWUA3HAgVwrgEnQEAAAAh,SE,Hide and Seek Rudy,SESAME STREET,2017,4733,2017,27 min,False,2019-04-26 21:57:47,0,,False,,,True
+urn:hbo:episode:GWWTywgCThrVjhwEAAAAF,SE,"August 18, 2017",REAL TIME WITH BILL MAHER,15,24,2017,56 min,False,2018-10-24 09:38:43,1,2018-10-24 09:38:43,False,,,True
+urn:hbo:episode:GWTghiQTZksNDAwEAAABF,SE,Beyond the Wall,GAME OF THRONES,7,6,2017,1 hr 19 min,True,2019-04-28 04:32:02,0,,False,,,True
+urn:hbo:episode:GWVQWxwe_6sJjwwEAAAAG,SE,Controlling the Narrative/Power to Congo,Vice,5,22,2017,30 min,False,2019-04-26 21:58:35,0,,False,,,True
+urn:hbo:episode:GWVFI4AoSr5Q6jAEAAAAP,SE,Make Believe,BALLERS,3,5,2017,32 min,False,2019-04-26 21:59:23,0,,False,,,True
+urn:hbo:episode:GWUfeogRrxJiCgwEAAAAM,SE,Hella Shook,INSECURE,2,5,2017,35 min,False,2019-04-26 22:00:10,0,,False,,,True
+urn:hbo:episode:GWUBFDweOnJtsqwEAAAAt,SE,"August 21, 2017",Vice News Tonight,1,185,2017,23 min,False,2018-01-23 21:58:38,1,,False,,,True
+urn:hbo:episode:GWUA5vQ0kMYudjgEAAAAz,SE,"August 20, 2017",LAST WEEK TONIGHT WITH JOHN OLIVER,4,22,2017,29 min,False,2018-10-24 09:38:52,1,2018-10-24 09:38:52,False,,,True
+urn:hbo:episode:GWWWWEADP8ba8pAEAAAAa,SE,Chumel con Chumel Torres 44,CHUMEL CON CHUMEL TORRES,2,22,2017,29 min,False,2018-10-24 09:39:01,1,2018-10-24 09:39:01,False,,,True
+urn:hbo:feature:GWUK93AQY2cPCwwEAAADL,MO,Nocturnal Animals,,,,2016,1 hr 58 min,True,2018-10-24 09:39:10,1,2018-10-24 09:39:10,False,,,True
+urn:hbo:feature:GWUP7jAAg8gK7wgEAAAAI,MO,Presos (Imprisoned),,,,2017,1 hr 39 min,True,2019-02-02 15:19:27,1,2019-02-02 15:19:27,False,,,True
+urn:hbo:episode:GWUBFGQBO1cPCwwEAAAAu,SE,"August 22, 2017",Vice News Tonight,1,186,2017,28 min,False,2018-01-23 22:01:19,1,,False,,,True
+urn:hbo:feature:GWWTwfg3yW7a8pAEAAAAF,OT,Hard Knocks: Training Camp with the Tampa Bay Buccaneers 03,,,,2017,55 min,False,2018-10-24 09:40:05,1,2018-10-24 09:40:05,False,,,True
+urn:hbo:feature:GWW4NoAqUiBKDrwEAAAAc,OT,Real Sports with Bryant Gumbel Ep 245 (August 2017),,,,2017,1 hr,True,2018-10-24 09:40:13,1,2018-10-24 09:40:13,False,,,True
+urn:hbo:episode:GWUBFIwahjoudjgEAAAA4,SE,"August 23, 2017",Vice News Tonight,1,187,2017,23 min,False,2018-01-23 22:03:27,1,,False,,,True
+urn:hbo:episode:GWUqYrgKEAaKmmgEAAAAw,SE,"August 24, 2017",Vice News Tonight,1,188,2017,28 min,False,2018-01-23 22:04:09,1,,False,,,True
+urn:hbo:series:GWXIIwgQ9DFLCKgEAAAC2,SM,The Deuce,,,,2017,,NULL,2019-04-26 22:00:58,0,,False,,,True
+urn:hbo:episode:GWXIIxgyAjsNNwwEAAACD,SE,Pilot,THE DEUCE,1,1,2017,1 hr 28 min,True,2019-04-26 22:01:46,0,,False,,,True
+urn:hbo:episode:GWVQW7wa5w4aUAwEAAAAG,SE,Dawn of a Dictator,VICE,5,23,2017,28 min,False,2019-04-26 22:02:34,0,,False,,,True
+urn:hbo:episode:GWWaQSAQ5d7CNwgEAAABV,SE,The Internet,ROOM 104,1,5,2017,30 min,False,2019-04-26 22:03:22,0,,False,,,True
+urn:hbo:episode:GWWTy7wTZ8KygmQEAAAAG,SE,"August 25, 2017",REAL TIME WITH BILL MAHER,15,25,2017,57 min,False,2018-10-24 09:41:08,1,2018-10-24 09:41:08,False,,,True
+urn:hbo:episode:GWUA3Jgg1RYudjgEAAAAy,SE,The Four Sneezons,SESAME STREET,2017,4734,2017,27 min,False,2019-04-26 22:04:09,0,,False,,,True
+urn:hbo:feature:GWKY7sQGzYMIVnAEAAAA_,OT,Greatest Hits: Gennady Golovkin,,,,2017,4 min,False,2018-01-23 22:06:28,1,,False,,,True
+urn:hbo:feature:GVWG9IQbF2qa9wxYJAABh,OT,Greatest Hits: Miguel Cotto,,,,2007,4 min,False,2017-09-23 07:39:50,1,,False,,,True
+urn:hbo:feature:GWZ3lwgJGtLCCwwEAAACa,OT,Greatest Hits: Roman 'Chocolatito' Gonzalez,,,,2017,4 min,False,2018-01-23 22:07:11,1,,False,,,True
+urn:hbo:feature:GWZ3_8AlhVsPCwgEAAACj,OT,Real Sports with Bryant Gumbel Ep 245: Ball Hawk,,,,2017,16 min,False,2018-10-24 09:41:17,1,2018-10-24 09:41:17,False,,,True
+urn:hbo:feature:GWZ3_8QG8dLXCLwEAAACh,OT,Real Sports with Bryant Gumbel Ep 245: Deadly Motorcycle Race,,,,2017,12 min,False,2018-10-24 09:41:26,1,2018-10-24 09:41:26,False,,,True
+urn:hbo:feature:GWZ28Zwa8z4RYRwEAAACN,OT,Real Sports with Bryant Gumbel Ep 245: NFL Players Association,,,,2017,14 min,False,2018-10-24 09:41:35,1,2018-10-24 09:41:35,False,,,True
+urn:hbo:feature:GWZ3PawBVY8PCwgEAAACY,SM,Real Sports with Bryant Gumbel Ep 245: Youth Sports Tourism,,,,,15 min,False,2018-10-24 09:41:44,1,2018-10-24 09:41:44,False,,,True
+urn:hbo:episode:GWVFI4AssBrCCwwEAAAAL,SE,I Hate New York,BALLERS,3,6,2017,32 min,False,2019-04-26 22:04:57,0,,False,,,True
+urn:hbo:episode:GWTgiFAkQj7SmhgEAAAAC,SE,The Dragon and the Wolf,GAME OF THRONES,7,7,2017,1 hr 32 min,True,2019-04-28 04:32:49,0,,False,,,True
+urn:hbo:episode:GWVQRlgOP-Lu5wwEAAAAI,SE,Hella Blows,INSECURE,2,6,2017,34 min,False,2019-04-26 22:05:45,0,,False,,,True
+urn:hbo:feature:GWUFrnwGnsovDPgEAAACi,MO,Jackie,,,,2016,1 hr 42 min,True,2018-10-24 09:41:53,1,2018-10-24 09:41:53,False,,,True
+urn:hbo:episode:GWUBFNwTN45tsqwEAAAAu,SE,"August 28, 2017",Vice News Tonight,1,189,2017,25 min,False,2018-01-23 22:10:58,1,,False,,,True
+urn:hbo:episode:GWUBFQQsw0cPDwgEAAAAw,SE,"August 29, 2017",VICE NEWS TONIGHT,1,190,2017,20 min,False,2018-01-23 22:11:51,1,,False,,,True
+urn:hbo:feature:GWWTwwgm2GcPCwwEAAAAE,OT,Hard Knocks: Training Camp with the Tampa Bay Buccaneers 04,,,,2017,55 min,False,2018-10-24 09:42:02,1,2018-10-24 09:42:02,False,,,True
+urn:hbo:episode:GWUBFSwZpVMPCwwEAAAAw,SE,"August 30, 2017",VICE NEWS TONIGHT,1,191,2017,20 min,False,2018-01-23 22:13:06,1,,False,,,True
+urn:hbo:episode:GWUBFVQij-8PCwwEAAAAx,SE,"August 31, 2017",VICE NEWS TONIGHT,1,192,2017,20 min,False,2018-01-23 22:13:35,1,,False,,,True
+urn:hbo:episode:GVrpviAMZOaCgfLIIAAEy,SE,Dennis Miller Live 01,Dennis Miller Live,1,1,1994,27 min,False,2018-10-24 09:42:11,1,2018-10-24 09:42:11,False,,,True
+urn:hbo:episode:GVrpvigoy9ZfCws0IAAH4,SE,Dennis Miller Live 02,Dennis Miller Live,1,2,1994,27 min,False,2018-10-24 09:42:20,1,2018-10-24 09:42:20,False,,,True
+urn:hbo:episode:GVrpvigpAW7K9D7AIAAD8,SE,Dennis Miller Live 03,Dennis Miller Live,1,3,1994,29 min,False,2018-10-24 09:42:29,1,2018-10-24 09:42:29,False,,,True
+urn:hbo:episode:GVrpvjAtLvZfCws0IAAH7,SE,Dennis Miller Live 04,Dennis Miller Live,1,4,1994,28 min,False,2018-10-24 09:42:38,1,2018-10-24 09:42:38,False,,,True
+urn:hbo:episode:GVrpvjA2BNbK9D7AIAAD-,SE,Dennis Miller Live 05,Dennis Miller Live,1,5,1994,29 min,False,2018-10-24 09:42:47,1,2018-10-24 09:42:47,False,,,True
+urn:hbo:episode:GVrpviAqsX6GPproIAADq,SE,Dennis Miller Live 06,Dennis Miller Live,1,6,1994,29 min,False,2018-10-24 09:42:56,1,2018-10-24 09:42:56,False,,,True
