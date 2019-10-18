@@ -1,0 +1,1001 @@
+Showtime_id,Showtime_show_type,title,Showtime_Series_id,season_number,episode_number,year,Duration,Duration > 60 mins,updated_at,expired,expiry_date,Duplicate_present,Duplicate_source_id,Ingested,Not_ingested,Px_response
+3443632,MO,American Jihad,,,,2017,88,True,2019-05-06 21:00:03,0,2019-07-01 00:00:00,False,,,True,Null
+3426050,MO,Bad Moms,,,,2016,100,True,2018-07-09 22:30:17,0,2018-10-01 00:00:00,False,,,True,Null
+3445716,MO,Disgraced,,,,2017,101,True,2019-05-06 21:00:04,0,2019-07-01 00:00:00,False,,,True,Null
+3425733,MO,Drunk Stoned Brilliant Dead: The Story of the National Lampoon,,,,2015,95,True,2018-01-13 21:00:01,0,2018-01-22 00:00:00,False,,,True,Null
+3421866,MO,Free State of Jones,,,,2016,139,True,2018-07-07 09:00:07,0,2018-09-01 00:00:00,False,,,True,Null
+3434527,MO,The Free World,,,,2016,101,True,2018-07-07 09:00:07,0,2018-08-01 00:00:00,False,,,True,Null
+3431634,MO,Hardcore Henry,,,,2016,96,True,2018-06-18 21:00:03,0,2018-07-01 00:00:00,False,,,True,Null
+3419674,MO,The Hateful Eight,,,,2015,167,True,2018-04-23 21:11:04,0,2018-04-25 00:00:00,False,,,True,Null
+3440435,MO,Madonna: Rebel Heart Tour,,,,2016,119,True,2018-12-02 21:00:05,0,2018-12-09 00:00:00,False,,,True,Null
+3445671,MO,More Than T,,,,2017,53,False,2019-05-06 21:00:04,0,2019-06-01 00:00:00,False,,,True,Null
+3421638,MO,Public Enemy: Live from Metropolis Studios,,,,2015,53,False,2017-07-05 12:17:20,0,2017-07-08 00:00:00,False,,,True,Null
+3446344,MO,Twin Peaks: Fire Walk With Me,,,,1992,134,True,2017-09-22 21:00:03,0,2017-10-01 00:00:00,False,,,True,Null
+3435545,MO,A.R.C.H.I.E.,,,,2016,88,True,2018-07-09 22:30:18,0,2018-08-01 00:00:00,False,,,True,Null
+3422652,MO,After,,,,2012,89,True,2017-11-25 21:00:02,0,2017-12-01 00:00:00,False,,,True,Null
+3426714,MO,After Words,,,,2015,90,True,2017-11-14 21:00:02,0,2017-11-21 00:00:00,False,,,True,Null
+3398568,MO,Against the Tide,,,,2013,61,True,2019-05-06 21:00:04,0,2020-02-01 00:00:00,False,,,True,Null
+128852,MO,Akeelah and the Bee,,,,2006,112,True,2017-08-31 21:00:04,0,2017-09-01 00:00:00,False,,,True,Null
+3413786,MO,Alexandre Dumas' The Count of Monte Cristo,,,,2002,131,True,2017-09-22 21:00:04,0,2017-10-03 00:00:00,False,,,True,Null
+120374,MO,All or Nothing,,,,2002,128,True,2017-11-25 21:00:03,0,2017-11-30 00:00:00,False,,,True,Null
+3426232,MO,All Things Must Pass,,,,2015,96,True,2018-03-21 11:38:19,0,2018-04-01 00:00:00,False,,,True,Null
+3436528,MO,All-Stars,,,,2015,97,True,2018-07-09 22:30:19,0,2018-08-01 00:00:00,False,,,True,Null
+3418462,MO,Alpha Dog,,,,2007,117,True,2017-07-17 21:00:06,0,2017-07-22 00:00:00,False,,,True,Null
+3413408,MO,America's Sweethearts,,,,2001,103,True,2017-09-22 21:00:04,0,2017-10-01 00:00:00,False,,,True,Null
+3418480,MO,The American,,,,2010,104,True,2017-10-03 21:00:04,0,2017-10-10 00:00:00,False,,,True,Null
+3426235,MO,Amigo Undead,,,,2015,83,True,2018-05-16 23:30:32,0,2018-06-01 00:00:00,False,,,True,Null
+3426234,MO,Anarchy Parlor,,,,2015,98,True,2017-12-22 21:00:04,0,2018-01-01 00:00:00,False,,,True,Null
+3424003,MO,Anesthesia,,,,2016,89,True,2017-12-06 21:00:03,0,2017-12-19 00:00:00,False,,,True,Null
+3415711,MO,Animals,,,,2015,85,True,2017-10-14 21:00:04,0,2017-10-15 00:00:00,False,,,True,Null
+130122,MO,Another Day in Paradise,,,,1997,101,True,2018-03-21 11:38:22,0,2018-04-01 00:00:00,False,,,True,Null
+3426233,MO,Apartment Troubles,,,,2015,78,True,2017-12-22 21:00:05,0,2018-01-01 00:00:00,False,,,True,Null
+3434488,MO,The Architect,,,,2016,96,True,2018-07-09 22:30:19,0,2018-09-01 00:00:00,False,,,True,Null
+3430118,MO,Arthur & Merlin,,,,2015,109,True,2018-03-10 12:33:42,0,2018-03-20 00:00:00,False,,,True,Null
+132362,MO,Arthur and the Invisibles,,,,2006,93,True,2017-07-05 12:17:22,0,2017-07-13 00:00:00,False,,,True,Null
+3423846,MO,As I Am: the Life and Times of DJ AM,,,,2015,109,True,2018-06-27 21:00:03,0,2018-07-01 00:00:00,False,,,True,Null
+3439273,MO,Attack of the Lederhosen Zombies,,,,2017,77,True,2019-03-02 21:00:03,0,2019-03-13 00:00:00,False,,,True,Null
+3424956,MO,Awaken,,,,2015,88,True,2017-12-06 21:00:05,0,2017-12-15 00:00:00,False,,,True,Null
+3438255,MO,Bad Ass,,,,2012,90,True,2018-10-31 21:07:44,0,2018-11-01 00:00:00,False,,,True,Null
+3438256,MO,Bad Ass 2: Bad Asses,,,,2014,90,True,2018-11-22 21:00:03,0,2018-12-01 00:00:00,False,,,True,Null
+3438257,MO,Bad Ass 3: Bad Asses on the Bayou,,,,2015,84,True,2018-07-09 22:30:21,0,2018-08-01 00:00:00,False,,,True,Null
+3446197,MO,Bad Company,,,,1995,108,True,2017-08-19 11:15:08,0,2017-08-25 00:00:00,False,,,True,Null
+3424091,MO,Bang Bang Baby,,,,2015,89,True,2018-10-31 21:07:45,0,2018-11-01 00:00:00,False,,,True,Null
+134360,MO,Bangkok Dangerous,,,,2008,99,True,2018-05-04 21:00:38,0,2018-05-06 00:00:00,False,,,True,Null
+133409,MO,The Bank Job,,,,2008,111,True,2017-10-14 21:00:06,0,2017-10-15 00:00:00,False,,,True,Null
+3358604,MO,Battle Royale,,,,2000,114,True,2018-05-16 23:30:33,0,2018-06-01 00:00:00,False,,,True,Null
+3444335,MO,The Beach Boys: Making Pet Sounds,,,,2017,58,False,2019-04-04 21:00:02,0,2019-04-07 00:00:00,False,,,True,Null
+3446332,MO,Beaches,,,,1989,123,True,2017-10-14 21:00:06,0,2017-10-25 00:00:00,False,,,True,Null
+3430649,MO,The Bear,,,,1989,96,True,2018-03-21 11:38:35,0,2018-04-01 00:00:00,False,,,True,Null
+141647,MO,Beat,,,,2000,93,True,2017-08-31 21:00:10,0,2017-09-01 00:00:00,False,,,True,Null
+3430540,MO,Becoming Bulletproof,,,,2015,82,True,2018-02-28 10:33:38,0,2018-03-01 00:00:00,False,,,True,Null
+3426238,MO,Bernie,,,,2012,99,True,2017-10-16 23:59:47,0,2017-11-01 00:00:00,False,,,True,Null
+3382371,MO,The Best Offer,,,,2014,130,True,2017-08-29 10:10:49,0,2017-09-01 00:00:00,False,,,True,Null
+125198,MO,Beyond The Law,,,,1992,108,True,2018-01-02 11:58:03,1,,False,,,True,Null
+124587,MO,Beyond the Sea,,,,2004,118,True,2019-04-26 10:40:10,0,2019-06-07 00:00:00,False,,,True,Null
+3421639,MO,Big Significant Things,,,,2014,84,True,2017-11-25 21:00:07,0,2017-12-01 00:00:00,False,,,True,Null
+3440081,MO,Black Christmas,,,,1974,97,True,2018-12-14 21:00:05,0,2018-12-15 00:00:00,False,,,True,Null
+3435247,MO,Blackway,,,,2016,90,True,2018-12-03 21:20:39,0,2018-12-14 00:00:00,False,,,True,Null
+3432643,MO,Blood Sand,,,,2015,84,True,2018-06-27 21:00:05,0,2018-07-01 00:00:00,False,,,True,Null
+3429125,MO,Bloodsucking Bastards,,,,2015,84,True,2018-03-21 11:38:45,0,2018-04-01 00:00:00,False,,,True,Null
+3422650,MO,Bloodworx,,,,2015,99,True,2017-07-28 21:00:14,0,2017-08-01 00:00:00,False,,,True,Null
+3418503,MO,Blue Crush,,,,2002,104,True,2017-11-14 21:00:06,0,2017-11-19 00:00:00,False,,,True,Null
+3418504,MO,Blue Crush 2,,,,2011,112,True,2018-01-02 11:58:03,1,,False,,,True,Null
+3434464,MO,Body,,,,2015,74,True,2018-07-09 22:30:22,0,2018-08-01 00:00:00,False,,,True,Null
+3439305,MO,The Boondock Saints,,,,2000,108,True,2018-05-16 23:30:34,0,2018-06-01 00:00:00,False,,,True,Null
+3431630,MO,Born To Be Blue,,,,2016,97,True,2018-01-13 21:00:09,0,2018-01-24 00:00:00,False,,,True,Null
+3400894,MO,The Boston Strangler,,,,2008,92,True,2017-08-31 21:00:13,0,2017-09-01 00:00:00,False,,,True,Null
+3423595,MO,Boulevard,,,,2015,88,True,2017-12-06 21:00:08,0,2017-12-15 00:00:00,False,,,True,Null
+3420659,MO,The Boy,,,,2016,97,True,2018-04-23 21:11:37,0,2018-05-01 00:00:00,False,,,True,Null
+3425024,MO,BRAND: A Second Coming,,,,2015,104,True,2018-02-28 10:33:48,0,2018-03-02 00:00:00,False,,,True,Null
+3426201,MO,Bravetown,,,,2015,113,True,2017-11-25 21:00:09,0,2017-12-01 00:00:00,False,,,True,Null
+3418505,MO,Breach,,,,2007,109,True,2018-02-15 21:10:17,0,2018-02-16 00:00:00,False,,,True,Null
+141645,MO,Breaking Point,,,,2010,93,True,2018-01-02 11:58:03,1,,False,,,True,Null
+115563,MO,Bride of the Wind,,,,2001,100,True,2017-11-25 21:00:09,0,2017-12-01 00:00:00,False,,,True,Null
+3420819,MO,Bridge of Spies,,,,2015,141,True,2018-02-28 10:33:48,0,2018-03-01 00:00:00,False,,,True,Null
+3418506,MO,Brokeback Mountain,,,,2005,134,True,2017-10-25 21:00:09,0,2017-10-26 00:00:00,False,,,True,Null
+3445771,MO,A Bronx Tale,,,,1993,121,True,2017-09-11 21:00:10,0,2017-09-17 00:00:00,False,,,True,Null
+3445958,MO,"Burn Motherf*cker, Burn!",,,,2017,98,True,2019-05-06 21:00:05,0,2020-02-01 00:00:00,False,,,True,Null
+3432563,MO,Burning Bodhi,,,,2016,95,True,2018-04-23 21:11:40,0,2018-04-26 00:00:00,False,,,True,Null
+3419712,MO,Burnt,,,,2016,101,True,2018-02-15 21:10:28,0,2018-02-28 00:00:00,False,,,True,Null
+3427313,MO,Cabin Fever,,,,2016,98,True,2017-12-22 21:00:12,0,2018-01-01 00:00:00,False,,,True,Null
+3439274,MO,Capsule,,,,2017,91,True,2019-01-05 10:28:59,0,2019-01-15 00:00:00,False,,,True,Null
+131803,MO,Captivity,,,,2007,84,True,2017-12-22 21:00:12,0,2018-01-01 00:00:00,False,,,True,Null
+3439275,MO,The Caretaker,,,,2016,79,True,2018-12-14 21:00:06,0,2018-12-20 00:00:00,False,,,True,Null
+3421868,MO,Carol,,,,2015,118,True,2018-03-10 12:34:04,0,2018-03-20 00:00:00,False,,,True,Null
+3432209,MO,Cas & Dylan,,,,2015,90,True,2018-03-21 11:38:56,0,2018-04-01 00:00:00,False,,,True,Null
+130870,MO,Casino Royale,,,,2006,144,True,2018-01-02 11:58:03,1,,False,,,True,Null
+3407788,MO,Cecil B. Demented,,,,2000,87,True,2017-07-28 21:00:19,0,2017-08-01 00:00:00,False,,,True,Null
+3416239,MO,Chappie,,,,2015,120,True,2018-01-02 11:58:03,1,,False,,,True,Null
+3446798,MO,Charade,,,,1963,113,True,2017-07-28 21:00:19,0,2017-08-07 00:00:00,False,,,True,Null
+3440384,MO,Christmas Eve,,,,2015,95,True,2018-12-14 21:00:07,0,2018-12-21 00:00:00,False,,,True,Null
+3438281,MO,Christmas Ranch,,,,2016,82,True,2018-10-31 21:07:47,0,2018-11-01 00:00:00,False,,,True,Null
+3418509,MO,Cinderella Man,,,,2005,144,True,2017-10-14 21:00:11,0,2017-10-18 00:00:00,False,,,True,Null
+3446329,MO,A Civil Action,,,,1999,114,True,2017-09-22 21:00:16,0,2017-09-25 00:00:00,False,,,True,Null
+124083,MO,Code 46,,,,2003,93,True,2017-08-31 21:00:18,0,2017-09-01 00:00:00,False,,,True,Null
+123290,MO,Coffee and Cigarettes,,,,2003,96,True,2017-07-28 21:00:20,0,2017-07-30 00:00:00,False,,,True,Null
+115246,MO,Company Man,,,,2000,81,True,2017-09-22 21:00:16,0,2017-10-01 00:00:00,False,,,True,Null
+3423218,MO,Compared to What? The Improbable Journey of Barney Frank,,,,2015,87,True,2017-10-22 10:42:46,0,2017-10-23 00:00:00,False,,,True,Null
+3429331,MO,Congo,,,,1995,108,True,2018-01-02 11:58:03,1,,False,,,True,Null
+124574,MO,The Cookout,,,,2004,88,True,2018-02-15 21:10:42,0,2018-02-18 00:00:00,False,,,True,Null
+125753,MO,Crash,,,,2005,112,True,2017-08-31 21:00:19,0,2017-09-06 00:00:00,False,,,True,Null
+115328,MO,Crocodile Dundee In Los Angeles,,,,2001,94,True,2017-10-16 23:59:47,0,2017-11-01 00:00:00,False,,,True,Null
+3418510,MO,Cry Freedom,,,,1987,157,True,2017-07-28 21:00:22,0,2017-08-01 00:00:00,False,,,True,Null
+3428166,MO,The Crying Game,,,,1993,112,True,2018-01-02 11:58:03,1,,False,,,True,Null
+3446333,MO,D2: The Mighty Ducks,,,,1994,106,True,2017-10-14 21:00:13,0,2017-10-25 00:00:00,False,,,True,Null
+3418268,MO,Da Sweet Blood of Jesus,,,,2015,123,True,2017-07-05 12:17:29,0,2017-07-15 00:00:00,False,,,True,Null
+3428333,MO,Daft Punk Unchained,,,,2015,87,True,2017-11-25 21:00:11,0,2017-12-01 00:00:00,False,,,True,Null
+2030,MO,Danger Zone,,,,1996,92,True,2018-01-02 11:58:03,1,,False,,,True,Null
+3446334,MO,Dangerous Minds,,,,1995,98,True,2017-10-14 21:00:13,0,2017-10-25 00:00:00,False,,,True,Null
+3428484,MO,Darkness Falls,,,,2003,85,True,2018-01-02 11:58:03,1,,False,,,True,Null
+3412694,MO,The Day,,,,2012,84,True,2018-01-02 11:58:03,1,,False,,,True,Null
+116882,MO,Dead Heat,,,,2002,97,True,2018-01-25 09:00:12,0,2018-02-01 00:00:00,False,,,True,Null
+3419346,MO,Dean Smith,,,,2015,59,False,2019-05-06 21:00:05,0,2020-02-01 00:00:00,False,,,True,Null
+3433209,MO,Death Do Us Part,,,,2014,89,True,2018-07-07 09:00:14,0,2018-08-01 00:00:00,False,,,True,Null
+3426711,MO,"Death of ""Superman Lives"": What Happened",,,,2015,104,True,2017-10-16 23:59:47,0,2017-11-01 00:00:00,False,,,True,Null
+3413784,MO,Deja Vu,,,,2006,126,True,2017-08-18 10:10:25,0,2017-08-26 00:00:00,False,,,True,Null
+129640,MO,The Descent,,,,2006,98,True,2018-02-28 10:34:02,0,2018-03-01 00:00:00,False,,,True,Null
+141649,MO,Detention,,,,2004,98,True,2018-03-21 11:39:02,0,2018-04-01 00:00:00,False,,,True,Null
+125750,MO,Diary of a Mad Black Woman,,,,2005,116,True,2019-05-02 21:00:04,0,2019-09-02 00:00:00,False,,,True,Null
+3432211,MO,Dirty Weekend,,,,2015,93,True,2018-03-21 11:39:03,0,2018-04-01 00:00:00,False,,,True,Null
+134359,MO,Disaster Movie,,,,2008,87,True,2019-04-28 21:00:07,0,2019-11-06 00:00:00,False,,,True,Null
+3409900,MO,Don Jon,,,,2013,90,True,2017-10-14 21:00:14,0,2017-10-23 00:00:00,False,,,True,Null
+3418513,MO,Doom,,,,2005,104,True,2017-10-14 21:00:14,0,2017-10-22 00:00:00,False,,,True,Null
+114638,MO,Down To Earth,,,,2001,87,True,2017-07-28 21:00:25,0,2017-08-01 00:00:00,False,,,True,Null
+3430650,MO,Dreamscape,,,,1984,99,True,2018-05-16 23:30:36,0,2018-06-01 00:00:00,False,,,True,Null
+3433522,MO,The Drew,,,,2016,77,True,2018-04-26 10:38:32,0,2018-04-29 00:00:00,False,,,True,Null
+3440084,MO,Drug War,,,,2014,106,True,2018-06-18 21:00:10,0,2018-07-01 00:00:00,False,,,True,Null
+3438259,MO,Dudes & Dragons,,,,2016,113,True,2019-01-28 21:00:06,0,2019-02-01 00:00:00,False,,,True,Null
+3416156,MO,The Duff,,,,2015,101,True,2018-01-02 11:58:03,1,,False,,,True,Null
+3423843,MO,Echoes of War,,,,2015,103,True,2017-10-18 23:59:01,0,2017-11-03 00:00:00,False,,,True,Null
+114769,MO,Enemy At The Gates,,,,2001,131,True,2017-08-31 21:00:24,0,2017-09-01 00:00:00,False,,,True,Null
+3400891,MO,Everything Must Go,,,,2011,97,True,2017-07-17 21:00:22,0,2017-07-21 00:00:00,False,,,True,Null
+132709,MO,The Ex,,,,2007,89,True,2017-08-19 11:15:18,0,2017-08-26 00:00:00,False,,,True,Null
+132912,MO,The Eye,,,,2007,96,True,2017-08-31 21:00:24,0,2017-09-03 00:00:00,False,,,True,Null
+132710,MO,Factory Girl,,,,2006,91,True,2017-08-19 11:15:18,0,2017-08-26 00:00:00,False,,,True,Null
+109999,MO,Felicia's Journey,,,,1999,115,True,2017-07-28 21:00:27,0,2017-08-05 00:00:00,False,,,True,Null
+3376314,MO,The Fifth Estate,,,,2013,128,True,2018-02-15 21:11:03,0,2018-02-16 00:00:00,False,,,True,Null
+3426065,MO,Fifty Shades of Black,,,,2016,91,True,2017-10-16 23:59:47,0,2017-11-01 00:00:00,False,,,True,Null
+3439311,MO,Fight Valley,,,,2016,91,True,2018-12-25 21:00:03,0,2019-01-01 00:00:00,False,,,True,Null
+124584,MO,The Final Cut,,,,2004,94,True,2017-09-22 21:00:21,0,2017-10-01 00:00:00,False,,,True,Null
+133410,MO,Forbidden Kingdom,,,,2008,104,True,2017-11-14 21:00:12,0,2017-11-24 00:00:00,False,,,True,Null
+3428235,MO,The Forger,,,,2015,96,True,2018-01-02 11:58:03,1,,False,,,True,Null
+3433729,MO,Forsaken,,,,2016,89,True,2018-01-25 09:00:15,0,2018-02-01 00:00:00,False,,,True,Null
+3422647,MO,Frankenhooker,,,,1990,84,True,2017-07-28 21:00:29,0,2017-08-01 00:00:00,False,,,True,Null
+141389,MO,Free Money,,,,1998,94,True,2017-09-22 21:00:21,0,2017-10-01 00:00:00,False,,,True,Null
+3423844,MO,Freedom,,,,2015,94,True,2017-10-18 23:59:01,0,2017-11-03 00:00:00,False,,,True,Null
+3440339,MO,Fried Green Tomatoes,,,,1991,130,True,2017-07-17 21:00:23,0,2017-07-20 00:00:00,False,,,True,Null
+3438087,MO,The Funhouse Massacre,,,,2015,90,True,2018-07-07 09:00:15,0,2018-10-15 00:00:00,False,,,True,Null
+137807,MO,Furry Vengeance,,,,2010,91,True,2019-05-02 21:00:05,0,2019-07-01 00:00:00,False,,,True,Null
+3424879,MO,G.B.F.,,,,2014,92,True,2017-10-03 21:00:22,0,2017-10-04 00:00:00,False,,,True,Null
+140669,MO,A Game of Honor,,,,2011,122,True,2019-05-06 21:00:06,0,2020-02-01 00:00:00,False,,,True,Null
+3423096,MO,Garm Wars: The Last Druid,,,,2015,92,True,2018-01-03 09:00:21,0,2018-01-04 00:00:00,False,,,True,Null
+3447722,MO,Get The Girl,,,,2017,87,True,2019-04-26 10:40:11,0,2019-05-30 00:00:00,False,,,True,Null
+137640,MO,The Ghost Writer,,,,2010,128,True,2017-09-22 21:00:23,0,2017-10-01 00:00:00,False,,,True,Null
+3420657,MO,The Gift,,,,2015,108,True,2018-01-25 09:00:16,0,2018-02-01 00:00:00,False,,,True,Null
+3417170,MO,Ginger & Rosa,,,,2013,90,True,2018-01-02 11:58:03,1,,False,,,True,Null
+3432212,MO,Girl House,,,,2015,101,True,2018-03-21 11:39:13,0,2018-04-01 00:00:00,False,,,True,Null
+3430651,MO,Glengarry Glen Ross,,,,1992,100,True,2018-04-26 10:38:34,0,2018-05-01 00:00:00,False,,,True,Null
+141650,MO,Good Advice,,,,2001,92,True,2018-04-23 21:12:01,0,2018-05-01 00:00:00,False,,,True,Null
+3429126,MO,Gravy,,,,2015,98,True,2018-03-21 11:39:16,0,2018-04-01 00:00:00,False,,,True,Null
+3437264,MO,Gringo: The Dangerous Life of John McAfee,,,,2016,97,True,2019-05-06 21:00:07,0,2019-07-01 00:00:00,False,,,True,Null
+3446335,MO,Grosse Pointe Blank,,,,1997,107,True,2017-09-22 21:00:24,0,2017-10-01 00:00:00,False,,,True,Null
+3426202,MO,Growing Up and Other Lies,,,,2015,90,True,2017-10-16 23:59:47,0,2017-11-01 00:00:00,False,,,True,Null
+3417608,MO,Halo: Nightfall,,,,2015,98,True,2019-04-26 10:40:12,0,2020-01-01 00:00:00,False,,,True,Null
+3413787,MO,Hannah Montana: The Movie,,,,2009,102,True,2017-10-14 21:00:18,0,2017-10-22 00:00:00,False,,,True,Null
+132363,MO,Hannibal Rising,,,,2007,121,True,2017-07-17 21:00:27,0,2017-07-27 00:00:00,False,,,True,Null
+128853,MO,Hard Candy,,,,2006,104,True,2017-10-16 23:59:47,0,2017-11-01 00:00:00,False,,,True,Null
+3426203,MO,Helicopter Mom,,,,2015,83,True,2017-11-25 21:00:15,0,2017-12-01 00:00:00,False,,,True,Null
+3439307,MO,Hesher,,,,2011,105,True,2018-02-28 10:34:21,0,2018-03-01 00:00:00,False,,,True,Null
+3358601,MO,High School,,,,2010,99,True,2018-01-02 11:58:03,1,,False,,,True,Null
+3432645,MO,The Hills Have Eyes,,,,1977,90,True,2018-07-07 09:00:17,0,2018-08-01 00:00:00,False,,,True,Null
+132703,MO,Home Of The Brave,,,,2006,106,True,2018-12-25 21:00:05,0,2019-01-01 00:00:00,False,,,True,Null
+3430652,MO,Hoop Dreams,,,,1994,172,True,2018-07-07 09:00:17,0,2018-10-01 00:00:00,False,,,True,Null
+3419440,MO,HOOPS U,,,,2015,89,True,2019-05-06 21:00:08,0,2020-02-01 00:00:00,False,,,True,Null
+125752,MO,House of D,,,,2004,97,True,2017-12-22 21:00:21,0,2018-01-01 00:00:00,False,,,True,Null
+141152,MO,The Howling Reborn,,,,2011,92,True,2017-07-28 21:00:34,0,2017-07-31 00:00:00,False,,,True,Null
+3423845,MO,The Hunters,,,,2013,89,True,2017-10-18 23:59:01,0,2017-11-03 00:00:00,False,,,True,Null
+136757,MO,The Hurt Locker,,,,2009,130,True,2019-02-19 11:14:28,0,2019-03-01 00:00:00,False,,,True,Null
+3422653,MO,The Hybrid,,,,2014,94,True,2017-11-25 21:00:16,0,2017-12-01 00:00:00,False,,,True,Null
+3425717,MO,I Am Giant: Victor Cruz,,,,2015,55,False,2019-05-06 21:00:08,0,2020-02-01 00:00:00,False,,,True,Null
+138995,MO,I Am Number Four,,,,2011,109,True,2018-02-28 10:34:26,0,2018-03-01 00:00:00,False,,,True,Null
+141702,MO,I Love You Phillip Morris,,,,2010,98,True,2018-02-28 10:34:27,0,2018-03-01 00:00:00,False,,,True,Null
+3432221,MO,I Survived a Zombie Holocaust,,,,2015,99,True,2018-05-16 23:30:38,0,2018-06-01 00:00:00,False,,,True,Null
+3426719,MO,The Illusionist,,,,2006,109,True,2018-07-07 09:00:18,0,2018-10-01 00:00:00,False,,,True,Null
+3432375,MO,In a Perfect World...,,,,2016,76,True,2018-05-20 23:25:35,0,2018-06-01 00:00:00,False,,,True,Null
+3424092,MO,In My Father's House,,,,2015,93,True,2018-01-25 09:00:20,0,2018-02-01 00:00:00,False,,,True,Null
+3446330,MO,The Insider,,,,1999,157,True,2017-09-22 21:00:28,0,2017-09-25 00:00:00,False,,,True,Null
+3446202,MO,Inspector Gadget,,,,1999,78,True,2017-08-19 11:15:25,0,2017-08-25 00:00:00,False,,,True,Null
+3420820,MO,It Follows,,,,2015,100,True,2017-07-05 12:17:36,0,2017-07-13 00:00:00,False,,,True,Null
+121152,MO,It Runs in the Family,,,,2003,109,True,2017-11-25 21:00:18,0,2017-12-01 00:00:00,False,,,True,Null
+3445698,MO,Jackson,,,,2017,93,True,2019-04-26 10:40:12,0,2019-05-02 00:00:00,False,,,True,Null
+3425369,MO,The Jam: About the Young Idea,,,,2015,89,True,2017-09-22 21:00:29,0,2017-09-26 00:00:00,False,,,True,Null
+3433210,MO,Jane Wants a Boyfriend,,,,2016,101,True,2018-07-07 09:00:19,0,2018-08-01 00:00:00,False,,,True,Null
+3419783,MO,"Jesus Town, U.S.A.",,,,2015,78,True,2017-08-19 11:15:26,0,2017-08-21 00:00:00,False,,,True,Null
+123587,MO,Jesus' Son,,,,2000,107,True,2018-01-02 11:58:03,1,,False,,,True,Null
+3417436,MO,Jimi Hendrix: Electric Church,,,,2015,89,True,2017-08-31 21:00:34,0,2017-09-04 00:00:00,False,,,True,Null
+3431510,MO,JIMI: All Is By My Side,,,,2014,118,True,2019-04-26 10:40:12,0,2019-05-01 00:00:00,False,,,True,Null
+3423867,MO,Jimmy Vestvood: Amerikan Hero,,,,2015,83,True,2018-11-22 21:00:13,0,2018-12-01 00:00:00,False,,,True,Null
+141603,MO,Johnny Skidmarks,,,,1998,99,True,2017-12-22 21:00:24,0,2018-01-01 00:00:00,False,,,True,Null
+3432222,MO,Just Let Go - Lenny Kravitz Live,,,,2016,102,True,2018-04-26 10:38:37,0,2018-05-02 00:00:00,False,,,True,Null
+3440225,MO,Kelly's Hollywood,,,,2016,82,True,2018-12-14 21:00:13,0,2018-12-21 00:00:00,False,,,True,Null
+3432463,MO,Kill Kane,,,,2016,77,True,2018-05-16 23:30:39,0,2018-06-07 00:00:00,False,,,True,Null
+3426243,MO,Killing Season,,,,2013,90,True,2017-11-25 21:00:20,0,2017-12-01 00:00:00,False,,,True,Null
+3415145,MO,Kobe Bryant's Muse,,,,2015,83,True,2019-05-06 21:00:09,0,2020-02-01 00:00:00,False,,,True,Null
+3403140,MO,L Word Mississippi: Hate The Sin,,,,2014,89,True,2019-05-06 21:00:09,0,2019-07-01 00:00:00,False,,,True,Null
+3435528,MO,The Land,,,,2016,101,True,2018-07-07 09:00:20,0,2018-08-01 00:00:00,False,,,True,Null
+127990,MO,Larry the Cable Guy: Health Inspector,,,,2006,90,True,2017-10-03 21:00:32,0,2017-10-08 00:00:00,False,,,True,Null
+3439227,MO,Last Girl Standing,,,,2016,90,True,2019-02-19 11:14:29,0,2019-03-02 00:00:00,False,,,True,Null
+3423028,MO,The Last Keepers,,,,2013,99,True,2017-08-31 21:00:37,0,2017-09-01 00:00:00,False,,,True,Null
+3426211,MO,Last Knights,,,,2015,114,True,2018-01-02 11:58:03,1,,False,,,True,Null
+3425736,MO,The Last Survivors,,,,2014,94,True,2018-01-13 21:00:23,0,2018-01-15 00:00:00,False,,,True,Null
+3440085,MO,Legend of the Fist: The Return of Chen Zhen,,,,2011,106,True,2018-06-18 21:00:16,0,2018-07-01 00:00:00,False,,,True,Null
+3395481,MO,Lenny Cooke,,,,2013,90,True,2018-01-22 21:00:23,0,2018-02-01 00:00:00,False,,,True,Null
+3423219,MO,Let Us Prey,,,,2015,92,True,2017-10-14 21:00:23,0,2017-10-25 00:00:00,False,,,True,Null
+3430654,MO,Life of a King,,,,2014,101,True,2018-01-25 09:00:23,0,2018-02-01 00:00:00,False,,,True,Null
+3419435,MO,"Like Sunday, Like Rain",,,,2015,104,True,2017-07-28 21:00:44,0,2017-08-01 00:00:00,False,,,True,Null
+3356376,MO,Lincoln,,,,2012,150,True,2018-02-15 21:26:43,0,2018-02-21 00:00:00,False,,,True,Null
+3396728,MO,Listen To Me Marlon,,,,2015,102,True,2019-05-06 21:00:09,0,2019-07-01 00:00:00,False,,,True,Null
+3432215,MO,Lost in the Sun,,,,2015,95,True,2018-03-21 11:39:41,0,2018-04-01 00:00:00,False,,,True,Null
+3419664,MO,Love The Coopers,,,,2015,107,True,2018-06-18 21:00:17,0,2018-07-01 00:00:00,False,,,True,Null
+3423596,MO,Lovesick,,,,2015,84,True,2017-08-31 21:00:39,0,2017-09-01 00:00:00,False,,,True,Null
+113921,MO,Lucky Numbers,,,,2000,105,True,2017-07-28 21:00:46,0,2017-08-01 00:00:00,False,,,True,Null
+3428087,MO,Lumberjack Man,,,,2015,104,True,2018-02-28 10:34:49,0,2018-03-01 00:00:00,False,,,True,Null
+130119,MO,Man About Town,,,,2006,98,True,2018-01-02 11:58:03,1,,False,,,True,Null
+3431633,MO,The Man Who Knew Infinity,,,,2016,108,True,2018-03-21 11:39:43,0,2018-03-28 00:00:00,False,,,True,Null
+3417374,MO,Manglehorn,,,,2015,97,True,2018-01-02 11:58:03,1,,False,,,True,Null
+3427323,MO,Meet the Hitlers,,,,2015,83,True,2018-04-22 21:02:01,0,2018-04-30 00:00:00,False,,,True,Null
+3421801,MO,Mercenaries,,,,2014,89,True,2018-01-02 11:58:03,1,,False,,,True,Null
+3419784,MO,Meru,,,,2015,90,True,2018-02-02 10:43:32,0,2018-02-10 00:00:00,False,,,True,Null
+3446199,MO,Mighty Joe Young,,,,1998,114,True,2017-07-05 12:17:40,0,2017-07-06 00:00:00,False,,,True,Null
+3435901,MO,Miles To Go Before I Sleep,,,,2016,35,False,2019-05-06 21:00:10,0,2019-07-01 00:00:00,False,,,True,Null
+132578,MO,Miss Potter,,,,2006,93,True,2017-08-08 13:36:06,0,2017-08-16 00:00:00,False,,,True,Null
+3424957,MO,Molly Moon and the Incredible Book of Hypnotism,,,,2015,97,True,2018-01-25 09:00:26,0,2018-02-01 00:00:00,False,,,True,Null
+3426066,MO,Mother's Day (2016),,,,2016,118,True,2018-01-25 09:00:26,0,2018-02-01 00:00:00,False,,,True,Null
+133537,MO,Mr. Brooks,,,,2007,120,True,2017-12-06 21:00:23,0,2017-12-22 00:00:00,False,,,True,Null
+3446200,MO,The Muppet Movie,,,,1979,95,True,2017-08-19 11:15:33,0,2017-08-25 00:00:00,False,,,True,Null
+3428088,MO,Murder in the Dark,,,,2015,86,True,2018-02-28 10:30:18,0,2018-03-01 00:00:00,False,,,True,Null
+3421788,MO,A Murder in the Park,,,,2015,91,True,2018-01-02 11:58:03,1,,False,,,True,Null
+134362,MO,My Best Friend's Girl,,,,2008,100,True,2018-04-12 11:20:15,0,2018-04-13 00:00:00,False,,,True,Null
+3446331,MO,"Mystery, Alaska",,,,1999,118,True,2017-09-22 21:00:37,0,2017-09-25 00:00:00,False,,,True,Null
+131970,MO,National Lampoon's Van Wilder - The Rise of Taj,,,,2006,97,True,2018-01-02 11:58:03,1,,False,,,True,Null
+3393621,MO,No Country for Old Men,,,,2007,122,True,2017-08-08 13:36:09,0,2017-08-11 00:00:00,False,,,True,Null
+3419678,MO,No Escape,,,,2015,103,True,2017-12-22 21:00:32,0,2017-12-26 00:00:00,False,,,True,Null
+3409099,MO,No No: A Dockumentary,,,,2014,100,True,2018-01-25 09:00:27,0,2018-02-01 00:00:00,False,,,True,Null
+3437256,MO,ONE & DONE/BEN SIMMONS,,,,2016,91,True,2019-05-06 21:00:10,0,2020-02-01 00:00:00,False,,,True,Null
+3428837,MO,The One I Wrote For You,,,,2015,110,True,2018-01-25 09:00:27,0,2018-02-01 00:00:00,False,,,True,Null
+124573,MO,Open Water,,,,2004,79,True,2018-05-16 23:30:41,0,2018-05-28 00:00:00,False,,,True,Null
+131222,MO,Open Water 2: Adrift,,,,2007,94,True,2017-11-25 21:00:25,0,2017-12-01 00:00:00,False,,,True,Null
+109058,MO,Open Your Eyes,,,,1997,119,True,2018-01-02 11:58:03,1,,False,,,True,Null
+117724,MO,Orange County,,,,2002,82,True,2017-07-28 21:00:52,0,2017-08-01 00:00:00,False,,,True,Null
+3429336,MO,Ordinary People,,,,1980,124,True,2017-08-31 21:00:44,0,2017-09-01 00:00:00,False,,,True,Null
+3409901,MO,Out of the Furnace,,,,2013,116,True,2018-01-03 09:00:38,0,2018-01-09 00:00:00,False,,,True,Null
+3426204,MO,Paper Planes,,,,2014,96,True,2017-11-25 21:00:26,0,2017-12-01 00:00:00,False,,,True,Null
+3409899,MO,Paranoia,,,,2013,106,True,2017-09-11 21:00:30,0,2017-09-19 00:00:00,False,,,True,Null
+3431632,MO,Pele: Birth of a Legend,,,,2016,107,True,2018-03-10 12:45:44,0,2018-03-19 00:00:00,False,,,True,Null
+3356375,MO,People Like Us,,,,2012,114,True,2018-02-28 10:34:58,0,2018-03-01 00:00:00,False,,,True,Null
+3424002,MO,A Perfect Day,,,,2016,105,True,2017-12-22 21:00:34,0,2018-01-01 00:00:00,False,,,True,Null
+3445714,MO,Perfect in '76,,,,2017,58,False,2019-05-06 21:00:10,0,2019-07-01 00:00:00,False,,,True,Null
+105572,MO,Permanent Midnight,,,,1998,88,True,2017-07-28 21:00:54,0,2017-08-01 00:00:00,False,,,True,Null
+3437800,MO,Pet,,,,2016,94,True,2019-04-26 10:40:14,0,2019-05-01 00:00:00,False,,,True,Null
+101585,MO,Phat Beach,,,,1996,88,True,2018-01-25 09:00:28,0,2018-02-01 00:00:00,False,,,True,Null
+3426236,MO,Ping Pong Summer,,,,2014,91,True,2018-11-22 21:00:17,0,2018-12-01 00:00:00,False,,,True,Null
+3423220,MO,Play It Forward,,,,2015,75,True,2017-10-14 21:00:50,0,2017-10-16 00:00:00,False,,,True,Null
+3428118,MO,Poltergeist II: The Other Side,,,,1986,90,True,2018-01-02 11:58:03,1,,False,,,True,Null
+3428119,MO,Poltergeist III,,,,1988,97,True,2018-01-02 11:58:03,1,,False,,,True,Null
+3426205,MO,Pound of Flesh,,,,2015,104,True,2017-10-17 23:53:13,0,2017-11-02 00:00:00,False,,,True,Null
+132939,MO,Premonition,,,,2007,96,True,2017-09-11 21:00:32,0,2017-09-15 00:00:00,False,,,True,Null
+3429510,MO,The Preppie Connection,,,,2016,97,True,2017-12-22 21:00:35,0,2018-01-01 00:00:00,False,,,True,Null
+3429329,MO,The Presidio,,,,1988,96,True,2018-01-02 11:58:03,1,,False,,,True,Null
+3443174,MO,Prison Fighters: 5 Rounds to Freedom,,,,2017,86,True,2019-05-06 21:00:10,0,2019-07-01 00:00:00,False,,,True,Null
+3446336,MO,The Program,,,,1993,112,True,2017-10-14 21:00:51,0,2017-10-25 00:00:00,False,,,True,Null
+3423887,MO,Prophet's Prey,,,,2015,101,True,2019-05-06 21:00:11,0,2019-07-01 00:00:00,False,,,True,Null
+3432646,MO,The Prowler,,,,1981,88,True,2018-07-07 09:00:23,0,2018-09-01 00:00:00,False,,,True,Null
+3440082,MO,Rabid,,,,1977,90,True,2018-12-14 21:00:18,0,2018-12-15 00:00:00,False,,,True,Null
+3426246,MO,Rampart,,,,2012,107,True,2017-10-16 23:59:47,0,2017-11-01 00:00:00,False,,,True,Null
+3426715,MO,Reaper,,,,2015,88,True,2017-12-06 21:00:27,0,2017-12-15 00:00:00,False,,,True,Null
+124380,MO,Reefer Madness,,,,1938,65,True,2019-05-04 10:20:58,0,2019-07-01 00:00:00,False,,,True,Null
+127205,MO,Reeker,,,,2006,91,True,2019-04-26 10:40:14,0,2021-01-01 00:00:00,False,,,True,Null
+3428236,MO,Refuge,,,,2015,73,True,2018-07-07 09:00:24,0,2018-09-01 00:00:00,False,,,True,Null
+113976,MO,Requiem For A Dream,,,,2000,101,True,2017-08-31 21:00:49,0,2017-09-01 00:00:00,False,,,True,Null
+3439206,MO,Rescue Dogs,,,,2016,83,True,2018-11-22 21:00:19,0,2018-12-01 00:00:00,False,,,True,Null
+3361052,MO,Richard Pryor: Omit The Logic,,,,2013,83,True,2019-05-06 21:00:11,0,2020-02-01 00:00:00,False,,,True,Null
+3444540,MO,A Rising Tide,,,,2017,98,True,2019-04-26 10:40:15,0,2019-05-01 00:00:00,False,,,True,Null
+3428117,MO,River's Edge,,,,1987,99,True,2018-01-02 11:58:03,1,,False,,,True,Null
+131814,MO,Rocky Balboa,,,,2006,101,True,2018-01-02 11:58:03,1,,False,,,True,Null
+127667,MO,The Roost,,,,2005,80,True,2017-09-22 21:00:44,0,2017-10-01 00:00:00,False,,,True,Null
+3448745,MO,Rosemary's Baby,,,,1968,136,True,2018-01-02 11:58:03,1,,False,,,True,Null
+3429332,MO,The Ruins,,,,2008,90,True,2018-01-02 11:58:03,1,,False,,,True,Null
+3440440,MO,Running For His Life: The Lawrence Phillips Story,,,,2016,88,True,2019-05-06 21:00:12,0,2020-02-01 00:00:00,False,,,True,Null
+3424958,MO,Safelight,,,,2015,82,True,2017-10-18 23:59:01,0,2017-11-03 00:00:00,False,,,True,Null
+3421803,MO,Santa Claws,,,,2014,86,True,2017-10-16 23:59:47,0,2017-11-01 00:00:00,False,,,True,Null
+129642,MO,Saw III,,,,2006,108,True,2019-05-03 21:00:10,0,2020-01-01 00:00:00,False,,,True,Null
+131810,MO,Saw IV,,,,2007,92,True,2019-05-03 21:00:10,0,2020-01-01 00:00:00,False,,,True,Null
+134645,MO,Saw V,,,,2008,92,True,2019-05-03 21:00:11,0,2020-01-01 00:00:00,False,,,True,Null
+3418270,MO,Scar Tissue,,,,2015,99,True,2017-10-14 10:55:16,0,2017-10-17 00:00:00,False,,,True,Null
+3449165,MO,Scenarios USA Shorts: Cut in Half,,,,2017,26,False,2019-05-04 10:20:58,0,2019-05-22 00:00:00,False,,,True,Null
+3449166,MO,Scenarios USA Shorts: Split Persona,,,,2017,29,False,2019-05-04 10:20:58,0,2019-05-22 00:00:00,False,,,True,Null
+3415730,MO,Scorned,,,,2014,86,True,2017-11-25 21:00:29,0,2017-12-01 00:00:00,False,,,True,Null
+3429337,MO,Scrooged,,,,1988,100,True,2018-01-02 11:58:03,1,,False,,,True,Null
+3420658,MO,Secret in Their Eyes,,,,2015,110,True,2018-02-28 11:45:01,0,2018-03-01 00:00:00,False,,,True,Null
+3419662,MO,The Seven Five,,,,2015,103,True,2018-01-02 11:58:03,1,,False,,,True,Null
+3418528,MO,Shaun of the Dead,,,,2004,99,True,2018-01-13 21:00:34,0,2018-01-17 00:00:00,False,,,True,Null
+3434583,MO,Sister,,,,2016,112,True,2018-07-07 09:00:26,0,2018-08-01 00:00:00,False,,,True,Null
+3439453,MO,Skateboarding's First Wave,,,,2016,18,False,2018-12-14 21:00:21,0,2018-12-15 00:00:00,False,,,True,Null
+3419713,MO,Sleeping with Other People,,,,2015,101,True,2017-11-25 21:00:30,0,2017-12-02 00:00:00,False,,,True,Null
+3414660,MO,Song One,,,,2015,88,True,2018-01-02 11:58:03,1,,False,,,True,Null
+3419677,MO,Southpaw,,,,2015,123,True,2017-11-14 21:00:27,0,2017-11-24 00:00:00,False,,,True,Null
+120440,MO,Speak,,,,2004,93,True,2019-05-02 21:00:12,0,2020-01-01 00:00:00,False,,,True,Null
+134649,MO,The Spirit,,,,2008,102,True,2019-05-06 21:00:14,0,2019-11-01 00:00:00,False,,,True,Null
+7748,MO,Split Decisions,,,,1988,95,True,2017-07-28 21:01:03,0,2017-08-01 00:00:00,False,,,True,Null
+3420985,MO,Spring Breakers,,,,2013,93,True,2018-01-02 11:58:03,1,,False,,,True,Null
+3429923,MO,Spring Broke,,,,2016,77,True,2018-02-28 11:45:04,0,2018-03-01 00:00:00,False,,,True,Null
+114439,MO,Spy Kids,,,,2001,87,True,2017-08-19 11:15:41,0,2017-08-25 00:00:00,False,,,True,Null
+3428173,MO,Spy Kids: Game Over,,,,2003,82,True,2018-01-02 11:58:03,1,,False,,,True,Null
+3420665,MO,The Spymasters - CIA in the Crosshairs,,,,2015,118,True,2019-05-06 21:00:14,0,2019-07-01 00:00:00,False,,,True,Null
+3439309,MO,Stander,,,,2004,112,True,2018-02-28 11:45:06,0,2018-03-01 00:00:00,False,,,True,Null
+3420843,MO,The Stanford Prison Experiment,,,,2015,121,True,2017-08-08 13:36:26,0,2017-08-15 00:00:00,False,,,True,Null
+141648,MO,Star Kid,,,,1998,100,True,2017-07-28 21:01:04,0,2017-08-01 00:00:00,False,,,True,Null
+3425202,MO,Steve McQueen: The Man & Le Mans,,,,2015,102,True,2018-02-28 11:45:06,0,2018-03-04 00:00:00,False,,,True,Null
+3426247,MO,Stolen,,,,2012,95,True,2017-11-25 21:00:31,0,2017-12-01 00:00:00,False,,,True,Null
+3431443,MO,Street Dance Family,,,,2016,88,True,2018-06-18 21:00:23,0,2018-07-01 00:00:00,False,,,True,Null
+3426250,MO,Stretch and Bobbito: Radio That Changed  Lives,,,,2015,99,True,2018-04-26 10:38:44,0,2018-05-01 00:00:00,False,,,True,Null
+3426206,MO,The Surface,,,,2015,86,True,2017-12-06 21:00:31,0,2017-12-15 00:00:00,False,,,True,Null
+127130,MO,Survival Island,,,,2006,95,True,2019-04-26 10:40:17,0,2021-05-01 00:00:00,False,,,True,Null
+3427126,MO,Sweet Micky For President,,,,2015,90,True,2018-01-02 11:58:03,1,2018-02-01 00:00:00,False,,,True,Null
+3424004,MO,Tale of Tales,,,,2016,133,True,2018-02-28 11:45:11,0,2018-03-05 00:00:00,False,,,True,Null
+114623,MO,Tapeheads,,,,1988,92,True,2018-01-02 11:58:03,1,,False,,,True,Null
+141652,MO,Tenderness,,,,2010,100,True,2017-12-22 21:00:42,0,2018-01-01 00:00:00,False,,,True,Null
+140989,MO,The Alamo (2004),,,,2004,136,True,2018-01-02 11:58:03,1,,False,,,True,Null
+127137,MO,Three Days In September,,,,2006,80,True,2019-05-03 21:00:12,0,2020-01-01 00:00:00,False,,,True,Null
+3413788,MO,Three Men And A Baby,,,,1987,102,True,2017-10-14 21:00:56,0,2017-10-25 00:00:00,False,,,True,Null
+130124,MO,Ticker,,,,2001,91,True,2018-01-02 11:58:03,1,,False,,,True,Null
+140739,MO,Tiny Furniture,,,,2010,99,True,2017-08-31 21:00:55,0,2017-09-01 00:00:00,False,,,True,Null
+3446816,MO,To Catch A Thief,,,,1955,106,True,2017-08-31 21:00:56,0,2017-09-01 00:00:00,False,,,True,Null
+3422922,MO,Tooken,,,,2015,80,True,2017-08-19 11:15:43,0,2017-08-26 00:00:00,False,,,True,Null
+3426068,MO,Triple 9,,,,2016,115,True,2017-11-25 21:00:33,0,2017-12-01 00:00:00,False,,,True,Null
+3445564,MO,TRUMPED: Inside the Greatest Political Upset of All Time,,,,2017,101,True,2019-05-06 21:00:15,0,2019-07-01 00:00:00,False,,,True,Null
+133408,MO,Tyler Perry's Meet the Browns,,,,2008,101,True,2017-09-22 21:00:50,0,2017-10-01 00:00:00,False,,,True,Null
+134361,MO,Tyler Perry's The Family That Preys,,,,2008,109,True,2018-04-12 11:20:26,0,2018-04-13 00:00:00,False,,,True,Null
+3433208,MO,Unknown Caller,,,,2016,103,True,2018-05-16 10:40:55,0,2018-06-01 00:00:00,False,,,True,Null
+3428089,MO,Unnatural,,,,2015,89,True,2018-02-28 11:52:10,0,2018-03-01 00:00:00,False,,,True,Null
+3432216,MO,Walking on Sunshine,,,,2016,97,True,2018-03-21 10:36:45,0,2018-04-01 00:00:00,False,,,True,Null
+3426207,MO,Walter,,,,2015,86,True,2017-11-25 21:00:34,0,2017-12-01 00:00:00,False,,,True,Null
+3431631,MO,Weiner,,,,2016,96,True,2018-01-12 10:36:26,0,2018-01-15 00:00:00,False,,,True,Null
+97912,MO,When Time Expires,,,,1997,93,True,2017-07-28 21:01:10,0,2017-08-01 00:00:00,False,,,True,Null
+3413785,MO,Who Framed Roger Rabbit,,,,1988,103,True,2017-08-19 11:15:45,0,2017-08-26 00:00:00,False,,,True,Null
+3438262,MO,Who Gets the Dog?,,,,2016,95,True,2019-01-28 21:00:22,0,2019-02-01 00:00:00,False,,,True,Null
+3428334,MO,The Who Live In Hyde Park,,,,2015,109,True,2017-11-14 21:00:31,0,2017-11-25 00:00:00,False,,,True,Null
+133874,MO,Who's Your Caddy?,,,,2007,91,True,2018-01-25 09:00:36,0,2018-01-26 00:00:00,False,,,True,Null
+3420860,MO,Why Horror?,,,,2015,81,True,2017-09-22 21:00:52,0,2017-10-01 00:00:00,False,,,True,Null
+3428090,MO,The Wicked Within,,,,2015,83,True,2018-02-28 11:52:10,0,2018-03-01 00:00:00,False,,,True,Null
+3417362,MO,Willow Creek,,,,2014,79,True,2017-10-17 23:53:13,0,2017-11-02 00:00:00,False,,,True,Null
+3426718,MO,Winter Passing,,,,2006,99,True,2018-07-07 09:00:28,0,2018-10-01 00:00:00,False,,,True,Null
+3426208,MO,Wish You Well,,,,2014,100,True,2017-10-17 23:53:13,0,2017-11-02 00:00:00,False,,,True,Null
+132913,MO,Witless Protection,,,,2007,96,True,2019-04-26 10:40:17,0,2019-06-10 00:00:00,False,,,True,Null
+3419676,MO,Woman in Gold,,,,2015,108,True,2017-07-28 21:01:13,0,2017-08-01 00:00:00,False,,,True,Null
+3370771,MO,The World According To Dick Cheney,,,,2013,109,True,2019-05-06 21:00:16,0,2019-07-01 00:00:00,False,,,True,Null
+9130,MO,The Wraith,,,,1986,92,True,2017-09-22 21:00:53,0,2017-10-01 00:00:00,False,,,True,Null
+141651,MO,Wristcutters: A Love Story,,,,2006,88,True,2018-05-16 23:30:45,0,2018-06-01 00:00:00,False,,,True,Null
+3420285,MO,X-Rated 2: The Greatest Adult Stars of All Time,,,,2016,87,True,2019-05-06 21:00:16,0,2019-10-28 00:00:00,False,,,True,Null
+3428172,MO,The Yards,,,,2000,115,True,2017-09-22 21:00:54,0,2017-10-01 00:00:00,False,,,True,Null
+114636,MO,You Can Count On Me,,,,2000,110,True,2017-07-28 21:01:15,0,2017-08-01 00:00:00,False,,,True,Null
+111338,MO,The Young Americans,,,,1993,103,True,2018-01-02 11:58:03,1,,False,,,True,Null
+3437357,MO,Zero Days,,,,2016,113,True,2018-05-04 21:02:36,0,2018-05-05 00:00:00,False,,,True,Null
+126435,MO,Zombie Honeymoon,,,,2006,84,True,2019-04-26 10:40:18,0,2021-01-01 00:00:00,False,,,True,Null
+3425732,MO,11 Blocks,,,,2015,78,True,2017-10-16 23:59:47,0,2017-11-01 00:00:00,False,,,True,Null
+133451,MO,1408,,,,2007,104,True,2017-11-25 21:00:36,0,2017-12-01 00:00:00,False,,,True,Null
+3429511,MO,45 Years,,,,2016,95,True,2017-12-22 21:00:47,0,2018-01-01 00:00:00,False,,,True,Null
+3406304,SE,101,1031103,1,1,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3406305,SE,102,1031103,1,2,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3406306,SE,103,1031103,1,3,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3406307,SE,104,1031103,1,4,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3406308,SE,105,1031103,1,5,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3406309,SE,106,1031103,1,6,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3406310,SE,107,1031103,1,7,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3406311,SE,108,1031103,1,8,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3406312,SE,109,1031103,1,9,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3406313,SE,110,1031103,1,10,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3416797,SE,201,1031103,2,1,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3416798,SE,202,1031103,2,2,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3416799,SE,203,1031103,2,3,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3416800,SE,204,1031103,2,4,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3416821,SE,205,1031103,2,5,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3416822,SE,206,1031103,2,6,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3416823,SE,207,1031103,2,7,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3416824,SE,208,1031103,2,8,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3416825,SE,209,1031103,2,9,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3416826,SE,210,1031103,2,10,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3425877,SE,211,1031103,2,11,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3425878,SE,212,1031103,2,12,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3435809,SE,301,1031103,3,1,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3435810,SE,302,1031103,3,2,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3435811,SE,303,1031103,3,3,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3435812,SE,304,1031103,3,4,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3435813,SE,305,1031103,3,5,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3435814,SE,306,1031103,3,6,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3435815,SE,307,1031103,3,7,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3435816,SE,308,1031103,3,8,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3435817,SE,309,1031103,3,9,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3435818,SE,310,1031103,3,10,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+1031103,SM,The Affair,,,,2014,,NULL,2019-10-15 09:01:11,0,,False,,,True,Null
+3366973,SE,COTTO VS. TROUT - EPILOGUE,1002741,4,1,,,NULL,2019-05-06 10:55:26,0,,False,,,True,Null
+3381710,SE,MAYWEATHER VS. GUERRERO - EPILOGUE,1002741,5,1,,,NULL,2019-05-06 10:55:26,0,,False,,,True,Null
+3392440,SE,MAYWEATHER VS. CANELO - EPILOGUE,1002741,6,1,,,NULL,2019-05-06 10:55:26,0,,False,,,True,Null
+3403253,SE,CANELO VS. ANGULO- EPILOGUE,1002741,8,1,,,NULL,2019-05-06 10:55:26,0,,False,,,True,Null
+3404794,SE,MAYWEATHER VS. MAIDANA I- EPILOGUE,1002741,9,1,,,NULL,2019-05-06 10:55:26,0,,False,,,True,Null
+3408858,SE,CANELO VS. LARA - EPILOGUE,1002741,10,1,,,NULL,2019-05-06 10:55:26,0,,False,,,True,Null
+3411049,SE,MAYWEATHER VS. MAIDANA II- EPILOGUE,1002741,11,1,,,NULL,2019-05-06 10:55:26,0,,False,,,True,Null
+3416530,SE,THURMAN EPILOGUE 12/13/14,1002741,13,1,,,NULL,2019-05-06 10:55:26,0,,False,,,True,Null
+3416529,SE,KHAN 12/13/14,1002741,12,1,,,NULL,2019-05-06 10:55:26,0,,False,,,True,Null
+3421029,SE,CHAVEZ,1002741,15,1,,,NULL,2019-04-18 11:14:37,1,,False,,,True,Null
+3422103,SE,DEONTAY WILDER,1002741,17,1,,,NULL,2019-04-18 11:14:37,1,,False,,,True,Null
+3424335,SE,MAYWEATHER VS. BERTO - EPILOGUE,1002741,18,1,,,NULL,2019-05-06 10:55:26,0,,False,,,True,Null
+3427161,SE,ADRIEN BRONER 10/3/15,1002741,19,1,,,NULL,2019-05-06 10:55:26,0,,False,,,True,Null
+3428249,SE,JACOBS VS. QUILLIN,1002741,20,1,,,NULL,2019-04-18 11:14:37,1,,False,,,True,Null
+3419995,SE,INSIDE MAYWEATHER VS. PACQUIAO - EPILOGUE,1002741,16,1,,,NULL,2019-05-06 10:55:26,0,,False,,,True,Null
+3448706,SE,THURMAN VS. GARCIA DAILY - PART 1,1002741,21,1,,,NULL,2019-05-06 10:55:26,0,,False,,,True,Null
+3448707,SE,THURMAN VS. GARCIA DAILY - PART 2,1002741,21,2,,,NULL,2019-05-06 10:55:26,0,,False,,,True,Null
+3448708,SE,THURMAN VS. GARCIA DAILY - PART 3,1002741,21,3,,,NULL,2019-05-06 10:55:26,0,,False,,,True,Null
+3448709,SE,THURMAN VS. GARCIA DAILY - PART 4,1002741,21,4,,,NULL,2019-05-06 10:55:26,0,,False,,,True,Null
+1002741,SM,All Access,,,,2012,,NULL,2019-05-06 10:55:26,0,,False,,,True,Null
+3434507,SE,EPISODE 1,1004409,1,1,,,NULL,2019-05-06 10:55:26,0,,False,,,True,Null
+3434508,SE,EPISODE 2,1004409,1,2,,,NULL,2019-05-06 10:55:26,0,,False,,,True,Null
+3434509,SE,EPISODE 3,1004409,1,3,,,NULL,2019-05-06 10:55:26,0,,False,,,True,Null
+3434510,SE,EPISODE 4,1004409,1,4,,,NULL,2019-05-06 10:55:26,0,,False,,,True,Null
+3436210,SE,EPISODE 5,1004409,1,5,,,NULL,2019-05-06 10:55:26,0,,False,,,True,Null
+3449198,SE,EPISODE 1,1004409,2,1,,,NULL,2019-05-06 10:55:26,0,,False,,,True,Null
+3449199,SE,EPISODE 2,1004409,2,2,,,NULL,2019-05-06 10:55:26,0,,False,,,True,Null
+3449200,SE,EPISODE 3,1004409,2,3,,,NULL,2019-05-06 10:55:26,0,,False,,,True,Null
+1004409,SM,All Access: Quest for the Stanley Cup,,,,2016,,NULL,2019-05-06 21:02:08,0,,False,,,True,Null
+3422804,SE,PILOT,1032076,1,1,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3422805,SE,NAMING RIGHTS,1032076,1,2,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3422806,SE,YUMTIME,1032076,1,3,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3422807,SE,SHORT SQUEEZE,1032076,1,4,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3422808,SE,THE GOOD LIFE,1032076,1,5,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3422809,SE,THE DEAL,1032076,1,6,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3422810,SE,THE PUNCH,1032076,1,7,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3422811,SE,BOASTS AND RAILS,1032076,1,8,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3422812,SE,WHERE THE F*CK IS DONNIE?,1032076,1,9,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3422813,SE,QUALITY OF LIFE,1032076,1,10,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3422814,SE,MAGICAL THINKING,1032076,1,11,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3422815,SE,THE CONVERSATION,1032076,1,12,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3434869,SE,RISK MANAGEMENT,1032076,2,1,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3434870,SE,DEAD CAT BOUNCE,1032076,2,2,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3434871,SE,OPTIMAL PLAY,1032076,2,3,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3434872,SE,THE OATH,1032076,2,4,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3434873,SE,CURRENCY,1032076,2,5,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3434874,SE,INDIAN FOUR,1032076,2,6,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3434875,SE,VICTORY LAP,1032076,2,7,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3434876,SE,THE KINGMAKER,1032076,2,8,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3434877,SE,SIC TRANSIT IMPERIUM,1032076,2,9,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3434878,SE,WITH OR WITHOUT YOU,1032076,2,10,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3434879,SE,GOLDEN FROG TIME,1032076,2,11,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3434880,SE,BALL IN HAND,1032076,2,12,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+1032076,SM,Billions,,,,2016,,NULL,2019-10-15 09:01:14,0,,False,,,True,Null
+136707,SE,THE POISONED CHALICE,754,1,1,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+136709,SE,THE ASSASSIN,754,1,2,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+136710,SE,THE MOOR,754,1,3,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+136711,SE,LUCREZIA'S WEDDING,754,1,4,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+136712,SE,THE BORGIAS IN LOVE,754,1,5,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+136713,SE,THE FRENCH KING,754,1,6,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+136714,SE,"DEATH, ON A PALE HORSE",754,1,7,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+136715,SE,THE ART OF WAR,754,1,8,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+136716,SE,NESSUNO (NOBODY),754,1,9,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+141413,SE,THE BORGIA BULL,754,2,1,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+141415,SE,PAOLO,754,2,2,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+141416,SE,THE BEAUTIFUL DECEPTION,754,2,3,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+141417,SE,STRAY DOGS,754,2,4,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+141418,SE,THE CHOICE,754,2,5,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+141419,SE,DAY OF ASHES,754,2,6,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+141420,SE,THE SIEGE AT FORLI,754,2,7,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+141421,SE,TRUTH AND LIES,754,2,8,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+141422,SE,WORLD OF WONDERS,754,2,9,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+141414,SE,THE CONFESSION,754,2,10,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3373728,SE,THE FACE OF DEATH,754,3,1,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3373729,SE,THE PURGE,754,3,2,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3373730,SE,SIBLINGS,754,3,3,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3373731,SE,THE BANQUET OF CHESTNUTS,754,3,4,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3373732,SE,THE WOLF AND THE LAMB,754,3,5,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3373733,SE,RELICS,754,3,6,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3373734,SE,LUCREZIA'S GAMBIT,754,3,7,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3373735,SE,TEARS OF BLOOD,754,3,8,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3373736,SE,THE GUNPOWDER PLOT,754,3,9,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3373737,SE,THE PRINCE,754,3,10,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+754,SM,The Borgias,,,,2011,,NULL,2019-05-06 21:02:11,0,,False,,,True,Null
+124747,SE,MARK 8:36,291,1,1,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+124748,SE,GENESIS 27:29,291,1,2,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+124749,SE,MATTHEW 13:57,291,1,3,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+124750,SE,MATTHEW 5:6,291,1,4,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+124751,SE,MATTHEW 12:25,291,1,5,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+124752,SE,SAMYUTTA 11.10,291,1,6,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+124754,SE,GENESIS 27:39,291,1,7,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+124755,SE,JOB 31:5-6,291,1,8,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+124756,SE,ECCLESIASTES 7:2,291,1,9,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+124757,SE,VIVEKACHUDAMANI: 51,291,1,10,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+126011,SE,MATTHEW 22:10,291,1,11,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+130326,SE,ONE TOO MANY MORNINGS 3:4-8,291,2,1,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+130327,SE,DOWN IN THE FLOOD 3:5-6,291,2,2,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+130328,SE,THE LONESOME DEATH OF ... 4:7-8,291,2,3,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+130329,SE,NOT DARK YET 3:5-6,291,2,4,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+130330,SE,DEAR LANDLORD 1:3-4,291,2,5,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+130331,SE,TRUE LOVE TENDS TO FORGET 1:1-4,291,2,6,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+130332,SE,ONLY A PAWN ... 1:7-8,291,2,7,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+130333,SE,SHELTER FROM THE STORM 1:1-2,291,2,8,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+130334,SE,CALL LETTER BLUES 1:2-6,291,2,9,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+130335,SE,THINGS HAVE CHANGED 1:7-8,291,2,10,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+132624,SE,UNEASY LIES THE HEAD,291,3,1,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+132625,SE,THINGS BADLY BEGUN,291,3,2,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+132626,SE,LET ROME INTO TIBER MELT ...,291,3,3,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+132631,SE,THE COURSE OF TRUE LOVE NEVER DID RUN SMOOTH,291,3,4,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+132627,SE,GIVE ME THE OCULAR PROOF...,291,3,5,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+132628,SE,THE CHIMES AT MIDNIGHT,291,3,6,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+132630,SE,ALL THE INTERIM IS LIKE A PHANTASMA,291,3,7,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+132629,SE,BIRNAM WOOD COMES TO DUNSINANE,291,3,8,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+291,SM,Brotherhood,,,,2006,,NULL,2019-05-06 21:02:12,0,,False,,,True,Null
+130514,SE,PILOT,411,1,1,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+130615,SE,HELL-A WOMAN,411,1,2,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+130616,SE,THE WHORE OF BABYLON,411,1,3,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+130617,SE,FEAR AND LOATHING AT THE FUNDRAISER,411,1,4,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+130618,SE,LOL,411,1,5,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+130619,SE,ABSINTHE MAKES THE HEART GROW FONDER,411,1,6,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+130620,SE,"GIRLS, INTERRUPTED",411,1,7,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+130621,SE,CALIFORNIA SON,411,1,8,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+130622,SE,FILTHY LUCRE,411,1,9,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+130623,SE,THE DEVIL'S THREESOME,411,1,10,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+130624,SE,TURN THE PAGE,411,1,11,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+130625,SE,THE LAST WALTZ,411,1,12,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+131342,SE,SLIP OF THE TONGUE,411,2,1,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+131346,SE,THE GREAT ASHBY,411,2,2,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+131347,SE,NO WAY TO TREAT A LADY,411,2,3,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+131348,SE,THE RAW & THE COOKED,411,2,4,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+131349,SE,VAGINATOWN,411,2,5,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+131350,SE,COKE DICK & THE FIRST KICK,411,2,6,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+131351,SE,IN A LONELY PLACE,411,2,7,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+131352,SE,GOING DOWN AND OUT IN BEVERLY HILLS,411,2,8,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+131353,SE,LA RONDE,411,2,9,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+131343,SE,IN UTERO,411,2,10,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+131344,SE,BLUES FROM LAUREL CANYON,411,2,11,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+131345,SE,LA PETITE MORT,411,2,12,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+135132,SE,WISH YOU WERE HERE,411,3,1,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+135136,SE,THE LAND OF RAPE AND HONEY,411,3,2,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+135137,SE,VERITIES & BALDERDASH,411,3,3,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+135138,SE,ZOSO,411,3,4,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+135139,SE,SLOW HAPPY BOYS,411,3,5,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+135140,SE,GLASS HOUSES,411,3,6,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+135141,SE,SO HERE'S THE THING...,411,3,7,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+135142,SE,THE APARTMENT,411,3,8,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+135143,SE,MR. BAD EXAMPLE,411,3,9,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+135133,SE,DOGTOWN,411,3,10,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+135134,SE,COMINGS & GOINGS,411,3,11,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+135135,SE,MIA CULPA,411,3,12,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+135855,SE,EXILE ON MAIN ST.,411,4,1,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+135859,SE,SUICIDE SOLUTION,411,4,2,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+135860,SE,HOME SWEET HOME,411,4,3,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+135861,SE,MONKEY BUSINESS,411,4,4,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+135862,SE,FREEZE-FRAME,411,4,5,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+135863,SE,"LAWYERS, GUNS AND MONEY",411,4,6,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+135864,SE,THE RECUSED,411,4,7,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+135865,SE,LIGHTS. CAMERA. A*HOLE,411,4,8,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+135866,SE,ANOTHER PERFECT DAY,411,4,9,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+135856,SE,THE TRIAL,411,4,10,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+135857,SE,THE LAST SUPPER,411,4,11,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+135858,SE,...AND JUSTICE FOR ALL,411,4,12,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+139050,SE,JFK --> LAX,411,5,1,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+139051,SE,THE WAY OF THE FIST,411,5,2,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+139052,SE,BOYS & GIRLS,411,5,3,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+139053,SE,WAITING FOR THE MIRACLE,411,5,4,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+139054,SE,THE RIDE-ALONG,411,5,5,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+139055,SE,LOVE SONG,411,5,6,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+139056,SE,HERE I GO AGAIN,411,5,7,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+139057,SE,RAW,411,5,8,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+139058,SE,AT THE MOVIES,411,5,9,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+139059,SE,PERVERTS & WHORES,411,5,10,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+139060,SE,THE PARTY,411,5,11,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+139061,SE,HELL AIN'T A BAD PLACE TO BE,411,5,12,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+142130,SE,THE UNFORGIVEN,411,6,1,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+142182,SE,QUITTERS,411,6,2,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+142183,SE,DEAD ROCK STARS,411,6,3,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+142184,SE,HELL BENT FOR LEATHER,411,6,4,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+142185,SE,ROCK AND A HARD PLACE,411,6,5,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+142186,SE,IN THE CLOUDS,411,6,6,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+142187,SE,THE DOPE SHOW,411,6,7,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+142188,SE,EVERYBODY'S A F*KING CRITIC,411,6,8,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+142189,SE,MAD DOGS & ENGLISHMEN,411,6,9,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+142190,SE,BLIND FAITH,411,6,10,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+142191,SE,THE ABBY,411,6,11,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+142192,SE,I'LL LAY MY MONSTERS DOWN,411,6,12,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3383631,SE,LEVON,411,7,1,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3383632,SE,JULIA,411,7,2,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3383633,SE,LIKE FATHER LIKE SON,411,7,3,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3383634,SE,DICKS,411,7,4,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3383635,SE,GETTING THE POISON OUT,411,7,5,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3383636,SE,KICKOFF,411,7,6,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3383637,SE,SMILE,411,7,7,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3383638,SE,30 MINUTES OR LESS,411,7,8,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3383639,SE,"FAITH, HOPE, LOVE",411,7,9,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3383640,SE,DINNER WITH FRIENDS,411,7,10,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3383641,SE,DAUGHTER,411,7,11,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3383642,SE,GRACE,411,7,12,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+411,SM,Californication,,,,2007,,NULL,2019-05-06 21:02:14,0,,False,,,True,Null
+3429936,SE,THE OUTSIDERS,1032991,1,1,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3429937,SE,PRISONER'S DILEMMA,1032991,1,2,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3429938,SE,TENSION CITY,1032991,1,3,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3429939,SE,THE BIG MO,1032991,1,4,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3429940,SE,THE WINNOWING,1032991,1,5,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3429941,SE,FEAR AND LOATHING,1032991,1,6,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3429942,SE,CONFIDENCE GAME,1032991,1,7,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3429943,SE,THE RECKONING,1032991,1,8,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3429944,SE,DEAD OR ALIVE,1032991,1,9,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3429945,SE,HIGH HOPES,1032991,1,10,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3429946,SE,HOME AND ABROAD,1032991,1,11,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3429947,SE,ON WISCONSIN,1032991,1,12,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3429948,SE,RECAP,1032991,1,13,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3429949,SE,GAME ON,1032991,1,14,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3429950,SE,VEEPSTAKES,1032991,1,15,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3429951,SE,TRUMP SHOW,1032991,1,16,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3429952,SE,IN THE ARENA,1032991,1,17,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3429953,SE,CLOSING THE GAP,1032991,1,18,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3429954,SE,FIT TO SERVE,1032991,1,19,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3429955,SE,BATTLEGROUND,1032991,1,20,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3429956,SE,THE NEWSROOMS,1032991,1,21,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3429957,SE,TALE OF THE TAPE,1032991,1,22,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3429958,SE,FROM RUSSIA WITH LOVE,1032991,1,23,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3429959,SE,HIS WORD AS A BIDEN,1032991,1,24,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3429960,SE,NOBODY F*ING KNOWS,1032991,1,25,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3429961,SE,PRESIDENT TRUMP,1032991,1,26,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3445973,SE,SHOCKING BUT NOT SURPRISING,1032991,2,1,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3445974,SE,CHECKING AND BALANCING,1032991,2,2,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3445975,SE,HOW'S HE DOING?,1032991,2,3,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3445976,SE,THE WHOLE WORLD IS WATCHING,1032991,2,4,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3445977,SE,RECESS RESET,1032991,2,5,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3445978,SE,THE RESISTANCE,1032991,2,6,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3448666,SE,LEARNING CURVE,1032991,2,7,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3448667,SE,LOOKING BACK AND MOVING ON,1032991,2,8,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+1032991,SM,The Circus,,,,2016,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3410487,SE,CRUSH,1032232,1,1,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3410488,SE,UPGRADE,1032232,1,2,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3410489,SE,EXPLOIT,1032232,1,3,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3410490,SE,CTRL,1032232,1,4,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3410491,SE,TRAPPED,1032232,1,5,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3410492,SE,REWIRE,1032232,1,6,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3410493,SE,PROVOKE,1032232,1,7,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3410494,SE,REVOLT,1032232,1,8,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3432676,SE,MY MIND,1032232,2,1,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3432677,SE,MY JUSTICE,1032232,2,2,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3432678,SE,MY MONEY,1032232,2,3,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3432679,SE,MY NATION,1032232,2,4,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3432680,SE,MY IDENTITY,1032232,2,5,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3432681,SE,MY HOME,1032232,2,6,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3432682,SE,MY COMMUNITY,1032232,2,7,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3432683,SE,MY RELATIONSHIP,1032232,2,8,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+1032232,SM,Dark Net,,,,2016,,NULL,2019-05-06 21:02:18,0,,False,,,True,Null
+127809,SE,DEXTER,323,1,1,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+127810,SE,CROCODILE,323,1,2,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+127811,SE,POPPING CHERRY,323,1,3,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+127812,SE,LET'S GIVE THE BOY A HAND,323,1,4,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+127813,SE,LOVE AMERICAN STYLE,323,1,5,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+127814,SE,RETURN TO SENDER,323,1,6,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+127815,SE,CIRCLE OF FRIENDS,323,1,7,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+127816,SE,SHRINK WRAP,323,1,8,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+127817,SE,FATHER KNOWS BEST,323,1,9,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+127818,SE,SEEING RED,323,1,10,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+127819,SE,TRUTH BE TOLD,323,1,11,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+127821,SE,BORN FREE,323,1,12,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+130348,SE,IT'S ALIVE!,323,2,1,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+130349,SE,WAITING TO EXHALE,323,2,2,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+130350,SE,AN INCONVENIENT LIE,323,2,3,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+130351,SE,SEE-THROUGH,323,2,4,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+130352,SE,THE DARK DEFENDER,323,2,5,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+130353,SE,"DEX, LIES, AND VIDEOTAPE",323,2,6,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+130354,SE,"THAT NIGHT, A FOREST GREW",323,2,7,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+130355,SE,MORNING COMES,323,2,8,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+130356,SE,RESISTANCE IS FUTILE,323,2,9,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+130357,SE,THERE'S SOMETHING ABOUT HARRY,323,2,10,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+130358,SE,LEFT TURN AHEAD,323,2,11,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+130359,SE,THE BRITISH INVASION,323,2,12,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+132994,SE,OUR FATHER,323,3,1,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+132995,SE,FINDING FREEBO,323,3,2,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+132998,SE,THE LION SLEEPS TONIGHT,323,3,3,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+132999,SE,ALL IN THE FAMILY,323,3,4,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+133000,SE,TURNING BIMINESE,323,3,5,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+133001,SE,SÍ SE PUEDE,323,3,6,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+133002,SE,EASY AS PIE,323,3,7,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+133003,SE,THE DAMAGE A MAN CAN DO,323,3,8,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+133004,SE,ABOUT LAST NIGHT,323,3,9,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+133005,SE,GO YOUR OWN WAY,323,3,10,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+133006,SE,I HAD A DREAM,323,3,11,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+133007,SE,DO YOU TAKE DEXTER MORGAN?,323,3,12,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+135067,SE,LIVING THE DREAM,323,4,1,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+135068,SE,REMAINS TO BE SEEN,323,4,2,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+135069,SE,BLINDED BY THE LIGHT,323,4,3,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+135070,SE,DEX TAKES A HOLIDAY,323,4,4,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+135071,SE,DIRTY HARRY,323,4,5,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+135072,SE,IF I HAD A HAMMER,323,4,6,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+135073,SE,SLACK TIDE,323,4,7,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+135074,SE,ROAD KILL,323,4,8,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+135075,SE,HUNGRY MAN,323,4,9,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+135076,SE,LOST BOYS,323,4,10,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+135077,SE,"HELLO, DEXTER MORGAN",323,4,11,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+135078,SE,THE GETAWAY,323,4,12,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+135079,SE,MY BAD,323,5,1,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+135080,SE,HELLO BANDIT,323,5,2,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+135081,SE,PRACTICALLY PERFECT,323,5,3,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+135082,SE,BEAUTY AND THE BEAST,323,5,4,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+135083,SE,FIRST BLOOD,323,5,5,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+135084,SE,EVERYTHING IS ILLUMENATED,323,5,6,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+135085,SE,CIRCLE US,323,5,7,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+135086,SE,TAKE IT!,323,5,8,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+135088,SE,TEENAGE WASTELAND,323,5,9,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+135087,SE,IN THE BEGINNING,323,5,10,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+135089,SE,HOP A FREIGHTER,323,5,11,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+135090,SE,THE BIG ONE,323,5,12,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+139770,SE,THOSE KINDS OF THINGS,323,6,1,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+139771,SE,ONCE UPON A TIME...,323,6,2,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+139772,SE,SMOKEY AND THE BANDIT,323,6,3,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+139773,SE,A HORSE OF A DIFFERENT COLOR,323,6,4,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+139774,SE,THE ANGEL OF DEATH,323,6,5,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+139775,SE,JUST LET GO,323,6,6,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+139848,SE,NEBRASKA,323,6,7,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+139849,SE,SIN OF OMISSION,323,6,8,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+139850,SE,GET GELLAR,323,6,9,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+139851,SE,RICOCHET RABBIT,323,6,10,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+139852,SE,TALK TO THE HAND,323,6,11,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+139853,SE,THIS IS THE WAY THE WORLD ENDS,323,6,12,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3360435,SE,ARE YOU...?,323,7,1,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3360436,SE,SUNSHINE AND FROSTY SWIRL,323,7,2,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3360437,SE,BUCK THE SYSTEM,323,7,3,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3360438,SE,RUN,323,7,4,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3360439,SE,SWIM DEEP,323,7,5,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3360440,SE,DO THE WRONG THING,323,7,6,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3360441,SE,CHEMISTRY,323,7,7,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3360442,SE,ARGENTINA,323,7,8,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3360443,SE,HELTER SKELTER,323,7,9,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3360444,SE,THE DARK... WHATEVER,323,7,10,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3360445,SE,DO YOU SEE WHAT I SEE?,323,7,11,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3360446,SE,"SURPRISE, MOTHERF*KER!",323,7,12,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3375827,SE,A BEAUTIFUL DAY,323,8,1,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3375828,SE,EVERY SILVER LINING...,323,8,2,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3375829,SE,WHAT'S EATING DEXTER MORGAN?,323,8,3,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3375830,SE,SCAR TISSUE,323,8,4,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3375831,SE,THIS LITTLE PIGGY,323,8,5,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3375832,SE,A LITTLE REFLECTION,323,8,6,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3375833,SE,DRESS CODE,323,8,7,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3375834,SE,ARE WE THERE YET?,323,8,8,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3375835,SE,MAKE YOUR OWN KIND OF MUSIC,323,8,9,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3375836,SE,GOODBYE MIAMI,323,8,10,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3375837,SE,MONKEY IN A BOX,323,8,11,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3375838,SE,REMEMBER THE MONSTERS?,323,8,12,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+323,SM,Dexter,,,,2006,,NULL,2019-05-06 21:02:18,0,,False,,,True,Null
+3429224,SE,ELVIS,1032723,1,1,,,NULL,2019-02-03 18:04:12,1,,False,,,True,Null
+3429225,SE,EGO,1032723,1,2,,,NULL,2019-02-02 11:11:24,1,,False,,,True,Null
+3429226,SE,PRESTIGE,1032723,1,3,,,NULL,2019-02-02 11:11:24,1,,False,,,True,Null
+3429227,SE,ALIMONY,1032723,1,4,,,NULL,2019-02-02 11:11:24,1,,False,,,True,Null
+3429228,SE,SAL MALDONADO,1032723,1,5,,,NULL,2019-02-02 11:11:24,1,,False,,,True,Null
+3429349,SE,SIX GRAND,1032723,1,6,,,NULL,2019-02-02 11:11:24,1,,False,,,True,Null
+1032723,SM,Dice,,,,2016,,NULL,2019-02-02 11:11:23,1,,False,,,True,Null
+135870,SE,EPISODE ONE,779,1,1,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+135871,SE,EPISODE TWO,779,1,2,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+135872,SE,EPISODE THREE,779,1,3,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+135873,SE,EPISODE FOUR,779,1,4,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+135874,SE,EPISODE FIVE,779,1,5,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+135875,SE,EPISODE SIX,779,1,6,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+137181,SE,EPISODE SEVEN,779,1,7,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+138966,SE,EPISODE 201,779,2,1,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+138967,SE,EPISODE 202,779,2,2,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+138968,SE,EPISODE 203,779,2,3,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+138969,SE,EPISODE 204,779,2,4,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+138970,SE,EPISODE 205,779,2,5,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+138971,SE,EPISODE 206,779,2,6,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+138973,SE,EPISODE 207,779,2,7,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+138976,SE,EPISODE 208,779,2,8,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+138977,SE,EPISODE 209,779,2,9,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3391116,SE,EPISODE 301,779,3,1,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3391117,SE,EPISODE 302,779,3,2,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3391118,SE,EPISODE 303,779,3,3,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3391119,SE,EPISODE 304,779,3,4,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3391120,SE,EPISODE 305,779,3,5,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3391121,SE,EPISODE 306,779,3,6,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3391122,SE,EPISODE 307,779,3,7,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3391123,SE,EPISODE 308,779,3,8,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3391124,SE,EPISODE 309,779,3,9,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3416085,SE,EPISODE 401,779,4,1,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3416086,SE,EPISODE 402,779,4,2,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3416087,SE,EPISODE 403,779,4,3,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3416088,SE,EPISODE 404,779,4,4,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3416089,SE,EPISODE 405,779,4,5,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3416090,SE,EPISODE 406,779,4,6,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3416091,SE,EPISODE 407,779,4,7,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3416092,SE,EPISODE 408,779,4,8,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3416093,SE,EPISODE 409,779,4,9,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+779,SM,Episodes,,,,2011,,NULL,2019-05-06 21:02:23,0,,False,,,True,Null
+123905,SE,BIG BUTTS,210,1,1,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+123909,SE,CHARLIE'S ANGELS,210,1,2,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+123910,SE,HOLY LESBO BATMAN,210,1,3,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+123913,SE,THE KOI EFFECT,210,1,4,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+123914,SE,CRACK FOR GOOD,210,1,5,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+123915,SE,CRY BABY MCGUIRE,210,1,6,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+123930,SE,HOLD THIS,210,1,7,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+210,SM,Fat Actress,,,,2005,,NULL,2019-05-06 21:02:25,0,,False,,,True,Null
+137377,SE,101,796,1,1,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+137378,SE,102,796,1,2,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+137379,SE,103,796,1,3,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+137380,SE,104,796,1,4,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+137381,SE,105,796,1,5,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+137382,SE,106,796,1,6,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+137383,SE,107,796,1,7,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+137384,SE,108,796,1,8,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+140285,SE,201,796,2,1,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+140286,SE,202,796,2,2,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+140287,SE,203,796,2,3,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+140288,SE,204,796,2,4,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+140289,SE,205,796,2,5,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+140290,SE,206,796,2,6,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+140291,SE,207,796,2,7,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+140292,SE,208,796,2,8,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3360425,SE,301,796,3,1,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3360426,SE,302,796,3,2,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3360427,SE,303,796,3,3,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3360428,SE,304,796,3,4,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3360429,SE,305,796,3,5,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3360430,SE,306,796,3,6,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3360431,SE,307,796,3,7,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3360432,SE,308,796,3,8,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3360433,SE,309,796,3,9,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3360434,SE,310,796,3,10,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3377780,SE,401,796,4,1,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3377781,SE,402,796,4,2,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3377782,SE,403,796,4,3,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3377783,SE,404,796,4,4,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3377784,SE,405,796,4,5,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3377785,SE,406,796,4,6,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3377966,SE,407,796,4,7,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3377967,SE,408,796,4,8,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3377968,SE,409,796,4,9,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3377969,SE,410,796,4,10,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3392780,SE,501,796,5,1,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3392781,SE,502,796,5,2,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3392782,SE,503,796,5,3,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3392783,SE,504,796,5,4,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3392784,SE,505,796,5,5,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3392785,SE,506,796,5,6,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3392786,SE,507,796,5,7,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3392787,SE,508,796,5,8,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3392788,SE,509,796,5,9,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3392789,SE,510,796,5,10,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3418379,SE,601,796,6,1,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3418380,SE,602,796,6,2,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3418421,SE,603,796,6,3,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3418422,SE,604,796,6,4,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3418423,SE,605,796,6,5,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3418424,SE,606,796,6,6,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3418425,SE,607,796,6,7,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+3418426,SE,608,796,6,8,,,NULL,2019-05-06 11:15:57,0,,False,,,True,Null
+796,SM,Gigolos,,,,2011,,NULL,2019-05-06 21:02:26,0,,False,,,True,Null
+135984,SE,#101,748,1,1,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+135986,SE,#102,748,1,2,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+135987,SE,#103,748,1,3,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+135988,SE,#104,748,1,4,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+135989,SE,#105,748,1,5,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+137288,SE,#201,748,2,1,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+137289,SE,#202,748,2,2,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+137290,SE,#203,748,2,3,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+137291,SE,#204,748,2,4,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+137292,SE,#205,748,2,5,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+137293,SE,#206,748,2,6,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+139106,SE,#207,748,2,7,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+139107,SE,#208,748,2,8,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+748,SM,The Green Room,,,,2010,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3440973,SE,101,1033097,1,1,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3440974,SE,102,1033097,1,2,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3440975,SE,103,1033097,1,3,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3440976,SE,104,1033097,1,4,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3440977,SE,105,1033097,1,5,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+3440978,SE,106,1033097,1,6,,,NULL,2019-05-06 10:52:34,0,,False,,,True,Null
+1033097,SM,Guerrilla,,,,2017,,NULL,2019-05-06 21:02:28,0,,False,,,True,Null
+3418192,SE,"STARRING SAMUEL BECKETT, ALBERT CAMUS AND DR. ALOIS ALZHEIMER",1029487,1,1,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3418193,SE,"STARRING MARC CHAGALL, ABUELA AND ADOLF HITLER",1029487,1,2,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3418194,SE,"STARRING VLADIMIR NABOKOV, HIPPOCRATES AND GOD",1029487,1,3,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3418195,SE,"STARRING SIGMUND FREUD, CHARLES BUKOWSKI AND SEVEN BILLION A*HOLES",1029487,1,4,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3418196,SE,"STARRING JOSEY WALES, JESUS CHRIST AND THE NEW YORK TIMES",1029487,1,5,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3418197,SE,"STARRING HELEN KELLER, MOSES AND LENNY BRUCE",1029487,1,6,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3418198,SE,"STARRING DAVID OGILVY, ANTON CHEKHOV AND GLUTEN ENTEROPATHY",1029487,1,7,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3418199,SE,"STARRING RENE DESCARTES, ADWEEK AND HRH THE PRINCESS OF ARENDELLE",1029487,1,8,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3418200,SE,"STARRING MR. MIKE, JOSEPH MCCARTHY AND ALFRED BERNHARD NOBEL",1029487,1,9,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3418201,SE,"STARRING CHRISTOPHER HITCHENS, PHILIP LARKIN AND JOSEF STALIN",1029487,1,10,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+1029487,SM,Happyish,,,,2015,,NULL,2019-05-06 21:02:28,0,,False,,,True,Null
+138825,SE,PILOT,804,1,1,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+138826,SE,GRACE,804,1,2,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+138827,SE,CLEAN SKIN,804,1,3,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+138828,SE,SEMPER I,804,1,4,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+138829,SE,BLIND SPOT,804,1,5,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+138830,SE,THE GOOD SOLDIER,804,1,6,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+138831,SE,THE WEEKEND,804,1,7,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+138832,SE,ACHILLES HEEL,804,1,8,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+138833,SE,CROSSFIRE,804,1,9,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+138834,SE,REPRESENTATIVE BRODY,804,1,10,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+138835,SE,THE VEST,804,1,11,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+138836,SE,MARINE ONE,804,1,12,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3361460,SE,THE SMILE,804,2,1,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3361461,SE,BEIRUT IS BACK,804,2,2,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3361462,SE,STATE OF INDEPENDENCE,804,2,3,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3361463,SE,NEW CAR SMELL,804,2,4,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3361464,SE,Q&A,804,2,5,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3361465,SE,A GETTYSBURG ADDRESS,804,2,6,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3361466,SE,THE CLEARING,804,2,7,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3361467,SE,I'LL FLY AWAY,804,2,8,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3361468,SE,TWO HATS,804,2,9,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3361469,SE,BROKEN HEARTS,804,2,10,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3361470,SE,IN MEMORIAM,804,2,11,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3361471,SE,THE CHOICE,804,2,12,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3390176,SE,TIN MAN IS DOWN,804,3,1,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3390177,SE,UH... OH... AH...,804,3,2,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3390178,SE,TOWER OF DAVID,804,3,3,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3390179,SE,GAME ON,804,3,4,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3390180,SE,THE YOGA PLAY,804,3,5,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3390181,SE,STILL POSITIVE,804,3,6,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3390182,SE,GERONTION,804,3,7,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3390183,SE,A RED WHEEL BARROW,804,3,8,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3390184,SE,ONE LAST THING,804,3,9,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3390185,SE,GOOD NIGHT,804,3,10,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3390186,SE,BIG MAN IN TEHRAN,804,3,11,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3390187,SE,THE STAR,804,3,12,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3411878,SE,THE DRONE QUEEN,804,4,1,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3411879,SE,TRYLON AND PERISPHERE,804,4,2,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3411880,SE,SHALWAR KAMEEZ,804,4,3,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3411881,SE,IRON IN THE FIRE,804,4,4,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3411882,SE,ABOUT A BOY,804,4,5,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3411883,SE,FROM A TO B AND BACK AGAIN,804,4,6,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3411884,SE,REDUX,804,4,7,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3411885,SE,HALFWAY TO A DONUT,804,4,8,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3411886,SE,THERE'S SOMETHING ELSE GOING ON,804,4,9,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3411887,SE,13 HOURS IN ISLAMABAD,804,4,10,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3411888,SE,KRIEG NICHT LIEB,804,4,11,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3411889,SE,LONG TIME COMING,804,4,12,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3422770,SE,SEPARATION ANXIETY,804,5,1,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3422771,SE,THE TRADITION OF HOSPITALITY,804,5,2,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3422772,SE,SUPER POWERS,804,5,3,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3422773,SE,WHY IS THIS NIGHT DIFFERENT?,804,5,4,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3422774,SE,BETTER CALL SAUL,804,5,5,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3422775,SE,PARABIOSIS,804,5,6,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3422776,SE,ORIOLE,804,5,7,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3422777,SE,ALL ABOUT ALLISON,804,5,8,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3422778,SE,THE LITVINOV RUSE,804,5,9,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3422779,SE,NEW NORMAL,804,5,10,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3422780,SE,OUR MAN IN DAMASCUS,804,5,11,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3422801,SE,A FALSE GLIMMER,804,5,12,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3439572,SE,FAIR GAME,804,6,1,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3439573,SE,THE MAN IN THE BASEMENT,804,6,2,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3439574,SE,THE COVENANT,804,6,3,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3439575,SE,A FLASH OF LIGHT,804,6,4,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3439576,SE,CASUS BELLI,804,6,5,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3439577,SE,THE RETURN,804,6,6,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3439578,SE,IMMINENT RISK,804,6,7,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3439579,SE,ALT.TRUTH,804,6,8,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3439580,SE,SOCK PUPPETS,804,6,9,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3439581,SE,THE FLAG HOUSE,804,6,10,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3439582,SE,R IS FOR ROMEO,804,6,11,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+3439583,SE,AMERICA FIRST,804,6,12,,,NULL,2019-10-15 01:47:00,0,,False,,,True,Null
+804,SM,Homeland,,,,2011,,NULL,2019-10-15 09:01:32,0,,False,,,True,Null
+138810,SE,THE GODS OF DANGEROUS FINANCIAL INSTRUMENTS,805,1,1,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+138811,SE,AMSTERDAM,805,1,2,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+138812,SE,MICROPHALLUS,805,1,3,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+138813,SE,MINI-MOGUL,805,1,4,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+138814,SE,UTAH,805,1,5,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+138815,SE,OUR DESCENT INTO LOS ANGELES,805,1,6,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+138816,SE,BAREBACK TOWN,805,1,7,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+138817,SE,VERITAS,805,1,8,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+138818,SE,OUROBOROS,805,1,9,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+138819,SE,PROLOGUE AND AFTERMATH,805,1,10,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+138820,SE,BUSINESS,805,1,11,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+138821,SE,THE MAYAN APOCALYPSE,805,1,12,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3365281,SE,STOCHASTICITY,805,2,1,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3365282,SE,WHEN DINOSAURS RULED THE PLANET,805,2,2,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3365283,SE,MAN-DATE,805,2,3,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3365284,SE,DAMONSCHILDREN.ORG,805,2,4,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3365285,SE,SINCERITY IS AN EASY DISGUISE IN THIS BUSINESS,805,2,5,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3365286,SE,FAMILY VALUES,805,2,6,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3365287,SE,THE RUNNER STUMBLES,805,2,7,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3365288,SE,WONDERS OF THE WORLD,805,2,8,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3365289,SE,LIABILITY,805,2,9,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3365290,SE,EXIT STRATEGY,805,2,10,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3365291,SE,HOSTILE TAKEOVER,805,2,11,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3365292,SE,TIL DEATH DO US PART,805,2,12,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3389016,SE,WRECKAGE,805,3,1,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3389017,SE,POWER(LESS),805,3,2,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3389018,SE,BOOM,805,3,3,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3389019,SE,ASSOCIATES,805,3,4,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3389020,SE,SOLDIERS,805,3,5,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3389021,SE,MIDDLEGAME,805,3,6,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3389022,SE,PUSHBACK,805,3,7,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3389023,SE,BRINKMANSHIP,805,3,8,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3389024,SE,ZHANG,805,3,9,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3389025,SE,COMEUPPANCE,805,3,10,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3389026,SE,TOGETHER,805,3,11,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3389027,SE,JOSHUA,805,3,12,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3413117,SE,"AT THE END OF THE DAY, REALITY WINS",805,4,1,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3413118,SE,"I'M A MOTHERF*KING SCORPION, THAT'S WHY",805,4,2,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3413119,SE,ENTROPY IS CONTAGIOUS,805,4,3,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3413120,SE,WE CAN ALWAYS JUST OVERWHELM THE VAGUS NERVE WITH ANOTHER SENSATION,805,4,4,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3413161,SE,THE URGE TO SAVE HUMANITY IS ALMOST ALWAYS A FALSE FRONT FOR THE URGE TO RULE,805,4,5,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3413162,SE,"TRUST ME, I'M GETTING PLENTY OF ERECTIONS",805,4,6,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
+3413163,SE,THE NEXT OLIVE BRANCH GOES STRAIGHT UP YOUR ASS,805,4,7,,,NULL,2019-05-06 11:03:31,0,,False,,,True,Null
