@@ -1,0 +1,42 @@
+source,sm_id,id,show_type,movie_title,series_title,episode_title,release_year,link_expired,Projectx_ids,Variant id present for episode,Variant parent id for Episode,Projectx_series_id,comment,Result,Gb_id duplicate,Duplicate ids in search,Credit_match,Rovi_id count for duplicate,Gb_id count for duplicate,HBOGO_id count for duplicate,Mapped rovi_id for duplicate,Mapped Gb_id for duplicate,Mapped HBOGO_id for duplicate,variant_parent_id_present,variant_parent_id,link_fetched_from,Sources of link
+HBOGO,,urn:hbo:feature:GWoSUjwG2C07DKwEAAADc,MO,The Final Destination,,,2009,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWoSUjwG2C07DKwEAAADc')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWoSVeQS2RMLCNAEAAAEs,MO,Final Destination,,,2000,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWoSVeQS2RMLCNAEAAAEs')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWqvX7Qlm-riWwwEAAAFq,MO,Fist Fight,,,2017,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWqvX7Qlm-riWwwEAAAFq')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWtYi-gsairLCwwEAAAGE,MO,Fletch,,,1985,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWtYi-gsairLCwwEAAAGE')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWi7wGgbjdcPDwwEAAAEW,MO,Freaky Friday,,,2003,True,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWi7wGgbjdcPDwwEAAAEW')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWl5f_wyyvsLDfQEAAACF,MO,The French Connection,,,1971,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWl5f_wyyvsLDfQEAAACF')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWtYjTAUtJ3STNQEAAAD-,MO,Fletch Lives,,,1989,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWtYjTAUtJ3STNQEAAAD-')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWl5ihQkwQ8JInwEAAAEF,MO,Flight of the Phoenix,,,2004,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWl5ihQkwQ8JInwEAAAEF')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWoSSuwccvE7DKwEAAACu,MO,The Fly II,,,1989,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWoSSuwccvE7DKwEAAACu')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWjUHHAVJnI6VPAEAAAIE,MO,Gema,,,2018,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWjUHHAVJnI6VPAEAAAIE')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWd-HXgzvqsIelQEAAABX,MO,The Gene Generation,,,2009,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWd-HXgzvqsIelQEAAABX')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWl5f0gDJqsLDfQEAAAB4,MO,Friday the 13th,,,2009,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWl5f0gDJqsLDfQEAAAB4')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWoSS_AB0jsLCNAEAAACp,MO,From Hell,,,2001,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWoSS_AB0jsLCNAEAAACp')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWtYjZggvu3STNQEAAAEG,MO,The Full Monty,,,1997,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWtYjZggvu3STNQEAAAEG')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWqvS8AA1nKaHhAEAAADz,MO,Garden State,,,2004,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWqvS8AA1nKaHhAEAAADz')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWi7wJAsEiRYhvQEAAAFA,MO,Glory Road,,,2006,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWi7wJAsEiRYhvQEAAAFA')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWd-PnwqaIbWurAEAAADO,MO,Gone in 60 Seconds,,,2000,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWd-PnwqaIbWurAEAAADO')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWyLK4gj4SaG3qwEAAADH,MO,Good Morning,,,2018,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWyLK4gj4SaG3qwEAAADH')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWbg0RwRkJp2vpAEAAACN,MO,"Good Morning, Vietnam",,,1987,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWbg0RwRkJp2vpAEAAACN')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWv8qWgwboLTDwwEAAADR,MO,Goodbye Christopher Robin,,,2017,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWv8qWgwboLTDwwEAAADR')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWguTxgMb1LC5iAEAAAJC,MO,The Greatest Game Ever Played,,,2005,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWguTxgMb1LC5iAEAAAJC')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWi7rtgrgW4rDwgEAAAEa,MO,The Hand That Rocks the Cradle,,,1992,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWi7rtgrgW4rDwgEAAAEa')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWl5hNA1GB8JInwEAAADf,MO,Hannibal,,,2001,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWl5hNA1GB8JInwEAAADf')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GVYEcRAOU1YqLlS8JABhQ,MO,Head Office,,,1986,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GVYEcRAOU1YqLlS8JABhQ')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWguQ6gqP87C5iAEAAAHl,MO,Heartbreak Ridge,,,1986,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWguQ6gqP87C5iAEAAAHl')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWudWQAkmwJuknAEAAAAF,MO,Hijo por Hijo (Child for Child),,,2018,False,[1064758],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWudWQAkmwJuknAEAAAAF')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GVYEm5wTn6CzCKRAJAB2M,MO,The Hitcher,,,1986,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GVYEm5wTn6CzCKRAJAB2M')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWtYitQCty7LCwwEAAAFv,MO,Held Up,,,2000,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWtYitQCty7LCwwEAAAFv')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWguXBwR2M62OoQEAAABD,MO,"Honey, I Shrunk the Kids",,,1989,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWguXBwR2M62OoQEAAABD')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWhRPwgKbhcLDwwEAAAAg,MO,Holes,,,2003,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWhRPwgKbhcLDwwEAAAAg')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWl-j0wa6CsLDfQEAAAJj,MO,Holy Man,,,1998,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWl-j0wa6CsLDfQEAAAJj')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWqwNeQR8FCl0YAEAAAG9,MO,Homeward Bound II: Lost in San Francisco,,,1996,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWqwNeQR8FCl0YAEAAAG9')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWqvf8AaDDyl0YAEAAAG5,MO,Homeward Bound: The Incredible Journey,,,1993,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWqvf8AaDDyl0YAEAAAG5')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWihJqQjZBaWNwgEAAACj,MO,"Honey, I Blew Up the Kid",,,1992,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWihJqQjZBaWNwgEAAACj')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWguO_gs4ma3CwgEAAAGy,MO,How to Train Your Dragon,,,2010,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWguO_gs4ma3CwgEAAAGy')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWd-KMwpvhrWurAEAAABt,MO,The Hunted,,,1995,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWd-KMwpvhrWurAEAAABt')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWl5jWwQlPcJInwEAAAEi,MO,Ice Age,,,2002,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWl5jWwQlPcJInwEAAAEi')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWbg3EQtLgHi2egEAAAFN,MO,Ice Age: Dawn of the Dinosaurs,,,2009,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWbg3EQtLgHi2egEAAAFN')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWtYhkA7mfri8vQEAAACu,MO,Identity,,,2003,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWtYhkA7mfri8vQEAAACu')",No multiple ids for this link
+HBOGO,,urn:hbo:feature:GWtYh5gKntnSTNQEAAACj,MO,Illegal Tender,,,2007,False,[],,,,"('No multiple ids for this link', 'urn:hbo:feature:GWtYh5gKntnSTNQEAAACj')",No multiple ids for this link
+HBOGO,,urn:hbo:f
