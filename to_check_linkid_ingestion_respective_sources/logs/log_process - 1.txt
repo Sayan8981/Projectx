@@ -1,0 +1,36 @@
+
+
+['date time:', '10/29/2019 17:14:02']
+
+
+[{'fail': 0, 'Process': 'process - 1', 'total': 1, 'pass': 1}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'5057390746'], 'Service': 'netflixusa', 'link_id': '80122759', 'Rovi_id': '5057390746', 'rovi_id_status': 'True', 'px_id_present': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 1', 'link_fetched': 'Rovi+others', 'px_id': [1035063], 'preprod_link_status': 'link_id_present_in_Preprod', 'reverse_api_response_stats': 'True'}]
+
+
+['date time:', '10/29/2019 17:14:06']
+
+
+[{'fail': 0, 'Process': 'process - 1', 'total': 2, 'pass': 2}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'1449811'], 'Service': 'itunes', 'link_id': '535347257', 'Rovi_id': '1449811', 'rovi_id_status': 'True', 'px_id_present': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 1', 'link_fetched': 'Rovi', 'px_id': [74325], 'preprod_link_status': 'link_id_present_in_Preprod', 'reverse_api_response_stats': 'True'}]
+
+
+['date time:', '10/29/2019 17:14:11']
+
+
+[{'fail': 0, 'Process': 'process - 1', 'total': 3, 'pass': 3}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'383637699'], 'Service': 'amazon', 'link_id': 'B00TPJJ3NW', 'Rovi_id': '383637699', 'rovi_id_status': 'True', 'px_id_present': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 1', 'link_fetched': 'Rovi', 'px_id': [123554], 'preprod_link_status': 'link_id_present_in_Preprod', 'reverse_api_response_stats': 'True'}]
+
+
+['date time:', '10/29/2019 17:14:14']
+
+
+[{'fail': 0, 'Process': 'process - 1', 'total': 4, 'pass': 4}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'12660540'], 'Service': 'vudu', 'link_id': '40437', 'Rovi_id': '12660540', 'rovi_id_status': 'True', 'px_id_present': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 1', 'link_fetched': 'Rovi', 'px_id': [695646], 'preprod_link_status': 'link_id_present_in_Preprod', 'reverse_api_response_stats': 'True'}]
