@@ -1,0 +1,6 @@
+Service_name,Link_id,Rovi_id,Projectx_id,Rovi_id_form_reverse_api,Rovi_id_match,Link_expired,Prod_link_status,Preprod_link_status,Service_link_available_status,Link_fetched_from,Fetched_from_sources,Px_id_present,Reverse_api_response_stats,Comment
+netflixusa,80122759,5057390746,[1035063],[u'5057390746'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,True,Rovi+others,"[u'Rovi', u'netflixusa']",True,True,Pass
+itunes,535347257,1449811,[74325],[u'1449811'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,True,Rovi,[u'Rovi'],True,True,Pass
+amazon,B00TPJJ3NW,383637699,[123554],[u'383637699'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,True,Rovi,[u'Rovi'],True,True,Pass
+vudu,40437,12660540,[695646],[u'12660540'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,True,Rovi,[u'Rovi'],True,True,Pass
+nbc,3557726,823027,[3263029],[u'823027'],True,False,link_id_present_in_Prod,link_id_not_present_in_Preprod,Service_link_not available,None,[],True,True,Fail
