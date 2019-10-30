@@ -1,7 +1,7 @@
 """writer: Sayan"""
 
 """input : Link id for the respective services from Rovi
-output : result is the Link id should available in Prod and Preprod both and fetch from Rovi itself"""
+output : result is rovi_id should match in the sheet data and the Link id should available in Prod and Preprod both and fetch from Rovi/Rovi+other sources itself"""
 
 import threading
 #from multiprocessing import Process 
@@ -94,7 +94,6 @@ class linkid_checking:
             self.link_id_present='True'
         else:
             self.link_id_present='False'
-
         return {"link_id_present":self.link_id_present}                      
 
     def main(self,start_id,thread_name,end_id):
