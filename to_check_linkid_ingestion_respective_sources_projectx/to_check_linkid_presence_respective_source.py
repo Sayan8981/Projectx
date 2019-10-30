@@ -246,6 +246,7 @@ class linkid_checking:
                 else:
                     """comment"""
                     self.reverse_api_response_status='reverse_api_response_null'
+                    self.px_id_present='Null'
                     self.link_expiry_check()
                 self.logger.debug("\n")
                 if self.same_rovi_id_present=="True" and self.preprod_link_status=='link_id_present_in_Preprod':
