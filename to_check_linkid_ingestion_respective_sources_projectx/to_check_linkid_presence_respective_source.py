@@ -33,16 +33,13 @@ class linkid_checking:
         self.same_rovi_id_present=''
         self.prod_launch_id=[]
         self.prod_video_link=[]
-        self.px_id_present='True'
         self.prod_link_status=''
         self.preprod_launch_id=[]
         self.preprod_video_link=[]
-        self.reverse_api_response_status=''
         self.fetch_from=[]
         self.fetched_source=''
         self.comment=''
         self.preprod_link_status=''
-        self.service_link_available_status=''
 
     #TODO: Refresh
     def cleanup(self):
@@ -56,16 +53,13 @@ class linkid_checking:
         self.same_rovi_id_present='False'  
         self.prod_launch_id=[] 
         self.prod_video_link=[]
-        self.px_id_present='True'
         self.prod_link_status='link_id_not_present_in_Prod'
         self.preprod_launch_id=[] 
         self.preprod_video_link=[]
-        self.reverse_api_response_status='True'   
         self.fetch_from=[]
         self.fetched_source='None'
         self.comment='Null'
         self.preprod_link_status='link_id_not_present_in_Preprod'
-        self.service_link_available_status='Null'
     
     #TODO: one time call param
     def constant_param(self):
@@ -169,8 +163,7 @@ class linkid_checking:
         result_sheet='/output/output_file_%s.csv'%thread_name
         output_file=self.create_csv(result_sheet)
         self.column_fieldnames=["Service_name","Link_id","Rovi_id","Projectx_id","Rovi_id_form_reverse_api","Rovi_id_match","Link_expired",
-           "Prod_link_status","Preprod_link_status","Service_link_available_status","Link_fetched_from","Fetched_from_sources","Px_id_present","Reverse_api_response_stats",
-           "Comment"]
+                          "Prod_link_status","Preprod_link_status","Link_fetched_from","Fetched_from_sources","Comment"]
         with output_file as mycsvfile:
             self.writer = csv.writer(mycsvfile,dialect="csv",lineterminator = '\n')
             self.writer.writerow(self.column_fieldnames)
@@ -219,7 +212,6 @@ class linkid_checking:
                                     if data["fetched_from"] not in self.fetch_from:    
                                         self.fetch_from.append(data["fetched_from"])
                             if self.preprod_launch_id or self.preprod_video_link: 
-                                self.service_link_available_status='True'           
                                 link_status_preprod= self.link_ingestion_check(self.preprod_launch_id,self.link_id,
                                                                                             self.preprod_video_link)       
                                 if link_status_preprod["link_id_present"]=='True':
@@ -234,19 +226,12 @@ class linkid_checking:
                                         self.fetched_source='others'
                                     else:
                                         self.fetched_source='others'
-                            else:
-                                self.service_link_available_status='Service_link_not available'                    
                         else:
                             """comment"""
                             self.preprod_link_status='videos_not_available'
                     else:
-                        self.link_expiry_check()
-                        """comment"""
-                        self.px_id_present='Null'        
+                        self.link_expiry_check()        
                 else:
-                    """comment"""
-                    self.reverse_api_response_status='reverse_api_response_null'
-                    self.px_id_present='Null'
                     self.link_expiry_check()
                 self.logger.debug("\n")
                 if self.same_rovi_id_present=="True" and self.preprod_link_status=='link_id_present_in_Preprod':
@@ -262,11 +247,11 @@ class linkid_checking:
                 self.logger.debug([{"Service":self.service,"link_id":self.link_id,"Rovi_id":self.rovi_id,
                     "px_id":self.px_id,"rovi_id_form_reverse_api":self.source_id,"rovi_id_status":self.same_rovi_id_present,"Link_expired":self.link_expired,
                     "Prod_link_status":self.prod_link_status,"preprod_link_status":self.preprod_link_status,"link_fetched":self.fetched_source,
-                    "px_id_present":self.px_id_present,"reverse_api_response_stats":self.reverse_api_response_status,"comment":self.comment,"Process":thread_name}])
+                    "comment":self.comment,"Process":thread_name}])
 
                 self.writer.writerow([self.service,self.link_id,self.rovi_id,self.px_id,self.source_id,self.same_rovi_id_present,
-                    self.link_expired,self.prod_link_status,self.preprod_link_status,self.service_link_available_status,self.fetched_source,self.fetch_from,self.px_id_present,
-                    self.reverse_api_response_status,self.comment])
+                    self.link_expired,self.prod_link_status,self.preprod_link_status,self.fetched_source,self.fetch_from,
+                    self.comment])
         output_file.close() 
 
     # TODO: multi process Operations 
@@ -277,8 +262,9 @@ class linkid_checking:
         t2.start()"""
 
 
-#TODO: starting and creating class object and calling functions
-object_=linkid_checking()
-object_.__init__()
-object_.get_env_url()
-object_.thread_pool()   
+if __name__ == "__main__": 
+    #TODO: starting and creating class object and calling functions
+    object_=linkid_checking()
+    object_.__init__()
+    object_.get_env_url()
+    object_.thread_pool()   
