@@ -7,6 +7,9 @@ import socket
 import urllib2
 import json
 import httplib
+import unidecode
+import re
+from fuzzywuzzy import fuzz
 sys.setrecursionlimit(1500)
 
 class lib_common_modules:
@@ -37,8 +40,8 @@ class lib_common_modules:
         return self.logger
 
     #TODO: fetching response for the given API
-    def fetch_response_for_api(self,api,token):
-        #import pdb;pdb.set_trace()
+    def fetch_response_for_api_(self,api,token):
+        import pdb;pdb.set_trace()
         try:    
             retry_count=0
             resp = urllib2.urlopen(urllib2.Request(api,None,{'Authorization':token}))
@@ -92,7 +95,7 @@ class lib_common_modules:
                 retry_count = 0
 
     #TODO: To check link expiry with logger
-    def link_expiry_check(self,expired_api,domain,link_id,service,expired_token):
+    def link_expiry_check_(self,expired_api,domain,link_id,service,expired_token):
         #import pdb;pdb.set_trace()
         try:
             expired_api_response=self.fetch_response_for_api(expired_api%(domain,link_id,service),expired_token)
@@ -885,14 +888,158 @@ class mapping_script_modules:
 
 class duplicate_script_modules:
 
-    def search_api_call_response(self, px_id, source, link_expired, writer,writer_credit_match_false,title):
+    def variant_parent_id_checking_px(self,data_resp_preprod,px_id):
+        #import pdb;pdb.set_trace()
+        self.comment_variant_parent_id_present=''
+        self.comment_variant_parent_id=[]
+        for oo in data_resp_preprod:
+            if oo.get("variant_parent_id") is not None:
+                if oo.get("variant_parent_id") not in px_id:
+                    self.comment_variant_parent_id_present='Different'
+                    self.comment_variant_parent_id.append({'variant_parent_id':str(oo.get("variant_parent_id"))})  
+                else:
+                    self.comment_variant_parent_id_present='True'
+                    self.comment_variant_parent_id.append({'variant_parent_id':str(oo.get("variant_parent_id"))})
+            else:
+                self.comment_variant_parent_id_present='Null'
+        return [self.comment_variant_parent_id,self.comment_variant_parent_id_present]        
+            
+    def variant_parent_id_checking_rovi(self,data_resp_preprod,rovi_id):
+        self.comment_variant_parent_rovi_id=[] 
+        self.comment_variant_parent_id_present=''         
+        for oo in data_resp_preprod:
+            if oo.get("variant_parent_id") is not None:
+                if oo.get("variant_parent_id") not in rovi_id:
+                    self.comment_variant_parent_id_present='Different'
+                    self.comment_variant_parent_rovi_id.append({'variant_parent_id':str(oo.get("variant_parent_id"))})  
+                else:
+                    self.comment_variant_parent_id_present='True'
+                    self.comment_variant_parent_rovi_id.append({'variant_parent_id':str(oo.get("variant_parent_id"))})
+            else:
+                self.comment_variant_parent_id_present='Null'
+        return [self.comment_variant_parent_rovi_id,self.comment_variant_parent_id_present]
+
+    def duplicate_results(self,search_px_id__tmp,duplicate,source,show_type,token
+                          ,projectx_preprod_api,projectx_mapping_api,beta_programs_api,credit_db_api):
+        rovi_id=[]
+        rovi_mapping=[]
+        source_mapping=[]
+        guidebox_mapping=[]
+        count_guidebox=0
+        count_rovi=0
+        count_source=0
+        comment=''
+        comment_variant_parent_id=[]
+        comment_variant_parent_id_present=''
+
+        for aa in search_px_id__tmp:
+           projectx_mapping_api=projectx_mapping_api%aa
+           data_resp_mapped=lib_common_modules().fetch_response_for_api(projectx_mapping_api,token)
+           for yy in data_resp_mapped:
+               if yy.get("data_source")=='Rovi' and yy.get("type")=='Program':
+                   count_rovi=1+count_rovi
+                   rovi_id.append(eval(yy.get("sourceId")))
+                   rovi_mapping.append({str(aa):"Rovi_id:"+yy.get("sourceId")})
+               if yy.get("data_source")==source and yy.get("type")=='Program' and yy.get('sub_type')==show_type:
+                   count_source=1+count_source
+                   source_mapping.append({str(aa):"id:"+yy.get("sourceId")})
+               if yy.get("data_source")=='GuideBox' and yy.get("type")=='Program' and yy.get('sub_type')==show_type:
+                   count_guidebox=1+count_guidebox
+                   guidebox_mapping.append({str(aa):"Gb_id:"+yy.get("sourceId")})
+        if count_rovi>1:
+            
+            beta_api=beta_programs_api%'{}'.format(",".join([str(i) for i in rovi_id]))
+            data_resp_beta=lib_common_modules().fetch_response_for_api(beta_api,token)
+            variant_result=self.variant_parent_id_checking_rovi(data_resp_beta,rovi_id)
+            comment_variant_parent_id=variant_result[0]
+            comment_variant_parent_id_present=variant_result[1]
+                                          
+            comment='Duplicate projectx ids found in search api and rovi has duplicate'
+            #writer.writerow([source,self.id,'','MO',self.link_details,self.movie_title,'','',self.release_year,self.link_expired,self.px_id,'','','',self.comment,self.comment,'',search_px_id__tmp,self.credit_match,self.count_rovi,self.count_guidebox,self.count_source,rovi_mapping,guidebox_mapping,source_mapping,self.comment_variant_parent_id_present,self.comment_variant_parent_id])
+        else:    
+            comment='Duplicate ids found in search api'
+        return {"comment":comment,"comment_variant_parent_id":comment_variant_parent_id,"comment_variant_parent_id_present":comment_variant_parent_id_present
+               ,"count_rovi":count_rovi,"count_guidebox":count_guidebox,"count_source":count_source,"rovi_mapping":rovi_mapping,"search_px_id":search_px_id__tmp
+               ,"source_mapping":source_mapping,"guidebox_mapping":guidebox_mapping,"duplicate":duplicate}
+            #writer.writerow([source,self.id,'','MO',self.link_details,self.movie_title,'','',self.release_year,self.link_expired,self.px_id,'','','',self.comment,self.comment,'',search_px_id__tmp,self.credit_match,self.count_rovi,self.count_guidebox,self.count_source,rovi_mapping,guidebox_mapping,source_mapping,self.comment_variant_parent_id_present,self.comment_variant_parent_id])
+
+
+    def search_api_response_validation(self, data_resp_search, source, px_id, duplicate,show_type,token,
+                       projectx_preprod_api,projectx_mapping_api,beta_programs_api,duplicate_api,credit_db_api):
+        search_px_id_tmp=[]
+        search_px_id=[]
+        search_px_id__tmp=[]
+        search_px_id1=[]
+        comment=''
+        rovi_id=[]
+        rovi_mapping=[]
+        source_mapping=[]
+        guidebox_mapping=[]
+        count_guidebox=0
+        count_rovi=0
+        count_source=0
+        comment_variant_parent_id=[]
+        comment_variant_parent_id_present=''
+
+        if duplicate=='False' or duplicate=='':
+            for nn in data_resp_search.get('results'):
+                #if nn.get("results"):
+                for jj in nn.get("results"):
+                    if show_type=='MO':
+                        if jj.get("object").get("show_type")==show_type or jj.get("object").get("show_type")=='OT':
+                            search_px_id.append(jj.get("object").get("id"))
+                            search_px_id1=search_px_id1+search_px_id  
+                    else:
+                        search_px_id.append(jj.get("object").get("id"))
+                        search_px_id1=search_px_id1+search_px_id        
+
+                if search_px_id:
+                    for mm in search_px_id:
+                        if mm in px_id:
+                            search_px_id_tmp.append(mm) 
+                search_px_id=[]
+                if len(search_px_id_tmp)==1 or search_px_id_tmp==[]:
+                    search_px_id_tmp=[]  
+                    duplicate='False'       
+                elif search_px_id_tmp!=search_px_id__tmp:
+                    search_px_id__tmp=search_px_id__tmp+search_px_id_tmp
+                    duplicate='True'
+                else:
+                    duplicate='True'    
+                        
+            if search_px_id1:
+                if len(search_px_id__tmp)>1 and duplicate=='True':
+                    return self.duplicate_results(search_px_id__tmp,duplicate,source,show_type,token
+                                    ,projectx_preprod_api,projectx_mapping_api,beta_programs_api,credit_db_api)        
+                else:
+                    comment='Duplicate ids not found in search api'
+                    #import pdb;pdb.set_trace()
+                    projectx_api=initialization_file.projectx_preprod_api%'{}'.format(",".join([str(i) for i in px_id]))
+                    data_resp_projectx=lib_common_modules().fetch_response_for_api(projectx_api,token)
+                    variant_result=self.variant_parent_id_checking_px(data_resp_projectx,px_id)
+                    comment_variant_parent_id=variant_result[0]
+                    comment_variant_parent_id_present=variant_result[1]
+                    #writer.writerow([source,self.id,'','MO',self.link_details,self.movie_title,'','',self.release_year,self.link_expired,self.px_id,'','','',self.comment,self.comment,'',search_px_id__tmp,'','','','','','','',self.comment_variant_parent_id_present,self.comment_variant_parent_id,'',''])            
+            else:
+                duplicate_api=duplicate_api%(self.id,source,show_type)
+                data_resp_duplicate=lib_common_modules().fetch_response_for_api(duplicate_api,token)
+                if data_resp_duplicate:
+                    duplicate='True'
+                else:
+                    duplicate='False'                                
+                comment='Search api has no response'
+            return {"comment":comment,"duplicate":duplicate,"comment_variant_parent_id":comment_variant_parent_id,
+                     "comment_variant_parent_id_present":comment_variant_parent_id_present,"search_px_id":search_px_id__tmp
+                    ,"count_rovi":count_rovi,"count_guidebox":count_guidebox,"count_source":count_source,"rovi_mapping":rovi_mapping
+                    ,"source_mapping":source_mapping,"guidebox_mapping":guidebox_mapping}
+
+    def search_api_call_response(self, title,token):
         #import pdb;pdb.set_trace() 
         next_page_url=""
-        duplicate=""
         data_resp_search=dict()
 
         search_api=initialization_file.projectx_preprod_search_api%urllib2.quote(title)
-        data_resp_search = lib_common_modules().fetch_response_for_api(search_api,initialization_file.token)
+        data_resp_search = lib_common_modules().fetch_response_for_api(search_api,token)
          
         while data_resp_search.get("results"):
             ## TODO: We are taking only the last response. We should take all  
@@ -901,17 +1048,18 @@ class duplicate_script_modules:
                     next_page_url=nn.get("next_page_url")
                     if next_page_url is not None: 
                         search_api=initialization_file.domain_name+next_page_url.replace(' ',"%20")
-                        data_resp_search = lib_common_modules().fetch_response_for_api(search_api,initialization_file.token)
+                        data_resp_search = lib_common_modules().fetch_response_for_api(search_api,token)
+                        return data_resp_search
                         #self.search_api_response_validation(data_resp_search, source, px_id, link_expired, writer, duplicate,writer_credit_match_false)
                     else:    
                         data_resp_search={"results":[]}
                 else:
-                    data_resp_search={"results":[]}
-                return data_resp_search            
+                    data_resp_search={"results":[]}                
+
     
     class gb_link_id_extract:
 
-        def getting_purchase_link_ids(data_GB_resp):
+        def getting_purchase_link_ids(self,data_GB_resp):
             #import pdb;pdb.set_trace()
             gb_purchase_web_link=''
             gb_purchase_web_source=''
@@ -967,7 +1115,7 @@ class duplicate_script_modules:
                     break
                     
 
-        def getting_link_subscription_ids(data_GB_resp): 
+        def getting_link_subscription_ids(self,data_GB_resp): 
 
             gb_subscription_web_source=''
             gb_subscription_web_id=[]
@@ -1034,7 +1182,7 @@ class duplicate_script_modules:
                     return gb_subscription_web_id
                     break
 
-        def getting_link_tveverywhere_ids(data_GB_resp):
+        def getting_link_tveverywhere_ids(self,data_GB_resp):
 
             gb_tv_everywhere_web_source=''
             gb_tv_everywhere_web_link=''
@@ -1065,7 +1213,7 @@ class duplicate_script_modules:
                     return gb_tv_everywhere_web_id
                     break
 
-        def getting_link_free_web_ids(data_GB_resp):
+        def getting_link_free_web_ids(self,data_GB_resp):
 
             gb_free_web_source=''
             gb_free_web_link=''
@@ -1095,7 +1243,249 @@ class duplicate_script_modules:
                     gb_free_web_id.append({gb_free_web_source:re.findall("\d+",gb_free_web_link)[0]})                
                 if gb_free_web_id:
                     return gb_free_web_id
-                    break    
+                    break
+    class validation:
+
+        def __init__(self):
+            self.px_id1_alias=[]
+            self.px_id1_alias_comment=''
+            self.px_id2_alias=[]
+            self.px_id2_alias_comment=''
+            self.comment=''
+            self.px_id2_credits_null='False'
+            self.px_id1_credits_null='False'
+
+            self.px_id1=0
+            self.px_id1_show_type=''
+            self.px_id1_variant_parent_id=0
+            self.px_id1_is_group_language_primary=''
+            self.px_id1_long_title=''
+            self.px_id1_original_title=''
+            self.px_id1_run_time=''
+            self.px_id1_release_year=''
+            self.px_id1_record_language=''
+            self.px_id1_aliases=[]
+            self.px_id1_credits=[]
+            self.px_id1_db_credit_present='False'
+
+            self.px_id2=0
+            self.px_id2_show_type=''
+            self.px_id2_variant_parent_id=0
+            self.px_id2_is_group_language_primary=''
+            self.px_id2_long_title=''
+            self.px_id2_original_title=''
+            self.px_id2_run_time=''
+            self.px_id2_release_year=''
+            self.px_id2_record_language=''
+            self.px_id2_aliases=[]
+            self.px_id2_credits=[]
+            self.px_id2_db_credit_present='False'
+
+            self.long_title_match=''
+            self.original_title_match=''
+            self.runtime_match=''
+            self.release_year_match=''
+            self.alias_title_match=''
+
+        def cleanup(self):
+            self.px_id1_alias=[]
+            self.px_id1_alias_comment=''
+            self.px_id2_alias=[]
+            self.px_id2_alias_comment=''
+            self.comment=''
+            self.px_id2_credits_null='True'
+            self.px_id1_credits_null='True'
+
+            self.px_id1=0
+            self.px_id1_show_type=''
+            self.px_id1_variant_parent_id=0
+            self.px_id1_is_group_language_primary=''
+            self.px_id1_long_title=''
+            self.px_id1_original_title=''
+            self.px_id1_run_time=''
+            self.px_id1_release_year=''
+            self.px_id1_record_language=''
+            self.px_id1_aliases=[]
+            self.px_id1_credits=[]
+            self.px_id1_db_credit_present='False'
+
+            self.px_id2=0
+            self.px_id2_show_type=''
+            self.px_id2_variant_parent_id=0
+            self.px_id2_is_group_language_primary=''
+            self.px_id2_long_title=''
+            self.px_id2_original_title=''
+            self.px_id2_run_time=''
+            self.px_id2_release_year=''
+            self.px_id2_record_language=''
+            self.px_id2_aliases=[]
+            self.px_id2_credits=[]
+            self.px_id2_db_credit_present='False'
+
+            self.long_title_match=''
+            self.original_title_match=''
+            self.runtime_match=''
+            self.release_year_match=''
+            self.alias_title_match=''    
+
+        def checking_same_program(self,duplicate_id,projectx_preprod_api,
+                        credit_db_api,source,token):
+            #import pdb;pdb.set_trace()
+            try:
+                projectx_api_preprod=projectx_preprod_api%'{}'.format(",".join([str(i) for i in duplicate_id]))
+                data_resp_ids=lib_common_modules().fetch_response_for_api(projectx_api_preprod,token)
+                
+                self.px_id1=data_resp_ids[0].get("id")
+                self.px_id1_show_type=data_resp_ids[0].get("show_type").encode('utf-8')
+                self.px_id1_variant_parent_id=data_resp_ids[0].get("variant_parent_id")
+                self.px_id1_is_group_language_primary=data_resp_ids[0].get("is_group_language_primary")
+                self.px_id1_long_title=unidecode.unidecode(data_resp_ids[0].get("long_title"))
+                self.px_id1_original_title=unidecode.unidecode(data_resp_ids[0].get("original_title"))
+                self.px_id1_run_time=data_resp_ids[0].get("run_time")
+                self.px_id1_release_year=data_resp_ids[0].get("release_year")
+                self.px_id1_record_language=data_resp_ids[0].get("record_language").encode('utf-8')
+                self.px_id1_aliases=data_resp_ids[0].get("aliases")
+                self.px_id1_credits=data_resp_ids[0].get("credits")
+
+                if self.px_id1_credits:
+                    self.px_id1_credits_null='False'
+                else:
+                    credit_db_api=credit_db_api%self.px_id1
+                    credit_resp_db=lib_common_modules().fetch_response_for_api(credit_db_api,token)
+                    if credit_resp_db:
+                        self.px_id1_db_credit_present='True'        
+
+                if self.px_id1_aliases!=[] and self.px_id1_aliases is not None:    
+                    for alias in self.px_id1_aliases:
+                        if alias.get("source_name")==source and alias.get("language")=='ENG':
+                            self.px_id1_alias.append(unidecode.unidecode(alias.get("alias")))
+                        if alias.get("source_name")=='Rovi' and alias.get("type")=='alias_title' and alias.get("language")=='ENG':
+                            self.px_id1_alias.append(unidecode.unidecode(alias.get("alias")))                
+                else:
+                    self.px_id1_alias_comment='Null'    
+                
+                self.px_id2=data_resp_ids[1].get("id")
+                self.px_id2_show_type=data_resp_ids[1].get("show_type").encode('utf-8')
+                self.px_id2_variant_parent_id=data_resp_ids[1].get("variant_parent_id")
+                self.px_id2_is_group_language_primary=data_resp_ids[1].get("is_group_language_primary")
+                self.px_id2_long_title=unidecode.unidecode(data_resp_ids[1].get("long_title"))
+                self.px_id2_original_title=unidecode.unidecode(data_resp_ids[1].get("original_title"))
+                self.px_id2_run_time=data_resp_ids[1].get("run_time")
+                self.px_id2_release_year=data_resp_ids[1].get("release_year")
+                self.px_id2_record_language=data_resp_ids[1].get("record_language").encode('utf-8')
+                self.px_id2_aliases=data_resp_ids[1].get("aliases")
+                self.px_id2_credits=data_resp_ids[1].get("credits")
+
+                if self.px_id2_credits:
+                    self.px_id2_credits_null='False'
+                else:
+                    credit_db_api=initialization_file.credit_db_api%self.px_id2
+                    credit_resp_db=self.fetch_response_for_api(credit_db_api)
+                    if credit_resp_db:
+                        self.px_id2_db_credit_present='True' 
+
+                if self.px_id2_aliases!=[] and self.px_id2_aliases is not None:    
+                    for alias in self.px_id2_aliases:
+                        if alias.get("source_name")==source and alias.get("language")=='ENG':
+                            self.px_id2_alias.append(unidecode.unidecode(alias.get("alias")))            
+                        if alias.get("source_name")=='Rovi' and alias.get("type")=='alias_title' and alias.get("language")=='ENG':
+                            self.px_id2_alias.append(unidecode.unidecode(alias.get("alias")))    
+                else:
+                    self.px_id2_alias_comment='Null' 
+                    
+                if self.px_id1_long_title.upper() in self.px_id2_long_title.upper():
+                    self.long_title_match='True'
+                else:
+                    if self.px_id2_long_title.upper() in self.px_id1_long_title.upper():
+                        self.long_title_match='True'
+                    else:
+                        ratio_title=fuzz.ratio(self.px_id1_long_title.upper(),self.px_id2_long_title.upper())
+                        if ratio_title >=70:
+                            self.long_title_match='True'
+                        else:
+                            self.long_title_match='False'    
+
+                if self.px_id1_original_title.upper() in self.px_id2_original_title.upper():
+                    self.original_title_match='True'
+                else:
+                    if self.px_id2_original_title.upper() in self.px_id1_original_title.upper():
+                        self.original_title_match='True'
+                    else:
+                        ratio_title=fuzz.ratio(self.px_id1_original_title.upper(),self.px_id2_original_title.upper())
+                        if ratio_title >=70:
+                            self.original_title_match='True'
+                        else:
+                            self.original_title_match='False'
+
+                if self.px_id1_run_time==self.px_id2_run_time:
+                    self.runtime_match='True'
+                else:
+                    self.runtime_match='False'
+
+                if self.px_id1_release_year is not None and self.px_id2_release_year is not None:
+                    if self.px_id1_release_year==self.px_id2_release_year:
+                        self.release_year_match='True'
+                    else:
+                        r_y=self.px_id1_release_year
+                        r_y=r_y+1
+                        if r_y==self.px_id2_release_year:
+                            self.release_year_match='True'
+                        else:
+                            r_y=r_y-2
+                            if r_y==self.px_id2_release_year:
+                                self.release_year_match='True'
+                            else:
+                                self.release_year_match='False'
+                
+                if self.px_id1_aliases and self.px_id2_aliases:
+                    for alias in self.px_id1_alias:
+                        if alias in self.px_id2_long_title:
+                            self.alias_title_match='True'
+                            break
+                        elif self.px_id2_long_title in alias:
+                            self.alias_title_match='True'
+                            break
+                        elif self.px_id2_original_title in alias:
+                            self.alias_title_match='True'
+                            break
+                        elif alias in self.px_id2_original_title:
+                            self.alias_title_match='True'
+                            break       
+                        else:           
+                            ratio_title=fuzz.ratio(self.px_id2_long_title.upper(),alias.upper())
+                            if ratio_title >=70:
+                                self.alias_title_match='True'
+                                break
+                            else:
+                                ratio_title=fuzz.ratio(self.px_id2_original_title.upper(),alias.upper())
+                                if ratio_title >=70:
+                                    self.alias_title_match='True'
+                                    break    
+                                else:
+                                    self.alias_title_match='False'                                                     
+                    
+                return {"px_id1":self.px_id1,"px_id1_show_type":self.px_id1_show_type,"px_id1_variant_parent_id":self.px_id1_variant_parent_id,
+                      "px_id1_is_group_language_primary":self.px_id1_is_group_language_primary,"px_id1_record_language":self.px_id1_record_language,"px_id2":self.px_id2,
+                    "px_id2_show_type":self.px_id2_show_type,"px_id2_variant_parent_id":self.px_id2_variant_parent_id,"px_id2_is_group_language_primary":self.px_id2_is_group_language_primary
+                    ,"px_id2_record_language":self.px_id2_record_language,"px_id1_credits_null":self.px_id1_credits_null,"px_id1_db_credit_present":self.px_id1_db_credit_present,
+                    "px_id2_credits_null":self.px_id2_credits_null,"px_id2_db_credit_present":self.px_id2_db_credit_present,"long_title_match":self.long_title_match,
+                    "original_title_match":self.original_title_match,"original_title_match":self.runtime_match,"release_year_match":self.release_year_match,"alias_title_match":
+                     self.alias_title_match,"comment":self.comment}
+                 
+            except Exception as e:
+                print ("exception caught (checking_same_program).................................",type(e),[self.px_id1,self.px_id2])
+                print ("\n")
+                print ("Retrying.............")
+                print ("\n")    
+                self.checking_same_program(duplicate_id,projectx_preprod_api,
+                        credit_db_api,source,token)
+        
+        def meta_data_validation(self,duplicate_ids,projectx_preprod_api,
+                        credit_db_api,source,token):
+            self.cleanup()
+            print("Checking same program of duplicate cases..............")
+            return self.checking_same_program(duplicate_ids,projectx_preprod_api,
+                        credit_db_api,source,token)                    
     
 
 
