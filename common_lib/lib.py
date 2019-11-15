@@ -7,6 +7,7 @@ from urllib2 import HTTPError,URLError
 import socket
 import urllib2
 import json
+import pinyin
 import httplib
 import unidecode
 import re
@@ -1505,7 +1506,7 @@ class ott_meta_data_validation_modules:
         self.px_season_number=0
         self.px_episode_number=0
 
-    def px_images_details(px_show_id,data_images_px,show_type,projectx_programs_api,token):
+    def px_image_details(self,px_show_id,data_images_px,show_type,projectx_programs_api,token):
         #import pdb;pdb.set_trace()
         px_images_details=[]
         for images in data_images_px:
@@ -1516,6 +1517,22 @@ class ott_meta_data_validation_modules:
             for images in data_px_images:
                 px_images_details.append({'url':images.get("url")})
         return px_images_details    
+
+    def getting_px_credits(self,data_credits):
+        #import pdb;pdb.set_trace()
+        px_credits=[]
+
+        for credits in data_credits:
+            px_credits.append(unidecode.unidecode(pinyin.get(credits.get("full_credit_name"))))
+        return px_credits    
+
+    def px_aliases_(self,data_aliases,source):
+        #import pdb;pdb.set_trace()
+        px_aliases=[]
+        for aliases in data_aliases:
+            if aliases.get("type")=='alias' and aliases.get("source_name")==source:
+                px_aliases.append(unidecode.unidecode(pinyin.get(aliases.get("alias"))))
+        return px_aliases    
 
     #TODO: to get meta details of projectx ids
     def getting_projectx_details(self,projectx_id,show_type,source,thread_name,projectx_programs_api,token):
@@ -1534,15 +1551,24 @@ class ott_meta_data_validation_modules:
                         self.px_original_title=unidecode.unidecode(pinyin.get(data.get("original_title")))
                     if data.get("original_episode_title")!="": 
                         self.px_episode_title=unidecode.unidecode(pinyin.get(data.get("original_episode_title")))
+                    elif data.get("episode_title")!="":
+                        px_episode_title=unidecode.unidecode(pinyin.get(data.get("episode_title")))    
                     
                     self.px_record_language= data.get("record_language")
                     self.px_release_year=data.get("release_year")
                     self.px_run_time=data.get("run_time")
-                    self.px_show_id=data.get("series_id")
+                    px_show_id=data.get("series_id")
                     try:
                         self.px_description=pinyin.get(data.get("description")[0].get("program_description"))
                     except Exception:
-                        return self.px_description           
+                        return self.px_description
+
+                    if data.get("genres"):
+                        for genres in data.get("genres"):
+                            self.px_genres.append(genres.lower())
+
+                    if data.get("aliases"):
+                        self.px_aliases=self.px_aliases_(data.get("aliases"),source)               
                     try:
                         self.px_season_number=data.get("episode_season_number")
                     except Exception:
@@ -1551,7 +1577,11 @@ class ott_meta_data_validation_modules:
                     try:
                         self.px_episode_number= data.get("episode_season_sequence")
                     except Exception:
-                        return self.px_episode_number     
+                        return self.px_episode_number    
+
+                    if data.get("credits"):
+                        self.px_credits=self.getting_px_credits(data.get("credits"))
+                        self.px_credit_present='True'     
 
                     self.px_video_link= data.get("videos")
                     if self.px_video_link:
@@ -1561,7 +1591,7 @@ class ott_meta_data_validation_modules:
                             self.launch_id.append(linkid.get("launch_id"))
 
                     if data.get("images"):
-                        self.px_images_details=self.px_images_details(self.px_show_id,data.get("images")
+                        self.px_images_details=self.px_image_details(px_show_id,data.get("images")
                                               ,show_type,projectx_programs_api,token)
 
                     return {"px_credits":self.px_credits,"px_credit_present":self.px_credit_present,"px_long_title":self.px_long_title,"px_episode_title":self.px_episode_title,
@@ -1571,7 +1601,7 @@ class ott_meta_data_validation_modules:
             else:
                 return self.px_response
 
-        except (Exception,httplib.BadStatusLine,urllib2.HTTPError,socket.error,urllib2.URLError,RuntimeError,pymongo.errors.CursorNotFound) as e:
+        except (Exception,httplib.BadStatusLine,urllib2.HTTPError,socket.error,urllib2.URLError,RuntimeError,) as e:
             retry_count+=1
             print ("exception caught ..............................................",type(e),projectx_id,show_type,source,thread_name)
             print ("\n") 
@@ -1590,7 +1620,7 @@ class ott_meta_data_validation_modules:
             any_source_flag='False'
             source_flag='False'
             source_map=[]
-            query="select projectxId from projectx_mappings where data_source=%s and sourceId =%s and sub_type=%s"
+            query="select projectxId from projectx_mapping where data_source=%s and sourceId =%s and sub_type=%s"
             px_mappingdb_cur.execute(query,(source,_id,show_type))
             data_resp_mapping=px_mappingdb_cur.fetchall()
 
@@ -1599,7 +1629,7 @@ class ott_meta_data_validation_modules:
 
             if px_id:       
                 #import pdb;pdb.set_trace() 
-                query="select count(*) from projectx_mappings where projectxId =%s"
+                query="select count(*) from projectx_mapping where projectxId =%s"
                 px_mappingdb_cur.execute(query,(px_id[0],))
                 data_resp_px_mapping=px_mappingdb_cur.fetchall()
                 for resp in data_resp_px_mapping:
@@ -1615,11 +1645,12 @@ class ott_meta_data_validation_modules:
                 elif source_flag=='True' and any_source_flag=='True(Rovi+others)':    
                     return (px_id[0],_id,any_source_flag)        
             else:
-                return (px_id,_id,any_source_flag)        
+                return (px_id,_id,any_source_flag)
+            px_mappingdb_cur.close()            
 
         except (Exception,MySQLdb.Error, MySQLdb.Warning,socket.error,RuntimeError) as e:
             retry_count+=1
-            print ("exception caught ................................................................................",type(e),_id,source,show_type)
+            print ("exception caught getting_mapped_px_id.................",type(e),_id,source,show_type)
             print ("\n") 
             print ("Retrying.............",retry_count)
             if retry_count<=5:
@@ -1628,13 +1659,13 @@ class ott_meta_data_validation_modules:
                 retry_count=0
 
     #TODO: to check images population
-    def images_validation(source_images,projectx_images):
+    def images_validation(self,source_images,projectx_images):
         #import pdb;pdb.set_trace()
         image_url_match=''
         image_url_missing=''
         wrong_url=[]
 
-        if projectx_images:
+        if projectx_images!='Null':
             source_images_url=source_images["source_images_details"]
             projectx_images=projectx_images["px_images_details"]
 
@@ -1649,7 +1680,7 @@ class ott_meta_data_validation_modules:
 
         return (image_url_missing,wrong_url)
         
-    def ott_validation(projectx_details,source_id):
+    def ott_validation(self,projectx_details,source_id):
 
         comment_link='Null'   
         #import pdb;pdb.set_trace()
@@ -1663,7 +1694,39 @@ class ott_meta_data_validation_modules:
             else:
                 return comment_link
         except Exception:
-            return comment_link                
+            return comment_link   
+
+    def credits_validation(self,source_details,projectx_details):
+        #import pdb;pdb.set_trace()
+        credit_match='True'#by default
+        credit_mismatch=[]
+        counter=0
+        if projectx_details!='Null':
+            if source_details["source_credit_present"]=='True' and projectx_details["px_credit_present"]=='True':
+                for px_credits in projectx_details["px_credits"]:
+                    if px_credits in source_details["source_credits"]:
+                        credit_match='True'
+                        counter+=counter
+                    else:
+                        if counter< len(projectx_details["px_credits"]):
+                            for source_credits in source_details["source_credits"]:
+                                credit_ratio=fuzz.ratio(px_credits.upper(),source_credits.upper())
+                                if credit_ratio >=70:
+                                    credit_match='True'
+                                    counter+=counter
+                                    break    
+                                else:
+                                    counter+=counter    
+                        else:
+                            credit_match='False'
+                            credit_mismatch.append(px_credits)
+                            
+            if source_details["source_credit_present"]=='Null' and projectx_details["px_credit_present"]=='False':
+                credit_match='True'
+            if source_details["source_credit_present"]=='True' and projectx_details["px_credit_present"]=='False':
+                credit_match='False'
+
+        return (credit_match,credit_mismatch)                     
 
     class meta_data_validate_hulu:
         #initilization
@@ -1690,7 +1753,7 @@ class ott_meta_data_validation_modules:
         # meta_data_validation
         def meta_data_validation(self,_id,source_details,projectx_details,show_type):
             #import pdb;pdb.set_trace()
-            if projectx_details:
+            if projectx_details!='Null':
                 if show_type=='MO' or show_type=='SM':
                     if projectx_details["px_original_title"]!='' or projectx_details["px_original_title"] is not None:
                         if projectx_details["px_original_title"].upper() in source_details["source_title"].upper():
@@ -1763,4 +1826,122 @@ class ott_meta_data_validation_modules:
             return {"title_match":self.title_match,"description_match":self.description_match,"genres_match":self.genres_match,"release_year_match":self.release_year_match,
                     "season_number_match":self.season_number_match,"episode_number_match":self.episode_number_match,"px_video_link_present":self.px_video_link_present,
                     "source_link_present":self.source_link_present}                
+
+    class meta_data_validate_vudu:
+
+        def meta_data_validation(self,_id,source_details,projectx_details,show_type):
+            #default:
+            #import pdb;pdb.set_trace()
+            title_match='False'
+            description_match='False'
+            genres_match='Null'
+            aliases_match='Null'
+            release_year_match='False'
+            duration_match='False'
+            season_number_match=''
+            episode_number_match=''
+            px_video_link_present=''
+            source_link_present=''
+
+            if projectx_details!='Null':
+
+                if show_type=='MO' or show_type=='SM':
+                    if projectx_details["px_original_title"]!='' or projectx_details["px_original_title"] is not None:
+                        if projectx_details["px_original_title"].upper() in source_details["source_title"].upper():
+                            title_match='True'
+                        elif projectx_details["px_original_title"].upper() in source_details["source_title"].upper():
+                            title_match='True'    
+                        else:                
+                            ratio_title=fuzz.ratio(projectx_details["px_original_title"].upper(),source_details["source_title"].upper())
+                            if ratio_title >=70:
+                                title_match='True'
+                            else:
+                                ratio_title=fuzz.ratio(projectx_details["px_original_title"].upper(),source_details["source_title"].upper())
+                                if ratio_title >=70:
+                                    title_match='True'
+                                else:
+                                    title_match='False'
+                    else:
+                        if projectx_details["px_long_title"].upper() in source_details["source_title"].upper():
+                            title_match='True'
+                        elif source_details["source_title"].upper() in projectx_details["px_long_title"].upper():
+                            title_match='True'
+                        else:
+                            ratio_title=fuzz.ratio(source_details["source_title"].upper(),projectx_details["px_long_title"].upper())
+                            if ratio_title >=70:
+                                title_match='True'
+                else:
+                    if projectx_details["px_episode_title"].upper() in source_details["source_title"].upper():
+                        title_match='True'
+                    elif source_details["source_title"].upper() in projectx_details["px_episode_title"].upper():
+                        title_match='True'       
+                    else:                
+                        ratio_title=fuzz.ratio(projectx_details["px_episode_title"].upper(),source_details["source_title"].upper())
+                        if ratio_title >=70:
+                            title_match='True'
+
+                if projectx_details["px_description"]==source_details["source_description"]:
+                    description_match='True'
+
+                if source_details["source_genres"] is not None or source_details["source_genres"]:
+                    if source_details["source_genres"]== projectx_details["px_genres"]:
+                        genres_match='True'
+
+                if source_details["source_alternate_titles"]!=[] or source_details["source_alternate_titles"]!='':
+                    if source_details["source_alternate_titles"]==projectx_details["px_aliases"]:
+                        aliases_match='True'
+                    elif source_details["source_alternate_titles"] in projectx_details["px_aliases"]:
+                        aliases_match='True'     
+
+                try:
+                    if str(projectx_details["px_release_year"]) in str(source_details["source_release_year"]):
+                        release_year_match='True' 
+                    elif eval(source_details["source_release_year"]) == projectx_details["px_release_year"]:
+                        release_year_match='True'
+                    elif projectx_details["px_release_year"]-1 == eval(source_details["source_release_year"]):
+                        release_year_match='True'
+                    elif projectx_details["px_release_year"] ==  eval(source_details["source_release_year"])-1:
+                        release_year_match='True'
+                except Exception:
+                    if source_details["source_release_year"]=="":
+                        source_details["source_release_year"]=0
+                        if projectx_details["px_release_year"] == source_details["source_release_year"]:
+                            release_year_match='True'
+
+
+                #import pdb;pdb.set_trace()
+                if source_details["source_duration"] is not None or source_details["source_duration"]==0:
+                    if source_details["source_duration"]== projectx_details["px_run_time"]:
+                        duration_match='True'
+                    elif eval(source_details["source_duration"])== projectx_details["px_run_time"]:
+                        duration_match='True'
+                else:
+                    duration_match='True'        
+                #import pdb;pdb.set_trace()
+                if show_type=='SE':
+                    if eval(source_details["source_season_number"])==projectx_details["px_season_number"]:
+                        season_number_match='True'
+                    else:
+                        season_number_match='False'
+
+                    #import pdb;pdb.set_trace()
+                    if (projectx_details["px_episode_number"]!="" or projectx_details["px_episode_number"] is not None) and source_details["source_episode_number"].encode()!='':
+                        try:     
+                            if eval(source_details["source_episode_number"])==eval(projectx_details["px_episode_number"]):
+                                episode_number_match='True'
+                            else:
+                                episode_number_match='False'            
+                        except Exception:
+                            if eval(source_details["source_episode_number"])==projectx_details["px_episode_number"]:
+                                episode_number_match='True'
+                            else:
+                                episode_number_match='False'
+
+
+                px_video_link_present=projectx_details["px_video_link_present"]
+                source_link_present=source_details["source_link_present"]     
+
+            return {"title_match":title_match,"description_match":description_match,"genres_match":genres_match,"aliases_match":aliases_match,"release_year_match":release_year_match,
+                    "duration_match":duration_match,"season_number_match":season_number_match,"episode_number_match":episode_number_match,
+                    "px_video_link_present":px_video_link_present,"source_link_present":source_link_present}                
 
