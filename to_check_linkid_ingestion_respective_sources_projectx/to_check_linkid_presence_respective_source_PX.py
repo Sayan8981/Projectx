@@ -16,7 +16,7 @@ import json
 import httplib
 homedir=os.path.expanduser("~")
 sys.path.insert(0,'%s/common_lib'%homedir)
-from lib import lib_modules
+from lib import lib_common_modules
 sys.setrecursionlimit(1500)
 
 
@@ -99,11 +99,11 @@ class linkid_checking:
     def main(self,start_id,thread_name,end_id):
         #import pdb;pdb.set_trace()
         inputFile="input/input_file"
-        input_data=lib_modules().read_csv(inputFile)
+        input_data=lib_common_modules().read_csv(inputFile)
         self.default_param()
-        self.logger=lib_modules().create_log(os.getcwd()+'/logs/log_%s.txt'%thread_name)
-        result_sheet='/output/output_file_%s.csv'%thread_name
-        output_file=lib_modules().create_csv(result_sheet)
+        self.logger=lib_common_modules().create_log(os.getcwd()+'/logs/log_%s.txt'%thread_name)
+        result_sheet='/output/output_file_%s_%s.csv'%(thread_name,datetime.date.today())
+        output_file=lib_common_modules().create_csv(result_sheet)
         self.column_fieldnames=["Service_name","Link_id","Rovi_id","Projectx_id","Rovi_id_form_reverse_api","Rovi_id_match","Link_expired",
                           "Prod_link_status","Preprod_link_status","Link_fetched_from","Fetched_from_sources","Comment"]
         with output_file as mycsvfile:
@@ -113,7 +113,7 @@ class linkid_checking:
                 self.cleanup()
                 self.getting_input_from_sheet(input_data,id_)
                 self.total+=1
-                reverse_api_response=lib_modules().fetch_response_for_api(self.reverse_mapping_api%(self.host_IP,
+                reverse_api_response=lib_common_modules().fetch_response_for_api(self.reverse_mapping_api%(self.host_IP,
                                                                    self.link_id,self.service),self.token,self.logger)
                 if reverse_api_response:
                     for data in reverse_api_response:
@@ -124,8 +124,8 @@ class linkid_checking:
                         """comment"""
                         self.same_rovi_id_present='True'
                     if self.px_id:
-                        self.link_expired=lib_modules().link_expiry_check(self.expired_api,self.prod_domain,self.link_id,self.service,self.expired_token,self.logger)
-                        prod_api_response=lib_modules().fetch_response_for_api(self.programs_api%(self.prod_domain,
+                        self.link_expired=lib_common_modules().link_expiry_check(self.expired_api,self.prod_domain,self.link_id,self.service,self.expired_token,self.logger)
+                        prod_api_response=lib_common_modules().fetch_response_for_api(self.programs_api%(self.prod_domain,
                                                                              self.source_id[0]),self.token,self.logger) 
                         self.prod_videos_response=[data['videos'] for data in prod_api_response]
                         if self.prod_videos_response[0]:
@@ -141,7 +141,7 @@ class linkid_checking:
                         else:
                             """comment"""
                             self.prod_link_status='videos_not_available'
-                        preprod_api_response=lib_modules().fetch_response_for_api(self.programs_api%(self.preprod_domain,
+                        preprod_api_response=lib_common_modules().fetch_response_for_api(self.programs_api%(self.preprod_domain,
                                                                                           self.px_id[0]),self.token,self.logger)    
                         self.preprod_videos_response=[data['videos'] for data in preprod_api_response]
                         if self.preprod_videos_response[0]:
@@ -172,9 +172,9 @@ class linkid_checking:
                             """comment"""
                             self.preprod_link_status='videos_not_available'
                     else:
-                        self.link_expired=lib_modules().link_expiry_check(self.expired_api,self.prod_domain,self.link_id,self.service,self.expired_token,self.logger)        
+                        self.link_expired=lib_common_modules().link_expiry_check(self.expired_api,self.prod_domain,self.link_id,self.service,self.expired_token,self.logger)        
                 else:
-                    self.link_expired=lib_modules().link_expiry_check(self.expired_api,self.prod_domain,self.link_id,self.service,self.expired_token,self.logger)
+                    self.link_expired=lib_common_modules().link_expiry_check(self.expired_api,self.prod_domain,self.link_id,self.service,self.expired_token,self.logger)
                 self.logger.debug("\n")
                 if self.same_rovi_id_present=="True" and self.preprod_link_status=='link_id_present_in_Preprod':
                     self.pass_count+=1
