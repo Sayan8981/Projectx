@@ -1,0 +1,58 @@
+Hulu_id,launch_id,Projectx_id,show_type,Hulu_title,Px_title,Px_episode_title,title_match,description_match,genres_match,release_year_match,season_number_match,episode_number_match,px_video_link_present,Hulu_link_present,image_url_missing,Wrong_url,ott_link_result,,,,,,Link_Expired
+1201794,61023273,4779085,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:12:16 AM,Local: 2019-11-15 15:42:16 AM,False
+1201405,61023271,5091051,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:12:20 AM,Local: 2019-11-15 15:42:20 AM,False
+1193671,61023269,5090961,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:12:22 AM,Local: 2019-11-15 15:42:22 AM,False
+1201791,61023263,4778515,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:12:26 AM,Local: 2019-11-15 15:42:26 AM,False
+1245050,61023257,4205432,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:12:28 AM,Local: 2019-11-15 15:42:28 AM,False
+1245082,61023256,4197626,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:12:31 AM,Local: 2019-11-15 15:42:31 AM,False
+1201789,61023243,4778483,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:12:34 AM,Local: 2019-11-15 15:42:34 AM,False
+1245111,61023235,4197578,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:12:38 AM,Local: 2019-11-15 15:42:38 AM,False
+1245049,61023234,4197506,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:12:40 AM,Local: 2019-11-15 15:42:40 AM,False
+1201792,61023233,4778967,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:12:44 AM,Local: 2019-11-15 15:42:44 AM,False
+1192859,61023221,5090898,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:12:47 AM,Local: 2019-11-15 15:42:47 AM,False
+1201786,61023216,4778918,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:12:50 AM,Local: 2019-11-15 15:42:50 AM,False
+1201790,61023203,4778880,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:12:54 AM,Local: 2019-11-15 15:42:54 AM,False
+1191541,61023197,14141796,SE,Republicans Step up Attacks on Mueller and Russia Probe,Politicking With Larry King,Republicans Step up Attacks on Mueller and Russia Probe,True,True,Null,True,True,True,True,True,,[],Present,,GMT: 2019-11-15 15ata:12:57 AM,Local: 2019-11-15 15:42:57 AM,,,False
+1201785,61023184,4778858,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:13:00 AM,Local: 2019-11-15 15:43:00 AM,False
+1201787,61023174,4778715,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:13:03 AM,Local: 2019-11-15 15:43:03 AM,False
+1201788,61023150,4778199,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:13:07 AM,Local: 2019-11-15 15:43:07 AM,False
+1201784,61023142,4774091,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:13:10 AM,Local: 2019-11-15 15:43:10 AM,False
+1201783,61023125,4774037,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:13:13 AM,Local: 2019-11-15 15:43:13 AM,False
+1201779,61023111,4773949,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:13:16 AM,Local: 2019-11-15 15:43:16 AM,False
+1201820,,,SE,,,,,,,,,,,,,,,,,,,"([], 1201820, 'False')",,Px_id_null,,GMT: 2019-11-15 15:13:16 AM,Local: 2019-11-15 15:43:16 AM
+1191426,61023095,13961309,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:13:20 AM,Local: 2019-11-15 15:43:20 AM,False
+1191440,61022853,14116114,SE,12/14/17: Roxane Gay,"I Love You, America with Sarah Silverman",12/14/17: Roxane Gay,True,True,Null,True,True,True,True,True,,[],Present,,GMT: 2019-11-15 15ata:13:22 AM,Local: 2019-11-15 15:43:22 AM,,,False
+1191273,61022837,13587152,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:13:26 AM,Local: 2019-11-15 15:43:26 AM,False
+1191200,61022836,14138766,SE,The Tokyo Sarin Gas Attacks - Murder With Friends,Pop Trigger,The Tokyo Sarin Gas Attacks - Murder With Friends,True,True,Null,True,True,True,True,True,,[],Present,,GMT: 2019-11-15 15ata:13:28 AM,Local: 2019-11-15 15:43:28 AM,,,False
+1191136,61022786,4844355,SE,,,,,,,,,,,,,,Not_Present,True(Rovi+others),,,GMT: 2019-11-15 15:13:31 AM,Local: 2019-11-15 15:43:31 AM,False
+1245129,61022777,4202350,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:13:34 AM,Local: 2019-11-15 15:43:34 AM,False
+1245081,61022775,4202373,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:13:37 AM,Local: 2019-11-15 15:43:37 AM,False
+1191175,61022771,14034955,SE,Coleman vs Wyatt,Divorce Court,Coleman vs Wyatt,True,False,Null,True,True,True,True,True,,[],Present,,GMT: 2019-11-15 15ata:13:41 AM,Local: 2019-11-15 15:43:41 AM,,,False
+1191145,61022757,13961097,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:13:44 AM,Local: 2019-11-15 15:43:44 AM,False
+1245080,61022746,4202230,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:13:47 AM,Local: 2019-11-15 15:43:47 AM,False
+1245048,61022745,4202287,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:13:50 AM,Local: 2019-11-15 15:43:50 AM,False
+1191144,61022732,13587148,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:13:53 AM,Local: 2019-11-15 15:43:53 AM,False
+1245108,61022712,4202189,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:13:56 AM,Local: 2019-11-15 15:43:56 AM,False
+1245107,61022711,4199079,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:13:59 AM,Local: 2019-11-15 15:43:59 AM,False
+1245046,61022685,4199008,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:14:02 AM,Local: 2019-11-15 15:44:02 AM,False
+1245079,61022684,4199039,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:14:05 AM,Local: 2019-11-15 15:44:05 AM,False
+1201564,,,SE,,,,,,,,,,,,,,,,,,,"([], 1201564, 'False')",,Px_id_null,,GMT: 2019-11-15 15:14:05 AM,Local: 2019-11-15 15:44:05 AM
+1201566,,,SE,,,,,,,,,,,,,,,,,,,"([], 1201566, 'False')",,Px_id_null,,GMT: 2019-11-15 15:14:05 AM,Local: 2019-11-15 15:44:05 AM
+1245127,61022662,4198930,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:14:08 AM,Local: 2019-11-15 15:44:08 AM,False
+1245126,61022661,4198972,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:14:11 AM,Local: 2019-11-15 15:44:11 AM,False
+1201565,,,SE,,,,,,,,,,,,,,,,,,,"([], 1201565, 'False')",,Px_id_null,,GMT: 2019-11-15 15:14:11 AM,Local: 2019-11-15 15:44:11 AM
+1201563,,,SE,,,,,,,,,,,,,,,,,,,"([], 1201563, 'False')",,Px_id_null,,GMT: 2019-11-15 15:14:11 AM,Local: 2019-11-15 15:44:11 AM
+1201562,,,SE,,,,,,,,,,,,,,,,,,,"([], 1201562, 'False')",,Px_id_null,,GMT: 2019-11-15 15:14:11 AM,Local: 2019-11-15 15:44:11 AM
+1201558,,,SE,,,,,,,,,,,,,,,,,,,"([], 1201558, 'False')",,Px_id_null,,GMT: 2019-11-15 15:14:11 AM,Local: 2019-11-15 15:44:11 AM
+1201560,,,SE,,,,,,,,,,,,,,,,,,,"([], 1201560, 'False')",,Px_id_null,,GMT: 2019-11-15 15:14:11 AM,Local: 2019-11-15 15:44:11 AM
+1201557,,,SE,,,,,,,,,,,,,,,,,,,"([], 1201557, 'False')",,Px_id_null,,GMT: 2019-11-15 15:14:11 AM,Local: 2019-11-15 15:44:11 AM
+1201559,,,SE,,,,,,,,,,,,,,,,,,,"([], 1201559, 'False')",,Px_id_null,,GMT: 2019-11-15 15:14:11 AM,Local: 2019-11-15 15:44:11 AM
+1201561,,,SE,,,,,,,,,,,,,,,,,,,"([], 1201561, 'False')",,Px_id_null,,GMT: 2019-11-15 15:14:11 AM,Local: 2019-11-15 15:44:11 AM
+1201822,61022634,13847869,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:14:14 AM,Local: 2019-11-15 15:44:14 AM,False
+1245051,61022624,4198793,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:14:17 AM,Local: 2019-11-15 15:44:17 AM,False
+1245076,61022623,4198588,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:14:20 AM,Local: 2019-11-15 15:44:20 AM,False
+1190992,61022618,5040877,SE,,,,,,,,,,,,,,Not_Present,True(Rovi+others),,,GMT: 2019-11-15 15:14:23 AM,Local: 2019-11-15 15:44:23 AM,False
+1191049,61022611,6807825,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:14:27 AM,Local: 2019-11-15 15:44:27 AM,False
+1201830,61022595,13847867,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:14:30 AM,Local: 2019-11-15 15:44:30 AM,False
+1245078,61022593,4198639,SE,,,,,,,,,,,,,,Present,True(Rovi+others),,,GMT: 2019-11-15 15:14:33 AM,Local: 2019-11-15 15:44:33 AM,False
+1245047,61022592,4198689,SE,,,,,,,,,,,,,,Present,True(Ro
