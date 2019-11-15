@@ -2,6 +2,7 @@ import logging
 import sys
 import os
 import csv
+import MySQLdb
 from urllib2 import HTTPError,URLError
 import socket
 import urllib2
@@ -41,19 +42,19 @@ class lib_common_modules:
 
     #TODO: fetching response for the given API
     def fetch_response_for_api_(self,api,token):
-        import pdb;pdb.set_trace()
+        #import pdb;pdb.set_trace()
         try:    
             retry_count=0
-            resp = urllib2.urlopen(urllib2.Request(api,None,{'Authorization':token}))
+            resp = urllib2.urlopen(urllib2.Request(api,None,{'Authorization':token,"User-Agent":'Branch Fyra v1.0'}))
             data = resp.read()
             data_resp = json.loads(data)
             return data_resp    
         except (Exception,URLError,httplib.BadStatusLine) as e:
             print ("\n Retrying...................",retry_count)
-            print (["\n exception caught fetch_response_for_api Function..........",type(e),api])
+            print ("\n exception caught fetch_response_for_api_ Function..........",type(e),api)
             retry_count+=1
             if retry_count <=5:
-                self.fetch_response_for_api(api,token)   
+                self.fetch_response_for_api_(api,token)   
             else:
                 retry_count = 0    
 
@@ -94,11 +95,12 @@ class lib_common_modules:
             else:
                 retry_count = 0
 
-    #TODO: To check link expiry with logger
+    #TODO: To check link expiry without logger
     def link_expiry_check_(self,expired_api,domain,link_id,service,expired_token):
         #import pdb;pdb.set_trace()
+        retry_count=0
         try:
-            expired_api_response=self.fetch_response_for_api(expired_api%(domain,link_id,service),expired_token)
+            expired_api_response=self.fetch_response_for_api_(expired_api%(domain,link_id,service),expired_token)
             if expired_api_response["is_available"]==False:
                 self.link_expired='False'
             else:
@@ -109,7 +111,7 @@ class lib_common_modules:
             print (["\n exception caught link_expiry_check Function..........",type(e),expired_api,link_id,service])
             retry_count+=1
             if retry_count <=5:
-                self.link_expiry_check(expired_api,domain,link_id,service,expired_token)   
+                self.link_expiry_check_(expired_api,domain,link_id,service,expired_token)   
             else:
                 retry_count = 0            
 
@@ -293,7 +295,7 @@ class mapping_script_modules:
                 series_id_match='True'
         return {"series_id_match":series_id_match,"px_series_id":px_series_id}              
 
-    def checking_mapping_series(self,source_sm_id,rovi_sm_id,source_projectx_id,rovi_projectx_id,writer,source,token
+    def checking_mapping_series(self,source_sm_id,rovi_sm_id,source_projectx_id,rovi_projectx_id,source,token
                                  ,projectx_mapping_api_,projectx_preprod_api,api_duplicate_checking):
         #import pdb;pdb.set_trace()
         dev_rovi_px_mapped=[]
@@ -342,8 +344,8 @@ class mapping_script_modules:
         elif len(rovi_projectx_id)==1 and len(source_projectx_id)==1:
             if rovi_projectx_id == source_projectx_id:
                 self.mapped_count=self.mapped_count+1
-                writer.writerow({"%s_sm_id"%source:source_sm_id,"Rovi_sm_id":rovi_sm_id,"projectx_id_rovi":str(rovi_projectx_id[0]),"projectx_id_%s"%source:str(source_projectx_id[0]),
-                                                                                                      "Comment":'Pass',"Result of mapping series":'Pass'})
+                return {"%s_sm_id"%source:source_sm_id,"Rovi_sm_id":rovi_sm_id,"projectx_id_rovi":str(rovi_projectx_id[0]),"projectx_id_%s"%source:str(source_projectx_id[0]),
+                                                                                                      "Comment":'Pass',"Result of mapping series":'Pass'}
             else:
                 #TODO: to check the mapping of rovi_projectx_id from mapping API
                 projectx_mapping_api=projectx_mapping_api_%rovi_projectx_id[0]
@@ -360,14 +362,14 @@ class mapping_script_modules:
                 variant_present=self.to_check_variant_parent_id(projectx_api_response,px_array,px_variant_id)
 
                 self.not_mapped_count=self.not_mapped_count+1
-                writer.writerow({"%s_sm_id"%source:source_sm_id,"Rovi_sm_id":rovi_sm_id,"projectx_id_rovi":str(rovi_projectx_id[0]),"projectx_id_%s"%source:str(source_projectx_id[0]),
+                return {"%s_sm_id"%source:source_sm_id,"Rovi_sm_id":rovi_sm_id,"projectx_id_rovi":str(rovi_projectx_id[0]),"projectx_id_%s"%source:str(source_projectx_id[0]),
                                  "Dev_%s_px_mapped"%source:another_rovi_id_present_status["dev_source_px_mapped"],"Dev_rovi_px_mapped":another_source_id_present_status["dev_rovi_px_mapped"],"another_rovi_id_present":another_rovi_id_present_status["another_rovi_id_present"],
-                                 "another_%s_id_present"%source:another_source_id_present_status["another_source_id_present"],"variant_present":variant_present,"Comment":'Fail',"Result of mapping series":'Fail'})
+                                 "another_%s_id_present"%source:another_source_id_present_status["another_source_id_present"],"variant_present":variant_present,"Comment":'Fail',"Result of mapping series":'Fail'}
         #TODO: condition 3, to check rovi_id ingested
         elif len(source_projectx_id)==1 and not rovi_projectx_id:
             self.rovi_id_not_ingested_count=self.rovi_id_not_ingested_count+1
-            writer.writerow({"%s_sm_id"%source:source_sm_id,"Rovi_sm_id":rovi_sm_id,"projectx_id_rovi":'Nil',"projectx_id_%s"%source:source_projectx_id,
-                                                                   "Comment":'rovi_id not ingested',"Result of mapping series":'Fail'})
+            return {"%s_sm_id"%source:source_sm_id,"Rovi_sm_id":rovi_sm_id,"projectx_id_rovi":'Nil',"projectx_id_%s"%source:source_projectx_id,
+                                                                   "Comment":'rovi_id not ingested',"Result of mapping series":'Fail'}
         #TODO: condition 4, to check source id ingested and checking for another source_ids
         elif len(rovi_projectx_id)==1 and not source_projectx_id:
             retry_count=0
@@ -376,16 +378,16 @@ class mapping_script_modules:
                 data_resp_url=self.fetch_response_for_api(duplicate_api,token)
                 if data_resp_url==[]:
                     self.source_id_not_ingested_count=self.source_id_not_ingested_count+1
-                    writer.writerow({"%s_sm_id"%source:source_sm_id,"Rovi_sm_id":rovi_sm_id,"projectx_id_rovi":rovi_projectx_id,"projectx_id_%s"%source:'Nil',
-                                                                 "Comment":'source_id not ingested',"Result of mapping series":'Fail'})
+                    return {"%s_sm_id"%source:source_sm_id,"Rovi_sm_id":rovi_sm_id,"projectx_id_rovi":rovi_projectx_id,"projectx_id_%s"%source:'Nil',
+                                                                 "Comment":'source_id not ingested',"Result of mapping series":'Fail'}
                 else:
                     for ll in data_resp_url:
                         if ll.get("projectxId") not in source_projectx_id:
                             source_projectx_id.append(ll.get("projectxId"))
                     if rovi_projectx_id[0] in source_projectx_id:
                         self.mapped_count=self.mapped_count+1        
-                        writer.writerow({"%s_sm_id"%source:source_sm_id,"Rovi_sm_id":rovi_sm_id,"projectx_id_rovi":str(rovi_projectx_id),"projectx_id_%s"%source:str(source_projectx_id),
-                                                                                                         "Comment":'Pass',"Result of mapping series":'Pass'})
+                        return {"%s_sm_id"%source:source_sm_id,"Rovi_sm_id":rovi_sm_id,"projectx_id_rovi":str(rovi_projectx_id),"projectx_id_%s"%source:str(source_projectx_id),
+                                                                                                         "Comment":'Pass',"Result of mapping series":'Pass'}
                     elif len(source_projectx_id)==1:
                         #TODO: to check the mapping of rovi_projectx_id from mapping API
                         projectx_mapping_api=projectx_mapping_api_%rovi_projectx_id[0]
@@ -402,24 +404,24 @@ class mapping_script_modules:
                         variant_present=self.to_check_variant_parent_id(projectx_api_response,px_array,px_variant_id)
 
                         self.source_id_not_ingested_count=self.source_id_not_ingested_count+1
-                        writer.writerow({"%s_sm_id"%source:source_sm_id,"Rovi_sm_id":rovi_sm_id,"projectx_id_rovi":str(rovi_projectx_id),
+                        return {"%s_sm_id"%source:source_sm_id,"Rovi_sm_id":rovi_sm_id,"projectx_id_rovi":str(rovi_projectx_id),
                                         "projectx_id_%s"%source:str(source_projectx_id),"Dev_%s_px_mapped"%source:another_rovi_id_present_status["dev_source_px_mapped"],"Dev_rovi_px_mapped":another_source_id_present_status["dev_rovi_px_mapped"],
                                         "another_rovi_id_present":another_rovi_id_present_status["another_rovi_id_present"],"another_%s_id_present"%source:another_source_id_present_status["another_source_id_present"],"variant_present":variant_present,
-                                                             "Comment":'Fail',"Result of mapping series":'Fail'})
+                                                             "Comment":'Fail',"Result of mapping series":'Fail'}
                     elif len(source_projectx_id)>1:
                         self.multiple_mapped_count=self.multiple_mapped_count+1
-                        writer.writerow({"%s_sm_id"%source:source_sm_id,"Rovi_sm_id":rovi_sm_id,"projectx_id_rovi":rovi_projectx_id,"projectx_id_%s"%source:'Nil',
-                                                                                          "Comment":'multiple source_px_id from duplicate API',"Result of mapping series":'Fail'})
+                        return {"%s_sm_id"%source:source_sm_id,"Rovi_sm_id":rovi_sm_id,"projectx_id_rovi":rovi_projectx_id,"projectx_id_%s"%source:'Nil',
+                                                                                          "Comment":'multiple source_px_id from duplicate API',"Result of mapping series":'Fail'}
                     else:
                         self.source_id_not_ingested_count=self.source_id_not_ingested_count+1
-                        writer.writerow({"%s_sm_id"%source:source_sm_id,"Rovi_sm_id":rovi_sm_id,"projectx_id_rovi":rovi_projectx_id,"projectx_id_%s"%source:'Nil',
-                                                                                          "Comment":'source_id not ingested',"Result of mapping series":'Fail'})    
+                        return {"%s_sm_id"%source:source_sm_id,"Rovi_sm_id":rovi_sm_id,"projectx_id_rovi":rovi_projectx_id,"projectx_id_%s"%source:'Nil',
+                                                                                          "Comment":'source_id not ingested',"Result of mapping series":'Fail'}
 
             except (Exception,httplib.BadStatusLine,urllib2.HTTPError,socket.error,URLError) as e:
                 retry_count+=1
                 print ("exception caught ...........................................",type(e),source_sm_id,rovi_sm_id)
                 if retry_count<=5:
-                    self.checking_mapping_series(source_sm_id,rovi_sm_id,source_projectx_id,rovi_projectx_id,writer,source,token
+                    self.checking_mapping_series(source_sm_id,rovi_sm_id,source_projectx_id,rovi_projectx_id,source,token
                                  ,projectx_mapping_api,projectx_preprod_api,api_duplicate_checking)
                 else:
                     retry_count=0    
@@ -427,8 +429,8 @@ class mapping_script_modules:
         #TODO: condition 5, to check both source id ingested
         elif len(source_projectx_id)==0 and len(rovi_projectx_id)==0:
             self.both_source_not_ingested_count=self.both_source_not_ingested_count+1
-            writer.writerow({"%s_sm_id"%source:source_sm_id,"Rovi_sm_id":rovi_sm_id,"projectx_id_rovi":'',"projectx_id_%s"%source:'',"Comment":'both ids not ingested',
-                                                                                                   "Result of mapping series":'N.A.'})
+            return {"%s_sm_id"%source:source_sm_id,"Rovi_sm_id":rovi_sm_id,"projectx_id_rovi":'',"projectx_id_%s"%source:'',"Comment":'both ids not ingested',
+                                                                                                   "Result of mapping series":'N.A.'}
         print("\n")
         print("multiple mapped: ",self.multiple_mapped_count ,"mapped :",self.mapped_count ,"Not mapped :", self.not_mapped_count, 
               "rovi id not ingested :", self.rovi_id_not_ingested_count, "source Id not ingested : ",self.source_id_not_ingested_count, 
@@ -436,7 +438,7 @@ class mapping_script_modules:
 
     #this function works only for Guidebox mapping
     def checking_mapping_episodes(self,source_id,rovi_id,source_sm_id,episode_title,ozoneepisodetitle,OzoneOriginalEpisodeTitle
-                              ,scheme,rovi_series_id,rovi_projectx_id,source_projectx_id,source_projectx_id_sm,writer,source,
+                              ,scheme,rovi_series_id,rovi_projectx_id,source_projectx_id,source_projectx_id_sm,source,
                               token,projectx_mapping_api_,projectx_preprod_api,api_duplicate_checking
                              ,api_check_presence_data,projectx_preprod_api_episodes):
         #import pdb;pdb.set_trace()
@@ -448,9 +450,9 @@ class mapping_script_modules:
         if len(rovi_projectx_id)==1 and len(source_projectx_id)==1:
             if rovi_projectx_id == source_projectx_id:
                 self.mapped_count+=1
-                writer.writerow({"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"episode_title":episode_title,
+                return {"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"episode_title":episode_title,
                                  "Scheme":scheme,"ozoneepisodetitle":ozoneepisodetitle,"OzoneOriginalEpisodeTitle":OzoneOriginalEpisodeTitle,"projectx_id_rovi":str(rovi_projectx_id[0]),
-                                                                         "projectx_id_%s"%source:str(source_projectx_id[0]),"Episode mapping":'Pass',"Comment":'Pass'})
+                                                                         "projectx_id_%s"%source:str(source_projectx_id[0]),"Episode mapping":'Pass',"Comment":'Pass'}
 
             else:
                 #import pdb;pdb.set_trace()
@@ -468,11 +470,11 @@ class mapping_script_modules:
                 series_id_match_status=self.to_check_series_match(projectx_api_response,px_series_id)
 
                 self.not_mapped_count+=1
-                writer.writerow({"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"episode_title":episode_title,
+                return {"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"episode_title":episode_title,
                                  "Scheme":scheme,"ozoneepisodetitle":ozoneepisodetitle,"OzoneOriginalEpisodeTitle":OzoneOriginalEpisodeTitle,"projectx_id_rovi":str(rovi_projectx_id[0]),
                                  "projectx_id_%s"%source:str(source_projectx_id[0]),"Dev_%s_px_mapped"%source:another_rovi_id_present_status["dev_source_px_mapped"],"Dev_rovi_px_mapped":another_source_id_present_status["dev_rovi_px_mapped"],
                                  "another_rovi_id_present":another_rovi_id_present_status["another_rovi_id_present"],"another_%s_id_present"%source:another_source_id_present_status["another_source_id_present"],"series_id_match":series_id_match_status["series_id_match"],"Px_series_id":series_id_match_status["px_series_id"],
-                                  "Episode mapping":'Fail',"Comment":'Fail'})
+                                  "Episode mapping":'Fail',"Comment":'Fail'}
         #TODO: condition 2 , to check multiple projectx ids for a source        
         elif len(rovi_projectx_id)>1 or len(source_projectx_id)>1:
             self.multiple_mapped_count+self.multiple_mapped_count+1
@@ -510,21 +512,21 @@ class mapping_script_modules:
                 status='Fail'
                 self.ource_id_not_ingested_count=self.source_id_not_ingested_count+1
 
-            writer.writerow({"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"episode_title":episode_title,
+            return {"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"episode_title":episode_title,
                             "Scheme":scheme,"ozoneepisodetitle":ozoneepisodetitle,"OzoneOriginalEpisodeTitle":OzoneOriginalEpisodeTitle,"projectx_id_rovi":rovi_projectx_id,
-                                                                         "projectx_id_%s"%source:source_projectx_id,"Comment":comment,"Episode mapping":status})
+                                                                         "projectx_id_%s"%source:source_projectx_id,"Comment":comment,"Episode mapping":status}
         #TODO: condition 3, to check rovi_id ingested
         elif len(source_projectx_id)==1 and not rovi_projectx_id:
             self.rovi_id_not_ingested_count=self.rovi_id_not_ingested_count+1
-            writer.writerow({"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"episode_title":episode_title,
+            return {"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"episode_title":episode_title,
                             "Scheme":scheme,"ozoneepisodetitle":ozoneepisodetitle,"OzoneOriginalEpisodeTitle":OzoneOriginalEpisodeTitle,"projectx_id_rovi":'Nil',
-                            "projectx_id_%s"%source:source_projectx_id,"Episode mapping":'N.source_projectx_id',"Comment":'No ingestion of rovi_id of episodes and multiple ingestion for GB_id'})
+                            "projectx_id_%s"%source:source_projectx_id,"Episode mapping":'N.source_projectx_id',"Comment":'No ingestion of rovi_id of episodes and multiple ingestion for GB_id'}
         #TODO: condition 4, to check both source id ingested
         elif len(source_projectx_id)==0 and len(rovi_projectx_id)==0:
             self.both_source_not_ingested_count=self.both_source_not_ingested_count+1
-            writer.writerow({"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"episode_title":episode_title,
+            return {"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"episode_title":episode_title,
                             "Scheme":scheme,"ozoneepisodetitle":ozoneepisodetitle,"OzoneOriginalEpisodeTitle":OzoneOriginalEpisodeTitle,"projectx_id_rovi":'',
-                                      "projectx_id_%s"%source:'',"Episode mapping":'N.source_projectx_id',"Comment":'No Ingestion of both sources'})
+                                      "projectx_id_%s"%source:'',"Episode mapping":'N.source_projectx_id',"Comment":'No Ingestion of both sources'}
         #TODO: condition 5, to check source id ingested and checking for another source_ids    
         elif len(source_projectx_id)==0 and len(rovi_projectx_id)==1:
             retry_count=0
@@ -536,14 +538,14 @@ class mapping_script_modules:
                     data_resp_url_source=self.fetch_response_for_api(id_api,token)
                     if data_resp_url_source==True:
                         self.source_id_not_ingested_count=self.source_id_not_ingested_count+1 
-                        writer.writerow({"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"episode_title":episode_title,
+                        return {"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"episode_title":episode_title,
                                         "Scheme":scheme,"ozoneepisodetitle":ozoneepisodetitle,"OzoneOriginalEpisodeTitle":OzoneOriginalEpisodeTitle,"projectx_id_rovi":str(rovi_projectx_id[0]),
-                                                                               "projectx_id_%s"%source:'',"Episode mapping":'Fail',"Comment":'No Ingestion of source_id of episode'})
+                                                                               "projectx_id_%s"%source:'',"Episode mapping":'Fail',"Comment":'No Ingestion of source_id of episode'}
                     else:
                         self.id_not_present_in_DB_count=self.id_not_present_in_DB_count+1
-                        writer.writerow({"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"episode_title":episode_title,
+                        return {"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"episode_title":episode_title,
                                          "Scheme":scheme,"ozoneepisodetitle":ozoneepisodetitle,"OzoneOriginalEpisodeTitle":OzoneOriginalEpisodeTitle,"projectx_id_rovi":str(rovi_projectx_id[0]),
-                                                                     "projectx_id_%s"%source:'',"Episode mapping":'Fail',"Comment":'Not present of source_id of series in GB DB'})  
+                                                                     "projectx_id_%s"%source:'',"Episode mapping":'Fail',"Comment":'Not present of source_id of series in GB DB'}
                 else:
                     for ll in data_resp_url:
                         if ll.get("projectxId") not in source_projectx_id_sm:
@@ -559,24 +561,24 @@ class mapping_script_modules:
                     if source_projectx_id!=[]:
                         if rovi_projectx_id[0] in source_projectx_id:
                             self.mapped_count=self.mapped_count+1
-                            writer.writerow({"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"episode_title":episode_title,
+                            return {"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"episode_title":episode_title,
                                             "Scheme":scheme,"ozoneepisodetitle":ozoneepisodetitle,"OzoneOriginalEpisodeTitle":OzoneOriginalEpisodeTitle,"projectx_id_rovi":str(rovi_projectx_id),
-                                                                                  "projectx_id_%s"%source:str(rovi_projectx_id),"Episode mapping":'Pass',"Comment":'Pass'})
+                                                                                  "projectx_id_%s"%source:str(rovi_projectx_id),"Episode mapping":'Pass',"Comment":'Pass'}
                         else:
                             projectx_mapping_api=projectx_mapping_api_%rovi_projectx_id[0]
                             data_mapped_resp=self.fetch_response_for_api(projectx_mapping_api,token)
                             another_source_id_present_status=self.to_check_presence_different_source_id(data_mapped_resp,dev_rovi_px_mapped,source_id,source,'SE')
              
                             self.not_mapped_count=self.not_mapped_count+1
-                            writer.writerow({"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"episode_title":episode_title,
+                            return {"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"episode_title":episode_title,
                                              "Scheme":scheme,"ozoneepisodetitle":ozoneepisodetitle,"OzoneOriginalEpisodeTitle":OzoneOriginalEpisodeTitle,"projectx_id_rovi":str(rovi_projectx_id),
                                              "projectx_id_%s"%source:['not found match id'],"Dev_rovi_px_mapped":another_source_id_present_status["dev_rovi_px_mapped"],
-                                            "another_%s_id_present"%source:another_source_id_present_status["another_source_id_present"],"Episode mapping":'Fail',"Comment":'Fail'})       
+                                            "another_%s_id_present"%source:another_source_id_present_status["another_source_id_present"],"Episode mapping":'Fail',"Comment":'Fail'}
                     else:
                         self.source_id_not_ingested_count=self.source_id_not_ingested_count+1 
-                        writer.writerow({"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"episode_title":episode_title,
+                        return {"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"episode_title":episode_title,
                                          "Scheme":scheme,"ozoneepisodetitle":ozoneepisodetitle,"OzoneOriginalEpisodeTitle":OzoneOriginalEpisodeTitle,"projectx_id_rovi":str(rovi_projectx_id[0]),
-                                                                                   "projectx_id_%s"%source:'',"Episode mapping":'Fail',"Comment":'No Ingestion of source_id of episode'}) 
+                                                                                   "projectx_id_%s"%source:'',"Episode mapping":'Fail',"Comment":'No Ingestion of source_id of episode'}
 
             except (httplib.BadStatusLine,urllib2.HTTPError,socket.error,URLError,Exception) as e:
                 retry_count+=1
@@ -586,7 +588,7 @@ class mapping_script_modules:
                 if retry_count<=5:
                     self.checking_mapping_episodes(source_id,rovi_id,source_sm_id,episode_title,ozoneepisodetitle,OzoneOriginalEpisodeTitle
                                  ,scheme,rovi_series_id,rovi_projectx_id,source_projectx_id,source_projectx_id_sm,
-                                writer,source,token,projectx_mapping_api,projectx_preprod_api,api_duplicate_checking,api_check_presence_data,projectx_preprod_api_episodes)
+                                source,token,projectx_mapping_api,projectx_preprod_api,api_duplicate_checking,api_check_presence_data,projectx_preprod_api_episodes)
                 else:
                    retry_count=0    
         
@@ -598,7 +600,7 @@ class mapping_script_modules:
 
     # this func works for sources mapping except Guidebox 
     def checking_mapping_episodes_(self,source_id,rovi_id,source_sm_id,rovi_series_id,rovi_projectx_id,source_projectx_id,
-                              source_projectx_id_sm,writer,source,token,projectx_mapping_api_,projectx_preprod_api,
+                              source_projectx_id_sm,source,token,projectx_mapping_api_,projectx_preprod_api,
                               api_duplicate_checking,projectx_preprod_api_episodes):
         #import pdb;pdb.set_trace()
         dev_rovi_px_mapped=[]
@@ -609,8 +611,8 @@ class mapping_script_modules:
         if len(rovi_projectx_id)==1 and len(source_projectx_id)==1:
             if rovi_projectx_id == source_projectx_id:
                 self.mapped_count=self.mapped_count+1
-                writer.writerow({"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"projectx_id_rovi":str(rovi_projectx_id[0]),
-                                                                        "projectx_id_%s"%source:str(source_projectx_id[0]),"Episode mapping":'Pass',"Comment":'Pass'})
+                return {"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"projectx_id_rovi":str(rovi_projectx_id[0]),
+                                                                        "projectx_id_%s"%source:str(source_projectx_id[0]),"Episode mapping":'Pass',"Comment":'Pass'}
 
             else:
                 #import pdb;pdb.set_trace()
@@ -628,10 +630,10 @@ class mapping_script_modules:
                 series_id_match_status=self.to_check_series_match(projectx_api_response,px_series_id)
 
                 self.not_mapped_count=self.not_mapped_count+1
-                writer.writerow({"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"projectx_id_rovi":str(rovi_projectx_id[0]),
+                return {"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"projectx_id_rovi":str(rovi_projectx_id[0]),
                                 "projectx_id_%s"%source:str(source_projectx_id[0]),"Dev_%s_px_mapped"%source:another_rovi_id_present_status["dev_source_px_mapped"],"Dev_rovi_px_mapped":another_source_id_present_status["dev_rovi_px_mapped"],
                                  "another_rovi_id_present":another_rovi_id_present_status["another_rovi_id_present"],"another_%s_id_present"%source:another_source_id_present_status["another_source_id_present"],"series_id_match":series_id_match_status["series_id_match"],
-                                 "Px_series_id":series_id_match_status["px_series_id"],"Episode mapping":'Fail',"Comment":'Fail'})
+                                 "Px_series_id":series_id_match_status["px_series_id"],"Episode mapping":'Fail',"Comment":'Fail'}
         #TODO: condition 2 , to check multiple projectx ids for a source        
         elif len(rovi_projectx_id)>1 or len(source_projectx_id)>1:
             self.multiple_mapped_count=self.multiple_mapped_count+1
@@ -669,18 +671,18 @@ class mapping_script_modules:
                 status='Fail'            
                 self.source_id_not_ingested_count=self.source_id_not_ingested_count+1
 
-            writer.writerow({"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"projectx_id_rovi":rovi_projectx_id,
-                                                                 "projectx_id_%s"%source:source_projectx_id,"Comment":comment,"Episode mapping":status})
+            return {"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"projectx_id_rovi":rovi_projectx_id,
+                                                                 "projectx_id_%s"%source:source_projectx_id,"Comment":comment,"Episode mapping":status}
         #TODO: condition 3, to check both source id ingested
         elif len(source_projectx_id)==0 and len(rovi_projectx_id)==0:
             self.both_source_not_ingested_count=self.both_source_not_ingested_count+1
-            writer.writerow({"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"projectx_id_rovi":'',"projectx_id_%s"%source:'',
-                                "Episode mapping":'Fail',"Comment":'No Ingestion of both sources'})
+            return {"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"projectx_id_rovi":'',"projectx_id_%s"%source:'',
+                                "Episode mapping":'Fail',"Comment":'No Ingestion of both sources'}
         #TODO: condition 4, to check rovi_id ingested
         elif len(source_projectx_id)==1 and len(rovi_projectx_id)==0:
             self.rovi_id_not_ingested_count=self.rovi_id_not_ingested_count+1
-            writer.writerow({"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"projectx_id_rovi":'',
-                               "projectx_id_%s"%source:str(source_projectx_id[0]),"Episode mapping":'Fail',"Comment":'No Ingestion of rovi_id of episode'})
+            return {"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"projectx_id_rovi":'',
+                               "projectx_id_%s"%source:str(source_projectx_id[0]),"Episode mapping":'Fail',"Comment":'No Ingestion of rovi_id of episode'}
         #TODO: condition 5, to check source id ingested and checking for another source_ids    
         elif len(source_projectx_id)==0 and len(rovi_projectx_id)==1:
             retry_count=0
@@ -689,8 +691,8 @@ class mapping_script_modules:
                 data_resp_url=self.fetch_response_for_api(duplicate_api,token)
                 if data_resp_url==[]:
                     self.source_id_not_ingested_count=self.source_id_not_ingested_count+1 
-                    writer.writerow({"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"projectx_id_rovi":str(rovi_projectx_id[0]),
-                                        "projectx_id_%s"%source:'',"Episode mapping":'Fail',"Comment":'No Ingestion of source_id of episode'}) 
+                    return {"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"projectx_id_rovi":str(rovi_projectx_id[0]),
+                                        "projectx_id_%s"%source:'',"Episode mapping":'Fail',"Comment":'No Ingestion of source_id of episode'}
 
                 else:
                     for ll in data_resp_url:
@@ -706,21 +708,21 @@ class mapping_script_modules:
                     if source_projectx_id!=[]:
                         if rovi_projectx_id[0] in source_projectx_id:
                             self.mapped_count=self.mapped_count+1
-                            writer.writerow({"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"projectx_id_rovi":str(rovi_projectx_id),
-                                                                              "projectx_id_%s"%source:str(rovi_projectx_id),"Episode mapping":'Pass',"Comment":'Pass'})
+                            return {"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"projectx_id_rovi":str(rovi_projectx_id),
+                                                                              "projectx_id_%s"%source:str(rovi_projectx_id),"Episode mapping":'Pass',"Comment":'Pass'}
                         else:
                             projectx_mapping_api=projectx_mapping_api_%rovi_projectx_id[0]
                             data_mapped_resp=self.fetch_response_for_api(projectx_mapping_api,token)
                             another_source_id_present_status=self.to_check_presence_different_source_id(data_mapped_resp,dev_rovi_px_mapped,source_id,source,'SE')
              
                             self.not_mapped_count=self.not_mapped_count+1
-                            writer.writerow({"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"projectx_id_rovi":str(rovi_projectx_id),
+                            return {"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"projectx_id_rovi":str(rovi_projectx_id),
                                             "projectx_id_%s"%source:['not found match id'],"Dev_rovi_px_mapped":another_source_id_present_status["dev_rovi_px_mapped"],
-                                            "another_%s_id_present"%source:another_source_id_present_status["another_source_id_present"],"Episode mapping":'Fail',"Comment":'Fail'})       
+                                            "another_%s_id_present"%source:another_source_id_present_status["another_source_id_present"],"Episode mapping":'Fail',"Comment":'Fail'}
                     else:
                         self.source_id_not_ingested_count=self.source_id_not_ingested_count+1 
-                        writer.writerow({"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"projectx_id_rovi":str(rovi_projectx_id[0]),
-                                                                   "projectx_id_%s"%source:'',"Episode mapping":'Fail',"Comment":'No Ingestion of source_id of episode'})        
+                        return {"%s_sm_id"%source:source_sm_id,"%s_id"%source:source_id,"Rovi_id":rovi_id,"Rovi_SM_id":rovi_series_id,"projectx_id_rovi":str(rovi_projectx_id[0]),
+                                                                   "projectx_id_%s"%source:'',"Episode mapping":'Fail',"Comment":'No Ingestion of source_id of episode'}
             
             except (httplib.BadStatusLine,urllib2.HTTPError,socket.error,URLError,Exception) as e:
                 retry_count+=1
@@ -728,7 +730,7 @@ class mapping_script_modules:
                 print("\n")
                 print ("Retrying.............",retry_count)
                 if retry_count<=5:
-                    self.checking_mapping_episodes(source_id,rovi_id,source_sm_id,rovi_series_id,rovi_projectx_id,source_projectx_id,source_projectx_id_sm,writer,source,
+                    self.checking_mapping_episodes(source_id,rovi_id,source_sm_id,rovi_series_id,rovi_projectx_id,source_projectx_id,source_projectx_id_sm,source,
                               token,projectx_mapping_api_,projectx_preprod_api,api_duplicate_checking,projectx_preprod_api_episodes)
                 else:
                    retry_count=0  
@@ -739,8 +741,9 @@ class mapping_script_modules:
                 "both not ingested: ",self.both_source_not_ingested_count)
 
     #TODO: checking mapping movies for the given sources(ROVI, others)
-    def checking_mapping_movies(self,source_id,rovi_id,movie_name,release_year,source_projectx_id,rovi_projectx_id,writer
+    def checking_mapping_movies(self,source_id,rovi_id,movie_name,release_year,source_projectx_id,rovi_projectx_id
                                ,source,token,projectx_mapping_api_,projectx_preprod_api,api_duplicate_checking):
+        #import pdb;pdb.set_trace()
         dev_rovi_px_mapped=[]
         dev_source_px_mapped=[]
         px_series_id=[]
@@ -780,15 +783,15 @@ class mapping_script_modules:
             elif len(rovi_projectx_id)>1 and len(source_projectx_id)==0:
                 comment= 'Fail:Multiple ingestion for same content of rovi and source_id not ingested'
                 status='Fail'
-            writer.writerow({"%s_id"%source:source_id,"Rovi_id":rovi_id,"movie_name":movie_name,"release_year":release_year,"projectx_id_rovi":rovi_projectx_id,
-                               "projectx_id_%s"%source:source_projectx_id,"Comment":comment,"Result of mapping":status})    
+            return {"%s_id"%source:source_id,"Rovi_id":rovi_id,"movie_name":movie_name,"release_year":release_year,"projectx_id_rovi":rovi_projectx_id,
+                               "projectx_id_%s"%source:source_projectx_id,"Comment":comment,"Result of mapping":status}
 
         #TODO: condition 2, to check both projectx ids are same or not
         elif len(rovi_projectx_id)==1 and len(source_projectx_id)==1:
             if rovi_projectx_id == source_projectx_id:
                 self.mapped_count+=1
-                writer.writerow({"%s_id"%source:source_id,"Rovi_id":rovi_id,"movie_name":movie_name,"release_year":release_year,"projectx_id_rovi":str(rovi_projectx_id[0]),
-                                             "projectx_id_%s"%source:str(source_projectx_id[0]),"Comment":'Pass',"Result of mapping":'Pass'})
+                return {"%s_id"%source:source_id,"Rovi_id":rovi_id,"movie_name":movie_name,"release_year":release_year,"projectx_id_rovi":str(rovi_projectx_id[0]),
+                                             "projectx_id_%s"%source:str(source_projectx_id[0]),"Comment":'Pass',"Result of mapping":'Pass'}
 
             else:
                 self.not_mapped_count+=1
@@ -807,16 +810,16 @@ class mapping_script_modules:
                 projectx_api_response=self.fetch_response_for_api(projectx_api,token)
                 variant_present=self.to_check_variant_parent_id(projectx_api_response,px_array,px_variant_id)
                                
-                writer.writerow({"%s_id"%source:source_id,"Rovi_id":rovi_id,"movie_name":movie_name,"release_year":release_year,"projectx_id_rovi":str(rovi_projectx_id[0]),
+                return {"%s_id"%source:source_id,"Rovi_id":rovi_id,"movie_name":movie_name,"release_year":release_year,"projectx_id_rovi":str(rovi_projectx_id[0]),
                                       "projectx_id_%s"%source:str(source_projectx_id[0]),"Dev_%s_px_mapped"%source:another_rovi_id_present_status["dev_source_px_mapped"],"Dev_rovi_px_mapped":another_source_id_present_status["dev_rovi_px_mapped"],
                                      "another_rovi_id_present":another_rovi_id_present_status["another_rovi_id_present"],"another_%s_id_present"%source:another_source_id_present_status["another_source_id_present"],"variant_present":variant_present,
-                                                         "Comment":'Fail',"Result of mapping":'Fail'})
+                                                         "Comment":'Fail',"Result of mapping":'Fail'}
 
         #TODO: condition 3, to check rovi_id ingested 
         elif len(source_projectx_id)==1 and not rovi_projectx_id:
             self.rovi_id_not_ingested_count+=1
-            writer.writerow({"%s_id"%source:source_id,"Rovi_id":rovi_id,"movie_name":movie_name,"release_year":release_year,"projectx_id_rovi":'Nil',
-                              "projectx_id_%s"%source:str(source_projectx_id),"Comment":'rovi_id not ingested',"Result of mapping":'Fail'})
+            return {"%s_id"%source:source_id,"Rovi_id":rovi_id,"movie_name":movie_name,"release_year":release_year,"projectx_id_rovi":'Nil',
+                              "projectx_id_%s"%source:str(source_projectx_id),"Comment":'rovi_id not ingested',"Result of mapping":'Fail'}
 
         #TODO: condition 4, to check source id ingested and checking for another source_ids
         elif len(rovi_projectx_id)==1 and not source_projectx_id:
@@ -828,8 +831,8 @@ class mapping_script_modules:
                 data_resp_url=self.fetch_response_for_api(duplicate_api,token)
                 if data_resp_url==[]:
                     self.source_id_not_ingested_count+=1
-                    writer.writerow({"%s_id"%source:source_id,"Rovi_id":rovi_id,"movie_name":movie_name,"release_year":release_year,"projectx_id_rovi":str(rovi_projectx_id),
-                                               "projectx_id_%s"%source:'Nil',"Comment":'source_id not ingested',"Result of mapping":'Fail'}) 
+                    return {"%s_id"%source:source_id,"Rovi_id":rovi_id,"movie_name":movie_name,"release_year":release_year,"projectx_id_rovi":str(rovi_projectx_id),
+                                               "projectx_id_%s"%source:'Nil',"Comment":'source_id not ingested',"Result of mapping":'Fail'}
                 else: 
                     #TODO: taking source_px_id from duplicate API                        
                     for ll in data_resp_url:
@@ -837,8 +840,8 @@ class mapping_script_modules:
                             source_projectx_id.append(ll.get("projectxId"))
                     if rovi_projectx_id[0] in source_projectx_id:
                         self.mapped_count+=1        
-                        writer.writerow({"%s_id"%source:source_id,"Rovi_id":rovi_id,"movie_name":movie_name,"release_year":release_year,"projectx_id_rovi":str(rovi_projectx_id),
-                                             "projectx_id_%s"%source:str(source_projectx_id),"Comment":'Pass',"Result of mapping":'Pass'})   
+                        return {"%s_id"%source:source_id,"Rovi_id":rovi_id,"movie_name":movie_name,"release_year":release_year,"projectx_id_rovi":str(rovi_projectx_id),
+                                             "projectx_id_%s"%source:str(source_projectx_id),"Comment":'Pass',"Result of mapping":'Pass'}
                     elif len(source_projectx_id)==1:
                         self.not_mapped_count+=1
                         #TODO: checking the mapping of rovi_projectx_id
@@ -855,23 +858,23 @@ class mapping_script_modules:
                         projectx_api_response=self.fetch_response_for_api(projectx_api,token)
                         variant_present=self.to_check_variant_parent_id(projectx_api_response,px_array,px_variant_id) 
 
-                        writer.writerow({"%s_id"%source:source_id,"Rovi_id":rovi_id,"movie_name":movie_name,"release_year":release_year,"projectx_id_rovi":str(rovi_projectx_id),
+                        return {"%s_id"%source:source_id,"Rovi_id":rovi_id,"movie_name":movie_name,"release_year":release_year,"projectx_id_rovi":str(rovi_projectx_id),
                                         "projectx_id_%s"%source:str(source_projectx_id),"Dev_%s_px_mapped"%source:another_rovi_id_present_status["dev_source_px_mapped"],"Dev_rovi_px_mapped":another_source_id_present_status["dev_rovi_px_mapped"],
                                         "another_rovi_id_present":another_rovi_id_present_status["another_rovi_id_present"],"another_%s_id_present"%source:another_source_id_present_status["another_source_id_present"],"variant_present":variant_present,
-                                                                   "Comment":'Fail',"Result of mapping":'Fail',})
+                                                                   "Comment":'Fail',"Result of mapping":'Fail',}
                     elif len(source_projectx_id)>1:  
                         self.multiple_mapped_count=self.multiple_mapped_count+1  
-                        writer.writerow({"%s_id"%source:source_id,"Rovi_id":rovi_id,"movie_name":movie_name,"release_year":release_year,"projectx_id_rovi":str(rovi_projectx_id),
-                                           "projectx_id_%s"%source:'Nil',"Comment":'multiple source_px_id from duplicate API',"Result of mapping":'Fail'})    
+                        return {"%s_id"%source:source_id,"Rovi_id":rovi_id,"movie_name":movie_name,"release_year":release_year,"projectx_id_rovi":str(rovi_projectx_id),
+                                           "projectx_id_%s"%source:'Nil',"Comment":'multiple source_px_id from duplicate API',"Result of mapping":'Fail'}
                     else:
                         self.source_id_not_ingested_count=self.source_id_not_ingested_count+1
-                        writer.writerow({"%s_id"%source:source_id,"Rovi_id":rovi_id,"movie_name":movie_name,"release_year":release_year,"projectx_id_rovi":str(rovi_projectx_id),
-                                           "projectx_id_%s"%source:'Nil',"Comment":'Source_id not ingested',"Result of mapping":'Fail'})                  
+                        return {"%s_id"%source:source_id,"Rovi_id":rovi_id,"movie_name":movie_name,"release_year":release_year,"projectx_id_rovi":str(rovi_projectx_id),
+                                           "projectx_id_%s"%source:'Nil',"Comment":'Source_id not ingested',"Result of mapping":'Fail'}
                         
             except (httplib.BadStatusLine,urllib2.HTTPError,socket.error,URLError) as e:
                 print ("exception caught ..................................................",type(e),source_id,rovi_id)
                 if retry_count<=5:
-                    self.checking_mapping_movies(source_id,rovi_id,movie_name,release_year,source_projectx_id,rovi_projectx_id,writer
+                    self.checking_mapping_movies(source_id,rovi_id,movie_name,release_year,source_projectx_id,rovi_projectx_id
                                ,source,token,projectx_mapping_api_,projectx_preprod_api,api_duplicate_checking)
                 else:
                    retry_count=0
@@ -879,8 +882,8 @@ class mapping_script_modules:
         #TODO: condition 5, to check both source id ingested
         elif len(source_projectx_id)==0 and len(rovi_projectx_id)==0:
             self.both_source_not_ingested_count+=1
-            writer.writerow({"%s_id"%source:source_id,"Rovi_id":rovi_id,"movie_name":movie_name,"release_year":release_year,"projectx_id_rovi":'',"projectx_id_%s"%source:'',
-                                                              "Comment":'both ids not ingested',"Result of mapping":'N.A'})
+            return {"%s_id"%source:source_id,"Rovi_id":rovi_id,"movie_name":movie_name,"release_year":release_year,"projectx_id_rovi":'',"projectx_id_%s"%source:'',
+                                                              "Comment":'both ids not ingested',"Result of mapping":'N.A'}
 
         print("multiple mapped: ",self.multiple_mapped_count ,"mapped :",self.mapped_count ,"Not mapped :", self.not_mapped_count,
               "rovi id not ingested :", self.rovi_id_not_ingested_count, "source Id not ingested : ",self.source_id_not_ingested_count, "both not ingested: ",self.both_source_not_ingested_count)    
@@ -921,6 +924,7 @@ class duplicate_script_modules:
 
     def duplicate_results(self,search_px_id__tmp,duplicate,source,show_type,token
                           ,projectx_preprod_api,projectx_mapping_api,beta_programs_api,credit_db_api):
+        #import pdb;pdb.set_trace()
         rovi_id=[]
         rovi_mapping=[]
         source_mapping=[]
@@ -933,8 +937,8 @@ class duplicate_script_modules:
         comment_variant_parent_id_present=''
 
         for aa in search_px_id__tmp:
-           projectx_mapping_api=projectx_mapping_api%aa
-           data_resp_mapped=lib_common_modules().fetch_response_for_api(projectx_mapping_api,token)
+           projectx_mapping_api_=projectx_mapping_api%aa
+           data_resp_mapped=lib_common_modules().fetch_response_for_api_(projectx_mapping_api_,token)
            for yy in data_resp_mapped:
                if yy.get("data_source")=='Rovi' and yy.get("type")=='Program':
                    count_rovi=1+count_rovi
@@ -949,23 +953,22 @@ class duplicate_script_modules:
         if count_rovi>1:
             
             beta_api=beta_programs_api%'{}'.format(",".join([str(i) for i in rovi_id]))
-            data_resp_beta=lib_common_modules().fetch_response_for_api(beta_api,token)
+            data_resp_beta=lib_common_modules().fetch_response_for_api_(beta_api,token)
             variant_result=self.variant_parent_id_checking_rovi(data_resp_beta,rovi_id)
             comment_variant_parent_id=variant_result[0]
             comment_variant_parent_id_present=variant_result[1]
                                           
             comment='Duplicate projectx ids found in search api and rovi has duplicate'
-            #writer.writerow([source,self.id,'','MO',self.link_details,self.movie_title,'','',self.release_year,self.link_expired,self.px_id,'','','',self.comment,self.comment,'',search_px_id__tmp,self.credit_match,self.count_rovi,self.count_guidebox,self.count_source,rovi_mapping,guidebox_mapping,source_mapping,self.comment_variant_parent_id_present,self.comment_variant_parent_id])
         else:    
             comment='Duplicate ids found in search api'
         return {"comment":comment,"comment_variant_parent_id":comment_variant_parent_id,"comment_variant_parent_id_present":comment_variant_parent_id_present
                ,"count_rovi":count_rovi,"count_guidebox":count_guidebox,"count_source":count_source,"rovi_mapping":rovi_mapping,"search_px_id":search_px_id__tmp
                ,"source_mapping":source_mapping,"guidebox_mapping":guidebox_mapping,"duplicate":duplicate}
-            #writer.writerow([source,self.id,'','MO',self.link_details,self.movie_title,'','',self.release_year,self.link_expired,self.px_id,'','','',self.comment,self.comment,'',search_px_id__tmp,self.credit_match,self.count_rovi,self.count_guidebox,self.count_source,rovi_mapping,guidebox_mapping,source_mapping,self.comment_variant_parent_id_present,self.comment_variant_parent_id])
 
 
     def search_api_response_validation(self, data_resp_search, source, px_id, duplicate,show_type,token,
                        projectx_preprod_api,projectx_mapping_api,beta_programs_api,duplicate_api,credit_db_api):
+        #import pdb;pdb.set_trace()
         search_px_id_tmp=[]
         search_px_id=[]
         search_px_id__tmp=[]
@@ -1014,32 +1017,24 @@ class duplicate_script_modules:
                 else:
                     comment='Duplicate ids not found in search api'
                     #import pdb;pdb.set_trace()
-                    projectx_api=initialization_file.projectx_preprod_api%'{}'.format(",".join([str(i) for i in px_id]))
-                    data_resp_projectx=lib_common_modules().fetch_response_for_api(projectx_api,token)
+                    projectx_api=projectx_preprod_api%'{}'.format(",".join([str(i) for i in px_id]))
+                    data_resp_projectx=lib_common_modules().fetch_response_for_api_(projectx_api,token)
                     variant_result=self.variant_parent_id_checking_px(data_resp_projectx,px_id)
                     comment_variant_parent_id=variant_result[0]
                     comment_variant_parent_id_present=variant_result[1]
-                    #writer.writerow([source,self.id,'','MO',self.link_details,self.movie_title,'','',self.release_year,self.link_expired,self.px_id,'','','',self.comment,self.comment,'',search_px_id__tmp,'','','','','','','',self.comment_variant_parent_id_present,self.comment_variant_parent_id,'',''])            
-            else:
-                duplicate_api=duplicate_api%(self.id,source,show_type)
-                data_resp_duplicate=lib_common_modules().fetch_response_for_api(duplicate_api,token)
-                if data_resp_duplicate:
-                    duplicate='True'
-                else:
-                    duplicate='False'                                
-                comment='Search api has no response'
+
             return {"comment":comment,"duplicate":duplicate,"comment_variant_parent_id":comment_variant_parent_id,
                      "comment_variant_parent_id_present":comment_variant_parent_id_present,"search_px_id":search_px_id__tmp
                     ,"count_rovi":count_rovi,"count_guidebox":count_guidebox,"count_source":count_source,"rovi_mapping":rovi_mapping
                     ,"source_mapping":source_mapping,"guidebox_mapping":guidebox_mapping}
 
-    def search_api_call_response(self, title,token):
+    def search_api_call_response(self, title,projectx_preprod_search_api,domain_name,token):
         #import pdb;pdb.set_trace() 
         next_page_url=""
         data_resp_search=dict()
 
-        search_api=initialization_file.projectx_preprod_search_api%urllib2.quote(title)
-        data_resp_search = lib_common_modules().fetch_response_for_api(search_api,token)
+        search_api=projectx_preprod_search_api%urllib2.quote(title)
+        data_resp_search = lib_common_modules().fetch_response_for_api_(search_api,token)
          
         while data_resp_search.get("results"):
             ## TODO: We are taking only the last response. We should take all  
@@ -1047,10 +1042,9 @@ class duplicate_script_modules:
                 if nn.get("action_type")=="ott_search" and (nn.get("results")==[] or nn.get("results")):
                     next_page_url=nn.get("next_page_url")
                     if next_page_url is not None: 
-                        search_api=initialization_file.domain_name+next_page_url.replace(' ',"%20")
-                        data_resp_search = lib_common_modules().fetch_response_for_api(search_api,token)
+                        search_api=domain_name+next_page_url.replace(' ',"%20")
+                        data_resp_search = lib_common_modules().fetch_response_for_api_(search_api,token)
                         return data_resp_search
-                        #self.search_api_response_validation(data_resp_search, source, px_id, link_expired, writer, duplicate,writer_credit_match_false)
                     else:    
                         data_resp_search={"results":[]}
                 else:
@@ -1333,7 +1327,7 @@ class duplicate_script_modules:
             #import pdb;pdb.set_trace()
             try:
                 projectx_api_preprod=projectx_preprod_api%'{}'.format(",".join([str(i) for i in duplicate_id]))
-                data_resp_ids=lib_common_modules().fetch_response_for_api(projectx_api_preprod,token)
+                data_resp_ids=lib_common_modules().fetch_response_for_api_(projectx_api_preprod,token)
                 
                 self.px_id1=data_resp_ids[0].get("id")
                 self.px_id1_show_type=data_resp_ids[0].get("show_type").encode('utf-8')
@@ -1350,8 +1344,8 @@ class duplicate_script_modules:
                 if self.px_id1_credits:
                     self.px_id1_credits_null='False'
                 else:
-                    credit_db_api=credit_db_api%self.px_id1
-                    credit_resp_db=lib_common_modules().fetch_response_for_api(credit_db_api,token)
+                    credit_db_api_=credit_db_api%self.px_id1
+                    credit_resp_db=lib_common_modules().fetch_response_for_api_(credit_db_api_,token)
                     if credit_resp_db:
                         self.px_id1_db_credit_present='True'        
 
@@ -1379,8 +1373,8 @@ class duplicate_script_modules:
                 if self.px_id2_credits:
                     self.px_id2_credits_null='False'
                 else:
-                    credit_db_api=initialization_file.credit_db_api%self.px_id2
-                    credit_resp_db=self.fetch_response_for_api(credit_db_api)
+                    credit_db_api_=credit_db_api%self.px_id2
+                    credit_resp_db=lib_common_modules().fetch_response_for_api_(credit_db_api_,token)
                     if credit_resp_db:
                         self.px_id2_db_credit_present='True' 
 
@@ -1469,11 +1463,11 @@ class duplicate_script_modules:
                     "px_id2_show_type":self.px_id2_show_type,"px_id2_variant_parent_id":self.px_id2_variant_parent_id,"px_id2_is_group_language_primary":self.px_id2_is_group_language_primary
                     ,"px_id2_record_language":self.px_id2_record_language,"px_id1_credits_null":self.px_id1_credits_null,"px_id1_db_credit_present":self.px_id1_db_credit_present,
                     "px_id2_credits_null":self.px_id2_credits_null,"px_id2_db_credit_present":self.px_id2_db_credit_present,"long_title_match":self.long_title_match,
-                    "original_title_match":self.original_title_match,"original_title_match":self.runtime_match,"release_year_match":self.release_year_match,"alias_title_match":
+                    "original_title_match":self.original_title_match,"runtime_match":self.runtime_match,"release_year_match":self.release_year_match,"alias_title_match":
                      self.alias_title_match,"comment":self.comment}
                  
             except Exception as e:
-                print ("exception caught (checking_same_program).................................",type(e),[self.px_id1,self.px_id2])
+                print ("exception caught (checking_same_program).................",type(e),[self.px_id1,self.px_id2])
                 print ("\n")
                 print ("Retrying.............")
                 print ("\n")    
@@ -1482,10 +1476,291 @@ class duplicate_script_modules:
         
         def meta_data_validation(self,duplicate_ids,projectx_preprod_api,
                         credit_db_api,source,token):
+            #import pdb;pdb.set_trace()
             self.cleanup()
             print("Checking same program of duplicate cases..............")
             return self.checking_same_program(duplicate_ids,projectx_preprod_api,
                         credit_db_api,source,token)                    
     
 
+class ott_meta_data_validation_modules:
+
+    def init(self):
+        self.px_long_title=''
+        self.px_video_link=[]
+        self.px_credit_present='False'
+        self.px_video_link_present='False'
+        self.px_original_title=''
+        self.px_episode_title=''
+        self.px_run_time=0
+        self.px_release_year=0
+        self.px_record_language=''
+        self.px_description=''
+        self.px_images_details=[]
+        self.px_genres=[]
+        self.px_aliases=[]
+        self.launch_id=[]
+        self.px_response='Null'
+        self.px_credits=[]
+        self.px_season_number=0
+        self.px_episode_number=0
+
+    def px_images_details(px_show_id,data_images_px,show_type,projectx_programs_api,token):
+        #import pdb;pdb.set_trace()
+        px_images_details=[]
+        for images in data_images_px:
+            px_images_details.append({'url':images.get("url")})
+        if show_type=='SE' and px_images_details==[]:
+            projectx_api=projectx_programs_api%px_show_id
+            data_px_images=lib_common_modules().fetch_response_for_api_(projectx_api,token)
+            for images in data_px_images:
+                px_images_details.append({'url':images.get("url")})
+        return px_images_details    
+
+    #TODO: to get meta details of projectx ids
+    def getting_projectx_details(self,projectx_id,show_type,source,thread_name,projectx_programs_api,token):
+        #import pdb;pdb.set_trace()
+        self.init()
+        retry_count=0
+        try:
+            projectx_api=projectx_programs_api%projectx_id
+            data_px_resp=lib_common_modules().fetch_response_for_api_(projectx_api,token)
+            if data_px_resp!=[]:
+
+                for data in data_px_resp:
+                    if data.get("long_title") is not None and data.get("long_title")!="":
+                        self.px_long_title=unidecode.unidecode(pinyin.get(data.get("long_title")))
+                    if data.get("original_title") is not None and data.get("original_title")!="":
+                        self.px_original_title=unidecode.unidecode(pinyin.get(data.get("original_title")))
+                    if data.get("original_episode_title")!="": 
+                        self.px_episode_title=unidecode.unidecode(pinyin.get(data.get("original_episode_title")))
+                    
+                    self.px_record_language= data.get("record_language")
+                    self.px_release_year=data.get("release_year")
+                    self.px_run_time=data.get("run_time")
+                    self.px_show_id=data.get("series_id")
+                    try:
+                        self.px_description=pinyin.get(data.get("description")[0].get("program_description"))
+                    except Exception:
+                        return self.px_description           
+                    try:
+                        self.px_season_number=data.get("episode_season_number")
+                    except Exception:
+                        return self.px_season_number    
+                    #import pdb;pdb.set_trace()
+                    try:
+                        self.px_episode_number= data.get("episode_season_sequence")
+                    except Exception:
+                        return self.px_episode_number     
+
+                    self.px_video_link= data.get("videos")
+                    if self.px_video_link:
+                        self.px_video_link_present='True'
+                        for linkid in self.px_video_link:
+                            #if linkid.get("source_id")=='hulu':
+                            self.launch_id.append(linkid.get("launch_id"))
+
+                    if data.get("images"):
+                        self.px_images_details=self.px_images_details(self.px_show_id,data.get("images")
+                                              ,show_type,projectx_programs_api,token)
+
+                    return {"px_credits":self.px_credits,"px_credit_present":self.px_credit_present,"px_long_title":self.px_long_title,"px_episode_title":self.px_episode_title,
+                           "px_original_title":self.px_original_title,"px_description":self.px_description,"px_genres":self.px_genres,"px_aliases":self.px_aliases,
+                            "px_release_year":self.px_release_year,"px_run_time":self.px_run_time,"px_season_number":self.px_season_number,"px_episode_number":self.px_episode_number,
+                            "px_video_link_present":self.px_video_link_present,"px_images_details":self.px_images_details,"launch_id":self.launch_id}
+            else:
+                return self.px_response
+
+        except (Exception,httplib.BadStatusLine,urllib2.HTTPError,socket.error,urllib2.URLError,RuntimeError,pymongo.errors.CursorNotFound) as e:
+            retry_count+=1
+            print ("exception caught ..............................................",type(e),projectx_id,show_type,source,thread_name)
+            print ("\n") 
+            print ("Retrying.............")
+            if retry_count<=5:
+                self.getting_projectx_details(projectx_id,show_type,source,name)    
+            else:
+                retry_count=0
+
+    #TODO: to get Px_id from mapping API
+    def getting_mapped_px_id(self,_id,show_type,source,px_mappingdb_cur):
+        #import pdb;pdb.set_trace()
+        retry_count=0
+        try:
+            px_id=[]
+            any_source_flag='False'
+            source_flag='False'
+            source_map=[]
+            query="select projectxId from projectx_mappings where data_source=%s and sourceId =%s and sub_type=%s"
+            px_mappingdb_cur.execute(query,(source,_id,show_type))
+            data_resp_mapping=px_mappingdb_cur.fetchall()
+
+            for data in data_resp_mapping:
+                px_id.append(data[0])
+
+            if px_id:       
+                #import pdb;pdb.set_trace() 
+                query="select count(*) from projectx_mappings where projectxId =%s"
+                px_mappingdb_cur.execute(query,(px_id[0],))
+                data_resp_px_mapping=px_mappingdb_cur.fetchall()
+                for resp in data_resp_px_mapping:
+                    if int(resp[0])>1:
+                        any_source_flag='True(Rovi+others)'
+                    else:
+                        source_flag='True'                       
+
+                if  source_flag=='True' and any_source_flag=='False':
+                    return (px_id[0],_id,source_flag)
+                elif source_flag=='False' and any_source_flag=='True(Rovi+others)':    
+                    return (px_id[0],_id,any_source_flag)
+                elif source_flag=='True' and any_source_flag=='True(Rovi+others)':    
+                    return (px_id[0],_id,any_source_flag)        
+            else:
+                return (px_id,_id,any_source_flag)        
+
+        except (Exception,MySQLdb.Error, MySQLdb.Warning,socket.error,RuntimeError) as e:
+            retry_count+=1
+            print ("exception caught ................................................................................",type(e),_id,source,show_type)
+            print ("\n") 
+            print ("Retrying.............",retry_count)
+            if retry_count<=5:
+                self.getting_mapped_px_id(_id,show_type,source,px_mappingdb_cur)            
+            else:
+                retry_count=0
+
+    #TODO: to check images population
+    def images_validation(source_images,projectx_images):
+        #import pdb;pdb.set_trace()
+        image_url_match=''
+        image_url_missing=''
+        wrong_url=[]
+
+        if projectx_images:
+            source_images_url=source_images["source_images_details"]
+            projectx_images=projectx_images["px_images_details"]
+
+            if source_images_url!=[]:
+                for images in projectx_images:
+                    if images in source_images_url:
+                        image_url_match="True"
+                        break 
+                    else:
+                        image_url_missing="True" 
+                        wrong_url.append(images.get("url")) 
+
+        return (image_url_missing,wrong_url)
+        
+    def ott_validation(projectx_details,source_id):
+
+        comment_link='Null'   
+        #import pdb;pdb.set_trace()
+        try:
+            if projectx_details["launch_id"]:
+                if str(source_id) in projectx_details["launch_id"]:
+                    comment_link='Present'
+                else:
+                    comment_link='Not_Present'
+                return comment_link
+            else:
+                return comment_link
+        except Exception:
+            return comment_link                
+
+    class meta_data_validate_hulu:
+        #initilization
+        def __init__(self):
+            self.title_match='False'
+            self.description_match='False'
+            self.genres_match='Null'
+            self.release_year_match='False'
+            self.season_number_match=''
+            self.episode_number_match=''
+            self.px_video_link_present=''
+            self.source_link_present=''
+
+        def cleanup(self):    
+            self.title_match='False'
+            self.description_match='False'
+            self.genres_match='Null'
+            self.release_year_match='False'
+            self.season_number_match=''
+            self.episode_number_match=''
+            self.px_video_link_present=''
+            self.source_link_present=''
+
+        # meta_data_validation
+        def meta_data_validation(self,_id,source_details,projectx_details,show_type):
+            #import pdb;pdb.set_trace()
+            if projectx_details:
+                if show_type=='MO' or show_type=='SM':
+                    if projectx_details["px_original_title"]!='' or projectx_details["px_original_title"] is not None:
+                        if projectx_details["px_original_title"].upper() in source_details["source_title"].upper():
+                            self.title_match='True'
+                        elif projectx_details["px_original_title"].upper() in source_details["source_title"].upper():
+                            self.title_match='True'    
+                        else:                
+                            ratio_title=fuzz.ratio(projectx_details["px_original_title"].upper(),source_details["source_title"].upper())
+                            if ratio_title >=70:
+                                self.title_match='True'
+                            else:
+                                ratio_title=fuzz.ratio(projectx_details["px_original_title"].upper(),source_details["source_title"].upper())
+                                if ratio_title >=70:
+                                    self.title_match='True'
+                                else:
+                                    self.title_match='False'
+                    else:
+                        if projectx_details["px_long_title"].upper() in source_details["source_title"].upper():
+                            self.title_match='True'
+                        elif source_details["px_long_title"].upper() in projectx_details["source_title"].upper():
+                            self.title_match='True'
+                        else:
+                            ratio_title=fuzz.ratio(source_details["source_title"].upper(),projectx_details["px_long_title"].upper())
+                            if ratio_title >=70:
+                                self.title_match='True'
+                else:
+                    if projectx_details["px_episode_title"].upper() in source_details["source_title"].upper():
+                        self.title_match='True'
+                    elif source_details["source_title"].upper() in projectx_details["px_episode_title"].upper():
+                        self.title_match='True'       
+                    else:                
+                        ratio_title=fuzz.ratio(projectx_details["px_episode_title"].upper(),source_details["source_title"].upper())
+                        if ratio_title >=70:
+                            self.title_match='True'
+
+                if projectx_details["px_description"]==source_details["source_description"]:
+                    self.description_match='True'
+                try:
+                    if eval(source_details["source_release_year"]) == projectx_details["px_release_year"]:
+                        self.release_year_match='True'
+                    elif projectx_details["px_release_year"]-1 == eval(source_details["source_release_year"]):
+                        self.release_year_match='True'
+                    elif projectx_details["px_release_year"] ==  eval(source_details["source_release_year"])-1:
+                        self.release_year_match='True'
+                except Exception:
+                    if projectx_details["px_release_year"] == source_details["source_release_year"]:
+                        self.release_year_match='True'        
+
+                if show_type=='SE':
+                    if source_details["source_season_number"]==projectx_details["px_season_number"]:
+                        self.season_number_match='True'
+                    else:
+                        self.season_number_match='False'
+                    #import pdb;pdb.set_trace()
+                    if projectx_details["px_episode_number"]=="" and source_details[11]!="":
+                        projectx_details["px_episode_number"]="0"    
+                        if source_details["source_episode_number"]==projectx_details["px_episode_number"]:
+                            self.episode_number_match='True'
+                        else:
+                            self.episode_number_match='False'
+                    else:
+                         if source_details["source_episode_number"]==projectx_details["px_episode_number"]:
+                             self.episode_number_match='True'
+                         else:
+                             self.episode_number_match='False'                   
+
+                self.px_video_link_present=projectx_details["px_video_link_present"]
+                self.source_link_present=source_details["source_link_present"]     
+
+            return {"title_match":self.title_match,"description_match":self.description_match,"genres_match":self.genres_match,"release_year_match":self.release_year_match,
+                    "season_number_match":self.season_number_match,"episode_number_match":self.episode_number_match,"px_video_link_present":self.px_video_link_present,
+                    "source_link_present":self.source_link_present}                
 
