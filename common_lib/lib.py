@@ -114,7 +114,35 @@ class lib_common_modules:
             if retry_count <=5:
                 self.link_expiry_check_(expired_api,domain,link_id,service,expired_token)   
             else:
-                retry_count = 0            
+                retry_count = 0   
+
+
+    #TODO: to get Px_id from mapping API
+    def getting_mapped_px_id(self,_id,show_type,source,px_mappingdb_cur):
+        #import pdb;pdb.set_trace()
+        retry_count=0
+        try:
+            px_id=[]
+            query="select projectxId from projectx_mapping where data_source=%s and sourceId =%s and sub_type=%s"
+            px_mappingdb_cur.execute(query,(source,_id,show_type))
+            data_resp_mapping=px_mappingdb_cur.fetchall()
+
+            for data in data_resp_mapping:
+                px_id.append(data[0])
+
+            return px_id
+            px_mappingdb_cur.close()            
+
+        except (Exception,MySQLdb.Error, MySQLdb.Warning,socket.error,RuntimeError) as e:
+            retry_count+=1
+            print ("exception caught getting_mapped_px_id.................",type(e),_id,source,show_type)
+            print ("\n") 
+            print ("Retrying.............",retry_count)
+            if retry_count<=5:
+                self.getting_mapped_px_id(_id,show_type,source,px_mappingdb_cur)            
+            else:
+                retry_count=0
+
 
 class ingestion_script_modules:
 
@@ -1945,3 +1973,287 @@ class ott_meta_data_validation_modules:
                     "duration_match":duration_match,"season_number_match":season_number_match,"episode_number_match":episode_number_match,
                     "px_video_link_present":px_video_link_present,"source_link_present":source_link_present}                
 
+
+
+class checking_any_two_px_programs:
+
+    def __init__(self):
+        self.px_id_alias=[]
+        self.px_id_alias_comment=''
+        self.px_id_credits_null='True'
+
+        self.px_id=0
+        self.px_id_show_type=''
+        self.px_id_variant_parent_id=0
+        self.px_id_is_group_language_primary=''
+        self.px_id_long_title=''
+        self.px_id_original_title=''
+        self.px_id_run_time=''
+        self.px_id_release_year=''
+        self.px_id_record_language=''
+        self.px_id_aliases=[]
+        self.px_id_credits=[]
+        self.px_id_db_credit_present='False'
+        self.px_id_videos_launch_id=[]
+        self.comment=''
+
+        self.long_title_match=''
+        self.original_title_match=''
+        self.runtime_match=''
+        self.release_year_match=''
+        self.alias_title_match=''
+        self.video_match=''
+        self.match_launch_id=[]
+        self.credit_match='' 
+
+    def cleanup(self):
+        self.px_id_alias=[]
+        self.px_id_alias_comment=''
+        self.px_id_credits_null='True'
+        self.comment=''
+
+        self.px_id=0
+        self.px_id_show_type=''
+        self.px_id_variant_parent_id=0
+        self.px_id_is_group_language_primary=''
+        self.px_id_long_title=''
+        self.px_id_original_title=''
+        self.px_id_run_time=''
+        self.px_id_release_year=''
+        self.px_id_record_language=''
+        self.px_id_aliases=[]
+        self.px_id_credits=[]
+        self.px_id_db_credit_present='False'
+        self.px_id_videos_launch_id=[]
+
+        self.long_title_match=''
+        self.original_title_match=''
+        self.runtime_match=''
+        self.release_year_match=''
+        self.alias_title_match=''
+        self.video_match='' 
+        self.match_launch_id=[] 
+        self.credit_match=''  
+
+    def getting_px_credits(self,data_credits):
+        #import pdb;pdb.set_trace()
+        px_credits=[]
+        for credits in data_credits:
+            px_credits.append(unidecode.unidecode(pinyin.get(credits.get("full_credit_name"))))
+        return px_credits 
+
+    def long_title_validtion(self,px_id1_long_title,px_id2_long_title):
+        #import pdb;pdb.set_trace()
+        if px_id1_long_title.upper()!='' and px_id2_long_title.upper()!='':
+            if px_id1_long_title.upper() in px_id2_long_title.upper():
+                self.long_title_match='True'
+            else:
+                if px_id2_long_title.upper() in px_id1_long_title.upper():
+                    self.long_title_match='True'
+                else:
+                    ratio_title=fuzz.ratio(px_id1_long_title.upper(),px_id2_long_title.upper())
+                    if ratio_title >=70:
+                        self.long_title_match='True'
+                    else:
+                        self.long_title_match='False'
+        elif px_id1_long_title.upper()=='' and px_id2_long_title.upper()=='':                       
+            self.long_title_match='True'
+        else:
+            self.long_title_match='False'    
+
+    def original_title_validation(self,px_id1_original_title,px_id2_original_title):
+        #import pdb;pdb.set_trace()
+        if px_id1_original_title.upper()!='' and px_id2_original_title.upper()!='':
+            if px_id1_original_title.upper() in px_id2_original_title.upper():
+                self.original_title_match='True'
+            else:
+                if px_id2_original_title.upper() in px_id1_original_title.upper():
+                    self.original_title_match='True'
+                else:
+                    ratio_title=fuzz.ratio(px_id1_original_title.upper(),px_id2_original_title.upper())
+                    if ratio_title >=70:
+                        self.original_title_match='True'
+                    else:
+                        self.original_title_match='False'
+        elif px_id1_original_title.upper()=='' and px_id2_original_title.upper()=='':
+            self.original_title_match='True'
+        else:    
+            self.original_title_match='False'                             
+
+    def runtime_validation(self,px_id1_run_time,px_id2_run_time):
+        #import pdb;pdb.set_trace()
+        if px_id1_run_time==px_id2_run_time:
+            self.runtime_match='True'
+        else:
+            self.runtime_match='False'     
+
+    def release_year_validation(self,px_id1_release_year,px_id2_release_year):
+        #import pdb;pdb.set_trace()
+        if px_id1_release_year is not None and px_id2_release_year is not None:
+            if px_id1_release_year==px_id2_release_year:
+                self.release_year_match='True'
+            else:
+                r_y=px_id1_release_year
+                r_y=r_y+1
+                if r_y==px_id2_release_year:
+                    self.release_year_match='True'
+                else:
+                    r_y=r_y-2
+                    if r_y==px_id2_release_year:
+                        self.release_year_match='True'
+                    else:
+                        self.release_year_match='False'
+
+    def alias_title_validation(self,px_id1_aliases,px_id1_alias,px_id2_aliases
+                                       ,px_id2_long_title,px_id2_original_title ):
+        #import pdb;pdb.set_trace()
+        if px_id1_aliases and px_id2_aliases:
+            for alias in px_id1_alias:
+                if alias in px_id2_long_title:
+                    self.alias_title_match='True'
+                    break
+                elif px_id2_long_title in alias:
+                    self.alias_title_match='True'
+                    break
+                elif px_id2_original_title in alias:
+                    self.alias_title_match='True'
+                    break
+                elif alias in px_id2_original_title:
+                    self.alias_title_match='True'
+                    break       
+                else:           
+                    ratio_title=fuzz.ratio(px_id2_long_title.upper(),alias.upper())
+                    if ratio_title >=70:
+                        self.alias_title_match='True'
+                        break
+                    else:
+                        ratio_title=fuzz.ratio(px_id2_original_title.upper(),alias.upper())
+                        if ratio_title >=70:
+                            self.alias_title_match='True'
+                            break    
+                        else:
+                            self.alias_title_match='False'                                                      
+
+    def ott_link_id_validation(self,px_id1_videos_launch_id,px_id2_videos_launch_id):
+        #import pdb;pdb.set_trace()
+        if px_id1_videos_launch_id and px_id2_videos_launch_id:
+            for launch_id in px_id1_videos_launch_id[0]:
+                if launch_id in px_id2_videos_launch_id[0]:
+                    self.video_match='True'
+                    self.match_launch_id.append(launch_id)
+                    break
+                else:
+                    self.video_match='False'
+        elif px_id1_videos_launch_id==[] and px_id2_videos_launch_id:
+            self.video_match='px_id1_video_link_null'
+        elif px_id1_videos_launch_id and px_id2_videos_launch_id==[]:
+            self.video_match='px_id2_video_link_null'
+        else:
+            self.video_match='Both_ott_link_null' 
+
+    def credit_validation(self,px_id1_credits,px_id2_credits):
+        #import pdb;pdb.set_trace()
+        if px_id1_credits and px_id2_credits:
+            for credits in px_id1_credits:
+                if credits in px_id2_credits:
+                    self.credit_match='True'
+                    break
+                else:
+                    self.credit_match='False' 
+
+    def projectx_id_details(self,data_resp_ids,credit_db_api,source,token):
+        #import pdb;pdb.set_trace()
+        self.px_id=data_resp_ids.get("id")
+        self.px_id_show_type=data_resp_ids.get("show_type").encode('utf-8')
+        self.px_id_variant_parent_id=data_resp_ids.get("variant_parent_id")
+        self.px_id_is_group_language_primary=data_resp_ids.get("is_group_language_primary")
+        self.px_id_long_title=unidecode.unidecode(data_resp_ids.get("long_title"))
+        self.px_id_original_title=unidecode.unidecode(data_resp_ids.get("original_title"))
+        self.px_id_run_time=data_resp_ids.get("run_time")
+        self.px_id_release_year=data_resp_ids.get("release_year")
+        self.px_id_record_language=data_resp_ids.get("record_language")
+        self.px_id_aliases=data_resp_ids.get("aliases")
+        if data_resp_ids.get("credits"):
+            self.px_id_credits=self.getting_px_credits(data_resp_ids.get("credits"))
+        #import pdb;pdb.set_trace()
+        if data_resp_ids.get("videos"):
+            self.px_id_videos_launch_id.append([str(launch_id["launch_id"]) for launch_id in data_resp_ids.get("videos")])
+
+        if self.px_id_credits:
+            self.px_id_credits_null='False'
+        else:
+            credit_db_api_=credit_db_api%self.px_id
+            credit_resp_db=lib_common_modules().fetch_response_for_api_(credit_db_api_,token)
+            if credit_resp_db:
+                self.px_id_credits=self.getting_px_credits(credit_resp_db) 
+                self.px_id_db_credit_present='True' 
+
+        if self.px_id_aliases!=[] and self.px_id_aliases is not None:    
+            for alias in self.px_id_aliases:
+                if alias.get("source_name")==source and alias.get("language")=='ENG':
+                    self.px_id_alias.append(unidecode.unidecode(alias.get("alias")))            
+                if alias.get("source_name")=='Rovi' and alias.get("type")=='alias_title' and alias.get("language")=='ENG':
+                    self.px_id_alias.append(unidecode.unidecode(alias.get("alias")))    
+        else:
+            self.px_id_alias_comment='Null' 
+
+        return {str(self.px_id):{"px_id_show_type":self.px_id_show_type,"px_id_variant_parent_id":self.px_id_variant_parent_id,
+              "px_id_is_group_language_primary":self.px_id_is_group_language_primary,"px_id_record_language":self.px_id_record_language,
+              "px_id_credits_null":self.px_id_credits_null,"px_id_db_credit_present":self.px_id_db_credit_present,"px_id_long_title":self.px_id_long_title,
+              "px_id_original_title":self.px_id_original_title,"px_id_run_time":self.px_id_run_time,"px_id_release_year":self.px_id_release_year,"px_id_aliases":self.px_id_aliases
+              ,"px_credits":self.px_id_credits,"px_id_videos_launch_id":self.px_id_videos_launch_id,"px_id_credits_null":self.px_id_credits_null,
+              "px_id_alias":self.px_id_alias,"px_id_alias_comment":self.px_id_alias_comment}}                                                    
+
+    def checking_same_program(self,duplicate_id,projectx_api,
+                                         credit_db_api,source,token):
+        
+        details=[]
+        #import pdb;pdb.set_trace()
+        try:
+            projectx_api_=projectx_api%'{}'.format(",".join([str(i) for i in duplicate_id]))
+            data_resp_ids=lib_common_modules().fetch_response_for_api_(projectx_api_,token)
+            for data in data_resp_ids:
+                self.cleanup()
+                details.append(self.projectx_id_details(data,credit_db_api,source,token))
+                # self.projectx_id2_details(data_resp_ids[1],credit_db_api,source,token)
+            if len(details)>1:    
+              
+                self.long_title_validtion(details[0][str(duplicate_id[0])]["px_id_long_title"],details[1][str(duplicate_id[1])]["px_id_long_title"])    
+                self.original_title_validation(details[0][str(duplicate_id[0])]["px_id_original_title"],details[1][str(duplicate_id[1])]["px_id_original_title"])
+                self.runtime_validation(details[0][str(duplicate_id[0])]["px_id_run_time"],details[1][str(duplicate_id[1])]["px_id_run_time"])
+                self.release_year_validation(details[0][str(duplicate_id[0])]["px_id_release_year"],details[1][str(duplicate_id[1])]["px_id_release_year"])
+                self.alias_title_validation(details[0][str(duplicate_id[0])]["px_id_aliases"],details[0][str(duplicate_id[0])]["px_id_alias"]
+                                        ,details[1][str(duplicate_id[1])]["px_id_aliases"],details[1][str(duplicate_id[1])]["px_id_long_title"],
+                                                        details[1][str(duplicate_id[1])]["px_id_original_title"])
+                self.ott_link_id_validation(details[0][str(duplicate_id[0])]["px_id_videos_launch_id"],details[1][str(duplicate_id[1])]["px_id_videos_launch_id"])
+                self.credit_validation(details[0][str(duplicate_id[0])]["px_credits"],details[1][str(duplicate_id[1])]["px_credits"])
+
+                return {"px_id1":duplicate_id[0],"px_id1_show_type":details[0][str(duplicate_id[0])]["px_id_show_type"],"px_id1_variant_parent_id":details[0][str(duplicate_id[0])]["px_id_variant_parent_id"],
+                      "px_id1_is_group_language_primary":details[0][str(duplicate_id[0])]["px_id_is_group_language_primary"],"px_id1_record_language":details[0][str(duplicate_id[0])]["px_id_record_language"],
+                      "px_id2":duplicate_id[1],"px_id2_show_type":details[1][str(duplicate_id[1])]["px_id_show_type"],"px_id2_variant_parent_id":details[1][str(duplicate_id[1])]["px_id_variant_parent_id"],
+                      "px_id2_is_group_language_primary":details[1][str(duplicate_id[1])]["px_id_is_group_language_primary"],"px_id2_record_language":details[1][str(duplicate_id[1])]["px_id_record_language"],
+                      "px_id1_credits_null":details[0][str(duplicate_id[0])]["px_id_credits_null"],"px_id1_db_credit_present":details[0][str(duplicate_id[0])]["px_id_db_credit_present"],
+                    "px_id2_credits_null":details[1][str(duplicate_id[1])]["px_id_credits_null"],"px_id2_db_credit_present":details[1][str(duplicate_id[1])]["px_id_db_credit_present"],"long_title_match":self.long_title_match,
+                    "original_title_match":self.original_title_match,"runtime_match":self.runtime_match,"release_year_match":self.release_year_match,"alias_title_match":
+                     self.alias_title_match,"credit_match":self.credit_match,"match_link_id":self.match_launch_id,"link_match":self.video_match}
+            else:
+                self.comment="Any of them px_id have no program_API response" 
+                return {"px_id1":'',"px_id1_show_type":'',"px_id1_variant_parent_id":'',
+                      "px_id1_is_group_language_primary":'',"px_id1_record_language":'',
+                      "px_id2":'',"px_id1_show_type":'',"px_id2_variant_parent_id":'',
+                      "px_id2_is_group_language_primary":'',"px_id2_record_language":'',
+                      "px_id1_credits_null":'',"px_id1_db_credit_present":'',
+                    "px_id2_credits_null":'',"px_id2_db_credit_present":'',"long_title_match":'',
+                    "original_title_match":'',"runtime_match":'',"release_year_match":'',"alias_title_match":
+                     '',"credit_match":'',"match_link_id":'',"link_match":'',"comment":self.comment}
+
+
+                         
+             
+        except Exception as e:
+            print ("exception caught (checking_same_program).................",type(e),[duplicate_id[0],duplicate_id[1]])
+            print ("\n")
+            print ("Retrying.............")
+            print ("\n")    
+            self.checking_same_program(duplicate_id,projectx_api,credit_db_api,source,token)
+        
