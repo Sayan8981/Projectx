@@ -1,3 +1,5 @@
+"""*Saayan"""
+
 import logging    
 import sys
 import os
@@ -117,29 +119,30 @@ class lib_common_modules:
                 retry_count = 0   
 
 
-    #TODO: to get Px_id from mapping API
-    def getting_mapped_px_id(self,_id,show_type,source,px_mappingdb_cur):
+    #TODO: to get source_id from mapping Db
+    def getting_mapped_source_id(self,_id,show_type,source,px_mappingdb_cur):
         #import pdb;pdb.set_trace()
         retry_count=0
         try:
-            px_id=[]
-            query="select projectxId from projectx_mapping where data_source=%s and sourceId =%s and sub_type=%s"
+            source_id=[]
+            query="select sourceId from projectx_mapping where data_source=%s and projectxId =%s and sub_type=%s"
             px_mappingdb_cur.execute(query,(source,_id,show_type))
             data_resp_mapping=px_mappingdb_cur.fetchall()
 
-            for data in data_resp_mapping:
-                px_id.append(data[0])
+            for data in data_resp_mapping:  
+                if data:
+                    source_id.append(data[0])
 
-            return px_id
+            return source_id
             px_mappingdb_cur.close()            
 
         except (Exception,MySQLdb.Error, MySQLdb.Warning,socket.error,RuntimeError) as e:
             retry_count+=1
-            print ("exception caught getting_mapped_px_id.................",type(e),_id,source,show_type)
+            print ("exception caught getting_mapped_source_id.................",type(e),_id,source,show_type)
             print ("\n") 
             print ("Retrying.............",retry_count)
             if retry_count<=5:
-                self.getting_mapped_px_id(_id,show_type,source,px_mappingdb_cur)            
+                self.getting_mapped_source_id(_id,show_type,source,px_mappingdb_cur)            
             else:
                 retry_count=0
 
