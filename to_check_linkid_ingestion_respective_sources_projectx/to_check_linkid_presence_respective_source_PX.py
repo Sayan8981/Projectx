@@ -36,6 +36,7 @@ class linkid_checking:
         self.prod_link_status=''
         self.projectx_launch_id=[]
         self.projectx_video_link=[]
+        self.prod_api_response=''
         self.fetch_from=[]
         self.fetched_source=''
         self.comment=''
@@ -54,6 +55,7 @@ class linkid_checking:
         self.prod_link_status='link_id_not_present_in_Prod'
         self.projectx_launch_id=[] 
         self.projectx_video_link=[]
+        self.prod_api_response='False'
         self.fetch_from=[]
         self.fetched_source='None'
         self.comment='Null'
@@ -65,7 +67,7 @@ class linkid_checking:
         self.projectx_domain="projectx.caavo.com"
         self.prod_domain="api.caavo.com"
         self.host_IP='18.214.4.22:81'
-        #self.expired_token='Token token=0b4af23eaf275daaf41c7e57749532f128660ec3befa0ff3aee94636e86a43e7'
+        self.expired_token='Token token=0b4af23eaf275daaf41c7e57749532f128660ec3befa0ff3aee94636e86a43e7'
         self.token='Token token=efeb15f572641809acbc0c26c9c1b63f4f7f1fd7dcb68070e45e26f3a40ec8e3'
         self.total=0
         self.pass_count=0
@@ -101,7 +103,7 @@ class linkid_checking:
         self.logger=lib_common_modules().create_log(os.getcwd()+'/logs/log_%s.txt'%thread_name)
         result_sheet='/output/output_file_%s_%s.csv'%(thread_name,datetime.date.today())
         output_file=lib_common_modules().create_csv(result_sheet)
-        self.column_fieldnames=["Service_name","Link_id","Rovi_id","Projectx_id","Link_expired",
+        self.column_fieldnames=["Service_name","Link_id","Rovi_id","Projectx_id","Link_expired","Prod_api_response",
                           "Prod_link_status","Projectx_link_status","Link_fetched_from","Fetched_from_sources","Comment"]
         with output_file as mycsvfile:
             self.writer = csv.writer(mycsvfile,dialect="csv",lineterminator = '\n')
@@ -167,17 +169,17 @@ class linkid_checking:
                                             self.fetched_source='others'
                                         else:
                                             self.fetched_source='others'
-
                             else:
                                 """comment"""
                                 self.projectx_link_status='videos_not_available'
                         except (Exception,urllib2.HTTPError,httplib.BadStatusLine) as e:
                             self.comment=str(type(e))+"In Projectx"        
-                    else:
-                        self.link_expired=lib_common_modules().link_expiry_check(self.expired_api,self.prod_domain,self.link_id,self.service,self.expired_token,self.logger)        
                 else:
                     #self.link_expired=lib_common_modules().link_expiry_check(self.expired_api,self.prod_domain,self.link_id,self.service,self.expired_token,self.logger)
-                    self.comment="Source %s mapping api showing null"%self.rovi_id
+                    prod_api_response=lib_common_modules().fetch_response_for_api(self.programs_api%(self.prod_domain,
+                                                                     self.rovi_id),self.token,self.logger)
+                    if prod_api_response:
+                        self.prod_api_response='True'
                 self.logger.debug("\n")
                 #import pdb;pdb.set_trace()
                 if self.projectx_link_status=='link_id_present_in_Projectx':
@@ -191,18 +193,18 @@ class linkid_checking:
                 self.logger.debug ([{"total":self.total,"pass":self.pass_count,"fail":self.fail_count,"Process":thread_name}])
                 self.logger.debug("\n")
                 self.logger.debug([{"Service":self.service,"link_id":self.link_id,"Rovi_id":self.rovi_id,
-                    "px_id":self.px_id,"Link_expired":self.link_expired,"Prod_link_status":self.prod_link_status,
+                    "px_id":self.px_id,"Link_expired":self.link_expired,"prod_api_response":self.prod_api_response,"Prod_link_status":self.prod_link_status,
                     "projectx_link_status":self.projectx_link_status,"link_fetched":self.fetched_source,"comment":self.comment,
                     "Process":thread_name}])
 
                 self.writer.writerow([self.service,self.link_id,self.rovi_id,self.px_id,
-                    self.link_expired,self.prod_link_status,self.projectx_link_status,
+                    self.link_expired,self.prod_api_response,self.prod_link_status,self.projectx_link_status,
                     self.fetched_source,self.fetch_from,self.comment])
         output_file.close() 
 
     # TODO: multi process Operations 
     def thread_pool(self): 
-        t1=threading.Thread(target=self.main,args=(1,"process - 1",10))
+        t1=threading.Thread(target=self.main,args=(1,"process - 1",20))
         t1.start()
         """t2=Process(target=self.main,args=(1000,"process - 2",2000))
         t2.start()
