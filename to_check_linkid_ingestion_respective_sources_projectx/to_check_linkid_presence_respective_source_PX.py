@@ -37,6 +37,7 @@ class linkid_checking:
         self.projectx_launch_id=[]
         self.projectx_video_link=[]
         self.prod_api_response=''
+        self.projectx_api_response=''
         self.fetch_from=[]
         self.fetched_source=''
         self.comment=''
@@ -52,14 +53,15 @@ class linkid_checking:
         self.projectx_videos_response=[]
         self.prod_launch_id=[] 
         self.prod_video_link=[]
-        self.prod_link_status='link_id_not_present_in_Prod'
+        self.prod_link_status=''
         self.projectx_launch_id=[] 
         self.projectx_video_link=[]
-        self.prod_api_response='False'
+        self.prod_api_response='True'
+        self.projectx_api_response='None'
         self.fetch_from=[]
         self.fetched_source='None'
         self.comment='Null'
-        self.projectx_link_status='link_id_not_present_in_Projectx'
+        self.projectx_link_status=''
     
     #TODO: one time call param
     def default_param(self):
@@ -103,7 +105,7 @@ class linkid_checking:
         self.logger=lib_common_modules().create_log(os.getcwd()+'/logs/log_%s.txt'%thread_name)
         result_sheet='/output/output_file_%s_%s.csv'%(thread_name,datetime.date.today())
         output_file=lib_common_modules().create_csv(result_sheet)
-        self.column_fieldnames=["Service_name","Link_id","Rovi_id","Projectx_id","Link_expired","Prod_api_response",
+        self.column_fieldnames=["Service_name","Link_id","Rovi_id","Projectx_id","Link_expired","Prod_api_response","Projectx_api_response",
                           "Prod_link_status","Projectx_link_status","Link_fetched_from","Fetched_from_sources","Comment"]
         with output_file as mycsvfile:
             self.writer = csv.writer(mycsvfile,dialect="csv",lineterminator = '\n')
@@ -124,6 +126,8 @@ class linkid_checking:
                         try:
                             prod_api_response=lib_common_modules().fetch_response_for_api(self.programs_api%(self.prod_domain,
                                                                              self.rovi_id),self.token,self.logger) 
+                            if not prod_api_response:
+                                self.prod_api_response='False'
                             self.prod_videos_response=[data['videos'] for data in prod_api_response]
                             if self.prod_videos_response[0]:
                                 for data in self.prod_videos_response[0]:
@@ -135,6 +139,8 @@ class linkid_checking:
                                 if link_status_prod["link_id_present"]=="True":
                                     """comment"""
                                     self.prod_link_status="link_id_present_in_Prod"
+                                else:
+                                    self.prod_link_status='link_id_not_present_in_Prod'                        
                             else:
                                 """comment"""
                                 self.prod_link_status='videos_not_available'
@@ -144,6 +150,8 @@ class linkid_checking:
                         try:                                
                             projectx_api_response=lib_common_modules().fetch_response_for_api(self.programs_api%(self.projectx_domain,
                                                                                               self.px_id[0]),self.token,self.logger)    
+                            if projectx_api_response:
+                                self.projectx_api_response='True'
                             self.projectx_videos_response=[data['videos'] for data in projectx_api_response]
                             if self.projectx_videos_response[0]:
                                 for data in self.projectx_videos_response[0]:
@@ -160,6 +168,8 @@ class linkid_checking:
                                     if link_status_projectx["link_id_present"]=='True':
                                         """comment"""
                                         self.projectx_link_status="link_id_present_in_Projectx"
+                                    else:
+                                        self.projectx_link_status='link_id_not_present_in_Projectx'    
                                     for source in self.fetch_from:
                                         if 'Rovi' in self.fetch_from and len(self.fetch_from)==1:
                                             self.fetched_source='Rovi'
@@ -178,8 +188,8 @@ class linkid_checking:
                     #self.link_expired=lib_common_modules().link_expiry_check(self.expired_api,self.prod_domain,self.link_id,self.service,self.expired_token,self.logger)
                     prod_api_response=lib_common_modules().fetch_response_for_api(self.programs_api%(self.prod_domain,
                                                                      self.rovi_id),self.token,self.logger)
-                    if prod_api_response:
-                        self.prod_api_response='True'
+                    if not prod_api_response:
+                        self.prod_api_response='False'
                 self.logger.debug("\n")
                 #import pdb;pdb.set_trace()
                 if self.projectx_link_status=='link_id_present_in_Projectx':
@@ -192,14 +202,14 @@ class linkid_checking:
                 self.logger.debug("\n")
                 self.logger.debug ([{"total":self.total,"pass":self.pass_count,"fail":self.fail_count,"Process":thread_name}])
                 self.logger.debug("\n")
-                self.logger.debug([{"Service":self.service,"link_id":self.link_id,"Rovi_id":self.rovi_id,
+                self.logger.debug([{"Service":self.service,"link_id":self.link_id,"Rovi_id":self.rovi_id,"Projectx_api_response":self.projectx_api_response,
                     "px_id":self.px_id,"Link_expired":self.link_expired,"prod_api_response":self.prod_api_response,"Prod_link_status":self.prod_link_status,
                     "projectx_link_status":self.projectx_link_status,"link_fetched":self.fetched_source,"comment":self.comment,
                     "Process":thread_name}])
 
                 self.writer.writerow([self.service,self.link_id,self.rovi_id,self.px_id,
-                    self.link_expired,self.prod_api_response,self.prod_link_status,self.projectx_link_status,
-                    self.fetched_source,self.fetch_from,self.comment])
+                    self.link_expired,self.prod_api_response,self.projectx_api_response,self.prod_link_status,
+                    self.projectx_link_status,self.fetched_source,self.fetch_from,self.comment])
         output_file.close() 
 
     # TODO: multi process Operations 
