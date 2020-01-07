@@ -1,0 +1,102 @@
+Service_name,Link_id,Rovi_id,Projectx_id,Rovi_id_form_reverse_api,Rovi_id_match,Link_expired,Prod_link_status,Projectx_link_status,Link_fetched_from,Fetched_from_sources,Comment
+hbogo,urn:hbo:episode:GXHab3QOaZY2SogEAAAAJ,6781064849,[13156016],[u'6781064849'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi,[u'Rovi'],Pass
+hbogo,urn:hbo:episode:GXHab3QOaZY2SogEAAAAJ,6781064849,[13156016],[u'6781064849'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi,[u'Rovi'],Pass
+hbogo,urn:hbo:episode:GXHabvwGT9EDDEAEAAAAz,6802891146,[13156239],[u'6802891146'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi,[u'Rovi'],Pass
+hbogo,urn:hbo:episode:GXHabvwGT9EDDEAEAAAAz,6802891146,[13156239],[u'6802891146'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi,[u'Rovi'],Pass
+hbogo,urn:hbo:episode:GXHabqwQFVL3DBAEAAAAK,6825728223,[13156467],[u'6825728223'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi,[u'Rovi'],Pass
+hbogo,urn:hbo:episode:GXHabqwQFVL3DBAEAAAAK,6825728223,[13156467],[u'6825728223'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi,[u'Rovi'],Pass
+hbogo,urn:hbo:episode:GXHayYAlWd0DDEAEAAAA8,6848207311,[13156707],[u'6848207311'],True,True,videos_not_available,videos_not_available,None,[],Fail
+hbogo,urn:hbo:episode:GXHayYAlWd0DDEAEAAAA8,6848207311,[13156707],[u'6848207311'],True,True,videos_not_available,videos_not_available,None,[],Fail
+amazon,B07PNW27Z4,7144051776,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+hbogo,urn:hbo:episode:GW2IJrgrM-sNOkQEAAARJ,6359809693,[5068026],[u'6359809693'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi+others,"[u'Rovi', u'gracenote']",Pass
+hbogo,urn:hbo:episode:GW2IJrgrM-sNOkQEAAARJ,6359809693,[5068026],[u'6359809693'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi+others,"[u'Rovi', u'gracenote']",Pass
+hbogo,urn:hbo:episode:GW2INZgOQZsPDDgEAAATM,6365023458,[5068067],[u'6365023458'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi+others,"[u'Rovi', u'gracenote']",Pass
+hbogo,urn:hbo:episode:GW2INZgOQZsPDDgEAAATM,6365023458,[5068067],[u'6365023458'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi+others,"[u'Rovi', u'gracenote']",Pass
+hbogo,urn:hbo:episode:GW2ImDQB58JFDwgEAAARN,6396426544,[5068103],[u'6396426544'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi,[u'Rovi'],Pass
+hbogo,urn:hbo:episode:GW2ImDQB58JFDwgEAAARN,6396426544,[5068103],[u'6396426544'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi,[u'Rovi'],Pass
+hbogo,urn:hbo:episode:GW2ImZgdbqpFDwgEAAARQ,6411280877,[5068153],[u'6411280877'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi,[u'Rovi'],Pass
+hbogo,urn:hbo:episode:GW2ImZgdbqpFDwgEAAARQ,6411280877,[5068153],[u'6411280877'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi,[u'Rovi'],Pass
+hbogo,urn:hbo:episode:GW2ImegOhIMPDDgEAAATd,6435362557,[5068172],[u'6435362557'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi,[u'Rovi'],Pass
+hbogo,urn:hbo:episode:GW2ImegOhIMPDDgEAAATd,6435362557,[5068172],[u'6435362557'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi,[u'Rovi'],Pass
+hbogo,urn:hbo:episode:GW2ImcAFfi8NOkQEAAARW,6456410154,[5068240],[u'6456410154'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi,[u'Rovi'],Pass
+hbogo,urn:hbo:episode:GW2ImcAFfi8NOkQEAAARW,6456410154,[5068240],[u'6456410154'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi,[u'Rovi'],Pass
+hbogo,urn:hbo:episode:GW2Iolwg53sPDDgEAAATf,6480532072,[5068310],[u'6480532072'],True,True,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+hbogo,urn:hbo:episode:GW2Iolwg53sPDDgEAAATf,6480532072,[5068310],[u'6480532072'],True,True,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+hbogo,urn:hbo:episode:GW3xxMQ0gh8PDDgEAAAkb,6503029553,[5068426],[u'6503029553'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi,[u'Rovi'],Pass
+hbogo,urn:hbo:episode:GW3xxMQ0gh8PDDgEAAAkb,6503029553,[5068426],[u'6503029553'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi,[u'Rovi'],Pass
+hbogo,urn:hbo:episode:GW3xxKAUkH8PDDgEAAAkX,6531292161,[5068463],[u'6531292161'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi,[u'Rovi'],Pass
+hbogo,urn:hbo:episode:GW3xxKAUkH8PDDgEAAAkX,6531292161,[5068463],[u'6531292161'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi,[u'Rovi'],Pass
+hbogo,urn:hbo:episode:GW3xxNwPOksPDDgEAAAkc,6550456040,[5068497],[u'6550456040'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi+others,"[u'Rovi', u'manual']",Pass
+hbogo,urn:hbo:episode:GW3xxNwPOksPDDgEAAAkc,6550456040,[5068497],[u'6550456040'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi+others,"[u'Rovi', u'manual']",Pass
+hbogo,urn:hbo:episode:GW3xxLQM7ZsPDDgEAAAka,6576055821,[5068535],[u'6576055821'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi+others,"[u'Rovi', u'manual']",Pass
+hbogo,urn:hbo:episode:GW3xxLQM7ZsPDDgEAAAka,6576055821,[5068535],[u'6576055821'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi+others,"[u'Rovi', u'manual']",Pass
+hbogo,urn:hbo:episode:GW6K7IgKwh8PDSgEAAABX,6689168115,[5068663],[u'6689168115'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi,[u'Rovi'],Pass
+hbogo,urn:hbo:episode:GW6K7GAri47WSWQEAAAJX,6623056389,[5068578],[u'6623056389'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi,[u'Rovi'],Pass
+hbogo,urn:hbo:episode:GW6K7GAri47WSWQEAAAJX,6623056389,[5068578],[u'6623056389'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi,[u'Rovi'],Pass
+hbogo,urn:hbo:episode:GXBPgRQXMNVa1lwEAAALa,7020175592,[5068934],[u'7020175592'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi,[u'Rovi'],Pass
+hbogo,urn:hbo:episode:GXBPgRQXMNVa1lwEAAALa,7020175592,[5068934],[u'7020175592'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi,[u'Rovi'],Pass
+hbogo,urn:hbo:episode:GXBPgigBqAIa1vAEAAAKu,6927785082,[5068762],[u'6927785082'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi,[u'Rovi'],Pass
+hbogo,urn:hbo:episode:GXBPgigBqAIa1vAEAAAKu,6927785082,[5068762],[u'6927785082'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi,[u'Rovi'],Pass
+amazon,B07PYLJP6F,2132411,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+amazon,B07NKW7J4R,1803479357,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+netflixusa,80169469,7110617961,"[3916465, 14788969]","[u'7110617961', u'7984329303']",True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi,[u'Rovi'],Pass
+netflixusa,80148239,4138109500,[2930532],[u'4138109500'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi,[u'Rovi'],Pass
+starz,43914,457375,[104978],[u'457375'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi,[u'Rovi'],Pass
+starz,43811,2340464,[1994721],[u'1054340856'],False,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi,[u'Rovi'],Fail
+starz,43870,383352,[1360398],[u'19971368'],False,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi,[u'Rovi'],Fail
+hbogo,urn:hbo:feature:GXGWJ8wyZ-K2uAwEAAAAK,6888475882,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+itunes,1454088040,5992444955,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+amazon,B07P145SVQ,5092590385,[],[],False,True,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+netflixusa,80991158,6992361646,[3883117],[u'6992361646'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi,[u'Rovi'],Pass
+netflixusa,80189633,7156700361,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+netflixusa,80189634,7156700357,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+netflixusa,80189635,7156700363,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+netflixusa,80189636,7156700359,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+netflixusa,80189637,7156700369,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+netflixusa,80189638,7156700367,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+netflixusa,80189639,7156700365,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+netflixusa,80189640,7156700371,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+netflixusa,80189641,7156700377,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+netflixusa,80189642,7156700379,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+netflixusa,80189643,7156700375,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+netflixusa,80189644,7156700381,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+netflixusa,80189645,7156700387,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+hbogo,urn:hbo:feature:GXEH3gQhtqo0IvQEAAAE7,6007608523,[],[],False,True,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+hbogo,urn:hbo:feature:GXEH3gQhtqo0IvQEAAAE7,6007608523,[],[],False,True,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+itunes,1454342398,6401461307,[3713285],[u'6401461307'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi,[u'Rovi'],Pass
+amazon,B07PWHDF9C,291110677,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+amazon,B07PXLLMYV,4225850407,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+amazon,B07NMR1T5Y,1316200783,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+amazon,B07Q1WR6PX,1422243879,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+amazon,B07Q11XG4R,1490454120,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+amazon,B07P8SW4PY,6755849967,[],[],False,True,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+netflixusa,81074015,7152653950,"[3798652, 3928350]","[u'6711755956', u'7152653950']",True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi,[u'Rovi'],Pass
+itunes,1452394295,5961295412,[3958294],[u'7257410324'],False,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi,[u'Rovi'],Fail
+itunes,22275045,6906021398,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+itunes,22275045,6927124343,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+netflixusa,80202809,6690516931,[3793678],[u'6690516931'],True,False,link_id_present_in_Prod,link_id_present_in_Preprod,Rovi,[u'Rovi'],Pass
+amazon,B07PVBN7F2,3221757035,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+amazon,B07PXGKVQW,7156848741,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+amazon,B07PYHF78J,5838503635,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+amazon,B07PXHYFDJ,7156720863,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+amazon,B07PV1MG3L,4588075858,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+itunes,67347483,6493700251,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+itunes,67347483,6593122532,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+itunes,67347483,6593122534,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+itunes,67347483,6593122538,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+itunes,67347483,6597490387,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+itunes,67347483,6698942160,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+itunes,67347483,6698942164,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+itunes,67347483,6698942162,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+itunes,67347483,6698942166,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+itunes,67347483,6698958610,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+itunes,67347483,6833441937,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+itunes,67347483,6837493378,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+amazon,B07J25GHS8,6493700251,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+amazon,6493700251,6593122538,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+amazon,6493700251,6597490387,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+amazon,B07J25GHS8,6698942162,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+amazon,B07J25GHS8,6698942166,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+amazon,B07J25GHS8,6698958610,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+amazon,B07J25GHS8,6833441937,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail
+amazon,B07J25GHS8,6837493378,[],[],False,False,link_id_not_present_in_Prod,link_id_not_present_in_Preprod,None,[],Fail

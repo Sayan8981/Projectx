@@ -1,0 +1,1431 @@
+
+
+['date time:', '01/07/2020 15:40:21']
+
+
+[{'fail': 1, 'Process': 'process - 5', 'total': 1, 'pass': 0}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '80196131', 'Rovi_id': '7426149550', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:40:23']
+
+
+[{'fail': 2, 'Process': 'process - 5', 'total': 2, 'pass': 0}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07SY9DVDT', 'Rovi_id': '227021', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:40:24']
+
+
+[{'fail': 3, 'Process': 'process - 5', 'total': 3, 'pass': 0}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07T174WMS', 'Rovi_id': '460491', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:40:26']
+
+
+[{'fail': 4, 'Process': 'process - 5', 'total': 4, 'pass': 0}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07PLM4PP3', 'Rovi_id': '7103044010', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:40:28']
+
+
+[{'fail': 5, 'Process': 'process - 5', 'total': 5, 'pass': 0}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07SN5YJTW', 'Rovi_id': '1153220', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:40:29']
+
+
+[{'fail': 6, 'Process': 'process - 5', 'total': 6, 'pass': 0}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07T6KQ7GJ', 'Rovi_id': '1632265279', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:40:31']
+
+
+[{'fail': 7, 'Process': 'process - 5', 'total': 7, 'pass': 0}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07T3TT2R8', 'Rovi_id': '301119186', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:40:32']
+
+
+[{'fail': 8, 'Process': 'process - 5', 'total': 8, 'pass': 0}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07T3TT2R8', 'Rovi_id': '302878706', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:40:34']
+
+
+[{'fail': 9, 'Process': 'process - 5', 'total': 9, 'pass': 0}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07T3TT2R8', 'Rovi_id': '305346152', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:40:36']
+
+
+[{'fail': 10, 'Process': 'process - 5', 'total': 10, 'pass': 0}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07T3TT2R8', 'Rovi_id': '307877969', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:40:37']
+
+
+[{'fail': 11, 'Process': 'process - 5', 'total': 11, 'pass': 0}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07T3TT2R8', 'Rovi_id': '310074897', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:40:39']
+
+
+[{'fail': 12, 'Process': 'process - 5', 'total': 12, 'pass': 0}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'True', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07LFJYVM8', 'Rovi_id': '6621335824', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:40:43']
+
+
+[{'fail': 12, 'Process': 'process - 5', 'total': 13, 'pass': 1}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'7402688776'], 'Service': 'itunes', 'link_id': '1461017694', 'Rovi_id': '7402688776', 'rovi_id_status': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'Rovi', 'px_id': [13381715], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:40:47']
+
+
+[{'fail': 12, 'Process': 'process - 5', 'total': 14, 'pass': 2}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'7402688780'], 'Service': 'itunes', 'link_id': '1461040706', 'Rovi_id': '7402688780', 'rovi_id_status': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'Rovi', 'px_id': [13381937], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:40:51']
+
+
+[{'fail': 12, 'Process': 'process - 5', 'total': 15, 'pass': 3}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'7402689027'], 'Service': 'itunes', 'link_id': '1461026899', 'Rovi_id': '7402689027', 'rovi_id_status': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'Rovi', 'px_id': [13382111], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:40:55']
+
+
+[{'fail': 12, 'Process': 'process - 5', 'total': 16, 'pass': 4}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'7402691657'], 'Service': 'itunes', 'link_id': '1461060702', 'Rovi_id': '7402691657', 'rovi_id_status': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'Rovi', 'px_id': [13382297], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:40:59']
+
+
+[{'fail': 12, 'Process': 'process - 5', 'total': 17, 'pass': 5}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'7402693319'], 'Service': 'itunes', 'link_id': '1461086385', 'Rovi_id': '7402693319', 'rovi_id_status': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'Rovi', 'px_id': [13382503], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:03']
+
+
+[{'fail': 12, 'Process': 'process - 5', 'total': 18, 'pass': 6}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'7402695164'], 'Service': 'itunes', 'link_id': '1461050623', 'Rovi_id': '7402695164', 'rovi_id_status': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'Rovi', 'px_id': [13382742], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:07']
+
+
+[{'fail': 12, 'Process': 'process - 5', 'total': 19, 'pass': 7}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'7402699963'], 'Service': 'itunes', 'link_id': '1461078866', 'Rovi_id': '7402699963', 'rovi_id_status': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'Rovi', 'px_id': [13382922], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:11']
+
+
+[{'fail': 12, 'Process': 'process - 5', 'total': 20, 'pass': 8}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'7402699965'], 'Service': 'itunes', 'link_id': '1461017400', 'Rovi_id': '7402699965', 'rovi_id_status': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'Rovi', 'px_id': [13383096], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:16']
+
+
+[{'fail': 12, 'Process': 'process - 5', 'total': 21, 'pass': 9}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'7402703006'], 'Service': 'itunes', 'link_id': '1460986627', 'Rovi_id': '7402703006', 'rovi_id_status': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'Rovi', 'px_id': [13383281], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:20']
+
+
+[{'fail': 12, 'Process': 'process - 5', 'total': 22, 'pass': 10}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'7402705014'], 'Service': 'itunes', 'link_id': '1461044081', 'Rovi_id': '7402705014', 'rovi_id_status': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'Rovi', 'px_id': [13383462], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:25']
+
+
+[{'fail': 12, 'Process': 'process - 5', 'total': 23, 'pass': 11}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'7402705031'], 'Service': 'itunes', 'link_id': '1461064223', 'Rovi_id': '7402705031', 'rovi_id_status': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'Rovi', 'px_id': [13383670], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:29']
+
+
+[{'fail': 12, 'Process': 'process - 5', 'total': 24, 'pass': 12}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'7402710014'], 'Service': 'itunes', 'link_id': '1461034545', 'Rovi_id': '7402710014', 'rovi_id_status': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'Rovi', 'px_id': [13383836], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:31']
+
+
+[{'fail': 13, 'Process': 'process - 5', 'total': 25, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07PGLV12D', 'Rovi_id': '7404130327', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:32']
+
+
+[{'fail': 14, 'Process': 'process - 5', 'total': 26, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07T4T4YKM', 'Rovi_id': '6597882181', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:34']
+
+
+[{'fail': 15, 'Process': 'process - 5', 'total': 27, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07T1N5WY6', 'Rovi_id': '18900072', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:36']
+
+
+[{'fail': 16, 'Process': 'process - 5', 'total': 28, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07S89C74J', 'Rovi_id': '6358210228', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:37']
+
+
+[{'fail': 17, 'Process': 'process - 5', 'total': 29, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07T1SQ1SW', 'Rovi_id': '1380051705', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:39']
+
+
+[{'fail': 18, 'Process': 'process - 5', 'total': 30, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07T3TKZPR', 'Rovi_id': '1867718976', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:40']
+
+
+[{'fail': 19, 'Process': 'process - 5', 'total': 31, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'itunes', 'link_id': '1465865594', 'Rovi_id': '7349671713', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:42']
+
+
+[{'fail': 20, 'Process': 'process - 5', 'total': 32, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07T5X6BMV', 'Rovi_id': '7397654034', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:44']
+
+
+[{'fail': 21, 'Process': 'process - 5', 'total': 33, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RPNKPHV', 'Rovi_id': '66496277', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:45']
+
+
+[{'fail': 22, 'Process': 'process - 5', 'total': 34, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RSS6GCP', 'Rovi_id': '66496278', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:47']
+
+
+[{'fail': 23, 'Process': 'process - 5', 'total': 35, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RTY3Z9D', 'Rovi_id': '66496279', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:48']
+
+
+[{'fail': 24, 'Process': 'process - 5', 'total': 36, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RNLWJD3', 'Rovi_id': '66496280', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:50']
+
+
+[{'fail': 25, 'Process': 'process - 5', 'total': 37, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RRQB5DD', 'Rovi_id': '66496281', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:52']
+
+
+[{'fail': 26, 'Process': 'process - 5', 'total': 38, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RPNKPHV', 'Rovi_id': '7402688776', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:53']
+
+
+[{'fail': 27, 'Process': 'process - 5', 'total': 39, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RSS6GCP', 'Rovi_id': '7402688780', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:55']
+
+
+[{'fail': 28, 'Process': 'process - 5', 'total': 40, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RTY3Z9D', 'Rovi_id': '7402689027', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:57']
+
+
+[{'fail': 29, 'Process': 'process - 5', 'total': 41, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RNLWJD3', 'Rovi_id': '7402691657', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:59']
+
+
+[{'fail': 30, 'Process': 'process - 5', 'total': 42, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RRQB5DD', 'Rovi_id': '7402693319', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:42:00']
+
+
+[{'fail': 31, 'Process': 'process - 5', 'total': 43, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RNLV9JQ', 'Rovi_id': '7402699963', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:42:02']
+
+
+[{'fail': 32, 'Process': 'process - 5', 'total': 44, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RRQ78KH', 'Rovi_id': '7402699965', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:42:04']
+
+
+[{'fail': 33, 'Process': 'process - 5', 'total': 45, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RPNKSZ3', 'Rovi_id': '7402703006', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:42:05']
+
+
+[{'fail': 34, 'Process': 'process - 5', 'total': 46, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RSS74V6', 'Rovi_id': '7402705014', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:42:07']
+
+
+[{'fail': 35, 'Process': 'process - 5', 'total': 47, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RPNL1KL', 'Rovi_id': '7402705031', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:42:09']
+
+
+[{'fail': 36, 'Process': 'process - 5', 'total': 48, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RRQBY3W', 'Rovi_id': '7402710014', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:42:10']
+
+
+[{'fail': 37, 'Process': 'process - 5', 'total': 49, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07S1XZWL1', 'Rovi_id': '6534000259', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:42:12']
+
+
+[{'fail': 38, 'Process': 'process - 5', 'total': 50, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'True', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RWNTQWL', 'Rovi_id': '7356870861', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:42:14']
+
+
+[{'fail': 39, 'Process': 'process - 5', 'total': 51, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RZ1FVSW', 'Rovi_id': '7356875198', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:42:15']
+
+
+[{'fail': 40, 'Process': 'process - 5', 'total': 52, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RYZPTXT', 'Rovi_id': '6964311650', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:42:17']
+
+
+[{'fail': 41, 'Process': 'process - 5', 'total': 53, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'True', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07QY2CFMC', 'Rovi_id': '6590274605', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:42:18']
+
+
+[{'fail': 42, 'Process': 'process - 5', 'total': 54, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07T3HVJ9G', 'Rovi_id': '7353898822', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:42:20']
+
+
+[{'fail': 43, 'Process': 'process - 5', 'total': 55, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07SZ9SVGQ', 'Rovi_id': '7353898824', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:42:22']
+
+
+[{'fail': 44, 'Process': 'process - 5', 'total': 56, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RX34TLM', 'Rovi_id': '6526909890', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:42:23']
+
+
+[{'fail': 45, 'Process': 'process - 5', 'total': 57, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07T32JZ4B', 'Rovi_id': '6883749450', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:42:25']
+
+
+[{'fail': 46, 'Process': 'process - 5', 'total': 58, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07T4473YB', 'Rovi_id': '6883749460', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:42:27']
+
+
+[{'fail': 47, 'Process': 'process - 5', 'total': 59, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07T32L5XL', 'Rovi_id': '6883749466', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:42:28']
+
+
+[{'fail': 48, 'Process': 'process - 5', 'total': 60, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07T32L6JM', 'Rovi_id': '6883749479', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:42:30']
+
+
+[{'fail': 49, 'Process': 'process - 5', 'total': 61, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07T6BXY9R', 'Rovi_id': '6883749452', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:42:31']
+
+
+[{'fail': 50, 'Process': 'process - 5', 'total': 62, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07T57HT84', 'Rovi_id': '6883749456', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:42:33']
+
+
+[{'fail': 51, 'Process': 'process - 5', 'total': 63, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07T32B1Z4', 'Rovi_id': '66809539', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:42:34']
+
+
+[{'fail': 52, 'Process': 'process - 5', 'total': 64, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07T32KKYF', 'Rovi_id': '66809540', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:42:36']
+
+
+[{'fail': 53, 'Process': 'process - 5', 'total': 65, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07T32KSL4', 'Rovi_id': '66809585', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:42:38']
+
+
+[{'fail': 54, 'Process': 'process - 5', 'total': 66, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07T32KGH9', 'Rovi_id': '66809758', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:42:39']
+
+
+[{'fail': 55, 'Process': 'process - 5', 'total': 67, 'pass': 12}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07T74JTBW', 'Rovi_id': '66809946', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:42:43']
+
+
+[{'fail': 55, 'Process': 'process - 5', 'total': 68, 'pass': 13}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'952680934'], 'Service': 'vudu', 'link_id': '1053700', 'Rovi_id': '952680934', 'rovi_id_status': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'others', 'px_id': [9905591], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:42:45']
+
+
+[{'fail': 56, 'Process': 'process - 5', 'total': 69, 'pass': 13}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'vudu', 'link_id': '1053703', 'Rovi_id': '1726950374', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:42:48']
+
+
+[{'fail': 56, 'Process': 'process - 5', 'total': 70, 'pass': 14}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'1112432763'], 'Service': 'vudu', 'link_id': '1053706', 'Rovi_id': '1112432763', 'rovi_id_status': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'others', 'px_id': [9905624], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:42:53']
+
+
+[{'fail': 56, 'Process': 'process - 5', 'total': 71, 'pass': 15}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'1137429403'], 'Service': 'vudu', 'link_id': '1053709', 'Rovi_id': '1137429403', 'rovi_id_status': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'others', 'px_id': [9905652], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:42:57']
+
+
+[{'fail': 56, 'Process': 'process - 5', 'total': 72, 'pass': 16}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'1112432759'], 'Service': 'vudu', 'link_id': '1053712', 'Rovi_id': '1112432759', 'rovi_id_status': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'others', 'px_id': [9905623], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:01']
+
+
+[{'fail': 56, 'Process': 'process - 5', 'total': 73, 'pass': 17}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'1122874734'], 'Service': 'vudu', 'link_id': '1053715', 'Rovi_id': '1122874734', 'rovi_id_status': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'others', 'px_id': [9905646], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:02']
+
+
+[{'fail': 57, 'Process': 'process - 5', 'total': 74, 'pass': 17}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'hbogo', 'link_id': 'urn:hbo:episode:GXLotxQWnWrSHgAEAAAJ1', 'Rovi_id': '7335564257', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:04']
+
+
+[{'fail': 58, 'Process': 'process - 5', 'total': 75, 'pass': 17}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'hbogo', 'link_id': 'urn:hbo:episode:GXLotxQWnWrSHgAEAAAJ1', 'Rovi_id': '7335564257', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:08']
+
+
+[{'fail': 58, 'Process': 'process - 5', 'total': 76, 'pass': 18}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'7405605791'], 'Service': 'netflixusa', 'link_id': '81147766', 'Rovi_id': '7405605791', 'rovi_id_status': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'Rovi', 'px_id': [3998669], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:12']
+
+
+[{'fail': 58, 'Process': 'process - 5', 'total': 77, 'pass': 19}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'7236266549'], 'Service': 'hbogo', 'link_id': 'urn:hbo:feature:GXL4njgVjIKyWuwEAAALt', 'Rovi_id': '7236266549', 'rovi_id_status': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'Rovi', 'px_id': [3952131], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:13']
+
+
+[{'fail': 59, 'Process': 'process - 5', 'total': 78, 'pass': 19}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'True', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07T2T2MCH', 'Rovi_id': '7119078475', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:15']
+
+
+[{'fail': 60, 'Process': 'process - 5', 'total': 79, 'pass': 19}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07SN2TM92', 'Rovi_id': '7129798035', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:16']
+
+
+[{'fail': 61, 'Process': 'process - 5', 'total': 80, 'pass': 19}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'True', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07S5YDWYP', 'Rovi_id': '7180297540', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:18']
+
+
+[{'fail': 62, 'Process': 'process - 5', 'total': 81, 'pass': 19}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'True', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RRFVHK3', 'Rovi_id': '7326068844', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:20']
+
+
+[{'fail': 63, 'Process': 'process - 5', 'total': 82, 'pass': 19}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RH93H18', 'Rovi_id': '7419338125', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:21']
+
+
+[{'fail': 64, 'Process': 'process - 5', 'total': 83, 'pass': 19}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RZRYP47', 'Rovi_id': '7236266487', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:23']
+
+
+[{'fail': 65, 'Process': 'process - 5', 'total': 84, 'pass': 19}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07T6CBQNG', 'Rovi_id': '5051711194', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:24']
+
+
+[{'fail': 66, 'Process': 'process - 5', 'total': 85, 'pass': 19}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07T728JP7', 'Rovi_id': '8859892', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:26']
+
+
+[{'fail': 67, 'Process': 'process - 5', 'total': 86, 'pass': 19}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'itunes', 'link_id': '1459581877', 'Rovi_id': '5257535761', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:27']
+
+
+[{'fail': 68, 'Process': 'process - 5', 'total': 87, 'pass': 19}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'itunes', 'link_id': '7374724139', 'Rovi_id': '1468994912', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:31']
+
+
+[{'fail': 68, 'Process': 'process - 5', 'total': 88, 'pass': 20}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'7374724139'], 'Service': 'itunes', 'link_id': '1468994912', 'Rovi_id': '7374724139', 'rovi_id_status': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'Rovi', 'px_id': [12946443], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:33']
+
+
+[{'fail': 69, 'Process': 'process - 5', 'total': 89, 'pass': 20}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07DPT9PCR', 'Rovi_id': '5130318051', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:34']
+
+
+[{'fail': 70, 'Process': 'process - 5', 'total': 90, 'pass': 20}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07DWH7P3G', 'Rovi_id': '6409082000', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:36']
+
+
+[{'fail': 71, 'Process': 'process - 5', 'total': 91, 'pass': 20}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07F2JT354', 'Rovi_id': '6409083344', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:38']
+
+
+[{'fail': 72, 'Process': 'process - 5', 'total': 92, 'pass': 20}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07F8FGP8S', 'Rovi_id': '6409089233', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:39']
+
+
+[{'fail': 73, 'Process': 'process - 5', 'total': 93, 'pass': 20}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07FF87PKD', 'Rovi_id': '6409089886', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:41']
+
+
+[{'fail': 74, 'Process': 'process - 5', 'total': 94, 'pass': 20}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07FNTSN2C', 'Rovi_id': '6409089888', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:42']
+
+
+[{'fail': 75, 'Process': 'process - 5', 'total': 95, 'pass': 20}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07FX2P82W', 'Rovi_id': '6409093439', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:44']
+
+
+[{'fail': 76, 'Process': 'process - 5', 'total': 96, 'pass': 20}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07G3HB2K8', 'Rovi_id': '6409094726', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:46']
+
+
+[{'fail': 77, 'Process': 'process - 5', 'total': 97, 'pass': 20}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07GB5N4FZ', 'Rovi_id': '6409095189', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:48']
+
+
+[{'fail': 78, 'Process': 'process - 5', 'total': 98, 'pass': 20}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07GHTFYDY', 'Rovi_id': '6409096724', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:50']
+
+
+[{'fail': 79, 'Process': 'process - 5', 'total': 99, 'pass': 20}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'itunes', 'link_id': '1464411526', 'Rovi_id': '5130318051', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:51']
+
+
+[{'fail': 80, 'Process': 'process - 5', 'total': 100, 'pass': 20}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'itunes', 'link_id': '1464648156', 'Rovi_id': '6409082000', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:53']
+
+
+[{'fail': 81, 'Process': 'process - 5', 'total': 101, 'pass': 20}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'itunes', 'link_id': '1464651183', 'Rovi_id': '6409083344', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:54']
+
+
+[{'fail': 82, 'Process': 'process - 5', 'total': 102, 'pass': 20}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'itunes', 'link_id': '1464648330', 'Rovi_id': '6409089233', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:56']
+
+
+[{'fail': 83, 'Process': 'process - 5', 'total': 103, 'pass': 20}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'itunes', 'link_id': '1464648272', 'Rovi_id': '6409089886', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:57']
+
+
+[{'fail': 84, 'Process': 'process - 5', 'total': 104, 'pass': 20}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'itunes', 'link_id': '1464412637', 'Rovi_id': '6409089888', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:59']
+
+
+[{'fail': 85, 'Process': 'process - 5', 'total': 105, 'pass': 20}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'itunes', 'link_id': '1464412151', 'Rovi_id': '6409093439', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:01']
+
+
+[{'fail': 86, 'Process': 'process - 5', 'total': 106, 'pass': 20}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'itunes', 'link_id': '1464412060', 'Rovi_id': '6409094726', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:02']
+
+
+[{'fail': 87, 'Process': 'process - 5', 'total': 107, 'pass': 20}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'itunes', 'link_id': '1464412060', 'Rovi_id': '6409095189', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:04']
+
+
+[{'fail': 88, 'Process': 'process - 5', 'total': 108, 'pass': 20}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'itunes', 'link_id': '1464412438', 'Rovi_id': '6409096724', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:12']
+
+
+[{'fail': 89, 'Process': 'process - 5', 'total': 109, 'pass': 20}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'itunes', 'link_id': '1464412589', 'Rovi_id': '6409096724', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:13']
+
+
+[{'fail': 90, 'Process': 'process - 5', 'total': 110, 'pass': 20}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'itunes', 'link_id': '1464412438', 'Rovi_id': '6409095189', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:15']
+
+
+[{'fail': 91, 'Process': 'process - 5', 'total': 111, 'pass': 20}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'vudu', 'link_id': '1151716', 'Rovi_id': '5130318051', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:16']
+
+
+[{'fail': 92, 'Process': 'process - 5', 'total': 112, 'pass': 20}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'vudu', 'link_id': '1151719', 'Rovi_id': '6409082000', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:18']
+
+
+[{'fail': 93, 'Process': 'process - 5', 'total': 113, 'pass': 20}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07TFHM4GQ', 'Rovi_id': '1321713988', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:20']
+
+
+[{'fail': 94, 'Process': 'process - 5', 'total': 114, 'pass': 20}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'vudu', 'link_id': '1151722', 'Rovi_id': '6409083344', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:21']
+
+
+[{'fail': 95, 'Process': 'process - 5', 'total': 115, 'pass': 20}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'vudu', 'link_id': '1151725', 'Rovi_id': '6409089233', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:23']
+
+
+[{'fail': 96, 'Process': 'process - 5', 'total': 116, 'pass': 20}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'vudu', 'link_id': '1151728', 'Rovi_id': '6409089886', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:25']
+
+
+[{'fail': 97, 'Process': 'process - 5', 'total': 117, 'pass': 20}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'vudu', 'link_id': '1151731', 'Rovi_id': '6409089888', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:26']
+
+
+[{'fail': 98, 'Process': 'process - 5', 'total': 118, 'pass': 20}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'vudu', 'link_id': '1151734', 'Rovi_id': '6409093439', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:28']
+
+
+[{'fail': 99, 'Process': 'process - 5', 'total': 119, 'pass': 20}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'vudu', 'link_id': '1151737', 'Rovi_id': '6409094726', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:30']
+
+
+[{'fail': 100, 'Process': 'process - 5', 'total': 120, 'pass': 20}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'vudu', 'link_id': '1151740', 'Rovi_id': '6409095189', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:31']
+
+
+[{'fail': 101, 'Process': 'process - 5', 'total': 121, 'pass': 20}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'vudu', 'link_id': '1151743', 'Rovi_id': '6409096724', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:35']
+
+
+[{'fail': 101, 'Process': 'process - 5', 'total': 122, 'pass': 21}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'1325653017', u'423831'], 'Service': 'itunes', 'link_id': '1466287410', 'Rovi_id': '423831', 'rovi_id_status': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'Rovi', 'px_id': [2202586, 93514], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:37']
+
+
+[{'fail': 102, 'Process': 'process - 5', 'total': 123, 'pass': 21}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07T3H9XVG', 'Rovi_id': '7453890316', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:38']
+
+
+[{'fail': 103, 'Process': 'process - 5', 'total': 124, 'pass': 21}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07T3H9XVG', 'Rovi_id': '7453890318', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:40']
+
+
+[{'fail': 104, 'Process': 'process - 5', 'total': 125, 'pass': 21}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07T3H9XVG', 'Rovi_id': '7453890320', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:41']
+
+
+[{'fail': 105, 'Process': 'process - 5', 'total': 126, 'pass': 21}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07T3H9XVG', 'Rovi_id': '7453890326', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:43']
+
+
+[{'fail': 106, 'Process': 'process - 5', 'total': 127, 'pass': 21}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07T3H9XVG', 'Rovi_id': '7453890324', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:45']
+
+
+[{'fail': 107, 'Process': 'process - 5', 'total': 128, 'pass': 21}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07TDQY1G6', 'Rovi_id': '2036704883', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:46']
+
+
+[{'fail': 108, 'Process': 'process - 5', 'total': 129, 'pass': 21}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07TCR81T7', 'Rovi_id': '255533', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:48']
+
+
+[{'fail': 109, 'Process': 'process - 5', 'total': 130, 'pass': 21}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'True', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07TCKRL1K', 'Rovi_id': '1768258', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:49']
+
+
+[{'fail': 110, 'Process': 'process - 5', 'total': 131, 'pass': 21}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07T3C3GCQ', 'Rovi_id': '4026706944', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:51']
+
+
+[{'fail': 111, 'Process': 'process - 5', 'total': 132, 'pass': 21}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'True', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RWZNK8M', 'Rovi_id': '6586816837', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:53']
+
+
+[{'fail': 112, 'Process': 'process - 5', 'total': 133, 'pass': 21}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07TGSZKJY', 'Rovi_id': '4816645472', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:54']
+
+
+[{'fail': 113, 'Process': 'process - 5', 'total': 134, 'pass': 21}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RKYP6ND', 'Rovi_id': '7301961664', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:56']
+
+
+[{'fail': 114, 'Process': 'process - 5', 'total': 135, 'pass': 21}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '80986813', 'Rovi_id': '7446563393', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:45:00']
+
+
+[{'fail': 114, 'Process': 'process - 5', 'total': 136, 'pass': 22}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'6474368020'], 'Service': 'hbogo', 'link_id': 'urn:hbo:feature:GXLjmnwyxxrSHgAEAAAJL', 'Rovi_id': '6474368020', 'rovi_id_status': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'Rovi', 'px_id': [3733534], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:45:05']
+
+
+[{'fail': 114, 'Process': 'process - 5', 'total': 137, 'pass': 23}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'6474368020'], 'Service': 'hbogo', 'link_id': 'urn:hbo:feature:GXLjmnwyxxrSHgAEAAAJL', 'Rovi_id': '6474368020', 'rovi_id_status': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'Rovi', 'px_id': [3733534], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:45:09']
+
+
+[{'fail': 114, 'Process': 'process - 5', 'total': 138, 'pass': 24}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'5740298112'], 'Service': 'hbogo', 'link_id': 'urn:hbo:feature:GXLCuBQtjHsN6rwEAAAF7', 'Rovi_id': '5740298112', 'rovi_id_status': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'Rovi', 'px_id': [3523586], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:45:11']
+
+
+[{'fail': 115, 'Process': 'process - 5', 'total': 139, 'pass': 24}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'hbogo', 'link_id': 'urn:hbo:episode:GXN7iDgpT98LDwgEAAAOg', 'Rovi_id': '6802344900', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:45:13']
+
+
+[{'fail': 116, 'Process': 'process - 5', 'total': 140, 'pass': 24}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'hbogo', 'link_id': 'urn:hbo:episode:GXN7iDgpT98LDwgEAAAOg', 'Rovi_id': '6802344900', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:45:14']
+
+
+[{'fail': 117, 'Process': 'process - 5', 'total': 141, 'pass': 24}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07TBV1VMB', 'Rovi_id': '3165613242', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:45:16']
+
+
+[{'fail': 118, 'Process': 'process - 5', 'total': 142, 'pass': 24}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07TF35K9M', 'Rovi_id': '430401', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:45:17']
+
+
+[{'fail': 119, 'Process': 'process - 5', 'total': 143, 'pass': 24}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07TBWYB7D', 'Rovi_id': '1544448740', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:45:19']
+
+
+[{'fail': 120, 'Process': 'process - 5', 'total': 144, 'pass': 24}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'True', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07T9TPKHR', 'Rovi_id': '5922465278', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:45:21']
+
+
+[{'fail': 121, 'Process': 'process - 5', 'total': 145, 'pass': 24}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'itunes', 'link_id': '1460600667', 'Rovi_id': '6586816837', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:45:25']
+
+
+[{'fail': 121, 'Process': 'process - 5', 'total': 146, 'pass': 25}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'1553870'], 'Service': 'itunes', 'link_id': '1468374260', 'Rovi_id': '1553870', 'rovi_id_status': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'Rovi', 'px_id': [418354], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:45:26']
+
+
+[{'fail': 122, 'Process': 'process - 5', 'total': 147, 'pass': 25}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '5621604142', 'Rovi_id': '81002747', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:45:28']
+
+
+[{'fail': 123, 'Process': 'process - 5', 'total': 148, 'pass': 25}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '70125932', 'Rovi_id': '2457255', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:45:29']
+
+
+[{'fail': 124, 'Process': 'process - 5', 'total': 149, 'pass': 25}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07THFF88M', 'Rovi_id': '6755526865', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:45:31']
+
+
+[{'fail': 125, 'Process': 'process - 5', 'total': 150, 'pass': 25}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07TFB8SP5', 'Rovi_id': '17595853', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:45:33']
+
+
+[{'fail': 126, 'Process': 'process - 5', 'total': 151, 'pass': 25}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07QWCKBH7', 'Rovi_id': '6147618197', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:45:34']
+
+
+[{'fail': 127, 'Process': 'process - 5', 'total': 152, 'pass': 25}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07TD6R5VS', 'Rovi_id': '2015598427', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:45:36']
+
+
+[{'fail': 128, 'Process': 'process - 5', 'total': 153, 'pass': 25}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'True', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07TJZRMD9', 'Rovi_id': '1318393432', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:45:38']
+
+
+[{'fail': 129, 'Process': 'process - 5', 'total': 154, 'pass': 25}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07TK384MX', 'Rovi_id': '2012118', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:45:39']
+
+
+[{'fail': 130, 'Process': 'process - 5', 'total': 155, 'pass': 25}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07THDT477', 'Rovi_id': '6331994174', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:45:41']
+
+
+[{'fail': 131, 'Process': 'process - 5', 'total': 156, 'pass': 25}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07THFZCM5', 'Rovi_id': '1780770204', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:45:42']
+
+
+[{'fail': 132, 'Process': 'process - 5', 'total': 157, 'pass': 25}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07TGFT3KG', 'Rovi_id': '1408290116', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:45:44']
+
+
+[{'fail': 133, 'Process': 'process - 5', 'total': 158, 'pass': 25}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07THDYK5Q', 'Rovi_id': '5384251763', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:45:46']
+
+
+[{'fail': 134, 'Process': 'process - 5', 'total': 159, 'pass': 25}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07Q7MJZS1', 'Rovi_id': '4731616506', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 5', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]

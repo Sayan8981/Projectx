@@ -1,0 +1,711 @@
+
+
+['date time:', '01/07/2020 15:40:21']
+
+
+[{'fail': 1, 'Process': 'process - 4', 'total': 1, 'pass': 0}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07PW43H2X', 'Rovi_id': '386836235', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:40:23']
+
+
+[{'fail': 2, 'Process': 'process - 4', 'total': 2, 'pass': 0}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RPRLZDT', 'Rovi_id': '277713', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:40:25']
+
+
+[{'fail': 3, 'Process': 'process - 4', 'total': 3, 'pass': 0}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07QPF4LHY', 'Rovi_id': '4356275448', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:40:26']
+
+
+[{'fail': 4, 'Process': 'process - 4', 'total': 4, 'pass': 0}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RW2SS11', 'Rovi_id': '1965058122', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:40:28']
+
+
+[{'fail': 5, 'Process': 'process - 4', 'total': 5, 'pass': 0}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'True', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07R3V37JN', 'Rovi_id': '7122308940', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:40:29']
+
+
+[{'fail': 6, 'Process': 'process - 4', 'total': 6, 'pass': 0}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07Q7WVLX4', 'Rovi_id': '470310', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:40:31']
+
+
+[{'fail': 7, 'Process': 'process - 4', 'total': 7, 'pass': 0}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RQNR6GW', 'Rovi_id': '6714525719', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:40:32']
+
+
+[{'fail': 8, 'Process': 'process - 4', 'total': 8, 'pass': 0}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RTZDVPZ', 'Rovi_id': '7219678584', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:40:34']
+
+
+[{'fail': 9, 'Process': 'process - 4', 'total': 9, 'pass': 0}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RP36G77', 'Rovi_id': '7236375357', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:40:36']
+
+
+[{'fail': 10, 'Process': 'process - 4', 'total': 10, 'pass': 0}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07MQ79LFN', 'Rovi_id': '4997183216', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:40:37']
+
+
+[{'fail': 11, 'Process': 'process - 4', 'total': 11, 'pass': 0}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07R8X3VDT', 'Rovi_id': '424501', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:40:39']
+
+
+[{'fail': 12, 'Process': 'process - 4', 'total': 12, 'pass': 0}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '80220311', 'Rovi_id': '6534000895', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:40:40']
+
+
+[{'fail': 13, 'Process': 'process - 4', 'total': 13, 'pass': 0}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '81083297', 'Rovi_id': '6864667654', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:40:44']
+
+
+[{'fail': 13, 'Process': 'process - 4', 'total': 14, 'pass': 1}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'6690516921'], 'Service': 'netflixusa', 'link_id': '81123050', 'Rovi_id': '6690516921', 'rovi_id_status': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'Rovi', 'px_id': [3793639], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:40:49']
+
+
+[{'fail': 13, 'Process': 'process - 4', 'total': 15, 'pass': 2}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'12297914', u'952824724'], 'Service': 'netflixusa', 'link_id': '70153178', 'Rovi_id': '12297914', 'rovi_id_status': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'Rovi', 'px_id': [974562, 1934624], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:40:53']
+
+
+[{'fail': 13, 'Process': 'process - 4', 'total': 16, 'pass': 3}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'5440118668', u'670567927', u'879250426'], 'Service': 'netflixusa', 'link_id': '70289558', 'Rovi_id': '5440118668', 'rovi_id_status': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'Rovi', 'px_id': [3426867, 1771815, 1893480], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:40:57']
+
+
+[{'fail': 13, 'Process': 'process - 4', 'total': 17, 'pass': 4}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'5382650464', u'2353988', u'2486289'], 'Service': 'netflixusa', 'link_id': '70109375', 'Rovi_id': '2353988', 'rovi_id_status': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'Rovi', 'px_id': [3409053, 707718, 762848], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:00']
+
+
+[{'fail': 13, 'Process': 'process - 4', 'total': 18, 'pass': 5}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'337756'], 'Service': 'netflixusa', 'link_id': '60021906', 'Rovi_id': '337756', 'rovi_id_status': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'Rovi', 'px_id': [81247], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:04']
+
+
+[{'fail': 13, 'Process': 'process - 4', 'total': 19, 'pass': 6}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'14763572', u'599720841', u'951869883'], 'Service': 'netflixusa', 'link_id': '70149579', 'Rovi_id': '14763572', 'rovi_id_status': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'Rovi', 'px_id': [1151970, 1735644, 1933803], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:06']
+
+
+[{'fail': 14, 'Process': 'process - 4', 'total': 20, 'pass': 6}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RV3ZN1B', 'Rovi_id': '12136930', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:07']
+
+
+[{'fail': 15, 'Process': 'process - 4', 'total': 21, 'pass': 6}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RV54H2Q', 'Rovi_id': '1543131970', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:09']
+
+
+[{'fail': 16, 'Process': 'process - 4', 'total': 22, 'pass': 6}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '70117577', 'Rovi_id': '333132', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:11']
+
+
+[{'fail': 17, 'Process': 'process - 4', 'total': 23, 'pass': 6}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07NRBJ8Y4', 'Rovi_id': '6474367800', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:12']
+
+
+[{'fail': 18, 'Process': 'process - 4', 'total': 24, 'pass': 6}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RTH3CSG', 'Rovi_id': '328923442', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:14']
+
+
+[{'fail': 19, 'Process': 'process - 4', 'total': 25, 'pass': 6}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'True', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RS4PVLW', 'Rovi_id': '13944887', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:15']
+
+
+[{'fail': 20, 'Process': 'process - 4', 'total': 26, 'pass': 6}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '80204973', 'Rovi_id': '7284956562', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:17']
+
+
+[{'fail': 21, 'Process': 'process - 4', 'total': 27, 'pass': 6}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '80204974', 'Rovi_id': '7284956564', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:18']
+
+
+[{'fail': 22, 'Process': 'process - 4', 'total': 28, 'pass': 6}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '80204975', 'Rovi_id': '7284956566', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:20']
+
+
+[{'fail': 23, 'Process': 'process - 4', 'total': 29, 'pass': 6}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '80204976', 'Rovi_id': '7284956572', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:22']
+
+
+[{'fail': 24, 'Process': 'process - 4', 'total': 30, 'pass': 6}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '80204977', 'Rovi_id': '7284956576', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:23']
+
+
+[{'fail': 25, 'Process': 'process - 4', 'total': 31, 'pass': 6}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '80204978', 'Rovi_id': '7284956574', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:25']
+
+
+[{'fail': 26, 'Process': 'process - 4', 'total': 32, 'pass': 6}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '80204979', 'Rovi_id': '7284956568', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:27']
+
+
+[{'fail': 27, 'Process': 'process - 4', 'total': 33, 'pass': 6}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '80204980', 'Rovi_id': '7284956570', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:28']
+
+
+[{'fail': 28, 'Process': 'process - 4', 'total': 34, 'pass': 6}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '80204981', 'Rovi_id': '7284956584', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:30']
+
+
+[{'fail': 29, 'Process': 'process - 4', 'total': 35, 'pass': 6}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '80204982', 'Rovi_id': '7284956580', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:31']
+
+
+[{'fail': 30, 'Process': 'process - 4', 'total': 36, 'pass': 6}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '80204984', 'Rovi_id': '7284956586', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:33']
+
+
+[{'fail': 31, 'Process': 'process - 4', 'total': 37, 'pass': 6}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '80204985', 'Rovi_id': '7284956578', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:37']
+
+
+[{'fail': 31, 'Process': 'process - 4', 'total': 38, 'pass': 7}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'7317399039'], 'Service': 'netflixusa', 'link_id': '80998967', 'Rovi_id': '7317399039', 'rovi_id_status': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'Rovi', 'px_id': [3973632], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:39']
+
+
+[{'fail': 32, 'Process': 'process - 4', 'total': 39, 'pass': 7}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '81085319', 'Rovi_id': '5278707774', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:40']
+
+
+[{'fail': 33, 'Process': 'process - 4', 'total': 40, 'pass': 7}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RSYZC6F', 'Rovi_id': '7278897335', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:41:42']
+
+
+[{'fail': 34, 'Process': 'process - 4', 'total': 41, 'pass': 7}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RN9WVWT', 'Rovi_id': '7064081112', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:54']
+
+
+[{'fail': 35, 'Process': 'process - 4', 'total': 42, 'pass': 7}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RPCQ67L', 'Rovi_id': '7090206253', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:55']
+
+
+[{'fail': 36, 'Process': 'process - 4', 'total': 43, 'pass': 7}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RN9WT6B', 'Rovi_id': '7109447751', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:57']
+
+
+[{'fail': 37, 'Process': 'process - 4', 'total': 44, 'pass': 7}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RPCQM1V', 'Rovi_id': '7135874527', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:43:58']
+
+
+[{'fail': 38, 'Process': 'process - 4', 'total': 45, 'pass': 7}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RN9V4ZB', 'Rovi_id': '7161765832', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:00']
+
+
+[{'fail': 39, 'Process': 'process - 4', 'total': 46, 'pass': 7}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RN9WJPC', 'Rovi_id': '7178796240', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:01']
+
+
+[{'fail': 40, 'Process': 'process - 4', 'total': 47, 'pass': 7}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07JMQZ8BY', 'Rovi_id': '6348375532', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:12']
+
+
+[{'fail': 41, 'Process': 'process - 4', 'total': 48, 'pass': 7}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'1084064'], 'Service': 'starz', 'link_id': '44282', 'Rovi_id': '1054338935', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'Rovi', 'px_id': [227724], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:14']
+
+
+[{'fail': 42, 'Process': 'process - 4', 'total': 49, 'pass': 7}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'starz', 'link_id': '44280', 'Rovi_id': '428640', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:16']
+
+
+[{'fail': 43, 'Process': 'process - 4', 'total': 50, 'pass': 7}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'starz', 'link_id': '44206', 'Rovi_id': '1449811', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:17']
+
+
+[{'fail': 44, 'Process': 'process - 4', 'total': 51, 'pass': 7}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'starz', 'link_id': '44179', 'Rovi_id': '17892998', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:20']
+
+
+[{'fail': 45, 'Process': 'process - 4', 'total': 52, 'pass': 7}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RWMB5TP', 'Rovi_id': '288713', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:22']
+
+
+[{'fail': 46, 'Process': 'process - 4', 'total': 53, 'pass': 7}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RWMFFMF', 'Rovi_id': '5355596003', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:24']
+
+
+[{'fail': 47, 'Process': 'process - 4', 'total': 54, 'pass': 7}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RY5C9FJ', 'Rovi_id': '19732285', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:25']
+
+
+[{'fail': 48, 'Process': 'process - 4', 'total': 55, 'pass': 7}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RWP96T6', 'Rovi_id': '9711934', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:27']
+
+
+[{'fail': 49, 'Process': 'process - 4', 'total': 56, 'pass': 7}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'amazon', 'link_id': 'B07RYXNDNX', 'Rovi_id': '4740569989', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:29']
+
+
+[{'fail': 50, 'Process': 'process - 4', 'total': 57, 'pass': 7}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'hbogo', 'link_id': 'urn:hbo:episode:GXJv1mw0FQagjKgEAAAHQ', 'Rovi_id': '7215177294', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:30']
+
+
+[{'fail': 51, 'Process': 'process - 4', 'total': 58, 'pass': 7}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'hbogo', 'link_id': 'urn:hbo:episode:GXJv1mw0FQagjKgEAAAHQ', 'Rovi_id': '7215177294', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:32']
+
+
+[{'fail': 52, 'Process': 'process - 4', 'total': 59, 'pass': 7}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '81014281', 'Rovi_id': '7339928022', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:33']
+
+
+[{'fail': 53, 'Process': 'process - 4', 'total': 60, 'pass': 7}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '81014282', 'Rovi_id': '7339928026', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:35']
+
+
+[{'fail': 54, 'Process': 'process - 4', 'total': 61, 'pass': 7}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '81014283', 'Rovi_id': '7339928028', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:37']
+
+
+[{'fail': 55, 'Process': 'process - 4', 'total': 62, 'pass': 7}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '81014284', 'Rovi_id': '7339928024', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:38']
+
+
+[{'fail': 56, 'Process': 'process - 4', 'total': 63, 'pass': 7}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '81014285', 'Rovi_id': '7339928036', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:42']
+
+
+[{'fail': 56, 'Process': 'process - 4', 'total': 64, 'pass': 8}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'6769285722'], 'Service': 'netflixusa', 'link_id': '81073590', 'Rovi_id': '6769285722', 'rovi_id_status': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'Rovi', 'px_id': [3815742], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:46']
+
+
+[{'fail': 56, 'Process': 'process - 4', 'total': 65, 'pass': 9}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'1401057167'], 'Service': 'netflixusa', 'link_id': '81103108', 'Rovi_id': '1401057167', 'rovi_id_status': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'Rovi', 'px_id': [2267431], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:50']
+
+
+[{'fail': 56, 'Process': 'process - 4', 'total': 66, 'pass': 10}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'7053163743'], 'Service': 'netflixusa', 'link_id': '80236341', 'Rovi_id': '7053163743', 'rovi_id_status': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'Rovi', 'px_id': [3899548], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:54']
+
+
+[{'fail': 56, 'Process': 'process - 4', 'total': 67, 'pass': 11}]
+
+
+[{'comment': 'Pass', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [u'7339946391'], 'Service': 'netflixusa', 'link_id': '80191050', 'Rovi_id': '7339946391', 'rovi_id_status': 'True', 'Prod_link_status': 'link_id_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'Rovi', 'px_id': [3979668], 'preprod_link_status': 'link_id_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:55']
+
+
+[{'fail': 57, 'Process': 'process - 4', 'total': 68, 'pass': 11}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '80213475', 'Rovi_id': '7339928030', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:57']
+
+
+[{'fail': 58, 'Process': 'process - 4', 'total': 69, 'pass': 11}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '80213476', 'Rovi_id': '7339928034', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:44:59']
+
+
+[{'fail': 59, 'Process': 'process - 4', 'total': 70, 'pass': 11}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '80213477', 'Rovi_id': '7339928032', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:45:00']
+
+
+[{'fail': 60, 'Process': 'process - 4', 'total': 71, 'pass': 11}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '80213478', 'Rovi_id': '7339928044', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:45:02']
+
+
+[{'fail': 61, 'Process': 'process - 4', 'total': 72, 'pass': 11}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '80213479', 'Rovi_id': '7339928042', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:45:03']
+
+
+[{'fail': 62, 'Process': 'process - 4', 'total': 73, 'pass': 11}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '80213480', 'Rovi_id': '7339928038', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:45:05']
+
+
+[{'fail': 63, 'Process': 'process - 4', 'total': 74, 'pass': 11}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '80213481', 'Rovi_id': '7339928040', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:45:07']
+
+
+[{'fail': 64, 'Process': 'process - 4', 'total': 75, 'pass': 11}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '80213482', 'Rovi_id': '7339928052', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:45:08']
+
+
+[{'fail': 65, 'Process': 'process - 4', 'total': 76, 'pass': 11}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '80213483', 'Rovi_id': '7339928050', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:45:10']
+
+
+[{'fail': 66, 'Process': 'process - 4', 'total': 77, 'pass': 11}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '80213484', 'Rovi_id': '7339928046', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:45:12']
+
+
+[{'fail': 67, 'Process': 'process - 4', 'total': 78, 'pass': 11}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '80215445', 'Rovi_id': '7339928062', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
+
+
+['date time:', '01/07/2020 15:45:13']
+
+
+[{'fail': 68, 'Process': 'process - 4', 'total': 79, 'pass': 11}]
+
+
+[{'comment': 'Fail', 'Link_expired': 'False', 'rovi_id_form_reverse_api': [], 'Service': 'netflixusa', 'link_id': '80215446', 'Rovi_id': '7339928064', 'rovi_id_status': 'False', 'Prod_link_status': 'link_id_not_present_in_Prod', 'Process': 'process - 4', 'link_fetched': 'None', 'px_id': [], 'preprod_link_status': 'link_id_not_present_in_Preprod'}]
