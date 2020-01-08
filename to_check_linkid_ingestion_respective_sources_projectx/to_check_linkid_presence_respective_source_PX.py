@@ -103,9 +103,9 @@ class linkid_checking:
         input_data=lib_common_modules().read_csv(inputFile)
         self.default_param()
         self.logger=lib_common_modules().create_log(os.getcwd()+'/logs/log_%s.txt'%thread_name)
-        result_sheet='/output/output_file_%s_%s.csv'%(thread_name,datetime.date.today())
+        result_sheet="/output/manual_ott_result_%s_%s.csv"%(thread_name,datetime.date.today())
         output_file=lib_common_modules().create_csv(result_sheet)
-        self.column_fieldnames=["Service_name","Link_id","Rovi_id","Projectx_id","Link_expired","Prod_api_response","Projectx_api_response",
+        self.column_fieldnames=["Service_name","Link_id","Rovi_id","Projectx_id","Link_expired","Prod_program_api_response","Projectx_program_api_response",
                           "Prod_link_status","Projectx_link_status","Link_fetched_from","Fetched_from_sources","Comment"]
         with output_file as mycsvfile:
             self.writer = csv.writer(mycsvfile,dialect="csv",lineterminator = '\n')
@@ -214,17 +214,17 @@ class linkid_checking:
 
     # TODO: multi process Operations 
     def thread_pool(self): 
-        t1=threading.Thread(target=self.main,args=(1,"process - 1",20))
+        t1=Process(target=self.main,args=(1,"process-1",100))
         t1.start()
-        """t2=Process(target=self.main,args=(1000,"process - 2",2000))
+        t2=Process(target=self.main,args=(100,"process-2",200))
         t2.start()
-        t3=Process(target=self.main,args=(2000,"process - 3",3000))
+        """t3=Process(target=self.main,args=(2000,"process-3",3000))
         t3.start()
-        t4=Process(target=self.main,args=(3000,"process - 4",4000))
+        t4=Process(target=self.main,args=(3000,"process-4",4000))
         t4.start()
-        t5=Process(target=self.main,args=(4000,"process - 5",5000))
+        t5=Process(target=self.main,args=(4000,"process-5",5000))
         t5.start()
-        t6=Process(target=self.main,args=(5000,"process - 6",6785))
+        t6=Process(target=self.main,args=(5000,"process-6",6785))
         t6.start()"""
 
 
