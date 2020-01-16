@@ -2,6 +2,7 @@
 
 from multiprocessing import Process
 import csv
+import threading
 import datetime
 import sys
 import urllib2
@@ -23,7 +24,7 @@ sys.setrecursionlimit(1500)
 
 
 class meta_data:
-
+    retry_count=0
     def init(self):
         self.hulu_credit_present='Null'
         self.hulu_genres=[]
@@ -54,7 +55,6 @@ class meta_data:
     def getting_source_details(self,hulu_id,show_type,source,thread_name,details):
         #import pdb;pdb.set_trace()
         self.init()
-        retry_count=0
         try:
             if show_type!="SM":
                 try:        
@@ -102,18 +102,18 @@ class meta_data:
                    "source_link_present":self.hulu_link_present,"source_images_details":self.hulu_images_details}
             
         except (Exception,httplib.BadStatusLine,urllib2.HTTPError,socket.error,urllib2.URLError,RuntimeError,pymongo.errors.CursorNotFound) as e:
-            retry_count<=5
+            self.retry_count<=5
             print ("exception caught getting_source_details...............",type(e),hulu_id,show_type,source,thread_name)
             print ("\n") 
-            print ("Retrying.............",retry_count)
-            if retry_count<=5:
+            print ("Retrying.............",self.retry_count)
+            if self.retry_count<=5:
                 self.getting_source_details(hulu_id,show_type,source,name,details)    
             else:
-                retry_count=0    
+                self.retry_count=0    
 
 
 class hulu_meta_data_validation:
-
+    retry_count=0
     def __init__(self):
         self.source="Hulu"
         self.token='Token token=efeb15f572641809acbc0c26c9c1b63f4f7f1fd7dcb68070e45e26f3a40ec8e3'
@@ -133,17 +133,15 @@ class hulu_meta_data_validation:
         self.sourceDB=self.connection["qadb"] 
         self.sourcetable_movies=self.sourceDB["HuluValidMovies"]
         self.sourcetable_episodes=self.sourceDB["HuluValidEpisodes"]
-        self.connection_pxmapping=MySQLdb.Connection(host='192.168.86.10', port=3306, user='root', passwd='branch@123', db='testDB')
-        self.px_mappingdb_cur=self.connection_pxmapping.cursor()
 
 
     def get_env_url(self):
         self.prod_domain="api.caavo.com"
         self.expired_api='https://%s/expired_ott/source_program_id/is_available?source_program_id=%s&service_short_name=%s'
-        self.source_mapping_api="http://18.214.4.22:81/projectx/mappingfromsource?sourceIds=%d&sourceName=%s&showType=%s"
-        self.projectx_programs_api='https://testprojectx.caavo.com/programs?ids=%s&ott=true&aliases=true'
-        self.projectx_mapping_api='http://18.214.4.22:81/projectx/%d/mapping/'
-        self.projectx_duplicate_api='http://18.214.4.22:81/projectx/duplicate?sourceId=%d&sourceName=%s&showType=%s'
+        self.source_mapping_api="http://54.175.96.97:81/projectx/mappingfromsource?sourceIds=%d&sourceName=%s&showType=%s"
+        self.projectx_programs_api='https://projectx.caavo.com/programs?ids=%s&ott=true&aliases=true'
+        self.projectx_mapping_api='http://54.175.96.97:81/projectx/%d/mapping/'
+        self.projectx_duplicate_api='http://54.175.96.97:81/projectx/duplicate?sourceId=%d&sourceName=%s&showType=%s'
 
 
     #TODO: to validate the meta data population and printing to o/p sheet
@@ -189,7 +187,6 @@ class hulu_meta_data_validation:
     # TODO: going for meta data validation for movies
     def meta_data_validation_mo(self,data,projectx_id,source_id,thread_name):
         #import pdb;pdb.set_trace()
-        retry_count=0
         object_mo=meta_data()
         object_mo.init()
         self.total_mo+=1
@@ -198,23 +195,26 @@ class hulu_meta_data_validation:
             show_type=data.get("programming_type")
             if show_type=="Full Movie":
                 show_type='MO'        
-            only_mapped_ids=ott_meta_data_validation_modules().getting_mapped_px_id(hulu_id,show_type,self.source,self.px_mappingdb_cur)
+            only_mapped_ids=ott_meta_data_validation_modules().getting_mapped_px_id_mapping_api_hulu(
+                                           str(hulu_id),self.source_mapping_api,self.projectx_mapping_api
+                                                             ,show_type,self.source,self.token)
             #if only_mapped_ids is not None:
-            if only_mapped_ids[2]=='True':
+            if only_mapped_ids["source_flag"]=='True':
                 #import pdb;pdb.set_trace()
-                projectx_id=only_mapped_ids[0]
-                source_id=only_mapped_ids[1]
+                projectx_id=only_mapped_ids["px_id"]
+                source_id=only_mapped_ids["source_id"]
                 print("\n")
                 print({"total_mo":self.total_mo,"source_mo_id":hulu_id,"thread_name":thread_name
                                 ,"Px_id":projectx_id,"%s_id"%self.source:source_id})
                 self.validation_result(source_id,show_type,data,projectx_id,thread_name,object_mo)
-            elif only_mapped_ids[2]=='True(Rovi+others)':
+            elif only_mapped_ids["source_flag"]=='True(Rovi+others)':
                 #TODO: to check only OTT link population for the episodes
                 #import pdb;pdb.set_trace()
-                projectx_id=only_mapped_ids[0]
+                projectx_id=only_mapped_ids["px_id"]
                 source_id=hulu_id
                 print("\n")
-                print ({"total_mo":self.total_mo,"Px_id":projectx_id,"%s_id"%self.source:source_id,"thread_name":thread_name})
+                print ({"total_mo":self.total_mo,"Px_id":projectx_id,"%s_id"%self.source:source_id,
+                                                                     "thread_name":thread_name})
                 projectx_details=ott_meta_data_validation_modules().getting_projectx_details(projectx_id,show_type,self.source,thread_name,
                                                   self.projectx_programs_api,self.token)
                 if projectx_details!='Null':
@@ -224,7 +224,7 @@ class hulu_meta_data_validation:
                         try:
                             self.writer.writerow([source_id,data.get("id"),projectx_id,show_type,
                                              '','','','','','','','','','','','','',
-                                             ott_validation_result,only_mapped_ids[2],'','',
+                                             ott_validation_result,only_mapped_ids["source_flag"],'','',
                                              "GMT: "+time.strftime("%Y-%m-%d %d:%M:%S %p", time.gmtime()),
                                              "Local: "+strftime("%Y-%m-%d %d:%M:%S %p"),self.link_expired])
                         except Exception as e:
@@ -232,7 +232,7 @@ class hulu_meta_data_validation:
                             pass
                 else:
                     self.writer.writerow([source_id,data.get("id"),projectx_id,show_type,'','','','',''
-                                        ,'','','','','','','','','','',only_mapped_ids[2],'',
+                                        ,'','','','','','','','','','',only_mapped_ids["source_flag"],'',
                                         'Px_response_null','',"GMT: "+time.strftime("%Y-%m-%d %d:%M:%S %p", time.gmtime()),
                                         "Local: "+strftime("%Y-%m-%d %d:%M:%S %p")])    
             else:
@@ -241,20 +241,19 @@ class hulu_meta_data_validation:
                                     "GMT: "+time.strftime("%Y-%m-%d %d:%M:%S %p", time.gmtime()),
                                     "Local: "+strftime("%Y-%m-%d %d:%M:%S %p")])
         except (Exception,httplib.BadStatusLine,urllib2.HTTPError,socket.error,urllib2.URLError,RuntimeError) as e:
-            retry_count+=1
+            self.retry_count+=1
             print("\n")
-            print("Retrying...................................",retry_count)
+            print("Retrying...................................",self.retry_count)
             print("\n")
             print ("exception/error caught in (validation_mo).................",type(e),hulu_id,show_type,thread_name)
-            if retry_count<=5:
+            if self.retry_count<=5:
                 self.meta_data_validation_mo(data,projectx_id,source_id,thread_name)        
             else:
-                retry_count=0    
+                self.retry_count=0    
 
     # TODO: going for meta data validation for episodes and series
     def meta_data_validation_se_sm(self,data,projectx_id,source_id,array_sm,thread_name):
         #import pdb;pdb.set_trace()
-        retry_count=0
         object_se=meta_data()
         try:
             if data.get("site_id") is not None:
@@ -264,21 +263,23 @@ class hulu_meta_data_validation:
                 show_type=data.get("programming_type")
                 if show_type=="Full Episode":
                     show_type='SE'
-                only_mapped_ids_se=ott_meta_data_validation_modules().getting_mapped_px_id(hulu_id_se,show_type,self.source,self.px_mappingdb_cur)
+                only_mapped_ids_se=ott_meta_data_validation_modules().getting_mapped_px_id_mapping_api_hulu(
+                                       str(hulu_id_se),self.source_mapping_api,self.projectx_mapping_api
+                                                ,show_type,self.source,self.token)
                 #if only_mapped_ids_se is not None:
-                if only_mapped_ids_se[2]=='True':
+                if only_mapped_ids_se["source_flag"]=='True':
                     #import pdb;pdb.set_trace()
-                    projectx_id=only_mapped_ids_se[0]
-                    source_id=only_mapped_ids_se[1]
+                    projectx_id=only_mapped_ids_se["px_id"]
+                    source_id=only_mapped_ids_se["source_id"]
                     print("\n")
                     print({"total_se":self.total_se,"_hulu_se_id":hulu_id_se,"thread_name":thread_name
                                              ,"Px_id":projectx_id,"%s_id"%self.source:source_id})
                     self.validation_result(source_id,show_type,data,projectx_id,thread_name,object_se)
-                elif only_mapped_ids_se[2]=='True(Rovi+others)':
+                elif only_mapped_ids_se["source_flag"]=='True(Rovi+others)':
                     #TODO: to check only OTT link population for the movies
                     #import pdb;pdb.set_trace()
-                    projectx_id=only_mapped_ids_se[0]
-                    source_id=only_mapped_ids_se[1]
+                    projectx_id=only_mapped_ids_se["px_id"]
+                    source_id=only_mapped_ids_se["source_id"]
                     print("\n")
                     print ({"Px_id":projectx_id,"%s_id"%self.source:source_id,"thread_name":thread_name})
                     projectx_details=ott_meta_data_validation_modules().getting_projectx_details(projectx_id,show_type,self.source,
@@ -289,7 +290,7 @@ class hulu_meta_data_validation:
                             ott_validation_result=ott_meta_data_validation_modules().ott_validation(projectx_details,data.get("id"))
                             try:
                                 self.writer.writerow([source_id,data.get("id"),projectx_id,show_type,'','','','',
-                                                       '','','','','','','','','',ott_validation_result,only_mapped_ids_se[2],
+                                                       '','','','','','','','','',ott_validation_result,only_mapped_ids_se["source_flag"],
                                                        '','',"GMT: "+time.strftime("%Y-%m-%d %d:%M:%S %p",
                                                         time.gmtime()),"Local: "+strftime("%Y-%m-%d %d:%M:%S %p"),self.link_expired])
                             except Exception as e:
@@ -297,7 +298,7 @@ class hulu_meta_data_validation:
                                 pass    
                     else:
                         self.writer.writerow([source_id,data.get("id"),projectx_id,show_type,'','','','',''
-                                     ,'','','','','','','','','','','',only_mapped_ids_se[2],''
+                                     ,'','','','','','','','','','','',only_mapped_ids_se["source_flag"],''
                                      ,'Px_response_null','',"GMT: "+time.strftime("%Y-%m-%d %d:%M:%S %p", time.gmtime()),
                                      "Local: "+strftime("%Y-%m-%d %d:%M:%S %p")])
                 else:
@@ -313,26 +314,28 @@ class hulu_meta_data_validation:
                 if hulu_id_sm not in array_sm:
                     array_sm.append(hulu_id_sm)
                     show_type='SM'
-                    only_mapped_ids_sm=ott_meta_data_validation_modules().getting_mapped_px_id(hulu_id_sm,show_type,
-                                                           self.source,self.px_mappingdb_cur)
+                    only_mapped_ids_sm=ott_meta_data_validation_modules().getting_mapped_px_id_mapping_api_hulu(
+                                          str(hulu_id_sm),self.source_mapping_api,self.projectx_mapping_api
+                                                         ,show_type,self.source,self.token)
                     if only_mapped_ids_sm is not None:
-                        if only_mapped_ids_sm[2]=='True':
+                        if only_mapped_ids_sm["source_flag"]=='True':
                             self.total_sm+=1
                             #import pdb;pdb.set_trace()
-                            projectx_id=only_mapped_ids_sm[0]
-                            source_id=only_mapped_ids_sm[1]
+                            projectx_id=only_mapped_ids_sm["px_id"]
+                            source_id=only_mapped_ids_sm["source_id"]
                             print("\n")
-                            print({"total_sm":self.total_sm,"source_sm_id":hulu_id_sm,"thread_name":thread_name,"Px_id":projectx_id,"%s_id"%self.source:source_id})
+                            print({"total_sm":self.total_sm,"source_sm_id":hulu_id_sm,"thread_name"
+                                        :thread_name,"Px_id":projectx_id,"%s_id"%self.source:source_id})
                             self.validation_result(source_id,show_type,data,projectx_id,thread_name,object_se)        
         except (Exception,httplib.BadStatusLine,urllib2.HTTPError,socket.error,urllib2.URLError,RuntimeError,pymongo.errors.CursorNotFound) as e:
-            retry_count+=1
+            self.retry_count+=1
             print ("Exception caught (meta_data_validation_se_sm)....................",type(e),data.get("site_id"),thread_name)
             print ("\n")
-            print ("retrying..................",retry_count)
-            if retry_count<=5:
+            print ("retrying..................",self.retry_count)
+            if self.retry_count<=5:
                 self.meta_data_validation_se_sm(data,projectx_id,source_id,array_sm,thread_name)
             else:
-                retry_count=0                        
+                self.retry_count=0                        
 
     #TODO: to open file for writing o/p
     def main(self,start_id,thread_name,end_id,page_id):
@@ -362,13 +365,15 @@ class hulu_meta_data_validation:
                             if data.get("availability").get("svod").get("end") is None or data.get("availability").get("svod").get("end") > datetime.datetime.now().isoformat():   
                                 #import pdb;pdb.set_trace()
                                 print("\n")
+                                print(datetime.datetime.now())
+                                print("\n")
                                 self.count_hulu_id_se+=1    
                                 print("count_hulu_id_se:",self.count_hulu_id_se,"name:",thread_name)
                                 self.meta_data_validation_se_sm(data,projectx_id,source_id,array_sm,thread_name)
                             else:
                                 self.Not_valid_programs_count+=1
                                 print({"Not_valid_programs_count":self.Not_valid_programs_count,"thread":thread_name,"id":data.get("site_id")})
-                    except (Exception,pymongo.errors.OperationFailure,pymongo.errors.CursorNotFound,RuntimeError) as e:
+                    except (Exception,pymongo.errors.OperationFailure,pymongo.errors.ServerSelectionTimeoutError,pymongo.errors.CursorNotFound,RuntimeError) as e:
                         print ("Exception in query...........",type(e))
                         pass
             else:            
@@ -383,20 +388,25 @@ class hulu_meta_data_validation:
                                 if data.get("site_id")!="":
                                     #import pdb;pdb.set_trace()
                                     self.count_hulu_id_mo+=1
-                                    print("\n")    
+                                    print("\n")
+                                    print(datetime.datetime.now())
+                                    print("\n")     
                                     print("count_hulu_id:",self.count_hulu_id_mo,"name:",thread_name)
                                     self.meta_data_validation_mo(data,projectx_id,source_id,thread_name)
-                    except (Exception,pymongo.errors.OperationFailure,pymongo.errors.CursorNotFound,RuntimeError) as e:
+                    except (Exception,pymongo.errors.OperationFailure,pymongo.errors.ServerSelectionTimeoutError,pymongo.errors.CursorNotFound,RuntimeError) as e:
                         print ("Exception in query...........",type(e))
-                        pass                
-        self.connection.close()                    
+                        pass
+
+        self.connection.close()
+        output_file.close()                            
+                    
             
 
     #TODO : to set up threads
-    def threading_pool(self,):    
+    def threading_pool(self):    
 
-        t1=Process(target=self.main,args=(0,"thread-1",2000,'MO'))
-        t1.start()
+        """t1=Process(target=self.main,args=(0,"thread-1",2000,'MO'))
+        t1.start()"""
         t2=Process(target=self.main,args=(0,"thread-2",20000,'SE1'))
         t2.start()
         t3=Process(target=self.main,args=(20000,"thread-3",40000,'SE2'))
@@ -409,8 +419,7 @@ class hulu_meta_data_validation:
         t6.start()
   
 
-    # Starting     
+# Starting     
 hulu_meta_data_validation().threading_pool()
 
 
-#220570
