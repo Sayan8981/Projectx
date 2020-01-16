@@ -17,6 +17,7 @@ from fuzzywuzzy import fuzz
 sys.setrecursionlimit(1500)
 
 class lib_common_modules:
+    retry_count=0
 
     #TODO: to read CSV
     def read_csv(self,inputFile):
@@ -47,37 +48,35 @@ class lib_common_modules:
     def fetch_response_for_api_(self,api,token):
         #import pdb;pdb.set_trace()
         try:    
-            retry_count=0
             resp = urllib2.urlopen(urllib2.Request(api,None,{'Authorization':token,"User-Agent":'Branch Fyra v1.0'}))
             data = resp.read()
             data_resp = json.loads(data)
             return data_resp    
         except (Exception,URLError,httplib.BadStatusLine) as e:
-            print ("\n Retrying...................",retry_count)
+            print ("\n Retrying...................",self.retry_count)
             print ("\n exception caught fetch_response_for_api_ Function..........",type(e),api)
-            retry_count+=1
-            if retry_count <=5:
+            self.retry_count+=1
+            if self.retry_count <=5:
                 self.fetch_response_for_api_(api,token)   
             else:
-                retry_count = 0    
+                self.retry_count = 0    
 
     #TODO: fetching response for the given API using logger
     def fetch_response_for_api(self,api,token,logger):
         #import pdb;pdb.set_trace()
         try:    
-            retry_count=0
             resp = urllib2.urlopen(urllib2.Request(api,None,{'Authorization':token}))
             data = resp.read()
             data_resp = json.loads(data)
             return data_resp    
         except (Exception,URLError,httplib.BadStatusLine) as e:
-            logger.debug ("\n Retrying...................",retry_count)
+            logger.debug ("\n Retrying...................",self.retry_count)
             logger.debug (["\n exception caught fetch_response_for_api Function..........",type(e),api])
-            retry_count+=1
-            if retry_count <=5:
+            self.retry_count+=1
+            if self.retry_count <=5:
                 self.fetch_response_for_api(api,token,logger)   
             else:
-                retry_count = 0
+                self.retry_count = 0
 
     #TODO: To check link expiry with logger
     def link_expiry_check(self,expired_api,domain,link_id,service,expired_token,logger):
@@ -90,18 +89,17 @@ class lib_common_modules:
                 self.link_expired='True'   
             return self.link_expired
         except (Exception,URLError,httplib.BadStatusLine) as e:
-            logger.debug ("\n Retrying...................",retry_count)
+            logger.debug ("\n Retrying...................",self.retry_count)
             logger.debug (["\n exception caught link_expiry_check Function..........",type(e),expired_api,link_id,service])
-            retry_count+=1
-            if retry_count <=5:
+            self.retry_count+=1
+            if self.retry_count <=5:
                 self.link_expiry_check(expired_api,domain,link_id,service,expired_token,logger)   
             else:
-                retry_count = 0
+                self.retry_count = 0
 
     #TODO: To check link expiry without logger
     def link_expiry_check_(self,expired_api,domain,link_id,service,expired_token):
         #import pdb;pdb.set_trace()
-        retry_count=0
         try:
             expired_api_response=self.fetch_response_for_api_(expired_api%(domain,link_id,service),expired_token)
             if expired_api_response["is_available"]==False:
@@ -110,19 +108,18 @@ class lib_common_modules:
                 self.link_expired='True'   
             return self.link_expired
         except (Exception,URLError,httplib.BadStatusLine) as e:
-            print ("\n Retrying...................",retry_count)
-            print (["\n exception caught link_expiry_check Function..........",type(e),expired_api,link_id,service])
-            retry_count+=1
-            if retry_count <=5:
+            print ("\n Retrying...................",self.retry_count)
+            print (["\n exception caught link_expiry_check_ Function..........",type(e),expired_api,link_id,service])
+            self.retry_count+=1
+            if self.retry_count <=5:
                 self.link_expiry_check_(expired_api,domain,link_id,service,expired_token)   
             else:
-                retry_count = 0   
+                self.retry_count = 0   
 
 
     #TODO: to get source_id from mapping Db
     def getting_mapped_source_id(self,_id,show_type,source,px_mappingdb_cur):
         #import pdb;pdb.set_trace()
-        retry_count=0
         try:
             source_id=[]
             query="select sourceId from projectx_mapping where data_source=%s and projectxId =%s and sub_type=%s"
@@ -137,14 +134,14 @@ class lib_common_modules:
             px_mappingdb_cur.close()            
 
         except (Exception,MySQLdb.Error, MySQLdb.Warning,socket.error,RuntimeError) as e:
-            retry_count+=1
+            self.retry_count+=1
             print ("exception caught getting_mapped_source_id.................",type(e),_id,source,show_type)
             print ("\n") 
-            print ("Retrying.............",retry_count)
-            if retry_count<=5:
+            print ("Retrying.............",self.retry_count)
+            if self.retry_count<=5:
                 self.getting_mapped_source_id(_id,show_type,source,px_mappingdb_cur)            
             else:
-                retry_count=0
+                self.retry_count=0
 
 
 class ingestion_script_modules:
@@ -1517,6 +1514,8 @@ class duplicate_script_modules:
 
 class ott_meta_data_validation_modules:
 
+    retry_count=0
+
     def init(self):
         self.px_long_title=''
         self.px_video_link=[]
@@ -1569,7 +1568,6 @@ class ott_meta_data_validation_modules:
     def getting_projectx_details(self,projectx_id,show_type,source,thread_name,projectx_programs_api,token):
         #import pdb;pdb.set_trace()
         self.init()
-        retry_count=0
         try:
             projectx_api=projectx_programs_api%projectx_id
             data_px_resp=lib_common_modules().fetch_response_for_api_(projectx_api,token)
@@ -1633,19 +1631,18 @@ class ott_meta_data_validation_modules:
                 return self.px_response
 
         except (Exception,httplib.BadStatusLine,urllib2.HTTPError,socket.error,urllib2.URLError,RuntimeError,) as e:
-            retry_count+=1
+            self.retry_count+=1
             print ("exception caught ..............................................",type(e),projectx_id,show_type,source,thread_name)
             print ("\n") 
-            print ("Retrying.............")
-            if retry_count<=5:
+            print ("Retrying.............",self.retry_count)
+            if self.retry_count<=5:
                 self.getting_projectx_details(projectx_id,show_type,source,name)    
             else:
-                retry_count=0
+                self.retry_count=0
 
     #TODO: to get Px_id from mapping API
     def getting_mapped_px_id(self,_id,show_type,source,px_mappingdb_cur):
         #import pdb;pdb.set_trace()
-        retry_count=0
         try:
             px_id=[]
             any_source_flag='False'
@@ -1680,14 +1677,122 @@ class ott_meta_data_validation_modules:
             px_mappingdb_cur.close()            
 
         except (Exception,MySQLdb.Error, MySQLdb.Warning,socket.error,RuntimeError) as e:
-            retry_count+=1
+            self.retry_count+=1
             print ("exception caught getting_mapped_px_id.................",type(e),_id,source,show_type)
             print ("\n") 
-            print ("Retrying.............",retry_count)
-            if retry_count<=5:
+            print ("Retrying.............",self.retry_count)
+            if self.retry_count<=5:
                 self.getting_mapped_px_id(_id,show_type,source,px_mappingdb_cur)            
             else:
-                retry_count=0
+                self.retry_count=0
+
+    #TODO: to get mapped PX_id from the mapping API  
+    def getting_mapped_px_id_mapping_api(self,_id,source_mapping_api,projectx_mapping_api,show_type,source,token):
+        try:
+            #import pdb;pdb.set_trace()
+            px_id=[]
+            source_map=[]
+            any_source_flag='False'
+            source_flag='False'
+
+            #import pdb;pdb.set_trace()
+            source_mapping_api_resp=source_mapping_api%(eval(_id),source,show_type)
+            data_resp_mapping=lib_common_modules().fetch_response_for_api_(source_mapping_api_resp,token)
+
+            for data in data_resp_mapping:
+                if data.get("data_source")==source and data.get("type")=='Program' and data.get("sub_type")==show_type:
+                    px_id.append(data.get("projectx_id"))
+            print("\n")        
+            print ({"px_id":px_id})
+            if px_id:       
+                #import pdb;pdb.set_trace() 
+                px_mapping_api=projectx_mapping_api%px_id[0]
+                data_resp_px_mapping=lib_common_modules().fetch_response_for_api_(px_mapping_api,token)
+
+                for resp in data_resp_px_mapping:
+                    if (resp.get("data_source")=='Rovi' or resp.get("data_source")=='GuideBox' or resp.get("data_source")=='Hulu') and resp.get("type")=='Program':
+                        source_map.append({str(resp.get("data_source")):resp.get("source_id")})
+                        any_source_flag='True(Rovi+others)'
+                    elif resp.get("data_source")==source and resp.get("type")=='Program' and resp.get("sub_type")==show_type:
+                        source_map.append({str(resp.get("data_source")):resp.get("source_id")})
+                        source_flag='True'
+
+                # separate PX_ids with flag which is only mapped to source and mapped to others        
+                if  source_flag=='True' and any_source_flag=='False':
+                    return {"px_id":px_id[0],"source_id":_id,"source_flag":source_flag,"source_map":source_map}
+                elif source_flag=='False' and any_source_flag=='True(Rovi+others)':    
+                    return {"px_id":px_id[0],"source_id":_id,"source_flag":any_source_flag,"source_map":source_map}
+                elif source_flag=='True' and any_source_flag=='True(Rovi+others)':
+                    return {"px_id":px_id[0],"source_id":_id,"source_flag":any_source_flag,"source_map":source_map}
+            else:   
+                return {"px_id":px_id,"source_id":_id,"source_flag":any_source_flag,"source_map":source_map}
+                        
+
+        except (Exception,httplib.BadStatusLine,urllib2.HTTPError,socket.error,urllib2.URLError,RuntimeError) as e:
+            #import pdb;pdb.set_trace()
+            self.retry_count+=1
+            if self.retry_count<=5: 
+                print ("exception caught in getting_mapped_px_id func.........................",type(e),_id,source,show_type)
+                print ("\n") 
+                print ("Retrying.............",self.retry_count)
+                print ("\n")    
+                getting_mapped_px_id(_id,source_mapping_api,projectx_mapping_api,show_type,source,token)
+            else:
+                self.retry_count=0 
+
+    #TODO: to get mapped PX_id from the mapping API  
+    def getting_mapped_px_id_mapping_api_hulu(self,_id,source_mapping_api,projectx_mapping_api,show_type,source,token):
+        try:
+            #import pdb;pdb.set_trace()
+            px_id=[]
+            source_map=[]
+            any_source_flag='False'
+            source_flag='False'
+
+            #import pdb;pdb.set_trace()
+            source_mapping_api_resp=source_mapping_api%(eval(_id),source,show_type)
+            data_resp_mapping=lib_common_modules().fetch_response_for_api_(source_mapping_api_resp,token)
+
+            for data in data_resp_mapping:
+                if data.get("data_source")==source and data.get("type")=='Program' and data.get("sub_type")==show_type:
+                    px_id.append(data.get("projectx_id"))
+            print("\n")        
+            print ({"px_id":px_id})
+            if px_id:       
+                #import pdb;pdb.set_trace() 
+                px_mapping_api=projectx_mapping_api%px_id[0]
+                data_resp_px_mapping=lib_common_modules().fetch_response_for_api_(px_mapping_api,token)
+
+                for resp in data_resp_px_mapping:
+                    if (resp.get("data_source")=='Rovi' or resp.get("data_source")=='GuideBox' or resp.get("data_source")=='Vudu') and resp.get("type")=='Program':
+                        source_map.append({str(resp.get("data_source")):resp.get("source_id")})
+                        any_source_flag='True(Rovi+others)'
+                    elif resp.get("data_source")==source and resp.get("type")=='Program' and resp.get("sub_type")==show_type:
+                        source_map.append({str(resp.get("data_source")):resp.get("source_id")})
+                        source_flag='True'
+
+                # separate PX_ids with flag which is only mapped to source and mapped to others        
+                if  source_flag=='True' and any_source_flag=='False':
+                    return {"px_id":px_id[0],"source_id":_id,"source_flag":source_flag,"source_map":source_map}
+                elif source_flag=='False' and any_source_flag=='True(Rovi+others)':    
+                    return {"px_id":px_id[0],"source_id":_id,"source_flag":any_source_flag,"source_map":source_map}
+                elif source_flag=='True' and any_source_flag=='True(Rovi+others)':
+                    return {"px_id":px_id[0],"source_id":_id,"source_flag":any_source_flag,"source_map":source_map}
+            else:   
+                return {"px_id":px_id,"source_id":_id,"source_flag":any_source_flag,"source_map":source_map}
+                        
+
+        except (Exception,httplib.BadStatusLine,urllib2.HTTPError,socket.error,urllib2.URLError,RuntimeError) as e:
+            #import pdb;pdb.set_trace()
+            self.retry_count+=1
+            if self.retry_count<=5: 
+                print ("exception caught in getting_mapped_px_id func.........................",type(e),_id,source,show_type)
+                print ("\n") 
+                print ("Retrying.............",self.retry_count)
+                print ("\n")    
+                getting_mapped_px_id(_id,source_mapping_api,projectx_mapping_api,show_type,source,token)
+            else:
+                self.retry_count=0                       
 
     #TODO: to check images population
     def images_validation(self,source_images,projectx_images):
