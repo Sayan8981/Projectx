@@ -19,6 +19,7 @@ class vudu_ids:
     #TODO: INITIALIZATION
     def __init__(self):
         self.source='Vudu'
+        self.total=0
 
     #TODO: Mongoconnection set up
     def mongo_connection(self):
@@ -34,7 +35,7 @@ class vudu_ids:
         show_type=data.get("show_type").encode()
         if show_type=='SE':
             series_id=data.get("series_id")
-        print ({"vudu_id":_id,"series_id":series_id,"show_type":show_type})
+        print ({"vudu_id":_id,"series_id":series_id,"show_type":show_type,"total":self.total})
         purchase_type=data.get("purchase_types")
         if purchase_type!=[]:
             purchase_type='True'
@@ -56,8 +57,10 @@ class vudu_ids:
                 try:
                     id_query=self.sourceidtable.aggregate([{"$skip":aa},{"$limit":10},{"$match":{"$and":[{"show_type":{"$in":["MO","SE","SM"]}}]}},{"$project":{"launch_id":1,"_id":0,"show_type":1,"title":1,"release_year":1,"series_id":1,"series_title":1,"episode_number":1,"language":1,"purchase_types":1}}])
                     for data in id_query:
+                        self.total+=1
+                        print({"thread_name":thread_name})
                         details=self.getting_source_details(data)
-                        writer.writerow([details["series_id"],details["_id"],details["show_type"],details["purchase_type"]])
+                        writer.writerow([details["series_id"],details["_id"],details["show_type"],details["purchase_type"],data.get("language")])
                 except (Exception,pymongo.errors.CursorNotFound) as e:
                     pass        
         output_file.close()
